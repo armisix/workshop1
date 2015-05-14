@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Base.ThemeOverlay.SuperScores.WorkAround.HTC.Dark.ActionBar" parent="android:ThemeOverlay.Material.Dark.ActionBar">
+        <item name="colorControlNormal">?android:attr/textColorPrimary</item>
+        <item name="colorControlHighlight">@color/ripple_material_dark</item>
+
+        <!-- Used by MediaRouter -->
+        <item name="isLightTheme">false</item>
+    </style>
+
+</resources>

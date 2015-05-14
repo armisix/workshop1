@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ThemeOverlay.SuperScores.WorkAround.HTC.Dark.ActionBar" parent="Base.ThemeOverlay.SuperScores.WorkAround.HTC.Dark.ActionBar" />
+
+</resources>

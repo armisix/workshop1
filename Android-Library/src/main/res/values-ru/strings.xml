@@ -1,0 +1,1981 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- IMPORTANT: BEFORE translation please read this page: http://developer.android.com/distribute/googleplay/publish/localizing.html -->
+    <!-- GO TO SECTION: 3 Manage strings for localization -->
+    <!-- SUBSECTION: Mark message parts that should not be translated -->
+    <!-- TO SUM UP: Message in tag <xliff:g></xliff:g> SHOULD NOT BE TRANSLATED! -->
+    <!-- EXAMPLE: <xliff:g id="time" example="5 days>%1$s</xliff:g>until holiday *%1$s should NOT be translated -->
+    <!-- EXAMPLE: Learn more at <xliff:g id="prod_gamegroup">Game Group</xliff:g> *Game Group should NOT be translated -->
+
+
+    <!-- Content Description for Accessibility -->
+
+
+    <!-- Open navigation drawer (left navigation bar) for more details: http://developer.android.com/design/patterns/navigation-drawer.html -->
+    <string name="drawer_left_open">Откройте левой навигационной панели</string>
+
+    <!-- Close navigation drawer (left navigation bar) for more details: http://developer.android.com/design/patterns/navigation-drawer.html -->
+    <string name="drawer_left_close">Закрыть левую панель навигации</string>
+
+    <!-- End Content Description for Accessibility -->
+
+
+    <!-- **************************************************************************************************** -->
+
+
+    <!-- Livepush Notification Titles -->
+    <!-- Goal event has occur -->
+    <string name="livepush_title_goal">Гол!</string>
+
+    <!-- Match Started event has occur -->
+    <string name="livepush_title_started">Матч начался!</string>
+
+    <!-- Match Finished event has occur -->
+    <string name="livepush_title_finished">Матч завершился!</string>
+
+    <!-- Half time event has occur -->
+    <string name="livepush_title_half_time">Первый тайм завершился!</string>
+
+    <!-- Start second half event has occur -->
+    <string name="livepush_title_start_2nd_half">Второй тайм начался!</string>
+
+    <!-- Full time event has occur -->
+    <string name="livepush_title_full_time">Основное время закончилось!</string>
+
+    <!-- Start extra time event has occur -->
+    <string name="livepush_title_start_extra_time">Началось дополнительное время!</string>
+
+    <!-- Half extra time event has occur -->
+    <string name="livepush_title_half_extra_time">Завершился первый тайм дополнительного времени!</string>
+
+    <!-- Start 2nd Half (Extra Time) event has occur -->
+    <string name="livepush_title_start_2nd_extra_half">Начался второй тайм дополнительного времени!</string>
+
+    <!-- Penalty Shootout event has occur -->
+    <string name="livepush_title_penalty_shootout">Серия пенальти!</string>
+
+    <!-- End Livepush Notification titles -->
+
+
+    <!-- **************************************************************************************************** -->
+
+
+    <!-- Acronym Need Full -->
+
+
+    <!-- MAXIMUM 2 CHARACTER: Acronym for Played use for describe number of times each team played in the current season -->
+    <string name="acronym_played">ИГ</string>
+
+    <!-- MAXIMUM 2 CHARACTER: Acronym for Win use for describe number of times each team win in the current season -->
+    <string name="acronym_win">ПБ</string>
+
+    <!-- MAXIMUM 2 CHARACTER: Acronym for Draw use for describe number of times each team draw in the current season -->
+    <string name="acronym_draw">Н</string>
+
+    <!-- MAXIMUM 2 CHARACTER: Acronym for Lose use for describe number of times each team lose in the current season -->
+    <string name="acronym_lose">ПР</string>
+
+    <!-- MAXIMUM 2 CHARACTER: Acronym for Goal For use for describe number of goals each team scores in the current season -->
+    <string name="acronym_goal_for">ЗМ</string>
+
+    <!-- MAXIMUM 2 CHARACTER: Acronym for Goal Against use for describe number of goals each team loses in the current season -->
+    <string name="acronym_goal_against">ПМ</string>
+
+    <!-- MAXIMUM 2 CHARACTER: Acronym for Goal Difference use for describe number of goals difference calculated by Goal For minus Goal Against -->
+    <string name="acronym_goal_difference">РМ</string>
+
+    <!-- MAXIMUM 3 CHARACTER: Acronym for Points use for describe number of points each teams make in the current season -->
+    <string name="acronym_points">Очк</string>
+    <!-- End Acronym Need Full -->
+
+
+    <!-- **************************************************************************************************** -->
+
+
+    <!-- Acronym Full -->
+
+
+    <!-- Use for describe number of times each team played in the current season -->
+    <string name="acronym_full_played">Число игр</string>
+
+    <!-- Use for describe number of times each team win in the current season -->
+    <string name="acronym_full_win">Победы</string>
+
+    <!-- Use for describe number of times each team draw in the current season -->
+    <string name="acronym_full_draw">Ничьи</string>
+
+    <!-- Use for Lose use for describe number of times each team lose in the current season -->
+    <string name="acronym_full_lose">Проигрыши</string>
+
+    <!-- Use for describe number of goals each team scores in the current season -->
+    <string name="acronym_full_goal_for">Забито мячей</string>
+
+    <!-- Use for describe number of goals each team loses in the current season -->
+    <string name="acronym_full_goal_against">Пропущено мячей</string>
+
+    <!-- Use for describe number of goals difference calculated by Goal For minus Goal Against -->
+    <string name="acronym_full_goal_difference">Разница мячей</string>
+
+    <!-- Use for describe number of points each teams make in the current season -->
+    <string name="acronym_full_points">Очки</string>
+
+    <!-- End Acronym Full -->
+
+
+    <!-- **************************************************************************************************** -->
+
+
+    <!-- Acronym -->
+    <!-- DO NOT translate -->
+    <string name="acronym_after_extra_time"><xliff:g id="after_extra_time">AET</xliff:g></string>
+    <string name="acronym_aggregate"><xliff:g id="aggregate">Aggr.</xliff:g></string>
+    <string name="acronym_cancel"><xliff:g id="cancel">Canc.</xliff:g></string>
+    <string name="acronym_extra_time"><xliff:g id="extra_time">ET</xliff:g></string>
+    <string name="acronym_full_time"><xliff:g id="full_time">FT</xliff:g></string>
+    <string name="acronym_half_time"><xliff:g id="half_time">HT</xliff:g></string>
+    <string name="acronym_penalty"><xliff:g id="penalty">Pen.</xliff:g></string>
+    <string name="acronym_postpone"><xliff:g id="postpone">Posp.</xliff:g></string>
+    <string name="acronym_suspend"><xliff:g id="suspend">Susp.</xliff:g></string>
+    <!-- End DO NOT translate -->
+
+
+    <!-- This will followed by number of goal scores with average, for example Goals (Avg.) -> 25 (2.33) -->
+    <string name="acronym_goals_average">Голы (Ср.)</string>
+
+    <!-- This will followed by number of times something happen with average -->
+    <string name="acronym_times_average">Раз (Ср.)</string>
+    <!-- End Acronym -->
+
+
+    <!-- Unit/Symbol: DO NOT TRANSLATE -->
+    <string name="unit_kg"><xliff:g id="kilogram">kg</xliff:g></string>
+    <string name="unit_cm"><xliff:g id="centimeter">cm</xliff:g></string>
+    <string name="symbol_percentage"><xliff:g id="percentage">&#37;</xliff:g></string>
+    <!-- End Unit/Symbol -->
+
+
+    <!-- **************************************************************************************************** -->
+
+
+    <!-- Month -->
+    <string name="month_january">Январь</string>
+    <string name="month_february">Февраль</string>
+    <string name="month_march">Март</string>
+    <string name="month_april">Апрель</string>
+    <string name="month_may">Май</string>
+    <string name="month_june">Июнь</string>
+    <string name="month_july">Июль</string>
+    <string name="month_august">Август</string>
+    <string name="month_september">Сентябрь</string>
+    <string name="month_october">Октябрь</string>
+    <string name="month_november">Ноябрь</string>
+    <string name="month_december">Декабрь</string>
+    <!-- End Month -->
+
+
+    <!-- Color -->
+    <string name="color_colored">Цветной</string>
+    <string name="color_light">Светлый</string>
+    <string name="color_dark">Темный</string>
+    <string name="color_orange">Оранжевый</string>
+    <string name="color_blue">Синий</string>
+    <string name="color_green">Зеленый</string>
+    <!-- End Color -->
+
+
+    <!-- **************************************************************************************************** -->
+    <!-- WARNING: Before translation this section please read this page: http://developer.android.com/guide/topics/resources/string-resource.html#FormattingAndStyling -->
+    <!-- GO TO SECTION: Quantity Strings (Plurals) -->
+    <!-- TO SUM UP: Message in tag <xliff:g></xliff:g> SHOULD NOT BE TRANSLATED! -->
+    <!-- <item quantity="zero"> description: When the language requires special treatment of the number 0 (as in Arabic) -->
+    <!-- <item quantity="one"> description: When the language requires special treatment of numbers like one (as with the number 1 in English and most other languages; in Russian, any number ending in 1 but not ending in 11 is in this class) -->
+    <!-- <item quantity="two"> description: When the language requires special treatment of numbers like two (as with 2 in Welsh, or 102 in Slovenian) -->
+    <!-- <item quantity="few"> description: When the language requires special treatment of "small" numbers (as with 2, 3, and 4 in Czech; or numbers ending 2, 3, or 4 but not 12, 13, or 14 in Polish) -->
+    <!-- <item quantity="zero"> description: When the language requires special treatment of the number 0 (as in Arabic) -->
+    <!-- <item quantity="many"> description: When the language requires special treatment of "large" numbers (as with numbers ending 11-99 in Maltese) -->
+    <!-- <item quantity="other"> description: When the language does not require special treatment of the given quantity (as with all numbers in Chinese, or 42 in English) -->
+    <!-- EXAMPLE: -->
+    <!-- <plurals name="numberOfSongsAvailable"> -->
+    <!-- <item quantity="one">One song found.</item> -->
+    <!-- <item quantity="other">%d songs found.</item> -->
+    <!-- </plurals> -->
+
+
+    <!-- Plurals -->
+    <!-- Total number of clean sheet (a game in which one team prevents the opposing team from scoring.) Display fomat "Clean Sheet: 2/6 Times (33.33%)" -->
+    <plurals name="clean_sheet">
+        <item quantity="one">Побед всухую: <xliff:g id="rational_number" example="1/6">%1$,d/%2$,d</xliff:g><xliff:g id="percentage" example="(16.67%)">(%3$.2f%%)</xliff:g></item>
+        <item quantity="few">Побед всухую: <xliff:g id="rational_number" example="4/6">%1$,d/%2$,d</xliff:g><xliff:g id="percentage" example="(66.67%)">(%3$.2f%%)</xliff:g></item>
+        <item quantity="many">Побед всухую: <xliff:g id="rational_number" example="20/50">%1$,d/%2$,d</xliff:g><xliff:g id="percentage" example="(40.00%)">(%3$.2f%%)</xliff:g></item>
+        <item quantity="other">Побед всухую: <xliff:g id="rational_number" example="120/200">%1$,d/%2$,d</xliff:g><xliff:g id="percentage" example="(60.00%)">(%3$.2f%%)</xliff:g></item>
+    </plurals>
+
+    <!-- Number of matches played. Display fomat "50 matches played" -->
+    <plurals name="match_number">
+        <item quantity="one"><xliff:g id="number_of_match" example="1">%1$,d</xliff:g> матч</item>
+        <item quantity="few"><xliff:g id="number_of_match" example="4">%1$,d</xliff:g> матча</item>
+        <item quantity="many"><xliff:g id="number_of_match" example="20">%1$,d</xliff:g> матчей</item>
+        <item quantity="other"><xliff:g id="number_of_match" example="120">%1$,d</xliff:g> матчей</item>
+    </plurals>
+
+    <!-- Number of recently matches. Display fomat "Last 4 Matches" -->
+    <plurals name="match_recently">
+        <item quantity="one">Последний <xliff:g id="number_of_match" example="1">%1$,d</xliff:g> матч</item>
+        <item quantity="few">Последние <xliff:g id="number_of_match" example="4">%1$,d</xliff:g> матча</item>
+        <item quantity="many">Последние <xliff:g id="number_of_match" example="20">%1$,d</xliff:g> матчей</item>
+        <item quantity="other">Последние <xliff:g id="number_of_match" example="120">%1$,d</xliff:g> матчей</item>
+    </plurals>
+
+    <!-- Number of recently seasons. Display fomat "Last 2 Seasons" -->
+    <plurals name="season_recently">
+        <item quantity="one">Последний <xliff:g id="number_of_season" example="1">%1$,d</xliff:g> сезон</item>
+        <item quantity="few">Последних <xliff:g id="number_of_season" example="4">%1$,d</xliff:g> сезона</item>
+        <item quantity="many">Последних <xliff:g id="number_of_season" example="20">%1$,d</xliff:g> сезонов</item>
+        <item quantity="other">Последних <xliff:g id="number_of_season" example="120">%1$,d</xliff:g> сезонов</item>
+    </plurals>
+
+    <!-- Number of recently matches played at Home Field (home ground.) Display fomat "Home Filed: Last 4 Matches" -->
+    <plurals name="recently_home">
+        <item quantity="one">Дома: последний <xliff:g id="number_of_match" example="1">%1$,d</xliff:g> матч</item>
+        <item quantity="few">Дома: последние <xliff:g id="number_of_match" example="4">%1$,d</xliff:g> матча</item>
+        <item quantity="many">Дома: последние <xliff:g id="number_of_match" example="20">%1$,d</xliff:g> матчей</item>
+        <item quantity="other">Дома: последние <xliff:g id="number_of_match" example="120">%1$,d</xliff:g> матчей</item>
+    </plurals>
+
+    <!-- Number of recently matches played at Away Field (opponents' ground.) Display fomat "Away Filed: Last 4 Matches" -->
+    <plurals name="recently_away">
+        <item quantity="one">В гостях: последний <xliff:g id="number_of_match" example="1">%1$,d</xliff:g> матч</item>
+        <item quantity="few">В гостях: последние <xliff:g id="number_of_match" example="4">%1$,d</xliff:g> матча</item>
+        <item quantity="many">В гостях: последние <xliff:g id="number_of_match" example="20">%1$,d</xliff:g> матчей</item>
+        <item quantity="other">В гостях: последние <xliff:g id="number_of_match" example="120">%1$,d</xliff:g> матчей</item>
+    </plurals>
+
+    <!-- Number of recently matches played at "Team Name" Field. Display fomat "Manchester United Field: Last 4 Matches" -->
+    <plurals name="match_recently_team">
+        <item quantity="one">Поле <xliff:g id="team_name" example="Manchester United">%1$s</xliff:g>: последний <xliff:g id="number_of_match" example="1">%2$,d</xliff:g> матч</item>
+        <item quantity="few">Поле <xliff:g id="team_name" example="Manchester United">%1$s</xliff:g>: последние <xliff:g id="number_of_match" example="4">%2$,d</xliff:g> матча</item>
+        <item quantity="many">Поле <xliff:g id="team_name" example="Manchester United">%1$s</xliff:g>: последние <xliff:g id="number_of_match" example="20">%2$,d</xliff:g> матчей</item>
+        <item quantity="other">Поле <xliff:g id="team_name" example="Manchester United">%1$s</xliff:g>: последние <xliff:g id="number_of_match" example="120">%2$,d</xliff:g> матчей</item>
+    </plurals>
+
+    <!-- Total number of goal scores with average. Display fomat "Total 256 Goal Scores (2.75)" -->
+    <plurals name="total_goal_scores">
+        <item quantity="one">Всего <xliff:g id="number_of_goal_score" example="1">%1$,d</xliff:g> гол <xliff:g id="goal_average_per_match" example="(2.75)">(%2$.2f)</xliff:g></item>
+        <item quantity="few">Всего <xliff:g id="number_of_goal_score" example="4">%1$,d</xliff:g> гола <xliff:g id="goal_average_per_match" example="(2.75)">(%2$.2f)</xliff:g></item>
+        <item quantity="many">Всего <xliff:g id="number_of_goal_score" example="20">%1$,d</xliff:g> голов <xliff:g id="goal_average_per_match" example="(2.75)">(%2$.2f)</xliff:g></item>
+        <item quantity="other">Всего <xliff:g id="number_of_goal_score" example="120">%1$,d</xliff:g> голов <xliff:g id="goal_average_per_match" example="(2.75)">(%2$.2f)</xliff:g></item>
+    </plurals>
+
+    <!-- Total number of matches played. Display fomat "Total 50 Matches Played" -->
+    <plurals name="total_matches_played">
+        <item quantity="one">Всего сыгран <xliff:g id="number_of_match" example="1">%1$,d</xliff:g> матч</item>
+        <item quantity="few">Всего сыграно <xliff:g id="number_of_match" example="4">%1$,d</xliff:g> матча</item>
+        <item quantity="many">Всего сыграно <xliff:g id="number_of_match" example="20">%1$,d</xliff:g> матчей</item>
+        <item quantity="other">Всего сыграно <xliff:g id="number_of_match" example="120">%1$,d</xliff:g> матчей</item>
+    </plurals>
+
+    <!-- Total number of matches played at Away Field. Display fomat "Away Field: Total 50 Matches" -->
+    <plurals name="total_matches_played_away">
+        <item quantity="one">В гостях: итого <xliff:g id="number_of_match" example="1">%1$,d</xliff:g> матч</item>
+        <item quantity="few">В гостях: итого <xliff:g id="number_of_match" example="4">%1$,d</xliff:g> матча</item>
+        <item quantity="many">В гостях: итого <xliff:g id="number_of_match" example="20">%1$,d</xliff:g> матчей</item>
+        <item quantity="other">В гостях: итого <xliff:g id="number_of_match" example="120">%1$,d</xliff:g> матчей</item>
+    </plurals>
+
+    <!-- Total number of matches played at Home Field. Display fomat "Home Field: Total 50 Matches" -->
+    <plurals name="total_matches_played_home">
+        <item quantity="one">Дома: итого <xliff:g id="number_of_match" example="1">%1$,d</xliff:g> матч</item>
+        <item quantity="few">Дома: итого <xliff:g id="number_of_match" example="4">%1$,d</xliff:g> матча</item>
+        <item quantity="many">Дома: итого <xliff:g id="number_of_match" example="20">%1$,d</xliff:g> матчей</item>
+        <item quantity="other">Дома: итого <xliff:g id="number_of_match" example="120">%1$,d</xliff:g> матчей</item>
+    </plurals>
+
+    <!-- Total number of matches played at "Team Name" Field. Display fomat "Manchester United Field: Total 50 Matches" -->
+    <plurals name="total_matches_play_at_team_fields">
+        <item quantity="one">Поле <xliff:g id="team_name" example="Manchester United">%1$s</xliff:g>: итого <xliff:g id="number_of_match" example="1">%2$,d</xliff:g> матч</item>
+        <item quantity="few">Поле <xliff:g id="team_name" example="Manchester United">%1$s</xliff:g>: итого <xliff:g id="number_of_match" example="4">%2$,d</xliff:g> матча</item>
+        <item quantity="many">Поле <xliff:g id="team_name" example="Manchester United">%1$s</xliff:g>: итого <xliff:g id="number_of_match" example="20">%2$,d</xliff:g> матчей</item>
+        <item quantity="other">Поле <xliff:g id="team_name" example="Manchester United">%1$s</xliff:g>: итого <xliff:g id="number_of_match" example="120">%2$,d</xliff:g> матчей</item>
+    </plurals>
+
+    <!-- Number of matches played at Neutral Field. Display fomat "Neutral Field: 50 Matches Played" -->
+    <plurals name="total_neutral_field_matches">
+        <item quantity="one">Нейтральное поле: сыгран <xliff:g id="number_of_match" example="1">%1$,d</xliff:g> матч</item>
+        <item quantity="few">Нейтральное поле: сыграно <xliff:g id="number_of_match" example="4">%1$,d</xliff:g> матча</item>
+        <item quantity="many">Нейтральное поле: сыграно <xliff:g id="number_of_match" example="20">%1$,d</xliff:g> матчей</item>
+        <item quantity="other">Нейтральное поле: сыграно <xliff:g id="number_of_match" example="120">%1$,d</xliff:g> матчей</item>
+    </plurals>
+
+    <!-- Number of goal scores at Neutral Field with average. Display fomat "Neutral Field: 256 Goal Scores (2.75)" -->
+    <plurals name="total_neutral_goal_scores">
+        <item quantity="one">Нейтральное поле: <xliff:g id="number_of_goal_score" example="1">%1$,d</xliff:g> гол <xliff:g id="goal_average_per_match" example="(2.75)">(%2$.2f)</xliff:g></item>
+        <item quantity="few">Нейтральное поле: <xliff:g id="number_of_goal_score" example="4">%1$,d</xliff:g> гола <xliff:g id="goal_average_per_match" example="(2.75)">(%2$.2f)</xliff:g></item>
+        <item quantity="many">Нейтральное поле: <xliff:g id="number_of_goal_score" example="20">%1$,d</xliff:g> голов <xliff:g id="goal_average_per_match" example="(2.75)">(%2$.2f)</xliff:g></item>
+        <item quantity="other">Нейтральное поле: <xliff:g id="number_of_goal_score" example="120">%1$,d</xliff:g> голов <xliff:g id="goal_average_per_match" example="(2.75)">(%2$.2f)</xliff:g></item>
+    </plurals>
+
+    <!-- Number of matches played at Home/Away Field. Display fomat "Home/Away Field: 50 Matches Played" -->
+    <plurals name="total_home_away_field_matches">
+        <item quantity="one">Дома / В гостях: сыгран <xliff:g id="number_of_match" example="1">%1$,d</xliff:g> матч</item>
+        <item quantity="few">Дома / В гостях: сыгран <xliff:g id="number_of_match" example="4">%1$,d</xliff:g> матча</item>
+        <item quantity="many">Дома / В гостях: сыграно <xliff:g id="number_of_match" example="20">%1$,d</xliff:g> матчей</item>
+        <item quantity="other">Дома / В гостях: сыграно <xliff:g id="number_of_match" example="120">%1$,d</xliff:g> матчей</item>
+    </plurals>
+
+    <!-- Number of goal scores at Home/Away Field with average. Display fomat "Home/Away Field: 256 Goal Scores (2.75)" -->
+    <plurals name="total_home_away_goal_scores">
+        <item quantity="one">Дома/в гостях: <xliff:g id="number_of_goal_score" example="1">%1$,d</xliff:g> гол <xliff:g id="goal_average_per_match" example="(2.75)">(%2$.2f)</xliff:g></item>
+        <item quantity="few">Дома/в гостях: <xliff:g id="number_of_goal_score" example="4">%1$,d</xliff:g> гола <xliff:g id="goal_average_per_match" example="(2.75)">(%2$.2f)</xliff:g></item>
+        <item quantity="many">Дома/в гостях: <xliff:g id="number_of_goal_score" example="20">%1$,d</xliff:g> голов <xliff:g id="goal_average_per_match" example="(2.75)">(%2$.2f)</xliff:g></item>
+        <item quantity="other">Дома/в гостях: <xliff:g id="number_of_goal_score" example="120">%1$,d</xliff:g> голов <xliff:g id="goal_average_per_match" example="(2.75)">(%2$.2f)</xliff:g></item>
+    </plurals>
+
+    <!-- Number of goal scores at Home/Away Field with average. Display fomat "Home/Away field: 256 goal scores (2.75)" -->
+    <plurals name="unfollow_entry">
+        <item quantity="one">Прекращено слежение за <xliff:g id="number_of_entry" example="1">%1$d</xliff:g> записью</item>
+        <item quantity="few">Прекращено слежение за <xliff:g id="number_of_entry" example="3">%1$d</xliff:g> записями</item>
+        <item quantity="many">Прекращено слежение за <xliff:g id="number_of_entry" example="20">%1$d</xliff:g> записями</item>
+        <item quantity="other">Прекращено слежение за <xliff:g id="number_of_entry" example="100">%1$d</xliff:g> записями</item>
+    </plurals>
+
+    <!-- Number of days past from publish time of a news entry. Display fomat "3 days ago" -->
+    <plurals name="days_ago">
+        <item quantity="one"><xliff:g id="number_of_day" example="1">%1$,d</xliff:g> день назад</item>
+        <item quantity="few"><xliff:g id="number_of_day" example="1">%1$,d</xliff:g> день назад</item>
+        <item quantity="many"><xliff:g id="number_of_day" example="1">%1$,d</xliff:g> дней назад</item>
+        <item quantity="other"><xliff:g id="number_of_day" example="1">%1$,d</xliff:g> дней назад</item>
+    </plurals>
+
+    <!-- Number of hours past from publish time of a news entry. Display fomat "7 hours ago" -->
+    <plurals name="hours_ago">
+        <item quantity="one"><xliff:g id="number_of_hour" example="1">%1$,d</xliff:g> час назад</item>
+        <item quantity="few"><xliff:g id="number_of_hour" example="1">%1$,d</xliff:g> час назад</item>
+        <item quantity="many"><xliff:g id="number_of_hour" example="1">%1$,d</xliff:g> часов назад</item>
+        <item quantity="other"><xliff:g id="number_of_hour" example="1">%1$,d</xliff:g> часов назад</item>
+    </plurals>
+
+    <!-- Number of minutes past from publish time of a news entry. Display fomat "50 minutes ago" -->
+    <plurals name="minutes_ago">
+        <item quantity="one"><xliff:g id="number_of_minute" example="1">%1$,d</xliff:g> минуту назад</item>
+        <item quantity="few"><xliff:g id="number_of_minute" example="1">%1$,d</xliff:g> минуту назад</item>
+        <item quantity="many"><xliff:g id="number_of_minute" example="1">%1$,d</xliff:g> минут назад</item>
+        <item quantity="other"><xliff:g id="number_of_minute" example="1">%1$,d</xliff:g> минут назад</item>
+    </plurals>
+
+    <!-- Display fomat "50 days" -->
+    <plurals name="days">
+        <item quantity="one"><xliff:g id="number_of_minute" example="1">%1$,d</xliff:g> день</item>
+        <item quantity="few"><xliff:g id="number_of_minute" example="3">%1$,d</xliff:g> дня</item>
+        <item quantity="many"><xliff:g id="number_of_minute" example="20">%1$,d</xliff:g> дней</item>
+        <item quantity="other"><xliff:g id="number_of_minute" example="100">%1$,d</xliff:g> дней</item>
+    </plurals>
+
+    <!-- Display fomat "7 hours" -->
+    <plurals name="hours">
+        <item quantity="one"><xliff:g id="number_of_hour" example="1">%1$,d</xliff:g> час</item>
+        <item quantity="few"><xliff:g id="number_of_hour" example="3">%1$,d</xliff:g> часа</item>
+        <item quantity="many"><xliff:g id="number_of_hour" example="20">%1$,d</xliff:g> часов</item>
+        <item quantity="other"><xliff:g id="number_of_hour" example="100">%1$,d</xliff:g> часов</item>
+    </plurals>
+
+    <!-- Display fomat "50 minutes" -->
+    <plurals name="minutes">
+        <item quantity="one"><xliff:g id="number_of_minute" example="1">%1$,d</xliff:g> минута</item>
+        <item quantity="few"><xliff:g id="number_of_minute" example="3">%1$,d</xliff:g> минуты</item>
+        <item quantity="many"><xliff:g id="number_of_minute" example="20">%1$,d</xliff:g> минут</item>
+        <item quantity="other"><xliff:g id="number_of_minute" example="100">%1$,d</xliff:g> минут</item>
+    </plurals>
+
+    <!-- How often does something happen/occure. Display fomat "50 times" -->
+    <plurals name="times">
+        <item quantity="one"><xliff:g id="number_of_time" example="1">%1$,d</xliff:g> раз</item>
+        <item quantity="few"><xliff:g id="number_of_time" example="3">%1$,d</xliff:g> раза</item>
+        <item quantity="many"><xliff:g id="number_of_time" example="20">%1$,d</xliff:g> раз</item>
+        <item quantity="other"><xliff:g id="number_of_time" example="100">%1$,d</xliff:g> раз</item>
+    </plurals>
+    <!-- End Plurals -->
+
+
+    <!-- **************************************************************************************************** -->
+
+
+    <!-- Replace -->
+    <!-- The length of time that sth lasts or continues. For example, duration of the video -->
+    <string name="replace_duration">Продолжительность <xliff:g id="duration" example="02:35">%1$s</xliff:g></string>
+
+    <!-- Inform user why he/she cannot send feedback -->
+    <string name="replace_feedback_warning">Введите не менее 20 символов;<xliff:g id="new_line_character">\n</xliff:g>вы ввели <xliff:g id="number" example="4">%1$d</xliff:g></string>
+
+    <!-- When you follow something you are interested in it. Like follow in Twitter. -->
+    <string name="replace_follow">Следить за <xliff:g id="name" example="Manchester United">%1$s</xliff:g></string>
+
+    <!-- Inform user that some items have been deleted -->
+    <string name="replace_items_deleted"><xliff:g id="amount" example="5">%1$d</xliff:g> позиций удалено</string>
+
+    <!-- Show users when data is updated. No connection! Last updated: 30/09/2013, 22:00 -->
+    <string name="replace_last_update">Отсутствует подключение! Последнее обновление: <xliff:g id="date_time" example="30/09/2013, 22:00">%1$s</xliff:g></string>
+
+    <!-- Show users when data is updated, Last update at 25 October 2013, 22:30 GMT+1:00 -->
+    <string name="replace_last_updated_at">Последнее обновление: <xliff:g id="date_time" example="25 October 2013, 22:30 GMT+1:00">%1$s</xliff:g></string>
+
+    <!-- Lose by [number]. For example Lose by 2 mean result is 0-2, 1-3, 2-4, etc. -->
+    <string name="replace_lose_by">Поражение с проигрышем на <xliff:g id="number" example="2">%1$d</xliff:g></string>
+
+    <!-- Match started at 15:00 -->
+    <string name="replace_match_started_at">Матч начался в <xliff:g id="time" example="15:00">%1$s</xliff:g></string>
+
+    <!-- Press 'Icon' or 'Icon' to add a team -->
+    <string name="replace_press_to_add_favorite_team">Нажмите на <xliff:g id="icon_1">@</xliff:g> или на <xliff:g id="icon_1">@</xliff:g>, чтобы добавить команду</string>
+
+    <!-- Inform users that they cannot turn off push with solution -->
+    <string name="replace_push_turn_off_warning_comp">Чтобы отключить это сообщение, его необходимо сначала отключить в Соревновании на странице <xliff:g id="page_name" example="Following">[!~%1$s~!]</xliff:g>.</string>
+
+    <!-- Inform users that they cannot turn off push with solution -->
+    <string name="replace_push_turn_off_warning_comp_team">Чтобы отключить это сообщение, его сначала необходимо отключить в Командах и Соревновании на странице <xliff:g id="page_name" example="Following">[!~%1$s~!]</xliff:g>.</string>
+
+    <!-- Inform users that they cannot turn off push with solution -->
+    <string name="replace_push_turn_off_warning_team">Чтобы отключить это сообщение, его сначала необходимо отключить в Командах на странице <xliff:g id="page_name" example="Following">[!~%1$s~!]</xliff:g>.</string>
+
+    <!-- Link to read more -->
+    <string name="replace_read_more">Дополнительная информация на <xliff:g id="number" example="http://superscores.com">%1$s</xliff:g></string>
+
+    <!-- Read "something" on "website name" -->
+    <string name="replace_read_on">Читать <xliff:g id="name" example="">“%1$s”</xliff:g> на <xliff:g id="name" example="SuperScores.com">%2$s</xliff:g></string>
+
+    <!-- Ad-removal package description -->
+    <string name="replace_shop_offer_enjoy">Наслаждайтесь отсутствием рекламы до <xliff:g id="date_time" example="20 Dec 2012, 02:00 GMT+00:00">%1$s</xliff:g></string>
+
+    <!-- Display transaction failed message along with error code -->
+    <string name="replace_shop_offer_error_message">Не удалось выполнить транзакцию, код ошибки: <xliff:g id="error_code" example="0x0000">%1$s</xliff:g></string>
+
+    <!-- Statistics from 01/01/2012 until 31/01/2012 -->
+    <string name="replace_statistics_from_until"><xliff:g id="double_asterisk">**</xliff:g>Статистика с <xliff:g id="start_date" example="01/01/2012">%1$s</xliff:g> по <xliff:g id="end_date" example="31/01/2012">%2$s</xliff:g></string>
+
+    <!-- Use to inform user the location of matches. For example, Manchester United field -->
+    <string name="replace_team_field">Поле <xliff:g id="team_name" example="Manchester United">%1$s</xliff:g></string>
+
+    <!-- When you follow something you are interested in it. Like follow in Twitter. -->
+    <string name="replace_unfollow">Прекратить слежение <xliff:g id="name" example="Manchester United">%1$s</xliff:g></string>
+
+    <!-- Round name such as Round 1, Round 2, Round 3, etc. -->
+    <string name="replace_week">Неделя <xliff:g id="number" example="12">%1$d</xliff:g></string>
+
+    <!-- Win by [number]. For example Win by 2 mean result is 2-0, 3-1, 4-2, etc. -->
+    <string name="replace_win_by">Победа с преимуществом в <xliff:g id="number" example="2">%1$d</xliff:g></string>
+    <!-- End Replace -->
+
+
+    <!-- **************************************************************************************************** -->
+
+
+    <!-- Words/Phrase -->
+    <!-- Array -->
+
+
+    <!-- Clear cached options -->
+    <string-array name="clear_cache">
+        <item>Все файлы</item>
+        <item>Только изображения</item>
+        <item>Только данные</item>
+    </string-array>
+
+    <!-- Contact us options -->
+    <string-array name="feedback_type">
+        <item>Сообщить об ошибках</item>
+        <item>Запрос функций</item>
+        <item>Другие вопросы</item>
+    </string-array>
+
+    <!-- Filter matches on Live Scores Page by these match status -->
+    <string-array name="filter_matches">
+        <item>Все</item>
+        <item>В процессе</item>
+        <item>Не начатые</item>
+        <item>Сыгран</item>
+        <item>Прерван</item>
+        <item>Отслеживаемые</item>
+    </string-array>
+
+    <!-- **************************************************************************************************** -->
+    <!-- Settings -->
+    <!-- **************************************************************************************************** -->
+
+    <!-- Font Size -->
+    <!-- What happens or appears if you do not make any other choice or change -->
+    <string name="settings_font_size_default">По умолчанию</string>
+
+    <!-- Font size Small -->
+    <string name="settings_font_size_small">Маленький</string>
+
+    <!-- Font size Medium -->
+    <string name="settings_font_size_medium">Средний</string>
+
+    <!-- Font size Large -->
+    <string name="settings_font_size_large">Большой</string>
+
+    <!-- Font size Extra Large -->
+    <string name="settings_font_size_xlarge">Сверхбольшой</string>
+
+    <!-- **************************************************************************************************** -->
+
+
+    <!-- READ THIS BEFORE PROCEED TO NEXT SECTION -->
+    <!-- 1. Button description mean when user long pressed to button the text will popup to show the user what is it meant to do -->
+    <!-- 2. Subscribe/Subscription meaning -->
+    <!-- *When you subscribe something in this application you will receive push notifications for something that you subscribe -->
+    <!-- *Example 1: A user subscribe the match, user will receive notification when goal score event occur (either team scores a goal) -->
+    <!-- *Example 2: A user subscribe the team, all matches that play by the team are going to subscribe automantically -->
+    <!-- *Example 3: A user subscribe the competition, all matches in the competition are going to subscribe automantically -->
+
+
+    <!-- A -->
+    <!-- About us -->
+    <string name="about">О</string>
+
+    <!-- Set theme of the action bar -->
+    <string name="action_bar_style">Стиль <xliff:g id="actionbar">Action Bar</xliff:g></string>
+
+    <!-- Date that player active for a paticular team. For example: 01/01/2014-16/06/2014 -->
+    <string name="active_date">Дата начала игры за команду</string>
+
+    <!-- The special offer that will remove advertising -->
+    <string name="ad_remove_offer">Предложение скрыть рекламу</string>
+
+    <!-- Ad-Removal package available for user to purchase to remove ad -->
+    <string name="ad_removal_package">Пакет услуг для скрытия рекламы</string>
+
+    <!-- Button description: Press to add all competitions to the Live Scores Page -->
+    <string name="add_all_competitions">Добавить все турниры</string>
+
+    <!-- Button description: Press to add reminder to user calendar (agenda) -->
+    <string name="add_reminder">Добавить напоминание:</string>
+
+    <!-- Confirm that something is already add -->
+    <string name="added">Добавлено</string>
+
+    <!-- Contact information: address -->
+    <string name="address">Адрес</string>
+
+    <!-- Goal that lose to the opponent. This will appear in table. You can translate to something that close to concede, lose -->
+    <string name="against">Уступила</string>
+
+    <!-- The number of years that a person has lived -->
+    <string name="age">Возраст</string>
+
+    <!-- All, the entire -->
+    <string name="all">Весь</string>
+
+    <!-- All news -->
+    <string name="all_news">Все новости</string>
+
+    <!-- To tell people something officially -->
+    <string name="announced">Объявлено</string>
+    <!-- When user send feedback to us and do not want us to know their name -->
+    <string name="anonymous">Анонимный</string>
+
+    <!-- An act of player appearing on the field -->
+    <string name="appearances">Выходы на поле</string>
+
+    <!-- A person whose job is designing buildings, etc. -->
+    <string name="architect">Архитектор</string>
+
+    <!-- A contribution by a player which helps to score a goal -->
+    <string name="assist">Передачи</string>
+
+    <!-- Attack category which include the following: goals, possession, attacks, dangerous attack, corners -->
+    <string name="attack">Атаки</string>
+    <!-- [Plural] The actions that players take to try to score a goal or win the game -->
+    <string name="attacks">Атаки</string>
+
+    <!-- Forwards (or strikers) are the players who are positioned nearest to the opposing team's goal. The primary responsibility of forwards is to score goals and to create scoring chances for other players. -->
+    <string name="attacker">Нападающий</string>
+    <!-- Number of people present at stadium/ground/venue -->
+    <string name="attendance">Количество зрителей</string>
+
+    <!-- The action of team that play at opponent field. You can translate to something that close to outwards -->
+    <string name="away">В гостях</string>
+
+    <!-- Competition/League/Tournament statistics that represent the number of time that away team won that match -->
+    <string name="away_team_win">Победы команды гостей</string>
+
+    <!-- B -->
+    <!-- Amount of money that is left for spending. For example, Balance: 50 Coin -->
+    <string name="balance">Баланс</string>
+
+    <!-- The act of risking money, etc. on the unknown result of an event -->
+    <string name="betting">Ставка</string>
+
+    <!-- Betting type e.g. Over/Under, Correct Scores, Double Chance, Margin, HT/FT -->
+    <string name="betting_market">Букмекерский рынок</string>
+
+    <!-- Date that player was born -->
+    <string name="born">Дата рождения</string>
+
+    <!-- Buy the product -->
+    <string name="buy">Купить</string>
+
+    <!-- C -->
+    <!-- Button description: Cancel some operation -->
+    <string name="cancel">Отмена</string>
+
+    <!-- Something has been cancelled -->
+    <string name="cancelled">Отменено</string>
+
+    <!-- The number of people that a venue (stadium, ground) can hold -->
+    <string name="capacity">Вместимость</string>
+
+    <!-- A group of people or things with particular features in common -->
+    <string name="category">Категория</string>
+
+    <!-- Check for new version on Google Play Store -->
+    <string name="check_for_updates">Проверить наличие обновлений</string>
+
+    <!-- Change something. For example, change current competition, change current team -->
+    <string name="change">Изменить</string>
+
+    <!-- Record of changes made to the application -->
+    <string name="change_log">Журнал изменений</string>
+
+    <!-- Contact information: city -->
+    <string name="city">Город</string>
+
+    <!-- A game in which one team prevents the opposing team from scoring -->
+    <string name="clean_sheet">Побед всухую</string>
+
+    <!-- Clear cache files (the files that store locally on the user devices for the purpose of view the content offline) -->
+    <string name="clear_cache">Очистить кэш</string>
+
+    <!-- Button description: Clear text that user type in some text box -->
+    <string name="clear_text">Очистить текст</string>
+
+    <!-- Close -->
+    <string name="close">Закрыть</string>
+
+    <!-- The coach/manager is who trains a player or team -->
+    <string name="coach">Тренер</string>
+
+    <!-- Button description: when users press this button the expandable view will collapse (no longer expand) it like when you press 'minus symbol' on the windows explorer (file heirachy) -->
+    <string name="collapse">Свернуть</string>
+
+    <!-- Color -->
+    <string name="color">Цвет</string>
+
+    <!-- A description of an event in the particular match e.g. minutes 43' GOALLL! For Manchester United! An incredible strike from Wayne Rooney -->
+    <string name="commentary">Комментарий</string>
+
+    <!-- Competition (League, Tournament in some countries) -->
+    <string name="competition">Турнир</string>
+
+    <!-- Tell users that the application cannot/failed to establish the internet connection -->
+    <string name="connection_failed">Не удалось установить соединение!</string>
+
+    <!-- The title of dialog box -->
+    <string name="contact_us">Связаться с нами</string>
+
+    <!-- Continue the process -->
+    <string name="continue_">Продолжить</string>
+
+    <!-- A thing that is made to be the same as sth else -->
+    <string name="copy">Копировать</string>
+
+    <!-- Match statistics: The number of times each team got corner kick -->
+    <string name="corners">Угловые</string>
+
+    <!-- Contact information: country -->
+    <string name="country">Страна</string>
+
+    <!-- The act of mentioning somebody who worked on a project -->
+    <string name="credits">О разработчиках</string>
+
+    <!-- Current Competition is the competition that users have to select in order to view its Table, Round, Fixtures, Statistics, etc. -->
+    <string name="current_competition">Текущий турнир</string>
+
+    <!-- Suppose the current fixture of current competition is "Wed, 10 Apr 2013" and users scroll to see another fixture. By pressing this button the users will return to "Wed, 10 Apr 2013" fixture -->
+    <string name="current_fixture">Текущая назначенная дата</string>
+
+    <!-- Show current competition/league/tournament ranking of selected team -->
+    <string name="current_league_ranking">Текущий рейтинг в  лиге</string>
+
+    <!-- Suppose the current round of current competition is Semi-Finals and users scroll to see another round. By pressing this button the users will return to the Semi-Finals round -->
+    <string name="current_round">Текущий раунд</string>
+
+    <!-- The current team of the player -->
+    <string name="current_team">Текущая команда</string>
+
+    <!-- Press this button to view current application version -->
+    <string name="current_version">Текущая версия</string>
+
+    <!-- D -->
+    <!-- Match statistics: The number of times each team performs dangerous attacks to the opponent -->
+    <string name="dangerous_attacks">Опасные атаки</string>
+
+    <!-- Defenders play behind the midfielders and their primary responsibility is to provide support to the team and to prevent the opposition from scoring a goal -->
+    <string name="defender">Защитник</string>
+    <!-- Description of something -->
+    <string name="description">Описание</string>
+
+    <!-- Details of something -->
+    <string name="details">Подробнее</string>
+
+    <!-- Match statistics: Discipline category (fouls, yellow cards, red cards) -->
+    <string name="discipline">Нарушения</string>
+
+    <!-- Dismiss/Close the dialog box -->
+    <string name="dismiss">Закрыть</string>
+
+    <!-- Let users select how to display data -->
+    <string name="display_options">Параметры отображения</string>
+
+    <!-- Follow by player dominant foot (left, right) -->
+    <string name="dominant_foot">Ведущая нога</string>
+
+    <!-- Follow by number of time that 'Draw' result occur -->
+    <string name="draw">Ничьи</string>
+
+    <!-- E -->
+    <!-- To Make changes on data on screen -->
+    <string name="edit">Изменить</string>
+
+    <!-- Long text that describe important events, news, informations related to selected match -->
+    <string name="editorials">Редакционные статьи</string>
+
+    <!-- Contact information: email -->
+    <string name="email">Электронная почта</string>
+
+    <!-- Enalble notification to receive push notification -->
+    <string name="enable_notifications">Включить уведомления</string>
+
+    <!-- Finish -->
+    <string name="end">Завершение</string>
+
+    <!-- Some problem has occur -->
+    <string name="error">Ошибка</string>
+
+    <!-- Real-time event such as goal score, yellow card, red card, substitute, and penalty for selected match -->
+    <string name="events">События</string>
+
+    <!-- Exit the application -->
+    <string name="exit">Выход</string>
+
+    <!-- Button description: when users press this button the expandable view will expand all it like when you press 'plus symbol' on the windows explorer (file heirachy) -->
+    <string name="expand">Развернуть</string>
+
+    <!-- Additional statistics -->
+    <string name="extra_statistics">Дополнительные стат. данные</string>
+
+    <!-- Matche Status that show the break period during Extra time -->
+    <string name="extra_time_break">Перерыв в дополнительное время</string>
+
+    <!-- F -->
+    <!-- Facts -->
+    <string name="facts">Факты</string>
+
+    <!-- Frequency asked questions -->
+    <string name="faq">ЧАВО</string>
+
+    <!-- Favorite of somethings such as favorite competitions, or favorite teams -->
+    <string name="favorite">Избранное</string>
+
+    <!-- The teams list below this label are favorite or subscribed team -->
+    <string name="favorite_subscribed_team">Избранные/Подписанные команды</string>
+
+    <!-- Contact information: fax -->
+    <string name="fax">Факс</string>
+
+    <!-- The account that user will use to send feedback to us e.g. anonymous or user email account -->
+    <string name="feedback_account">Аккаунт для отправки отзыва</string>
+
+    <!-- FIFA ranking (world's ranking) of the team -->
+    <string name="fifa_ranking">Рейтинг ФИФА</string>
+
+    <!-- Filter data to let users design what they really want to see -->
+    <string name="filter">Фильтр</string>
+
+    <!-- Filter Competitions that show on Live Scores Page -->
+    <string name="filter_competitions">Фильтровать турниры</string>
+
+    <!-- Filter Matches that show on Live Scores Page -->
+    <string name="filter_matches">Фильтровать матчи</string>
+
+    <!-- A sport event that have been arranged to take place on a particular date e.g. Wed, 10 Apr 2013 or Thu, 25 Ar 2013. In other word, the agenda of matches -->
+    <string name="fixtures">Назначенные даты</string>
+
+    <!-- When you follow something you are interested in it. Like follow in Twitter. -->
+    <string name="follow_competition">Следить за соревнованиями</string>
+
+    <!-- When you follow something you are interested in it. Like follow in Twitter. -->
+    <string name="follow_match">Следить за матчем</string>
+
+    <!-- When you follow something you are interested in it. Like follow in Twitter. -->
+    <string name="follow_team">Следить за командой</string>
+
+    <!-- When you follow something you are interested in it. Like follow in Twitter. -->
+    <string name="following">Подписан на</string>
+
+    <!-- When you follow something you are interested in it. Like follow in Twitter. -->
+    <string name="following_team">Слежение за командой</string>
+
+    <!-- Font size to be display in the app -->
+    <string name="font_size">Размер шрифта</string>
+
+    <!-- Goal/Scores that got from the opponent. This will appear in table. You can translate to something that close to gain -->
+    <string name="for_">Получено</string>
+
+    <!-- The position of player on the field e.g. 4-4-2 mean four defender, four midfielder, two attacker -->
+    <string name="formation">Построение</string>
+
+    <!-- Match statistics: The number of times each team foul (an unfair act by a player which is deemed by the referee) -->
+    <string name="fouls">Нарушения правил</string>
+
+    <!-- Match statistics: The number of times each team got free kick (a method of restarting play in a game of soccer following a foul) -->
+    <string name="free_kicks">Штрафные</string>
+
+    <!-- The scores result that frequently happep, for example, Premier League last season has game result end up with 2-1 69 times -->
+    <string name="frequency_scores">Самые частые результаты</string>
+
+    <!-- The former/previous team of the player. For example, Wayne Rooney transfered "From team: Manchester United" -->
+    <string name="from_team">Из команды</string>
+
+    <!-- Kind of match status (Half Time, Full Time, Second Half) -->
+    <string name="full_time">Основное время закончилось</string>
+
+    <!-- Button description: press to view full venue information -->
+    <string name="full_venue_info">Подробные сведения о месте проведения</string>
+
+    <!-- G -->
+    <!-- Button description: Press to view game results or goal scores -->
+    <!-- This button use to toggle between (Win, Draw, Lose) and (Goal For, Goal Against, Goal Difference) that show on Table Page -->
+    <string name="game_results_goal_scores">Результаты игры / Голы</string>
+
+    <!-- This is category that group some of the general topic together -->
+    <string name="general">Общие настройки</string>
+
+    <!-- This is a header use for explain general information of something -->
+    <string name="general_information">Общая информация</string>
+
+    <!-- Page name: show global news -->
+    <string name="global_news">Новости на общие темы</string>
+
+    <!-- Go -->
+    <string name="go">Перейти</string>
+
+    <!-- Go to (some page, some link, etc..) -->
+    <string name="go_to">Перейти на<xliff:g id="horizontal_ellipsis">…</xliff:g></string>
+
+    <!-- Go to specific round name (8 Th Finals, Quarter-Finals, Semi-Finals, Final) -->
+    <string name="go_to_round">Перейти к раунду<xliff:g id="horizontal_ellipsis">&#8230;</xliff:g></string>
+
+    <!-- A player whose job is to stop the ball from going into his or her own team's goal -->
+    <string name="goalkeeper">Голкипер</string>
+
+    <!-- Match statistics: The number of times each team got goal kicks (A goal kick, called a goalie kick in some regions, is a method of restarting play in a game of soccer by let Goal keeper kick the ball -->
+    <string name="goal_kicks">Удары от ворот</string>
+
+    <!-- Match statistics: The number of "Goals" scores for each team -->
+    <string name="goals">Голы</string>
+
+    <!-- Setting the sound of notification when goal score event occur -->
+    <string name="goal_sound">Звук гола</string>
+
+    <!-- Number of goal that person or team score -->
+    <string name="goals_scored">Забито голов</string>
+
+    <!-- Group name such as North Region, South Region, Group 1, and Group A -->
+    <string name="group">Группа</string>
+
+    <!-- H -->
+    <!-- Kind of match status (Half Time, Full Time, Second Half) -->
+    <string name="half_time">Первый тайм завершился</string>
+
+    <!-- Head-to-head statistics of two selected teams -->
+    <string name="head_to_head">Сравнению бок о бок</string>
+
+    <!-- Height of the player -->
+    <string name="height">Рост</string>
+
+    <!-- Help -->
+    <string name="help">Справка</string>
+
+    <!-- Help and FAQ -->
+    <string name="help_and_faq">Справка <xliff:g id="ampersand">&amp;</xliff:g> ЧАВО</string>
+
+    <!-- The action of team that play on their own field/ground/stadium. -->
+    <string name="home">Дома</string>
+
+    <!-- Competition/League/Tournament statistics that represent the number of time that home team won the match. -->
+    <string name="home_team_win">Победы домашней команды</string>
+
+    <!-- I -->
+    <!-- Information -->
+    <string name="info">Информация</string>
+
+    <!-- Player Injured and cannot be play -->
+    <string name="injured">Травмирован</string>
+
+    <!-- Inform user that a item has been deleted -->
+    <string name="item_deleted">Позиция удалена</string>
+
+    <!-- J -->
+    <!-- Just now -->
+    <string name="just_now">Только сейчас</string>
+
+    <!-- K -->
+    <!-- Count down to the kick-off time (time that match will start) -->
+    <string name="kick_off_in">Начало матча в</string>
+
+    <!-- L -->
+    <!-- Language to be display in app -->
+    <string name="language">Язык</string>
+
+    <!-- Last # Matches (Use plural form) -->
+    <string name="last_n_matches">Последних <xliff:g id="hash_tag">#</xliff:g> матчей</string>
+
+    <!-- Last # Seasons (Use plural form) -->
+    <string name="last_n_seasons">Последних <xliff:g id="hash_tag">#</xliff:g> сезонов</string>
+
+    <!-- Display latest result for users -->
+    <string name="latest_result">Последний результат</string>
+
+    <!-- Appear in the following context: Do you want to do this now or 'later'? -->
+    <string name="later">Позже</string>
+
+    <!-- Use for point a place/location on Map -->
+    <string name="latitude">Широта</string>
+
+    <!-- List of player who are going to take part in a particular match -->
+    <string name="lineup">Состав</string>
+
+    <!-- Button description: Press button to toggle between list lineup (list of the name of player) or Graphic Lineup (Graphic layout that show player position on field) -->
+    <string name="list_lineup_graphic_lineup">Состав списком/Схема размещения</string>
+
+    <!-- List all matches that are updated REAL time -->
+    <string name="livescores">Онлайн-счет</string>
+
+    <!-- Show Table (team ranking in league) in real-time -->
+    <string name="live_table">Онлайн-таблица</string>
+
+    <!-- Show user that contents are loading -->
+    <string name="loading">Загрузка <xliff:g id="horizontal_ellipsis">…</xliff:g></string>
+
+    <!-- Local name of some place or something -->
+    <string name="local_name">Местное название</string>
+
+    <!-- The position of something or a place where something happens or exists -->
+    <string name="location">Местонахождение</string>
+
+    <!-- Use for point a place/location on Map -->
+    <string name="longitude">Долгота</string>
+
+    <!-- To be defeated -->
+    <string name="lose">Поражения</string>
+
+    <!-- M -->
+    <!-- A sports event where people or teams compete against each other -->
+    <string name="match">Матч</string>
+
+    <!-- Match status: The match is cancelled and will not be play -->
+    <string name="match_cancelled">Матч отменен</string>
+
+    <!-- Match status: The match already finished -->
+    <string name="match_finished">Матч завершен</string>
+
+    <!-- Show information of the selected match -->
+    <string name="match_information">Информация о матче</string>
+
+    <!-- Match status: The match is postponed and will be play another day -->
+    <string name="match_postponed">Матч перенесен</string>
+
+    <!-- The topic when add Match Reminder to the users calendar. For example, "Match Reminder: Manchester United vs Liverpool" -->
+    <string name="match_reminder">Напоминание о матче</string>
+
+    <!-- Setting the sound of notification when match start or match end -->
+    <string name="match_start_end_sound">Звук начала/конца матча</string>
+
+    <!-- Match status: The match already started -->
+    <string name="match_started">Матч начался</string>
+
+    <!-- Match status: The match is suspended while playing -->
+    <string name="match_suspended">Матч остановлен</string>
+
+    <!-- The main ways that large numbers of people receive information and entertainment, i.e. television, radio, newspapers -->
+    <string name="media">Информационные средства</string>
+
+    <!-- The state of being a member of a club/team -->
+    <string name="membership">Клуб/команда</string>
+
+    <!-- Menu: list of possible chioces that are shown on a screen -->
+    <string name="menu">Меню</string>
+
+    <!-- Midfielders (originally called half-backs) are players whose position of play is midway between the attacking forwards and the defenders -->
+    <string name="midfielder">Полузащитник</string>
+
+    <!-- Number of minutes that the player play for his/her team -->
+    <string name="minutes_played">Сыграно минут</string>
+
+    <!-- Mute the sound and vibration of the notifications/alert -->
+    <string name="mute">Без звука</string>
+
+    <!-- The popup text to show that all the notifications/alert are Mute -->
+    <string name="mute_notifications">Уведомления без звука</string>
+
+    <!-- Button description: Press button to Mute or Unmute the notification/alert -->
+    <string name="mute_unmute">Отключение/включение звука</string>
+
+    <!-- N -->
+    <!-- Name of someone (some languages use difference word for someone and something) -->
+    <string name="name_someone">Имя</string>
+
+    <!-- Name of something (some languages use difference word for someone and something) -->
+    <string name="name_something">Название</string>
+
+    <!-- The player nationality -->
+    <string name="nationality">Гражданство</string>
+
+    <!-- The world that describe team that play on nutural field/ground/stadium. -->
+    <string name="neutral">Нейтральное</string>
+
+    <!-- New information about something that has happened recently -->
+    <string name="news">Новости</string>
+
+    <!-- News feed -->
+    <string name="news_feed">Новостная лента</string>
+
+    <!-- Set of options that let user customize news widget -->
+    <string name="news_widget_settings">Настройки новостного виджета</string>
+
+    <!-- Nickname -->
+    <string name="nickname">Ник</string>
+
+    <!-- No data for the current section -->
+    <string name="no_data">Нет данных</string>
+
+    <!-- Title indicate that something below have no group -->
+    <string name="no_group">Нет группы</string>
+
+    <!-- Some data is not available -->
+    <string name="not_available">Недоступно</string>
+
+    <!-- Match status: The match not yet started -->
+    <string name="not_started">Не начался</string>
+
+    <!-- Information or a warning given in advance of something that is going to happen -->
+    <string name="notice">Примечание</string>
+
+    <!-- Setting what notification will receive -->
+    <string name="notification_settings">Настройки уведомлений</string>
+
+    <!-- Number of Goals -->
+    <string name="number_of_goals">Кол-во голов</string>
+
+    <!-- Number of Assists (A contribution by a player which helps to score a goal) -->
+    <string name="number_of_assists">Кол-во передач</string>
+
+    <!-- Number of Yellow Cards -->
+    <string name="number_of_yellow_cards">Кол-во желтых карточек</string>
+
+    <!-- Number of Red Cards -->
+    <string name="number_of_red_cards">Кол-во красных карточек</string>
+
+    <!-- Notification category that group everything about notification together such as Notification Sound, Mute, Vibrate -->
+    <string name="notifications">Уведомления</string>
+
+    <!-- Sound of the notifications -->
+    <string name="notification_sounds">Звуки уведомлений</string>
+
+    <!-- O -->
+    <!-- Show several offer for user to remove ad. For example, remove ad for user if he download some app. -->
+    <string name="offer">Предложение</string>
+
+    <!-- Match statistics: The number of times each team offside (A player is in an offside position if he or she is closer to the opponent's goal line than both the ball and the second-to-last defender.) -->
+    <string name="offsides">Вне игры</string>
+
+    <!-- OK -->
+    <string name="ok">OK</string>
+
+    <!-- To start business for the first time. For example: "Opened: 2010" -->
+    <string name="opened">Открыто</string>
+
+    <!-- Other category that group many small things together -->
+    <string name="other">Прочее</string>
+
+    <!-- Total goal scores that over 1.5 e.g. 2-0, 1-1, so on (use mainly in betting industry) -->
+    <string name="over_1_5">Больше 1,5</string>
+
+    <!-- Total goal scores that over 2.5 e.g. 3-0, 2-1, so on (use mainly in betting industry) -->
+    <string name="over_2_5">Больше 2,5</string>
+
+    <!-- Total goal scores that over 3.5 e.g. 4-0, 3-1, so on (use mainly in betting industry) -->
+    <string name="over_3_5">Больше 3,5</string>
+
+    <!-- Overall result which combine home result (played at home ground) and away result (played at the opponents' grounds) -->
+    <string name="overall">Общий результат</string>
+
+    <!-- A general description or an outline of something -->
+    <string name="overview">Обзор</string>
+
+    <!-- P -->
+    <!-- Indicate that this goal is come from penalty goal -->
+    <string name="penalty_goals">Голы с пенальти</string>
+
+    <!-- Indicate that this goal in come from penalty shootout (Use penalty for breaking ties) -->
+    <string name="penalty_shootout">Серия пенальти</string>
+
+    <!-- Contact information: phone -->
+    <string name="phone">Телефон</string>
+
+    <!-- Button description: Press to pin match to the top of Live Scores Page -->
+    <string name="pin_match">Закрепить матч</string>
+
+    <!-- Group matches that already pinned to the top of Live Scores Page together -->
+    <string name="pinned_matches">Закрепленные матчи</string>
+
+    <!-- Place of Birth of the player -->
+    <string name="place_of_birth">Место рождения</string>
+
+    <!-- Player -->
+    <string name="player">Игрок</string>
+
+    <!-- Name of the player -->
+    <string name="player_name">Имя игрока</string>
+
+    <!-- Please wait while the application perform long operation -->
+    <string name="please_wait">Пожалуйста, подождите<xliff:g id="horizontal_ellipsis">&#8230;</xliff:g></string>
+
+    <!-- Scores -->
+    <string name="points">Очки</string>
+
+    <!-- Popular of something e.g. popular competition, popular team -->
+    <string name="popular">Популярные</string>
+
+    <!-- Position of player on filed such as Goal keeper, Defender, Midfielder, Attacker -->
+    <string name="position">Позиция</string>
+
+    <!-- Match statistics: The percentage of ball "Possessions" for each team -->
+    <string name="possessions">Владение мячом</string>
+
+    <!-- Match status: show that match is postponed -->
+    <string name="postponed">Отложен</string>
+
+    <!-- Happening now e.g. From 01/01/2014 - Present -->
+    <string name="present">В настоящее время</string>
+
+    <!-- Preview the data before process -->
+    <string name="preview">Предпросмотр</string>
+
+    <!-- The names before the current name -->
+    <string name="previous_names">Предыдущие названия</string>
+
+    <!-- Previous result of aggreate match (score of last game) -->
+    <string name="previous_result">Предыдущий результат</string>
+
+    <!-- Main, Most important -->
+    <string name="primary">Основной</string>
+
+    <!-- Inform user that something is processing -->
+    <string name="processing">Идет обработка<xliff:g id="horizontal_ellipsis">…</xliff:g></string>
+
+    <!-- Publish message in share operation -->
+    <string name="publish">Опубликовать</string>
+
+    <!-- Q -->
+
+
+    <!-- R -->
+    <!-- Rank/Position of each team in Table (Position in League/Tournament) -->
+    <string name="rank">Рейтинг</string>
+
+    <!-- Indicator that let user know that there is more text to read -->
+    <string name="read_more">Читать дальше<xliff:g id="horizontal_ellipsis">…</xliff:g></string>
+
+    <!-- Recently -->
+    <string name="recently">Недавно</string>
+
+    <!-- Red Cards cards (A red card is shown by a referee to signify that a player has been sent off.) -->
+    <string name="red_cards">Красные карточки</string>
+
+    <!-- The official who controls game in some sports -->
+    <string name="referee">Арбитр</string>
+
+    <!-- Refresh -->
+    <string name="refresh">Обновить</string>
+
+    <!-- Remove advertising -->
+    <string name="remove_ads">Скрыть рекламу</string>
+
+    <!-- Button description: Press to remove all ocmpetitions from the Live Scores Page -->
+    <string name="remove_all_competitions">Удалить все турниры</string>
+
+    <!-- Remove Team which label as 'Team 1' -->
+    <string name="remove_team_1">Удалить команду <xliff:g id="label_one">1</xliff:g></string>
+
+    <!-- Remove Team which label as 'Team 2' -->
+    <string name="remove_team_2">Удалить команду <xliff:g id="label_two">2</xliff:g></string>
+
+    <!-- To repair an old building so that it is in good condition again -->
+    <string name="renovated">Отремонтированно</string>
+
+    <!-- Game result such as 2-1, 1-0, 2-2 -->
+    <string name="result">Результат</string>
+
+    <!-- Try again -->
+    <string name="retry">Повторить</string>
+
+    <!-- A report in which sb gives their opinion of a match -->
+    <string name="review">Обзор</string>
+
+    <!-- A stage in a sports competition such as Quarter-Finals, Semi-Finals, Final -->
+    <string name="round">Раунд</string>
+
+    <!-- S -->
+    <!-- Screenshot -->
+    <string name="screenshot">Снимок экрана</string>
+
+    <!-- Search for something -->
+    <string name="search">Поиск</string>
+
+    <!-- Search for specific competition -->
+    <string name="search_competitions">Поиск турниров</string>
+
+    <!-- Search for specific matches -->
+    <string name="search_matches">Поиск матчей</string>
+
+    <!-- Search for specific team -->
+    <string name="search_team">Поиск команд</string>
+
+    <!-- Season name such as "2012/2013", "2012 Poland/Ukraine" -->
+    <string name="season">Сезон</string>
+
+    <!-- Season start date and date such as 24/07/2013 - 16/05/2013 -->
+    <string name="season_start_end">Начало/конец сезона</string>
+
+    <!-- Kind of match status (Half Time, Full Time, Second Half) -->
+    <string name="second_half">Второй тайм</string>
+
+    <!-- Second yellow card which result in red card -->
+    <string name="second_yellow_card">Вторая желтая карта</string>
+
+    <!-- Ask user to select a competition from the list of competitions -->
+    <string name="select_competition">Выбор турнира</string>
+
+    <!-- Ask user to select a news feed from the list of feeds -->
+    <string name="select_news_feed">Выбрать ленту новостей</string>
+
+    <!-- Ask user to select a team from the list of teams -->
+    <string name="select_team">Выбор команды</string>
+
+    <!-- Send something -->
+    <string name="send">Отправить</string>
+
+    <!-- Send feedback e.g. bug report, request features, request assistance, etc. -->
+    <string name="send_feedback">Отправить отзыв</string>
+
+    <!-- Set of options that let user customize app -->
+    <string name="settings">Настройки</string>
+
+    <!-- Share -->
+    <string name="share">Опубликовать</string>
+
+    <!-- Share App to social network or an app that users desire -->
+    <string name="share_app">Поделиться приложением</string>
+
+    <!-- Share on Facebook -->
+    <string name="share_on_facebook">Опубликовать на Facebook</string>
+
+    <!-- Share on Twitter -->
+    <string name="share_on_twitter">Опубликовать в Twitter</string>
+
+    <!-- Share Table (team ranking, standings) -->
+    <string name="share_table">Опубликовать рейтинг</string>
+
+    <!-- Shirt number of the player -->
+    <string name="shirt_number">Номер игрока</string>
+
+    <!-- A place that let user purchase addition features -->
+    <string name="shop">Магазин</string>
+
+    <!-- Match statistics: Shot category (shots, shots on target, shots off target, shots blocked, and shots woodwork) -->
+    <string name="shot">Удары по воротам</string>
+
+    <!-- Match statistics: The number of times each team shots (the action of kicking the ball) -->
+    <string name="shots">Удары</string>
+
+    <!-- Match statistics: The number of times each team shots (the action of kicking the ball), and the players from the opponent team blocked it -->
+    <string name="shots_blocked">Отбитые удары</string>
+
+    <!-- Match statistics: The number of times each team shots (the action of kicking the ball), and it is off target -->
+    <string name="shots_off_target">Удары мимо ворот</string>
+
+    <!-- Match statistics: The number of times each team shots (the action of kicking the ball), and it is on target -->
+    <string name="shots_on_target">Удары по воротам</string>
+
+    <!-- Match statistics: The number of times each team shots (the action of kicking the ball), and the ball hit the crossbar (A horizontal bar connecting the top of the two goalposts) or goalposts -->
+    <string name="shots_woodwork">Удары в штангу</string>
+
+    <!-- Show alphabet index on the right side of the screen to let user fast scroll among list entries -->
+    <string name="show_index">Отобразить индекс</string>
+
+    <!-- The act of starting to use a computer system -->
+    <string name="sign_in">Войти</string>
+
+    <!-- The act of finishing using a computer system -->
+    <string name="sign_out">Выход</string>
+
+    <!-- No sound -->
+    <string name="silent">Беззвучный</string>
+
+    <!-- Sort something by alphabet i.e. A-Z -->
+    <string name="sort_by_alphabet">Сортировать по алфавиту</string>
+
+    <!-- Sort something by time i.e. 00:00-23:59 -->
+    <string name="sort_by_time">Сортировать по времени</string>
+
+    <!-- All the workers employed in a team considered as a group -->
+    <string name="staff">Сотрудники</string>
+
+    <!-- To begin doing or using sth -->
+    <string name="start">Начало</string>
+
+    <!-- Indicate that extra time start -->
+    <string name="start_extra_time">Начало дополнительного времени</string>
+
+    <!-- Indicate that second half start -->
+    <string name="start_second_half">Начало второго тайма</string>
+
+    <!-- Start time: 24/07/2013 18:00 -->
+    <string name="start_time">Время начала</string>
+
+    <!-- A collection of information use for analyse something -->
+    <string name="statistics">Статистика</string>
+
+    <!-- Stop -->
+    <string name="stop">Стоп</string>
+
+    <!-- Team member for selected team. In other word, team's current players -->
+    <string name="squads">ТЕКУЩИЕ ГРУППЫ</string>
+
+    <!-- Player that will replace another player in the field -->
+    <string name="substitute_in">Заменяющий</string>
+
+    <!-- Players that are sitting on bench for substitute player that playing on field -->
+    <string name="substitute_on_bench">На скамье запасных</string>
+
+    <!-- Player that has been replace by another player -->
+    <string name="substitute_out">Заменяемый</string>
+
+    <!-- Category in Lineup indicate players are substitution -->
+    <string name="substitutes">Запасные</string>
+
+    <!-- Match statistics: The number of times each team substitutes the player (Substitutions are generally made to replace a player who has become tired or injured, or who is not performing well.) -->
+    <string name="substitutions">Замены</string>
+
+    <!-- Success -->
+    <string name="success">Успех</string>
+
+    <!-- The top layer of a venue (stadium) ground (e.g. Glass) -->
+    <string name="surface">Поверхность</string>
+
+    <!-- Category in Lineup indicate players are suspended/baned from playing (Get red card) -->
+    <string name="suspended">Удаленных</string>
+
+    <!-- T -->
+    <!-- A list of sports teams that shows their position in a competition -->
+    <string name="table">Таблица</string>
+
+    <!-- A group of people who play a particular game or sport against another group of people -->
+    <string name="team">Команда</string>
+
+    <!-- [Plurals] A group of people who play a particular game or sport against another group of people -->
+    <string name="teams">Команды</string>
+
+    <!-- Label Team 1 -->
+    <string name="team_1">Команда <xliff:g id="label_one">1</xliff:g></string>
+
+    <!-- Label Team 2 -->
+    <string name="team_2">Команда <xliff:g id="label_two">2</xliff:g></string>
+
+    <!-- Team Name -->
+    <string name="team_name">Название команды</string>
+
+    <!-- Show team information of the selected team -->
+    <string name="team_information">Информация о команде</string>
+
+    <!-- For example, Knocked three 'times' -->
+    <string name="times">Кол-во</string>
+
+    <!-- Theme -->
+    <string name="theme">Тема</string>
+
+    <!-- Match statistics: The number of times each team got throw ins (a method of restarting play in a game of soccer when the ball has exited the side of the field of play.) -->
+    <string name="throw_ins">Вбрасывания</string>
+
+    <!-- Today -->
+    <string name="today">Сегодня</string>
+
+    <!-- Button description: Press to toggle fullscreen -->
+    <string name="toggle_full_screen">Переключиться в полноэкранный режим</string>
+
+    <!-- Button description: Press to toggle between two teams -->
+    <string name="toggle_team">Сменить команду</string>
+
+    <!-- The day after today -->
+    <string name="tomorrow">Завтра</string>
+
+    <!-- Top Assist (a contribution by a player which helps to score a goal) -->
+    <string name="top_assists">Больше всего передач</string>
+
+    <!-- List of players that have top statistics for each category e.g. Top Scorer, Top Assist, Top Yellow Card -->
+    <string name="top_players">Лучшие игроки</string>
+
+    <!-- Top Red Cards -->
+    <string name="top_red_cards">Больше всего красных карточек</string>
+
+    <!-- Top Scorers -->
+    <string name="top_scorers">Лучшие бомбардиры</string>
+
+    <!-- Top Yellow Cards -->
+    <string name="top_yellow_cards">Больше всего желтых карточек</string>
+
+    <!-- Total -->
+    <string name="total">Итого</string>
+
+    <!-- Act of moving player from one team to another team. -->
+    <string name="transfers">Трансферы</string>
+    <!-- Try again -->
+    <string name="try_again">Попытаться снова</string>
+
+    <!-- Type of something -->
+    <string name="type">Тип</string>
+
+    <!-- U -->
+    <!-- To cancel the effect of something, or go back -->
+    <string name="undo">Отменить изменение</string>
+
+    <!-- To cancel the effect of somethings, or go back -->
+    <string name="undo_all">Отменить все изменения</string>
+
+    <!-- When you follow something you are interested in it. Like follow in Twitter. -->
+    <string name="unfollow_all">Прекратить слежение за всем</string>
+
+    <!-- When you follow something you are interested in it. Like follow in Twitter. -->
+    <string name="unfollow_competition">Прекратить слежение за соревнованиями</string>
+
+    <!-- When you follow something you are interested in it. Like follow in Twitter. -->
+    <string name="unfollow_match">Прекратить слежение за матчем</string>
+
+    <!-- When you follow something you are interested in it. Like follow in Twitter. -->
+    <string name="unfollow_team">Прекратить слежение за командой</string>
+
+    <!-- Dialog header to show that something are unable to unfollow -->
+    <string name="unfollow_warning">Не удалось прекратить слежение!</string>
+
+    <!-- Something is unknown. For example, unknown start time, unknown vanue -->
+    <string name="unknown">Неизвестно</string>
+
+    <!-- The start time for a match is unknown -->
+    <string name="unknown_start_time">Время начала неизвестно</string>
+
+    <!-- The popup text to show that all the notifications are Unmute -->
+    <string name="unmute_notifications">Включить уведомления</string>
+
+    <!-- Press to unpin match to the top of Live Scores Page -->
+    <string name="unpin_match">Открепить матч</string>
+
+    <!-- Update -->
+    <string name="update">Обновить</string>
+
+    <!-- How often that the data will update automatically -->
+    <string name="update_interval">Обновить интервал</string>
+
+    <!-- Contact information: URL -->
+    <string name="url"><xliff:g id="url">URL</xliff:g></string>
+
+    <!-- V -->
+    <!-- How much something is worth in money -->
+    <string name="value">Стоимость</string>
+
+    <!-- Ground/Stadium -->
+    <string name="venue">Место проведения</string>
+
+    <!-- Information about venue/ground/stadium -->
+    <string name="venue_info">Информация о месте проведения</string>
+
+    <!-- Location of venue such as Madrid, Manchester, Liverpool -->
+    <string name="venue_location">Расположение места проведения</string>
+
+    <!-- Name of venue such as National Stadium, Old Trafford -->
+    <string name="venue_name">Название места проведения</string>
+
+    <!-- Version of the application -->
+    <string name="version">Версия</string>
+
+    <!-- Version number of the application -->
+    <string name="version_number">Номер версии</string>
+
+    <!-- Vibrate -->
+    <string name="vibrate">Вибрация</string>
+
+    <!-- View all of somethings. For example, View all matches, View all competitions, View all round, etc. -->
+    <string name="view_all">Просмотреть все</string>
+
+    <!-- Button description: Press to view Fixtures -->
+    <string name="view_fixtures">Просмотр назначенных дат</string>
+
+    <!-- Button description: Press to view Head-to-Head Statistics -->
+    <string name="view_head_to_head_statistics">Просмотр статистики бок о бок</string>
+
+    <!-- Button description: Press to view map -->
+    <string name="view_map">Просмотр карты</string>
+
+    <!-- Button description: Press to view Match Info -->
+    <string name="view_match_info">Просмотр информации о матче</string>
+
+    <!-- Button description: Press to view menu -->
+    <string name="view_menu">Просмотр меню</string>
+
+    <!-- Button description: Press to view Round -->
+    <string name="view_round">Просмотр раунда</string>
+
+    <!-- Button description: Press to view Table -->
+    <string name="view_table">Просмотр таблицы</string>
+
+    <!-- Button description: Press to view Team Statistics -->
+    <string name="view_team_statistics">Просмотр статистики команды</string>
+
+    <!-- Button description: Press to start voice search -->
+    <string name="voice_search">Голосовой поиск</string>
+
+    <!-- W -->
+    <!-- Warning -->
+    <string name="warning">Предупреждение</string>
+
+    <!-- The Celtic language of Wales -->
+    <string name="welsh_name">Валлийское название</string>
+
+    <!-- Weight of the player -->
+    <string name="weight">Вес</string>
+
+    <!-- Win -->
+    <string name="win">Победы</string>
+
+    <!-- Win/Lose -->
+    <string name="win_lose">Победы/поражения</string>
+
+    <!-- Gender -->
+    <string name="women">Женщина</string>
+    <!-- X -->
+
+
+    <!-- Y -->
+    <!-- The day before today -->
+    <string name="yesterday">Вчера</string>
+
+    <!-- Yellow cards (A yellow card is shown by the referee to indicate that a player has been officially cautioned.) -->
+    <string name="yellow_cards">Желтые карточки</string>
+
+    <!-- Z -->
+    <!-- End Words/Phrase -->
+
+
+    <!-- Sentences -->
+    <!-- First-run message: update progress for users -->
+    <string name="sentence_app_init_downloading_data">Идет загрузка необходимых данных <xliff:g id="horizontal_ellipsis">…</xliff:g></string>
+
+    <!-- First-run message: update progress for users -->
+    <string name="sentence_app_init_finalizing_installation">Идет завершение установки <xliff:g id="horizontal_ellipsis">…</xliff:g></string>
+
+    <!-- First-run message: update progress for users -->
+    <string name="sentence_app_init_installing_competitions">Идет установка данных о турнирах <xliff:g id="horizontal_ellipsis">…</xliff:g></string>
+
+    <!-- First-run message: update progress for users -->
+    <string name="sentence_app_init_installing_countries">Идет установка данных стран <xliff:g id="horizontal_ellipsis">…</xliff:g></string>
+
+    <!-- First-run message: update progress for users -->
+    <string name="sentence_app_init_installing_teams">Идет установка данных команд  <xliff:g id="horizontal_ellipsis">…</xliff:g></string>
+
+    <!-- Show when adding reminder is failed -->
+    <string name="sentence_add_reminder_failed">Ваше устройство не поддерживает <xliff:g id="left_single_quotation">‘</xliff:g> Добавление напоминания<xliff:g id="right_single_quotation">’</xliff:g></string>
+
+    <!-- Launch the app page in Google Play Store for new version checking -->
+    <string name="sentence_check_for_updates_summary">Проверить наличие новой версии в магазине Google Play</string>
+
+    <!-- Show options for users to choose an E-mail app for send feedback -->
+    <string name="sentence_choose_email_app">Выберите приложение электронной почты</string>
+
+    <!-- Inform users that all cached files has successfully deleted -->
+    <string name="sentence_clear_all_cached_files">Все кэшированные файлы были удалены</string>
+
+    <!-- Inform users that all cached images has successfully deleted -->
+    <string name="sentence_clear_cached_images">Кэшированные изображения удалены</string>
+
+    <!-- Inform users that all cached data has successfully deleted -->
+    <string name="sentence_clear_cached_data">Кэшированные данные удалены</string>
+
+    <!-- Inform users that app is clearing all cached files -->
+    <string name="sentence_clearing_all_cached_files">Очистка всех кэшированных файлов</string>
+
+    <!-- Inform users that app is clearing all cached data -->
+    <string name="sentence_clearing_cached_data">Очистка кэшированных данных</string>
+
+    <!-- Inform users that app is clearing all cached images -->
+    <string name="sentence_clearing_cached_images">Очистка кэшированных изображений</string>
+
+    <!-- Inform user that connection failed -->
+    <string name="sentence_connection_failed_try_again">Не удалось подключиться!<xliff:g id="new_line">\n</xliff:g>Повторите попытку позже</string>
+
+    <!-- Contact information -->
+    <string name="sentence_contact_support">Пожалуйста, напишите на  <xliff:g id="email">support@superscores.com</xliff:g> для получения более подробной информации.</string>
+
+    <!-- Asking for users confirmation -->
+    <string name="sentence_continue_confirm">Продолжить?</string>
+
+    <!-- Inform users that this section is for support team -->
+    <string name="sentence_email_body_details">Подробности для команды поддержки</string>
+
+    <!-- Inform users that users has no email app in their device -->
+    <string name="sentence_email_error_message">Не удается найти ни одного приложения электронной почты!</string>
+
+    <!-- Inform users that some error has occur during adding reminder -->
+    <string name="sentence_error_adding_reminder">Ошибка при добавлении напоминания</string>
+
+    <!-- Inform user that Google Play Services must be installed -->
+    <string name="sentence_error_play_services_install">Необходимо установить <xliff:g id="name">Google Play Services</xliff:g>.</string>
+
+    <!-- Inform user that Google Play Services is not supported -->
+    <string name="sentence_error_play_services_not_supported"><xliff:g id="name">Google Play Services</xliff:g> не поддерживается.</string>
+
+    <!-- Inform users that some error has occur during query betting statistics -->
+    <string name="sentence_error_query_betting_statistics">Произошла ошибка при запросе статистики ставок</string>
+
+    <!-- Inform user that there was some error during share content -->
+    <string name="sentence_error_share_failed">Не удалось опубликовать содержимое, повторите попытку позже!</string>
+
+    <!-- The minimum criteria before user can send feedback -->
+    <string name="sentence_feedback_hint">Не менее 20 символов (только английский)</string>
+
+    <!-- Ask users permission to send screenshot along with feedback -->
+    <string name="sentence_feedback_include_screenshot">Приложить снимок экрана</string>
+
+    <!-- Ask users permission to send screenshot along with feedback (description) -->
+    <string name="sentence_feedback_include_screenshot_desc">Опубликовать снимок последней страницы, которую вы посетили</string>
+
+    <!-- Inform users that the feedback has been sent -->
+    <string name="sentence_feedback_sent">Отзыв успешно отправлен</string>
+
+    <!-- Inform users that sending feedback was failed -->
+    <string name="sentence_feedback_sent_error">Не удалось отправить отзыв. Повторите попытку позже.</string>
+
+    <!-- Feedback type (bug reports, request features) -->
+    <string name="sentence_feedback_type">Тип отзыва</string>
+
+    <!-- Ask user if he/she really want to add all competitions to Live Scores page -->
+    <string name="sentence_filter_competition_add_all">Вы действительно хотите добавить все соревнования на страницу отслеживания счета в реальном времени?</string>
+
+    <!-- Ask user if he/she really want to remove all competitions from Live Scores page -->
+    <string name="sentence_filter_competition_remove_all">Вы действительно хотите удалить все соревнования со страницы отслеживания счета в реальном времени?</string>
+
+    <!-- Inform users that the app downloading first-run data -->
+    <string name="sentence_first_run">Идет загрузка данных для первого запуска приложения. Для этого может потребоваться некоторое время</string>
+
+    <!-- Inform users that some error has occur during download first-run data -->
+    <string name="sentence_first_run_no_connection">Невозможно загрузить данные приложения для первого запуска. Проверьте подключение к Интернету.</string>
+
+    <!-- Inform users that app is downloading first-run app data -->
+    <string name="sentence_first_run_notification">Идет загрузка данных для первого запуска приложения</string>
+
+    <!-- Let user add his/her favorite competition to the list -->
+    <string name="sentence_follow_first_competition">Следить за этим соревнованием</string>
+
+    <!-- Let user add his/her favorite team to the list -->
+    <string name="sentence_follow_first_team">Следить за этой командой</string>
+
+    <!-- Inform users that they must update app to latest version in order to use it -->
+    <string name="sentence_force_update_suffix">Вам необходимо обновить приложение до последней версии.</string>
+
+    <!-- Inform users that push notification has been disabled -->
+    <string name="sentence_gcm_not_support_title">Push-уведомления отключены!</string>
+
+    <!-- Inform users that push notification is not support for their devices -->
+    <string name="sentence_gcm_not_support_message">Ваше устройство не поддерживает службу обмена сообщениями Google Cloud. Push-уведомления для вашего устройства будут включены в будущих версиях. Пожалуйста, следите за обновлениями.</string>
+
+    <!-- Filter Competition description -->
+    <string name="sentence_general_filter_competition_summary">Фильтровать турниры, показанные на странице Онлайн-счета</string>
+
+    <!-- Clear Cached description -->
+    <string name="sentence_general_clear_cache_summary">Удалить кэшированные файлы</string>
+
+    <!-- Promo text -->
+    <string name="sentence_get_superscores_now">Установите приложение <xliff:g id="superscores_name">Super Scores</xliff:g></string>
+
+    <!-- Show steps in order to view Head-to-Head statistics for users -->
+    <string name="sentence_head_to_head_select_one_more_team_warning">Пожалуйста, выберите еще одну команду, а затем повторно нажмите на кнопку!</string>
+
+    <!-- Show steps in order to view Head-to-Head statistics for users -->
+    <string name="sentence_head_to_head_select_two_more_team_warning">Пожалуйста, выберите две команды, а затем повторно нажмите на кнопку!</string>
+
+    <!-- Show steps in order to view Head-to-Head statistics for users -->
+    <string name="sentence_how_to_use_head_to_head">Пожалуйста, выберите две команды, а затем нажмите на  кнопку сравнения бок о бок.</string>
+
+    <!-- Inform users that they have logging out from Facebook -->
+    <string name="sentence_logging_out_from_facebook">Выход из Facebook</string>
+
+    <!-- Inform users the new version is available to download -->
+    <string name="sentence_new_version_available">Доступна новая версия!</string>
+
+    <!-- Inform users that they have not yet select any competition -->
+    <string name="sentence_no_competition_selected">Турнир не выбран!</string>
+
+    <!-- Inform users that no data available -->
+    <string name="sentence_no_data_available">Нет доступных данных!</string>
+
+    <!-- Inform users that the app cannot establish internet connection -->
+    <string name="sentence_no_internet_connection">Нет подключения к Интернету!</string>
+
+    <!-- Inform users that the app cannot find any map application in their device -->
+    <string name="sentence_no_map_application">Нет доступного приложения карт!</string>
+
+    <!-- Inform users that there are no matches available -->
+    <string name="sentence_no_matches_available">Нет доступных матчей!</string>
+
+    <!-- Inform users that there are no round available -->
+    <string name="sentence_no_round_available">Нет доступных раундов!</string>
+
+    <!-- Inform users that there are no venue information available -->
+    <string name="sentence_no_venue_available">Информация о месте проведения недоступна!</string>
+
+    <!-- Push notification description -->
+    <string name="sentence_notification_enable_summary">Сообщать в строке состояния, когда происходит событие</string>
+
+    <!-- Mute description -->
+    <string name="sentence_notification_mute_summary">Отключить звук и вибрацию</string>
+
+    <!-- Notification Sound description -->
+    <string name="sentence_notification_sounds_summary">Настроить звуки уведомлений</string>
+
+    <!-- Inform users that push notification is disabled -->
+    <string name="sentence_notification_status_disabled">Извещающие уведомления отключены</string>
+
+    <!-- Inform users that push notification is mute -->
+    <string name="sentence_notification_status_mute">Звук извещающих уведомлений отключен</string>
+
+    <!-- Contact us description -->
+    <string name="sentence_other_contact_us_summary">Сообщить об ошибках или запросить новые функции</string>
+
+    <!-- Change log description -->
+    <string name="sentence_other_change_log_summary">Просмотр журнала изменений</string>
+
+    <!-- About description -->
+    <string name="sentence_other_about_summary">Версия приложения и номер сборки</string>
+
+    <!-- View credits description -->
+    <string name="sentence_other_credits_summary">Имена разработчиков</string>
+
+    <!-- Inform users that they have to select another team in order to proceed -->
+    <string name="sentence_please_select_another_team">Пожалуйста, выберите другую команду</string>
+
+    <!-- Inform users that they have to press back button again in order to exit app -->
+    <string name="sentence_press_back_to_exit">Чтобы выйти, нажмите кнопку <xliff:g id="left_single_quotation">‘</xliff:g>НАЗАД<xliff:g id="right_single_quotation">’</xliff:g> еще раз!</string>
+
+    <!-- Inform users that widget is being refreshed -->
+    <string name="sentence_refreshing_widget">Идет обновление виджета<xliff:g id="horizontal_ellipsis">…</xliff:g></string>
+
+    <!-- Inform users that feedback is being sent -->
+    <string name="sentence_sending_feedback">Идет отправка отзыва<xliff:g id="horizontal_ellipsis">…</xliff:g></string>
+
+    <!-- Promote text -->
+    <string name="sentence_share_default_text">БЕСПЛАТНО получите приложение на <xliff:g id="google_play_app_url_short">http://goo.gl/B986SW</xliff:g></string>
+
+    <!-- Inform users that the app already share information to their Facebook -->
+    <string name="sentence_share_facebook_completed">Размещение на Facebook выполнено!</string>
+
+    <!-- Inform users that sharing is in progress -->
+    <string name="sentence_share_in_progress">Производится публикация: <xliff:g id="horizontal_ellipsis">…</xliff:g></string>
+
+    <!-- Ask users permission whether to include app URL in the share message -->
+    <string name="sentence_share_include_app_url">Включить в сообщение URL-адрес приложения</string>
+
+    <!-- Hint for input box to tell users what to do -->
+    <string name="sentence_share_user_input_hint">Скажите что-нибудь об этом <xliff:g id="horizontal_ellipsis">…</xliff:g></string>
+
+    <!-- Inform users for conflict subscription -->
+    <string name="sentence_shop_ad_subscription_exist">ПРЕДУПРЕЖДЕНИЕ! Вы уже подписались на эту функцию.</string>
+
+    <!-- Inform users that they have 7 day FREE trial period -->
+    <string name="sentence_shop_ad_subscription_free_trial">Пользуйтесь приложением в течение 7 дней БЕСПЛАТНО</string>
+
+    <!-- Link for more details about subscription -->
+    <string name="sentence_shop_ad_subscription_more_details">См. подробности на сайте <xliff:g id="web_site">https://support.google.com/googleplay/answer/2476088</xliff:g>.</string>
+
+    <!-- Give user more options to purchase product -->
+    <string name="sentence_shop_more_options">Не интересно? Еще варианты<xliff:g id="horizontal_ellipsis">…</xliff:g></string>
+
+    <!-- Error message: user already own the product and cannot purchase the same product -->
+    <string name="sentence_shop_offer_already_owned">У вас уже есть этот продукт.</string>
+
+    <!-- Description about the product -->
+    <string name="sentence_shop_offer_description_1">Все продукты на этой странице можно использовать только на одном устройстве.</string>
+
+    <!-- Description about the product -->
+    <string name="sentence_shop_offer_description_2">В случае сброса на заводские настройки или выключения телефона покупка будет утеряна.</string>
+
+    <!-- Description about the product -->
+    <string name="sentence_shop_offer_description_3">Если вы решите переустановить приложение, посетите эту страницу снова, чтобы восстановить свою покупку.</string>
+
+    <!-- Error message: user do not have enough coin to purchase feature -->
+    <string name="sentence_shop_offer_insufficient_coin">Недостаточно монет для покупки этой функции.</string>
+
+    <!-- Inform user that his purchase was successful -->
+    <string name="sentence_shop_offer_purchase_successful">Покупка совершена успешно. Спасибо.</string>
+
+    <!-- Ad-removal package -->
+    <string name="sentence_shop_package_one_month">Один месяц без рекламы</string>
+
+    <!-- Ad-removal package description -->
+    <string name="sentence_shop_package_one_month_desc">Наслаждайтесь отсутствием рекламы в течение одного месяца</string>
+
+    <!-- Inform users that their device do not support subscription -->
+    <string name="sentence_shop_subscription_not_support">Ваше устройство не поддерживает подписку. Приносим свои извинения за неудобства.</string>
+
+    <!-- Inform users that the transaction was cancelled -->
+    <string name="sentence_shop_transaction_cancelled">Транзакция отменена.<xliff:g id="new_line">\n</xliff:g>Оплата не взималась.</string>
+
+    <!-- Warn users that they must not leave screen while transaction is in progress -->
+    <string name="sentence_shop_transaction_warning">НЕ покидайте экран, пока совершается транзакция.</string>
+
+    <!-- Theme description -->
+    <string name="sentence_theme">Изменить вид и восприятие приложения</string>
+
+    <!-- Inform users that their devices do not support Speech-to-Text -->
+    <string name="sentence_speech_to_text_not_support">Ваше устройство не поддерживает <xliff:g id="left_single_quotation">‘</xliff:g> Преобразование речи в текст <xliff:g id="right_single_quotation">’</xliff:g></string>
+
+    <!-- Warning users that they cannot unfollow the matches with reason -->
+    <string name="sentence_unable_to_unfollow_comp_team">Чтобы прекратить слежение за матчем, сначала необходимо <xliff:g id="left_single_quotation">‘</xliff:g>прекратить слежение<xliff:g id="right_single_quotation">’</xliff:g> за соревнованием и командами!</string>
+
+    <!-- Warning users that they cannot unfollow the matches with reason -->
+    <string name="sentence_unable_to_unfollow_comp">Чтобы прекратить слежение за матчем, сначала необходимо <xliff:g id="left_single_quotation">‘</xliff:g>прекратить слежение<xliff:g id="right_single_quotation">’</xliff:g> за соревнованием!</string>
+
+    <!-- Warning users that they cannot unfollow the matches with reason -->
+    <string name="sentence_unable_to_unfollow_team">Чтобы прекратить слежение за этим матчем, сначала необходимо <xliff:g id="left_single_quotation">‘</xliff:g>прекратить слежение<xliff:g id="right_single_quotation">’</xliff:g> за командами!</string>
+
+    <!-- Warning users about the effect of unfollow team -->
+    <string name="sentence_unfollow_warning">После отмены слежения все уведомления об этой команде будут удалены.</string>
+    <!-- End Sentences -->
+
+
+    <!-- Help -->
+    <!-- ![CDATA[]] -->
+    <!-- Help FAQ -->
+    <string-array name="help_faq_topic">
+        <item>Почему я не получаю push-уведомлений?</item>
+        <item>Почему счет в push-уведомлениях отличается от данных на страницах Онлайн-счета  и Информации о матче?</item>
+        <item>Почему некоторые турниры медленно обновляются?</item>
+        <item>В чем разница между беззвучным режимом и отключением в настройках?</item>
+        <item>В чем смысл значка уведомления со <xliff:g id="left_single_quotation">‘</xliff:g> Звездой <xliff:g id="right_single_quotation">’</xliff:g> в середине?</item>
+        <item>Как сортировать матчи на странице Онлайн-счета?</item>
+        <item>Как отфильтровать турниры на странице Онлайн-счета?</item>
+        <item>Каковы преимущества избранной команды?</item>
+        <item>Каковы преимущества избранных турниров?</item>
+        <item>Как я могу подписаться на матчи, команды или турниры?</item>
+        <item>Почему у некоторых команд нет значка?</item>
+        <item>Как мне сообщить об ошибках и запросить новые функции?</item>
+    </string-array>
+
+    <array name="help_faq_messages">
+        <item><xliff:g id="help_faq_messages_00">@array/help_faq_messages_00</xliff:g></item>
+        <item><xliff:g id="help_faq_messages_01">@array/help_faq_messages_01</xliff:g></item>
+        <item><xliff:g id="help_faq_messages_02">@array/help_faq_messages_02</xliff:g></item>
+        <item><xliff:g id="help_faq_messages_03">@array/help_faq_messages_03</xliff:g></item>
+        <item><xliff:g id="help_faq_messages_04">@array/help_faq_messages_04</xliff:g></item>
+        <item><xliff:g id="help_faq_messages_05">@array/help_faq_messages_05</xliff:g></item>
+        <item><xliff:g id="help_faq_messages_06">@array/help_faq_messages_06</xliff:g></item>
+        <item><xliff:g id="help_faq_messages_07">@array/help_faq_messages_07</xliff:g></item>
+        <item><xliff:g id="help_faq_messages_08">@array/help_faq_messages_08</xliff:g></item>
+        <item><xliff:g id="help_faq_messages_09">@array/help_faq_messages_09</xliff:g></item>
+        <item><xliff:g id="help_faq_messages_10">@array/help_faq_messages_10</xliff:g></item>
+        <item><xliff:g id="help_faq_messages_11">@array/help_faq_messages_11</xliff:g></item>
+    </array>
+
+    <!-- 00 -->
+    <string-array name="help_faq_messages_00">
+        <item><xliff:g id="asterisk">*</xliff:g>Убедитесь, что в настройках включены уведомления.</item>
+        <item><xliff:g id="asterisk">*</xliff:g>Для устройств с версией ниже 3.0 требуется <xliff:g id="left_double_quotation">“</xliff:g> магазин Google Play Store <xliff:g id="right_double_quotation">”</xliff:g>, и хотя бы одно устройство должно быть зарегистрировано с учетной записью Google. Наличие учетной записи Google не является обязательным требованием для устройствах под управлением Android 4.0.4 или выше.</item>
+    </string-array>
+
+    <!-- 01 -->
+    <string-array name="help_faq_messages_01">
+        <item><xliff:g id="asterisk">*</xliff:g>Мы выделили специальный сервер для push-уведомлений, чтобы доставлять результаты как можно скорее, поэтому иногда в push-уведомлениях содержатся более свежие результаты, чем на страницах Онлайн-счета и информации о матче.</item>
+    </string-array>
+
+    <!-- 02 -->
+    <string-array name="help_faq_messages_02">
+        <item><xliff:g id="asterisk">*</xliff:g>В зависимости от специфики турнира данные могут обновляться в конце тайма или после окончания матча. Мы постараемся сделать все возможное, чтобы ежеминутно обновлять результаты.</item>
+    </string-array>
+
+    <!-- 03 -->
+    <string-array name="help_faq_messages_03">
+        <item><xliff:g id="asterisk">*</xliff:g>При включении режима <xliff:g id="left_single_quotation">‘</xliff:g> Без звука <xliff:g id="right_single_quotation">’</xliff:g>, вы все равно будете получать push- уведомления, но без вибрации и звукового сигнала.</item>
+        <item><xliff:g id="asterisk">*</xliff:g>Если выбрана настройка<xliff:g id="left_single_quotation">‘</xliff:g> отключено<xliff:g id="right_single_quotation">’</xliff:g>, вы вообще не будете получать push-уведомления.</item>
+    </string-array>
+
+    <!-- 04 -->
+    <string-array name="help_faq_messages_04">
+        <item><xliff:g id="asterisk">*</xliff:g>Уведомление со <xliff:g id="left_single_quotation">‘</xliff:g> звездочкой <xliff:g id="right_single_quotation">’</xliff:g> означает, что вы подписались на турнир, в котором играется матч, или подписались на команду, которая участвует в этом матче.</item>
+    </string-array>
+
+    <!-- 05 -->
+    <string-array name="help_faq_messages_05">
+        <item><xliff:g id="asterisk">*</xliff:g>Избранная команда и избранный турнир отображаются первыми, а остальные команды и турниры сортируются в алфавитном порядке.</item>
+        <item><xliff:g id="asterisk">*</xliff:g>Матчи на СЕГОДНЯ, ВЧЕРА и ЗАВТРА сортируются по универсальному координированному времени UTC.</item>
+    </string-array>
+
+    <!-- 06 -->
+    <string-array name="help_faq_messages_06">
+        <item>На странице Онлайн-счета</item>
+        <item><xliff:g id="asterisk">*</xliff:g>Нажмите на Меню <xliff:g id="greater_than">&gt;</xliff:g>Фильтр турниров</item>
+        <item><xliff:g id="underscore">_</xliff:g></item>
+        <item>На странице настроек:</item>
+        <item><xliff:g id="asterisk">*</xliff:g>Нажмите на Фильтр турниров</item>
+    </string-array>
+
+    <!-- 07 -->
+    <string-array name="help_faq_messages_07">
+        <item><xliff:g id="asterisk">*</xliff:g>Избранная  команда будет размещаться в верхней части списка на странице Онлайн-счета.</item>
+        <item><xliff:g id="asterisk">*</xliff:g>Кроме того, вам будет проще найти свою любимую команду на странице Моя команда.</item>
+    </string-array>
+
+    <!-- 08 -->
+    <string-array name="help_faq_messages_08">
+        <item><xliff:g id="asterisk">*</xliff:g>Избранный турнир будет помещен в верхнюю часть списка на странице Онлайн-счета.</item>
+        <item><xliff:g id="asterisk">*</xliff:g>Кроме того, вам будет проще найти свой любимый турнир на подстранице Избранное страницы Фильтр турниров, а также на странице Выбор турниров.</item>
+    </string-array>
+
+    <!-- 09 -->
+    <string-array name="help_faq_messages_09">
+        <item>Чтобы подписаться на матч:</item>
+        <item><xliff:g id="asterisk">*</xliff:g>На странице Онлайн-счета нажмите  <xliff:g id="icon">@</xliff:g> на матче, подписаться на который вы хотите</item>
+        <item><xliff:g id="asterisk">*</xliff:g>На странице информации о матче нажмите <xliff:g id="icon">@</xliff:g>, чтобы подписаться на текущий матч</item>
+        <item><xliff:g id="underscore">_</xliff:g></item>
+        <item>Чтобы подписаться на команду:</item>
+        <item><xliff:g id="asterisk">*</xliff:g>На странице Онлайн-счета выполните длинное нажатие на матч &gt; нажмите <xliff:g id="icon">@</xliff:g> &gt; чтобы подписаться на желаемую команду</item>
+        <item><xliff:g id="asterisk">*</xliff:g>На странице Информация о команде нажмите <xliff:g id="icon">@</xliff:g>, чтобы подписаться на текущую команду</item>
+        <item><xliff:g id="asterisk">*</xliff:g>На странице Мои команды нажмите <xliff:g id="icon">@</xliff:g>, чтобы подписаться на команду</item>
+        <item><xliff:g id="asterisk">*</xliff:g>Примечание: при подписке на команду,  подписка на все матчи, которые играет данная команда, осуществляется автоматически.</item>
+        <item><xliff:g id="underscore">_</xliff:g></item>
+        <item>Чтобы подписаться на турнир:</item>
+        <item><xliff:g id="asterisk">*</xliff:g>На странице Онлайн-счета выполните длинное нажатие на турнир &gt; нажмите <xliff:g id="icon">@</xliff:g></item>
+        <item><xliff:g id="asterisk">*</xliff:g>Если вы хотите подписаться,  нажмите <xliff:g id="icon">@</xliff:g> на странице Фильтра турниров.</item>
+        <item><xliff:g id="asterisk">*</xliff:g>Примечание: при подписке на турнир, подписка на все матчи в ходе турнира осуществляется автоматически.</item>
+    </string-array>
+
+    <!-- 10 -->
+    <string-array name="help_faq_messages_10">
+        <item><xliff:g id="asterisk">*</xliff:g>Невозможно отобразить эмблемы некоторых команд. Мы постараемся сделать все возможное, чтобы найти их.</item>
+    </string-array>
+
+    <!-- 11 -->
+    <string-array name="help_faq_messages_11">
+        <item><xliff:g id="asterisk">*</xliff:g>Обращайтесь к нам по адресу: <xliff:g id="email">support@superscores.com</xliff:g></item>
+    </string-array>
+    <!-- End Help FAQ -->
+
+</resources>

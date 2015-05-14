@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.SuperScores.Light.DarkActionBar" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+
+        <!-- Base -->
+        <item name="android:windowContentOverlay">@null</item>
+
+        <!-- Action Bar -->
+        <item name="android:actionModeBackground" tools:targetApi="11">@drawable/ss_cab_background_dark</item>
+        <item name="actionModeBackground">@drawable/ss_cab_background_dark</item>
+        <item name="textAppearanceActionBarTitle">@style/TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse</item>
+        <item name="textAppearanceActionBarSubTitle">@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse</item>
+        <item name="textAppearanceActionBarSmall">@style/TextAppearance.AppCompat.Small.Inverse</item>
+
+        <!-- Action bar widget -->
+        <item name="android:actionBarTheme" tools:targetApi="21">@style/ThemeOverlay.SuperScores.Dark.ActionBar</item>
+        <item name="actionBarTheme">@style/ThemeOverlay.SuperScores.Dark.ActionBar</item>
+
+        <!-- Base Theme -->
+        <item name="colorPrimaryDark">@color/theme_dark_primary_dark</item>
+        <item name="colorPrimary">@color/theme_dark_primary</item>
+        <item name="colorAccent">@color/theme_dark_accent</item>
+
+        <!-- Extended Theme -->
+        <item name="colorAccentLighten">@color/theme_dark_accent_lighten</item>
+        <item name="colorAccentDarken">@color/theme_dark_accent_darken</item>
+        <item name="colorAccentRipple">@color/ripple_material_light_60</item>
+
+        <!-- UI theme -->
+        <item name="android:expandableListViewStyle">@style/Widget.SuperScores.Light.ExpandableListView</item>
+        <item name="android:listViewStyle">@style/Widget.SuperScores.Light.ListView</item>
+        <item name="android:listViewWhiteStyle">@style/Widget.SuperScores.Light.ListView.White</item>
+        <item name="android:scrollViewStyle">@style/Widget.SuperScores.Light.ScrollView</item>
+
+        <!-- attr general -->
+        <item name="drawerShadow">@drawable/drawer_shadow_light</item>
+        <item name="drawerWidth">@dimen/drawerWidth</item>
+
+        <!-- attr material color -->
+        <item name="colorTextPrimary">@color/text_light</item>
+        <item name="colorTextSecondary">@color/secondary_light</item>
+        <item name="colorHintText">@color/hintText_light</item>
+        <item name="colorControlNormal">@color/controlNormal_light</item>
+        <item name="colorControlActivated">?attr/colorAccent</item>
+        <item name="colorControlHighlight">@color/ripple_material_light</item>
+        <item name="colorControlDisabled">@color/controlDisabled_light</item>
+        <item name="colorRipple">@color/ripple_material_light</item>
+        <item name="colorDivider">@color/divider_light</item>
+
+        <!-- attr material drawable -->
+        <item name="selectableButtonFlatBackground">@drawable/btn_material_flat_light</item>
+    </style>
+
+    <style name="ThemeOverlay.SuperScores.Dark.ActionBar" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:dropDownListViewStyle">@style/Widget.SuperScores.ListView.DropDown</item>
+    </style>
+
+    <style name="Widget.SuperScores.ListView.DropDown" parent="@style/Base.Theme.SuperScores.Light.DarkActionBar">
+        <item name="android:background">@color/background_material_light</item>
+        <item name="android:listSelector">@drawable/item_background_material_compat_light</item>
+    </style>
+
+    <!-- For extend this class for WorkAround some issue -->
+    <style name="Base.Theme.SuperScores.Light.DarkActionBar.WorkAround" />
+</resources>

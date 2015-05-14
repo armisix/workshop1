@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="pager_text_size">12sp</dimen>
+    <dimen name="pager_height">36dp</dimen>
+    <dimen name="pager_tab_padding">24dp</dimen>
+    <dimen name="pager_divider_margin">10dp</dimen>
+    <dimen name="pager_indicator_height">5dp</dimen>
+    <dimen name="pager_indicator_highlight_height">2dp</dimen>
+    <dimen name="pager_divider_size">1dp</dimen>
+
+    <attr name="pageIndicator_Background" format="color" />
+    <attr name="pageIndicator_Divider" format="color" />
+    <attr name="pageIndicator_Text" format="color" />
+</resources>

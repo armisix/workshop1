@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- original, 11, 21 -->
+<!-- api 21+ -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Base.Widget.SuperScores.Dark.ExpandableListView" parent="@android:style/Widget.Material.ExpandableListView">
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+        <item name="android:fadingEdge">none</item>
+    </style>
+
+    <style name="Base.Widget.SuperScores.Light.ExpandableListView" parent="@android:style/Widget.Material.Light.ExpandableListView">
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+        <item name="android:fadingEdge">none</item>
+    </style>
+
+    <style name="Base.Widget.SuperScores.Dark.ListView" parent="@android:style/Widget.Material.ListView">
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+        <item name="android:fadingEdge">none</item>
+    </style>
+
+    <style name="Base.Widget.SuperScores.Light.ListView" parent="@android:style/Widget.Material.Light.ListView">
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+        <item name="android:fadingEdge">none</item>
+    </style>
+
+    <style name="Base.Widget.SuperScores.Dark.ListView.White" parent="@android:style/Widget.ListView.White">
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+        <item name="android:fadingEdge">none</item>
+    </style>
+
+    <style name="Base.Widget.SuperScores.Light.ListView.White" parent="@android:style/Widget.ListView.White">
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+        <item name="android:fadingEdge">none</item>
+    </style>
+
+    <style name="Base.Widget.SuperScores.Dark.ScrollView" parent="@android:style/Widget.Material.ScrollView">
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+        <item name="android:fadingEdge">none</item>
+    </style>
+
+    <style name="Base.Widget.SuperScores.Light.ScrollView" parent="@android:style/Widget.Material.Light.ScrollView">
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+        <item name="android:fadingEdge">none</item>
+    </style>
+
+</resources>

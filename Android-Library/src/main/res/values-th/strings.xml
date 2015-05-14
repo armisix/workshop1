@@ -1,0 +1,1998 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- IMPORTANT: BEFORE translation please read this page: http://developer.android.com/distribute/googleplay/publish/localizing.html -->
+    <!-- GO TO SECTION: 3 Manage strings for localization -->
+    <!-- SUBSECTION: Mark message parts that should not be translated -->
+    <!-- TO SUM UP: Message in tag <xliff:g></xliff:g> SHOULD NOT BE TRANSLATED! -->
+    <!-- EXAMPLE: <xliff:g id="time" example="5 days>%1$s</xliff:g>until holiday *%1$s should NOT be translated -->
+    <!-- EXAMPLE: Learn more at <xliff:g id="prod_gamegroup">Game Group</xliff:g> *Game Group should NOT be translated -->
+
+    <!-- Content Description for Accessibility -->
+
+    <!-- Open navigation drawer for more details: http://developer.android.com/design/patterns/navigation-drawer.html -->
+    <string name="drawer_left_open">เปิดแท็ปซ้าย</string>
+
+    <!-- Open navigation drawer for more details: http://developer.android.com/design/patterns/navigation-drawer.html -->
+    <string name="drawer_left_close">ปิดแท็ปซ้าย</string>
+
+    <!-- End Content Description for Accessibility -->
+
+    <!-- **************************************************************************************************** -->
+
+    <!-- Livepush Notification Titles -->
+    <!-- Goal event has occur -->
+    <string name="livepush_title_goal">ประตู!</string>
+
+    <!-- Match Started event has occur -->
+    <string name="livepush_title_started">เริ่ม!</string>
+
+    <!-- Match Finished event has occur -->
+    <string name="livepush_title_finished">จบ!</string>
+
+    <!-- Half time event has occur -->
+    <string name="livepush_title_half_time">พักครึ่ง!</string>
+
+    <!-- Start second half event has occur -->
+    <string name="livepush_title_start_2nd_half">เริ่มครึ่งหลัง!</string>
+
+    <!-- Full time event has occur -->
+    <string name="livepush_title_full_time">เต็มเวลา!</string>
+
+    <!-- Start extra time event has occur -->
+    <string name="livepush_title_start_extra_time">เริ่มทดเวลาพิเศษ!</string>
+
+    <!-- Half extra time event has occur -->
+    <string name="livepush_title_half_extra_time">พักครึ่ง! (ทดเวลาพิเศษ)</string>
+
+    <!-- Start 2nd Half (Extra Time) event has occur -->
+    <string name="livepush_title_start_2nd_extra_half">เริ่มครึ่งหลัง! (ทดเวลาพิเศษ)</string>
+
+    <!-- Penalty Shootout event has occur -->
+    <string name="livepush_title_penalty_shootout">จุดโทษ!</string>
+
+    <!-- End Livepush Notification titles -->
+
+    <!-- **************************************************************************************************** -->
+
+    <!-- Acronym Need Full -->
+
+    <!-- MAXIMUM 2 CHARACTER: Acronym for Played use for describe number of times each team played in the current season -->
+    <string name="acronym_played">P</string>
+
+    <!-- MAXIMUM 2 CHARACTER: Acronym for Win use for describe number of times each team win in the current season -->
+    <string name="acronym_win">W</string>
+
+    <!-- MAXIMUM 2 CHARACTER: Acronym for Draw use for describe number of times each team draw in the current season -->
+    <string name="acronym_draw">D</string>
+
+    <!-- MAXIMUM 2 CHARACTER: Acronym for Lose use for describe number of times each team lose in the current season -->
+    <string name="acronym_lose">L</string>
+
+    <!-- MAXIMUM 2 CHARACTER: Acronym for Goal For use for describe number of goals each team scores in the current season -->
+    <string name="acronym_goal_for">GF</string>
+
+    <!-- MAXIMUM 2 CHARACTER: Acronym for Goal Against use for describe number of goals each team loses in the current season -->
+    <string name="acronym_goal_against">GA</string>
+
+    <!-- MAXIMUM 2 CHARACTER: Acronym for Goal Difference use for describe number of goals difference calculated by Goal For minus Goal Against -->
+    <string name="acronym_goal_difference">GD</string>
+
+    <!-- MAXIMUM 3 CHARACTER: Acronym for Points use for describe number of points each teams make in the current season -->
+    <string name="acronym_points">Pts.</string>
+    <!-- End Acronym Need Full -->
+
+    <!-- **************************************************************************************************** -->
+
+    <!-- Acronym Full -->
+
+    <!-- Use for describe number of times each team played in the current season -->
+    <string name="acronym_full_played">ครั้งที่เล่น</string>
+
+    <!-- Use for describe number of times each team win in the current season -->
+    <string name="acronym_full_win">ชนะ</string>
+
+    <!-- Use for describe number of times each team draw in the current season -->
+    <string name="acronym_full_draw">เสมอ</string>
+
+    <!-- Use for Lose use for describe number of times each team lose in the current season -->
+    <string name="acronym_full_lose">แพ้</string>
+
+    <!-- Use for describe number of goals each team scores in the current season -->
+    <string name="acronym_full_goal_for">ได้ประตู</string>
+
+    <!-- Use for describe number of goals each team loses in the current season -->
+    <string name="acronym_full_goal_against">เสียประตู</string>
+
+    <!-- Use for describe number of goals difference calculated by Goal For minus Goal Against -->
+    <string name="acronym_full_goal_difference">ผลต่างประตูได้เสีย</string>
+
+    <!-- Use for describe number of points each teams make in the current season -->
+    <string name="acronym_full_points">คะแนน</string>
+
+    <!-- End Acronym Full -->
+
+    <!-- **************************************************************************************************** -->
+
+    <!-- Acronym -->
+    <!-- DO NOT translate -->
+    <string name="acronym_after_extra_time"><xliff:g id="after_extra_time">AET</xliff:g></string>
+    <string name="acronym_aggregate"><xliff:g id="aggregate">Aggr.</xliff:g></string>
+    <string name="acronym_cancel"><xliff:g id="cancel">Canc.</xliff:g></string>
+    <string name="acronym_extra_time"><xliff:g id="extra_time">ET</xliff:g></string>
+    <string name="acronym_full_time"><xliff:g id="full_time">FT</xliff:g></string>
+    <string name="acronym_half_time"><xliff:g id="half_time">HT</xliff:g></string>
+    <string name="acronym_penalty"><xliff:g id="penalty">Pen.</xliff:g></string>
+    <string name="acronym_postpone"><xliff:g id="postpone">Posp.</xliff:g></string>
+    <string name="acronym_suspend"><xliff:g id="suspend">Susp.</xliff:g></string>
+    <!-- End DO NOT translate -->
+
+    <!-- This will followed by number of goal scores with average -->
+    <string name="acronym_goals_average">ประตู (เฉลี่ย)</string>
+
+    <!-- This will followed by number of times something happen with average (for example: Goal For 9 (1.50)) -->
+    <string name="acronym_times_average">ครั้ง (เฉลี่ย)</string>
+    <!-- End Acronym -->
+
+    <!-- Unit/Symbol: DO NOT TRANSLATE -->
+    <string name="unit_kg"><xliff:g id="kilogram">kg</xliff:g></string>
+    <string name="unit_cm"><xliff:g id="centimeter">cm</xliff:g></string>
+    <string name="symbol_percentage"><xliff:g id="percentage">&#37;</xliff:g></string>
+    <!-- End Unit/Symbol -->
+    <!-- **************************************************************************************************** -->
+
+    <!-- Month -->
+    <string name="month_january">มกราคม</string>
+    <string name="month_february">กุมภาพันธ์</string>
+    <string name="month_march">มีนาคม</string>
+    <string name="month_april">เมษายน</string>
+    <string name="month_may">พฤษภาคม</string>
+    <string name="month_june">มิถุนายน</string>
+    <string name="month_july">กรกฎาคม</string>
+    <string name="month_august">สิงหาคม</string>
+    <string name="month_september">กันยายน</string>
+    <string name="month_october">ตุลาคม</string>
+    <string name="month_november">พฤศจิกายน</string>
+    <string name="month_december">ธันวาคม</string>
+    <!-- End Month -->
+
+    <!-- Color -->
+    <string name="color_colored">มีสี</string>
+    <string name="color_light">อ่อน</string>
+    <string name="color_dark">เข้ม</string>
+    <string name="color_orange">ส้ม</string>
+    <string name="color_blue">น้ำเงิน</string>
+    <string name="color_green">เขียว</string>
+    <!-- End Color -->
+
+    <!-- **************************************************************************************************** -->
+    <!-- WARNING: Before translation this section please read this page: http://developer.android.com/guide/topics/resources/string-resource.html#FormattingAndStyling -->
+    <!-- GO TO SECTION: Quantity Strings (Plurals) -->
+    <!-- TO SUM UP: Message in tag <xliff:g></xliff:g> SHOULD NOT BE TRANSLATED! -->
+    <!-- <item quantity="zero"> description: When the language requires special treatment of the number 0 (as in Arabic) -->
+    <!-- <item quantity="one"> description: When the language requires special treatment of numbers like one (as with the number 1 in English and most other languages; in Russian, any number ending in 1 but not ending in 11 is in this class) -->
+    <!-- <item quantity="two"> description: When the language requires special treatment of numbers like two (as with 2 in Welsh, or 102 in Slovenian) -->
+    <!-- <item quantity="few"> description: When the language requires special treatment of "small" numbers (as with 2, 3, and 4 in Czech; or numbers ending 2, 3, or 4 but not 12, 13, or 14 in Polish) -->
+    <!-- <item quantity="zero"> description: When the language requires special treatment of the number 0 (as in Arabic) -->
+    <!-- <item quantity="many"> description: When the language requires special treatment of "large" numbers (as with numbers ending 11-99 in Maltese) -->
+    <!-- <item quantity="other"> description: When the language does not require special treatment of the given quantity (as with all numbers in Chinese, or 42 in English) -->
+    <!-- EXAMPLE: -->
+    <!-- <plurals name="numberOfSongsAvailable"> -->
+    <!-- <item quantity="one">One song found.</item> -->
+    <!-- <item quantity="other">%d songs found.</item> -->
+    <!-- </plurals> -->
+
+    <!-- Plurals -->
+
+    <!-- Total number of clean sheet (a game in which one team prevents the opposing team from scoring) -->
+    <!-- Display fomat "Clean Sheet: 2/6 Times (33.33%)" -->
+    <plurals name="clean_sheet">
+        <item quantity="other">ไม่เสียประตู: <xliff:g example="120/200" id="rational_number">%1$,d/%2$,d</xliff:g> ครั้ง <xliff:g example="(60.00%)" id="percentage">(%3$.2f%%)</xliff:g></item>
+    </plurals>
+
+    <!-- Number of matches played. Display fomat "50 matches played" -->
+    <plurals name="match_number">
+        <item quantity="other"><xliff:g example="120" id="number_of_match">%1$,d</xliff:g> แมตช์</item>
+    </plurals>
+
+    <!-- Display fomat "Last 4 Matches" -->
+    <plurals name="match_recently">
+        <item quantity="other"><xliff:g example="120" id="number_of_match">%1$,d</xliff:g> แมตช์ล่าสุด</item>
+    </plurals>
+
+    <!-- Number of recently seasons. Display fomat "Last 2 Seasons" -->
+    <plurals name="season_recently">
+        <item quantity="other"><xliff:g example="120" id="number_of_season">%1$,d</xliff:g> ฤดูกาลล่าสุด</item>
+    </plurals>
+
+    <!-- Number of recently matches played at Home Field -->
+    <!-- Display fomat "Home Filed: Last 4 Matches" -->
+    <plurals name="recently_home">
+        <item quantity="other">แข่งสนามเหย้า: <xliff:g example="120" id="number_of_match">%1$,d</xliff:g> แมตช์ล่าสุด</item>
+    </plurals>
+
+    <!-- Number of recently matches played at Away Field -->
+    <!-- Display fomat "Away Filed: Last 4 Matches" -->
+    <plurals name="recently_away">
+        <item quantity="other">แข่งสนามเยือน: <xliff:g example="120" id="number_of_match">%1$,d</xliff:g> แมตช์ล่าสุด</item>
+    </plurals>
+
+    <!-- Inform user that safety system will automatically turn on within how many seconds -->
+    <plurals name="safety_system_automatically_turn_on">
+        <item quantity="other">ระบบความปลอดภัยจะถูกเปิดอัตโนมัติใน <xliff:g example="0" id="time_in_seconds">%1$d</xliff:g> วินาที</item>
+    </plurals>
+
+    <!-- Number of recently matches played at "Team Name" Field -->
+    <!-- Display fomat "Manchester United Field: Last 4 Matches" -->
+    <plurals name="match_recently_team">
+        <item quantity="other">แข่งที่บ้าน <xliff:g example="Manchester United" id="team_name">%1$s</xliff:g>: <xliff:g example="120" id="number_of_match">%2$,d</xliff:g> แมตช์ล่าสุด</item>
+    </plurals>
+
+    <!-- Total number of goal scores with average -->
+    <!-- Display fomat "Total 256 Goal Scores (2.75)" -->
+    <plurals name="total_goal_scores">
+        <item quantity="other">รวม <xliff:g example="120" id="number_of_goal_score">%1$,d</xliff:g> ประตู <xliff:g example="(2.75)" id="goal_average_per_match">(%2$.2f)</xliff:g></item>
+    </plurals>
+
+    <!-- Total number of matches played -->
+    <!-- Display fomat "Total 50 Matches Played" -->
+    <plurals name="total_matches_played">
+        <item quantity="other">ลงเล่นรวม <xliff:g example="120" id="number_of_match">%1$,d</xliff:g> แมตช์</item>
+    </plurals>
+
+    <!-- Total number of matches played at Away Field -->
+    <!-- Display fomat "Away Field: Total 50 Matches" -->
+    <plurals name="total_matches_played_away">
+        <item quantity="other">แข่งสนามเยือน: รวม <xliff:g example="120" id="number_of_match">%1$,d</xliff:g> แมตช์</item>
+    </plurals>
+
+    <!-- Total number of matches played at Home Field -->
+    <!-- Display fomat "Home Field: Total 50 Matches" -->
+    <plurals name="total_matches_played_home">
+        <item quantity="other">แข่งสนามเหย้า: รวม <xliff:g example="120" id="number_of_match">%1$,d</xliff:g> แมตช์</item>
+    </plurals>
+
+    <!-- Total number of matches played at "Team Name" Field -->
+    <!-- Display fomat "Manchester United Field: Total 50 Matches" -->
+    <plurals name="total_matches_play_at_team_fields">
+        <item quantity="other">แข่งที่บ้าน <xliff:g example="Manchester United" id="team_name">%1$s</xliff:g>: รวม <xliff:g example="120" id="number_of_match">%2$,d</xliff:g> แมตช์</item>
+    </plurals>
+
+    <!-- Number of matches played at Neutral Field -->
+    <!-- Display fomat "Neutral Field: 50 Matches Played" -->
+    <plurals name="total_neutral_field_matches">
+        <item quantity="other">แข่งสนามกลาง: จำนวน <xliff:g example="120" id="number_of_match">%1$,d</xliff:g> แมตช์</item>
+    </plurals>
+
+    <!-- Number of goal scores at Neutral Field with average -->
+    <!-- Display fomat "Neutral Field: 256 Goal Scores (2.75)" -->
+    <plurals name="total_neutral_goal_scores">
+        <item quantity="other">แข่งสนามกลาง: <xliff:g example="120" id="number_of_goal_score">%1$,d</xliff:g> ประตู <xliff:g example="(2.75)" id="goal_average_per_match">(%2$.2f)</xliff:g></item>
+    </plurals>
+
+    <!-- Number of matches played at Home/Away Field -->
+    <!-- Display fomat "Home/Away Field: 50 Matches Played" -->
+    <plurals name="total_home_away_field_matches">
+        <item quantity="other">แข่งสนามเหย้า/เยือน: จำนวน <xliff:g example="120" id="number_of_match">%1$,d</xliff:g> แมตช์</item>
+    </plurals>
+
+    <!-- Number of goal scores at Home/Away Field with average -->
+    <!-- Display fomat "Home/Away Field: 256 Goal Scores (2.75)" -->
+    <plurals name="total_home_away_goal_scores">
+        <item quantity="other">แข่งสนามเหย้า/เยือน: <xliff:g example="120" id="number_of_goal_score">%1$,d</xliff:g> ประตู <xliff:g example="(2.75)" id="goal_average_per_match">(%2$.2f)</xliff:g></item>
+    </plurals>
+
+    <!-- Number of goal scores at Home/Away Field with average. Display fomat "Home/Away field: 256 goal scores (2.75)" -->
+    <plurals name="unfollow_entry">
+        <item quantity="other">เลิกติดตาม <xliff:g example="100" id="number_of_entry">%1$d</xliff:g> รายการ</item>
+    </plurals>
+
+    <!-- Number of days past from publish time of a news entry. Display fomat "3 days ago" -->
+    <plurals name="days_ago">
+        <item quantity="other"><xliff:g example="1" id="number_of_day">%1$,d</xliff:g> วันที่แล้ว</item>
+    </plurals>
+
+    <!-- Number of hours past from publish time of a news entry. Display fomat "7 hours ago" -->
+    <plurals name="hours_ago">
+        <item quantity="other"><xliff:g example="1" id="number_of_hour">%1$,d</xliff:g> ชั่วโมงที่แล้ว</item>
+    </plurals>
+
+    <!-- Number of minutes past from publish time of a news entry. Display fomat "50 minutes ago" -->
+    <plurals name="minutes_ago">
+        <item quantity="other"><xliff:g example="1" id="number_of_minute">%1$,d</xliff:g> นาทีที่แล้ว</item>
+    </plurals>
+
+    <!-- Display fomat "50 days" -->
+    <plurals name="days">
+        <item quantity="other"><xliff:g example="100" id="number_of_minute">%1$,d</xliff:g> วัน</item>
+    </plurals>
+
+    <!-- Display fomat "7 hours" -->
+    <plurals name="hours">
+        <item quantity="other"><xliff:g example="100" id="number_of_hour">%1$,d</xliff:g> ชั่วโมง</item>
+    </plurals>
+
+    <!-- Display fomat "50 minutes" -->
+    <plurals name="minutes">
+        <item quantity="other"><xliff:g example="100" id="number_of_minute">%1$,d</xliff:g> นาที</item>
+    </plurals>
+
+    <!-- How often does something happen/occure. Display fomat "50 times" -->
+    <plurals name="times">
+        <item quantity="other"><xliff:g example="100" id="number_of_time">%1$,d</xliff:g> ครั้ง</item>
+    </plurals>
+    <!-- End Plurals -->
+
+    <!-- **************************************************************************************************** -->
+
+    <!-- Replace -->
+    <!-- The length of time that sth lasts or continues. For example, duration of the video -->
+    <string name="replace_duration">ระยะเวลา <xliff:g example="02:35" id="duration">%1$s</xliff:g></string>
+
+    <!-- Inform user why he/she cannot send feedback -->
+    <string name="replace_feedback_warning">กรุณาพิมพ์อย่างน้อย 20 ตัวอักษร<xliff:g id="new_line_character">\n</xliff:g>คุณพิมพ์ไปแล้ว <xliff:g example="4" id="number">%1$d</xliff:g> ตัวอักษร</string>
+
+    <!-- When you follow something you are interested in it. Like follow in Twitter. -->
+    <string name="replace_follow">ติดตาม <xliff:g example="Manchester United" id="name">%1$s</xliff:g></string>
+
+    <!-- Inform user that some items have been deleted -->
+    <string name="replace_items_deleted"><xliff:g example="5" id="amount">%1$d</xliff:g> รายการถูกลบ</string>
+
+    <!-- Show users when data is updated. No connection! Last updated: 30/09/2013, 22:00 -->
+    <string name="replace_last_update">ไม่มีการเชื่อมต่อ! อัพเดทล่าสุดเมื่อ: <xliff:g example="30/09/2013, 22:00" id="date_time">%1$s</xliff:g></string>
+
+    <!-- Show users when data is updated, Last update at 25 October 2013, 22:30 GMT+1:00 -->
+    <string name="replace_last_updated_at">อัพเดทล่าสุดเมื่อ: <xliff:g example="25 October 2013, 22:30 GMT+1:00" id="date_time">%1$s</xliff:g></string>
+
+    <!-- Lose by [number]. For example Lose by 2 mean result is 0-2, 1-3, 2-4, etc. -->
+    <string name="replace_lose_by">แพ้ <xliff:g example="2" id="number">%1$d</xliff:g> ประตู</string>
+
+    <!-- Match started at 15:00 -->
+    <string name="replace_match_started_at">แมตช์เริ่มแข่งเมื่อ <xliff:g example="15:00" id="time">%1$s</xliff:g></string>
+
+    <!-- Inform users that they cannot turn off push with solution -->
+    <string name="replace_push_turn_off_warning_comp">การจะปิดการแจ้งเตือนอันนี้ คุณต้องปิดการแจ้งเตือนการแข่งขันที่หน้า <xliff:g example="Following" id="page_name">[!~%1$s~!]</xliff:g> ก่อน</string>
+
+    <!-- Inform users that they cannot turn off push with solution -->
+    <string name="replace_push_turn_off_warning_comp_team">การจะปิดการแจ้งเตือนอันนี้ คุณต้องปิดการแจ้งเตือนการแข่งขันและทีมที่หน้า <xliff:g example="Following" id="page_name">[!~%1$s~!]</xliff:g> ก่อน</string>
+
+    <!-- Inform users that they cannot turn off push with solution -->
+    <string name="replace_push_turn_off_warning_team">การจะปิดการแจ้งเตือนอันนี้ คุณต้องปิดการแจ้งเตือนทีมที่หน้า <xliff:g example="Following" id="page_name">[!~%1$s~!]</xliff:g> ก่อน</string>
+
+    <!-- Press 'Icon' or 'Icon' to add a team -->
+    <string name="replace_press_to_add_favorite_team">กด <xliff:g id="icon_1">@</xliff:g> หรือ <xliff:g id="icon_2">@</xliff:g> เพื่อเพิ่มทีม</string>
+
+    <!-- Ad-removal package description -->
+    <string name="replace_shop_offer_enjoy">เพลิดเพลินกับแอพโดยปราศจากโฆษณาได้จนถึง <xliff:g example="20 Dec 2012, 02:00 GMT+00:00" id="date_time">%1$s</xliff:g></string>
+
+    <!-- Display transaction failed message along with error code -->
+    <string name="replace_shop_offer_error_message">เกิดข้อผิดพลาดในการทำธุรกรรม ด้วยรหัส <xliff:g example="0x0000" id="error_code">%1$s</xliff:g></string>
+
+    <!-- Let user sign in with 3rd party account such as Google, Facebook, Twitter. Example: Sign in with Google -->
+    <string name="replace_sign_in_with">เข้าสู่ระบบด้วย <xliff:g example="Google" id="accout_provider_name">%1$s</xliff:g></string>
+
+    <!-- Statistics from 01/01/2012 until 31/01/2012 -->
+    <string name="replace_statistics_from_until"><xliff:g id="double_asterisk">**</xliff:g>สถิติจาก <xliff:g example="01/01/2012" id="start_date">%1$s</xliff:g> จนถึง <xliff:g example="31/01/2012" id="end_date">%2$s</xliff:g></string>
+
+    <!-- Use to inform user the location of matches. For example, Manchester United field -->
+    <string name="replace_team_field">สนามทีม <xliff:g example="Manchester United" id="team_name">%1$s</xliff:g></string>
+
+    <!-- When you follow something you are interested in it. Like follow in Twitter. -->
+    <string name="replace_unfollow">เลิกติดตาม <xliff:g example="Manchester United" id="name">%1$s</xliff:g></string>
+
+    <!-- Round name such as Round 1, Round 2, Round 3, etc. -->
+    <string name="replace_week">สัปดาห์ <xliff:g example="12" id="number">%1$d</xliff:g></string>
+
+    <!-- Link to read more -->
+    <string name="replace_read_more">อ่านต่อที่ <xliff:g example="http://superscores.com" id="number">%1$s</xliff:g></string>
+
+    <!-- Read "something" on "website name" -->
+    <string name="replace_read_on">อ่าน <xliff:g example="" id="name">&#8220;%1$s&#8221;</xliff:g> ต่อที่ <xliff:g example="SuperScores.com" id="name">%2$s</xliff:g></string>
+
+    <!-- Win by [number]. For example Win by 2 mean result is 2-0, 3-1, 4-2, etc. -->
+    <string name="replace_win_by">ชนะ <xliff:g example="2" id="number">%1$d</xliff:g> ประตู</string>
+    <!-- End Replace -->
+
+    <!-- **************************************************************************************************** -->
+
+    <!-- Words/Phrase -->
+    <!-- Array -->
+
+    <!-- Clear cached options -->
+    <string-array name="clear_cache">
+        <item>ไฟล์ทั้งหมด</item>
+        <item>เฉพาะภาพ</item>
+        <item>เฉพาะข้อมูล</item>
+    </string-array>
+
+    <!-- Contact us options -->
+    <string-array name="feedback_type">
+        <item>รายงานข้อบกพร่อง</item>
+        <item>ร้องขอการใช้งานรูปแบบใหม่ๆ</item>
+        <item>ปัญหาอื่นๆ</item>
+    </string-array>
+
+    <!-- Filter matches on Live Scores Page by these match status -->
+    <string-array name="filter_matches">
+        <item>ทั้งหมด</item>
+        <item>แข่งขันอยู่</item>
+        <item>ยังไม่เริ่มแข่ง</item>
+        <item>แข่งจบแล้ว</item>
+        <item>ยกเลิก/เลื่อน</item>
+        <item>ติดตาม</item>
+    </string-array>
+
+    <!-- **************************************************************************************************** -->
+    <!-- Settings -->
+    <!-- **************************************************************************************************** -->
+
+    <!-- Font Size -->
+    <!-- What happens or appears if you do not make any other choice or change -->
+    <string name="settings_font_size_default">ค่าเริ่มต้น</string>
+
+    <!-- Font size Small -->
+    <string name="settings_font_size_small">เล็ก</string>
+
+    <!-- Font size Medium -->
+    <string name="settings_font_size_medium">กลาง</string>
+
+    <!-- Font size Large -->
+    <string name="settings_font_size_large">ใหญ่</string>
+
+    <!-- Font size Extra Large -->
+    <string name="settings_font_size_xlarge">ใหญ่มาก</string>
+
+    <!-- **************************************************************************************************** -->
+
+    <!-- READ THIS BEFORE PROCEED TO NEXT SECTION -->
+    <!-- 1. Button description mean when user long pressed to button the text will popup to show the user what is it meant to do -->
+    <!-- 2. Subscribe/Subscription meaning -->
+    <!-- *When you subscribe something in this application you will receive push notifications for something that you subscribe -->
+    <!-- *Example 1: A user subscribe the match, user will receive notification when goal score event occur (either team scores a goal) -->
+    <!-- *Example 2: A user subscribe the team, all matches that play by the team are going to subscribe automantically -->
+    <!-- *Example 3: A user subscribe the competition, all matches in the competition are going to subscribe automantically -->
+
+    <!-- A -->
+    <!-- About us -->
+    <string name="about">เกี่ยวกับเรา</string>
+
+    <!-- Set theme of the action bar -->
+    <string name="action_bar_style">สไตล์ของ <xliff:g id="actionbar">Action Bar</xliff:g></string>
+
+    <!-- Date that player active for a paticular team. For example: 01/01/2014-16/06/2014 -->
+    <string name="active_date">วันที่ใช้งาน</string>
+
+    <!-- The special offer that will remove advertising -->
+    <string name="ad_remove_offer">ข้อเสนอเอาโฆษณาออก</string>
+
+    <!-- Ad-Removal package available for user to purchase to remove ad -->
+    <string name="ad_removal_package">แพคเกจสำหรับเอาโฆษณาออก</string>
+
+    <!-- Button description: Press to add all competitions to the Live Scores Page -->
+    <string name="add_all_competitions">เพิ่มรายการแข่งขันทั้งหมด</string>
+
+    <!-- Button description: Press to add reminder to user calendar -->
+    <string name="add_reminder">เพิ่มข้อความเตือนความจำ</string>
+
+    <!-- Show somethings already added -->
+    <string name="added">เพิ่มแล้ว</string>
+
+    <!-- Contact information: address -->
+    <string name="address">ที่อยู่</string>
+
+    <!-- Goal that lose to the opponent. This will appear in table. You can translate to something that close to concede, lose -->
+    <string name="against">เสียประตู</string>
+
+    <!-- The number of years that a person has lived -->
+    <string name="age">อายุ</string>
+
+    <!-- All, the entire -->
+    <string name="all">ทั้งหมด</string>
+
+    <!-- All news -->
+    <string name="all_news">ข่าวทั้งหมด</string>
+
+    <!-- All videos -->
+    <string name="all_videos">วีดีโอทั้งหมด</string>
+
+    <!-- To tell people something officially -->
+    <string name="announced">ประกาศ</string>
+
+    <!-- When user send feedback to us and do not want us to know their name -->
+    <string name="anonymous">ไม่ระบุชื่อ</string>
+
+    <!-- An act of player appearing on the field -->
+    <string name="appearances">ลงเล่น</string>
+
+    <!-- A person who is responsible for planning or creating an idea, an event or a situation -->
+    <string name="architect">สถาปนิก</string>
+
+    <!-- A contribution by a player which helps to score a goal -->
+    <string name="assist">จ่ายให้ทำประตู</string>
+
+    <!-- Assistant referee -->
+    <string name="assistant_referee">ผู้ช่วยผู้ตัดสิน</string>
+
+    <!-- Attack category which include the following: goals, possession, attacks, dangerous attack, corners -->
+    <string name="attack">เกมส์บุก</string>
+
+    <!-- [Plural] The actions that players take to try to score a goal or win the game -->
+    <string name="attacks">เกมส์บุก</string>
+
+    <!-- Forwards (or strikers) are the players who are positioned nearest to the opposing team's goal. The primary responsibility of forwards is to score goals and to create scoring chances for other players. -->
+    <string name="attacker">กองหน้า</string>
+
+    <!-- Number of people present at stadium/ground/venue -->
+    <string name="attendance">จำนวนผู้เข้าชม</string>
+
+    <!-- The action of team that play at opponent field. You can translate to something that close to outwards -->
+    <string name="away">ทีมเยือน</string>
+
+    <!-- Competition/League/Tournament statistics that represent the number of time that away team won that match -->
+    <string name="away_team_win">ทีมเยือนชนะ</string>
+
+    <!-- B -->
+    <!-- Amount of money that is left for spending. For example, Balance: 50 Coin -->
+    <string name="balance">คงเหลือ</string>
+
+    <!-- The act of risking money, etc. on the unknown result of an event -->
+    <string name="betting">การเดิมพัน</string>
+
+    <!-- Betting type e.g. Over/Under, Correct Scores, Double Chance, Margin, HT/FT -->
+    <string name="betting_market">ตลาดเดิมพัน</string>
+
+    <!-- Date that player was born -->
+    <string name="born">วันเกิด</string>
+
+    <!-- Buy the product -->
+    <string name="buy">ซื้อ</string>
+
+    <!-- C -->
+    <!-- Button description: Cancel the operation -->
+    <string name="cancel">ยกเลิก</string>
+
+    <!-- Something has been cancelled -->
+    <string name="cancelled">ยกเลิกแล้ว</string>
+
+    <!-- The number of people that a venue (stadium, ground) can hold -->
+    <string name="capacity">ความจุ</string>
+
+    <!-- A group of people or things with particular features in common -->
+    <string name="category">ประเภท</string>
+
+    <!-- Check for new version on Google Play Store -->
+    <string name="check_for_updates">ตรวจสอบเวอร์ชั่นใหม่</string>
+
+    <!-- Change something. For example, change current competition, change current team -->
+    <string name="change">เปลี่ยน</string>
+
+    <!-- Record of changes made to the application -->
+    <string name="change_log">บันทึกการเปลี่ยนแปลง</string>
+
+    <!-- Contact information: city -->
+    <string name="city">เมือง</string>
+
+    <!-- A game in which one team prevents the opposing team from scoring -->
+    <string name="clean_sheet">ไม่เสียประตู</string>
+
+    <!-- Clear cache files (the files that store locally on the user devices for the purpose of view the content offline) -->
+    <string name="clear_cache">ล้างข้อมูลแคช</string>
+
+    <!-- Button description: Clear text that user type in some text box -->
+    <string name="clear_text">ล้างข้อความ</string>
+
+    <!-- Close -->
+    <string name="close">ปิด</string>
+
+    <!-- The coach/manager is who trains a player or team -->
+    <string name="coach">โค้ช/ผู้จัดการทีม</string>
+
+    <!-- Button description: when users press this button the expandable view will collapse (no longer expand) it like when you press 'minus symbol' on the windows explorer (file heirachy) -->
+    <string name="collapse">ย่อ</string>
+
+    <!-- Color -->
+    <string name="color">สี</string>
+    <!-- A description of an event in the particular match e.g. minutes 43' GOALLL! For Manchester United! An incredible strike from Wayne Rooney -->
+    <string name="commentary">คำบรรยาย</string>
+
+    <!-- Competition (League, Tournament in some countries) -->
+    <string name="competition">รายการแข่งขัน</string>
+
+    <!-- Tell users that the application cannot/failed to establish the internet connection -->
+    <string name="connection_failed">เชื่อมต่อล้มเหลว!</string>
+
+    <!-- The title of dialog box -->
+    <string name="contact_us">ติดต่อเรา</string>
+
+    <!-- Continue the process -->
+    <string name="continue_">ต่อไป</string>
+
+    <!-- A thing that is made to be the same as sth else -->
+    <string name="copy">คัดลอก</string>
+
+    <!-- Match statistics: The number of times each team got corner kick -->
+    <string name="corners">เตะมุม</string>
+
+    <!-- Contact information: country -->
+    <string name="country">ประเทศ</string>
+
+    <!-- The act of mentioning somebody who worked on a project -->
+    <string name="credits">เครดิต</string>
+
+    <!-- Current Competition is the competition that users have to select in order to view its Table, Round, Fixtures, Statistics, etc. -->
+    <string name="current_competition">รายการแข่งขันปัจจุบัน</string>
+
+    <!-- Suppose the current fixture of current competition is "Wed, 10 Apr 2013" and users scroll to see another fixture by pressing this button the users will be take back to "Wed, 10 Apr 2013" fixture -->
+    <string name="current_fixture">ตารางการแข่งขันปัจจุบัน</string>
+
+    <!-- Show current competition/league/tournament ranking of selected team -->
+    <string name="current_league_ranking">อันดับในลีคขณะนี้</string>
+
+    <!-- Suppose the current round of current competition is Semi-Finals and users scroll to see another round by pressing this button the users will be take back to Semi-Finals round -->
+    <string name="current_round">รอบการแข่งขันปัจจุบัน</string>
+
+    <!-- The current team of the player -->
+    <string name="current_team">ทีมปัจจุบัน</string>
+    <!-- Press this button to view current application version -->
+    <string name="current_version">เวอร์ชั่นปัจจุบัน</string>
+
+    <!-- D -->
+    <!-- Match statistics: The number of times each team performs dangerous attacks to the opponent -->
+    <string name="dangerous_attacks">เกมส์บุกที่อันตราย</string>
+
+    <!-- Defenders play behind the midfielders and their primary responsibility is to provide support to the team and to prevent the opposition from scoring a goal -->
+    <string name="defender">กองหลัง</string>
+
+    <!-- Remove -->
+    <string name="delete">ลบ</string>
+
+    <!-- Description of something -->
+    <string name="description">รายละเอียด</string>
+
+    <!-- Details of something -->
+    <string name="details">รายละเอียด</string>
+
+    <!-- Match statistics: Discipline category (fouls, yellow cards, red cards) -->
+    <string name="discipline">วินัย</string>
+
+    <!-- Dismiss/Close the dialog box -->
+    <string name="dismiss">ปิด</string>
+
+    <!-- Let users select how to display data -->
+    <string name="display_options">เลือกการแสดงผล</string>
+
+    <!-- Follow by player dominant foot (left, right) -->
+    <string name="dominant_foot">เท้าที่ถนัด</string>
+
+    <!-- Follow by number of time that 'Draw' result occur -->
+    <string name="draw">เสมอ</string>
+
+    <!-- E -->
+    <!-- To Make changes on data on screen -->
+    <string name="edit">แก้ไข</string>
+
+    <!-- Long text that describe important events, news, informations related to selected match -->
+    <string name="editorials">บทบรรณาธิการ</string>
+
+    <!-- Contact information: email -->
+    <string name="email">อีเมล</string>
+
+    <!-- Enalble notification to receive push notification -->
+    <string name="enable_notifications">เปิดใช้งานการแจ้งเตือน</string>
+
+    <!-- Finish -->
+    <string name="end">จบ</string>
+
+    <!-- Some problem has occur -->
+    <string name="error">ผิดพลาด</string>
+
+    <!-- Real-time event such as goal score, yellow card, red card, substitute, and penalty for selected match -->
+    <string name="events">เหตุการณ์</string>
+
+    <!-- Exit the application -->
+    <string name="exit">ออก</string>
+
+    <!-- Button description: when users press this button the expandable view will expand all it like when you press 'plus symbol' on the windows explorer (file heirachy) -->
+    <string name="expand">ขยาย</string>
+
+    <!-- Minute of extra time such as Injury time  -->
+    <string name="extra_minute">นาทีทดเวลา</string>
+
+    <!-- Additional statistics -->
+    <string name="extra_statistics">สถิติเพิ่มเติม</string>
+
+    <!-- Extra time -->
+    <string name="extra_time">ต่อเวลาพิเศษ</string>
+
+    <!-- Matche Status that show the break period during Extra time -->
+    <string name="extra_time_break">พักครึ่งของการต่อเวลาพิเศษ</string>
+
+    <!--The first half of Extra time -->
+    <string name="extra_time_first_half">ต่อเวลาพิเศษ (ครึ่งแรก)</string>
+
+    <!--The second half of Extra time -->
+    <string name="extra_time_second_half">ต่อเวลาพิเศษ (ครึ่งหลัง)</string>
+
+    <!-- F -->
+    <!-- Facts -->
+    <string name="facts">ข้อเท็จจริง</string>
+
+    <!-- Frequency asked questions -->
+    <string name="faq">คำถามที่พบบ่อย</string>
+
+    <!-- Favorite of somethings such as favorite competitions, or favorite teams -->
+    <string name="favorite">โปรดปราน</string>
+
+    <!-- The teams list below this label are favorite or subscribed team -->
+    <string name="favorite_subscribed_team">ทีมโปรด/ทีมที่สมัครรับข้อมูล</string>
+
+    <!-- Contact information: fax -->
+    <string name="fax">แฟกซ์</string>
+
+    <!-- The account that user will use to send feedback to us e.g. anonymous or user email account -->
+    <string name="feedback_account">บัญชีสำหรับส่งข้อเสนอแนะ</string>
+
+    <!-- FIFA ranking (world's ranking) of the team -->
+    <string name="fifa_ranking">อันดับฟีฟ่า</string>
+
+    <!-- Filter data to let users design what they really want to see -->
+    <string name="filter">ตัวกรอง</string>
+
+    <!-- Filter Competition to show on Live Scores Page -->
+    <string name="filter_competitions">ตัวกรองการแข่งขัน</string>
+
+    <!-- Filter Matches that show on Live Scores Page -->
+    <string name="filter_matches">ตัวกรองแมตช์</string>
+
+    <!-- first half of the game-->
+    <string name="first_half">ครึ่งแรก</string>
+
+    <!-- A sport event that have been arranged to take place on a particular date e.g. Wed, 10 Apr 2013 or Thu, 25 Ar 2013. In other word, the agenda of matches -->
+    <string name="fixtures">ตารางการแข่งขัน</string>
+
+    <!-- When you follow something you are interested in it. Like follow in Twitter. -->
+    <string name="follow_competition">ติดตามการแข่งขัน</string>
+
+    <!-- When you follow something you are interested in it. Like follow in Twitter. -->
+    <string name="follow_match">ติดตามแมตช์</string>
+
+    <!-- When you follow something you are interested in it. Like follow in Twitter. -->
+    <string name="follow_team">ติดตามทีม</string>
+
+    <!-- When you follow something you are interested in it. Like follow in Twitter. -->
+    <string name="following">ติดตาม</string>
+
+    <!-- When you follow something you are interested in it. Like follow in Twitter. -->
+    <string name="following_team">ทีมที่ติดตาม</string>
+
+    <!-- Font size to be display in the app -->
+    <string name="font_size">ขนาดตัวอักษร</string>
+
+    <!-- Goal/Scores that got from the opponent. This will appear in table. You can translate to something that close to gain -->
+    <string name="for_">ได้ประตู</string>
+
+    <!-- A button the let user click when they forget their password -->
+    <string name="forgot_password">ลืมรหัสผ่าน?</string>
+
+    <!-- The position of player on the field e.g. 4-4-2 mean four defender, four midfielder, two attacker -->
+    <string name="formation">รูปแบบการเล่น</string>
+
+    <!-- Match statistics: The number of times each team foul (an unfair act by a player which is deemed by the referee) -->
+    <string name="fouls">ฟาล์ว</string>
+
+    <!-- Fourth official or fourth referee -->
+    <string name="fourth_official">ผู้ตัดสินที่สี่</string>
+
+    <!-- Match statistics: The number of times each team got free kick (a method of restarting play in a game of soccer following a foul) -->
+    <string name="free_kicks">ฟรีคิก</string>
+
+    <!-- The scores result that frequently happen such Premier League last season has game result end up with 2-1 69 times -->
+    <string name="frequency_scores">ผลการแข่งขันที่เกิดขึ้นบ่อย</string>
+
+    <!-- The former/previous team of the player. For example, Wayne Rooney transfered "From team: Manchester United" -->
+    <string name="from_team">จากทีม</string>
+
+    <!-- Kind of match status (Half Time, Full Time, Second Half) -->
+    <string name="full_time">จบเกมส์</string>
+
+    <!-- Button description: press to view full venue information -->
+    <string name="full_venue_info">ข้อมูลสนามแบบเต็ม</string>
+
+    <!-- G -->
+    <!-- Button description: Press to view game results or goal scores -->
+    <!-- This button use to toggle between Win, Draw, Lose and Goal For, Goal Against, Goal Difference that show on Table Page -->
+    <string name="game_results_goal_scores">ผลการแข่งขัน/ประตู</string>
+
+    <!-- This is category that group some of the general topic together -->
+    <string name="general">ทั่วไป</string>
+
+    <!-- This is a header use for explain general information of something -->
+    <string name="general_information">ข้อมูลทั่วไป</string>
+
+    <!-- Page name: show global news -->
+    <string name="global_news">ข่าวทั่วโลก</string>
+
+    <!-- Global Video -->
+    <string name="global_videos">วีดีโอทั่วโลก</string>
+
+    <!-- Go -->
+    <string name="go">ไป</string>
+
+    <!-- Go to (some page, some link, etc..) -->
+    <string name="go_to">ไปที่<xliff:g id="horizontal_ellipsis">&#8230;</xliff:g></string>
+
+    <!-- Match statistics: The number of times each team got goal kicks (A goal kick, called a goalie kick in some regions, is a method of restarting play in a game of soccer -->
+    <string name="goal_kicks">เตะจากประตู</string>
+
+    <!-- Match statistics: The number of "Goals" scores for each team -->
+    <string name="goals">ประตู</string>
+
+    <!-- Go to specific round name (8 Th Finals, Quarter-Finals, Semi-Finals, Final) -->
+    <string name="go_to_round">ไปยังรอบการแข่งขัน<xliff:g id="horizontal_ellipsis">&#8230;</xliff:g></string>
+
+    <!-- A player whose job is to stop the ball from going into his or her own team's goal -->
+    <string name="goalkeeper">ผู้รักษาประตู</string>
+
+    <!-- Setting the sound of notification when goal score event occur -->
+    <string name="goal_sound">เสียงแจ้งเตือนการทำประตู</string>
+
+    <!-- Number of goal that person or team score -->
+    <string name="goals_scored">จำนวนประตู</string>
+
+    <!-- Group name such as North Region, South Region, Group 1, and Group A -->
+    <string name="group">กลุ่ม</string>
+
+    <!-- H -->
+    <!-- Kind of match status (Half Time, Full Time, Second Half) -->
+    <string name="half_time">พักครึ่ง</string>
+
+    <!-- Head-to-head statistics of two selected teams -->
+    <string name="head_to_head">สถิติการพบกัน</string>
+
+    <!-- Height of the player -->
+    <string name="height">ส่วนสูง</string>
+
+    <!-- Help -->
+    <string name="help">ช่วยเหลือ</string>
+
+    <!-- Help and FAQ -->
+    <string name="help_and_faq">ช่วยเหลือ <xliff:g id="ampersand">&amp;</xliff:g> คำถามที่พบบ่อย</string>
+
+    <!-- The action of team that play on their own field/ground/stadium. -->
+    <string name="home">เจ้าบ้าน</string>
+
+    <!-- Competition/League/Tournament statistics that represent the number of time that home team won that match. -->
+    <string name="home_team_win">ทีมเจ้าบ้านชนะ</string>
+
+    <!-- I -->
+    <!-- Information -->
+    <string name="info">ข้อมูล</string>
+
+    <!-- Player Injured and cannot be play -->
+    <string name="injured">ได้รับบาดเจ็บ</string>
+
+    <!-- Inform user that a item has been deleted -->
+    <string name="item_deleted">รายการถูกลบ</string>
+
+    <!-- J -->
+    <!-- Just now -->
+    <string name="just_now">เมื่อครู่นี้</string>
+
+    <!-- K -->
+    <!-- Count down to the kick-off time (time that match start) -->
+    <string name="kick_off_in">เริ่มแข่งใน</string>
+
+    <!-- L -->
+    <!-- Language to be display in app -->
+    <string name="language">ภาษา</string>
+
+    <!-- Language to be display in app -->
+    <string name="language_app">ภาษา (แอพ)</string>
+
+    <!-- Language of data to be display in app -->
+    <string name="language_data">ภาษา (ข้อมูล)</string>
+
+    <!-- Last # Matches (Use plural form) -->
+    <string name="last_n_matches"><xliff:g id="hash_tag">#</xliff:g> แมตช์ล่าสุด</string>
+
+    <!-- Last # Seasons (Use plural form) -->
+    <string name="last_n_seasons"><xliff:g id="hash_tag">#</xliff:g> ฤดูกาลล่าสุด</string>
+
+    <!-- Display latest result for users -->
+    <string name="latest_result">ผลการแข่งล่าสุด</string>
+
+    <!-- Appear in the following context: Do you want to do this now or 'later'? -->
+    <string name="later">ทีหลัง</string>
+
+    <!-- Use for point a place/location in Map -->
+    <string name="latitude">ละติจูด</string>
+
+    <!-- List of player who are going to take part in a particular match -->
+    <string name="lineup">รายชื่อผู้เล่น</string>
+
+    <!-- Button description: Press button to toggle between list lineup (list of the name of player) or Graphic Lineup (Real graphic layout that show player position on field) -->
+    <string name="list_lineup_graphic_lineup">รายชื่อผู้เล่น/รูปภาพตำแหน่งการเล่น</string>
+
+    <!-- List all matches that are updated REAL time -->
+    <string name="livescores">ผลบอลสด</string>
+
+    <!-- Show Table (team ranking in league) in real-time -->
+    <string name="live_table">ตารางอันดับสด</string>
+
+    <!-- Show user that contents are loading -->
+    <string name="loading">กำลังโหลด<xliff:g id="horizontal_ellipsis">…</xliff:g></string>
+
+    <!-- Local name of some place or something -->
+    <string name="local_name">ชื่อถ้องถิ่น</string>
+
+    <!-- The position of something or a place where something happens or exists -->
+    <string name="location">สถานที่</string>
+
+    <!-- Use for point a place/location in Map -->
+    <string name="longitude">ลองจิจูด</string>
+
+    <!-- To be defeated -->
+    <string name="lose">แพ้</string>
+
+    <!-- M -->
+    <!-- A sports event where people or teams compete against each other -->
+    <string name="match">แมตช์</string>
+
+    <!-- Match status: The match is cancelled and will not be play -->
+    <string name="match_cancelled">แมตช์ถูกยกเลิก</string>
+
+    <!-- Match status: The match already finished -->
+    <string name="match_finished">แมตช์แข่งจบแล้ว</string>
+
+    <!-- Show information of the selected match -->
+    <string name="match_information">ข้อมูลแมตช์</string>
+
+    <!-- Match status: The match is postponed and will be play another day -->
+    <string name="match_postponed">แมตช์ถูกเลื่อน</string>
+
+    <!-- The topic when add Match Reminder to the users calendar -->
+    <string name="match_reminder">ข้อควาเตือนแมตช์</string>
+
+    <!-- Setting the sound of notification when match start or match end -->
+    <string name="match_start_end_sound">เสียงเริ่ม/จบแมตช์</string>
+
+    <!-- Match status: The match already started -->
+    <string name="match_started">แมตช์เริ่มแข่งแล้ว</string>
+
+    <!-- Match status: The match is suspended while playing -->
+    <string name="match_suspended">แมตช์ถูกระงับการแข่งขัน</string>
+
+    <!-- The main ways that large numbers of people receive information and entertainment, i.e. television, radio, newspapers -->
+    <string name="media">สื่อ</string>
+
+    <!-- The state of being a member of a club/team -->
+    <string name="membership">สมาชิก</string>
+
+    <!-- Menu: list of possible chioces that are shown on a screen -->
+    <string name="menu">เมนู</string>
+
+    <!-- Midfielders (originally called half-backs) are players whose position of play is midway between the attacking forwards and the defenders -->
+    <string name="midfielder">กองกลาง</string>
+
+    <!-- Minute -->
+    <string name="minute">นาที</string>
+
+    <!-- Number of minutes that the player play for his/her team -->
+    <string name="minutes_played">นาทีที่เล่น</string>
+
+    <!-- Mute the sound and vibration of the notifications -->
+    <string name="mute">ปิดเสียง</string>
+
+    <!-- The popup text to show that all the notifications are Mute -->
+    <string name="mute_notifications">ปิดเสียงการแจ้งเตือน</string>
+
+    <!-- Button description: Press button to Mute or Unmute the notification -->
+    <string name="mute_unmute">เปิด/ปิดเสียง</string>
+
+    <!-- N -->
+    <!-- Name of someone (some languages use difference word for someone and something) -->
+    <string name="name_someone">ชื่อ</string>
+
+    <!-- Name of something (some languages use difference word for someone and something) -->
+    <string name="name_something">ชื่อ</string>
+
+    <!-- The player nationality -->
+    <string name="nationality">สัญชาติ</string>
+
+    <!-- The world that describe team that play on nutural field/ground/stadium. -->
+    <string name="neutral">สนามกลาง</string>
+
+    <!-- New information about something that has happened recently -->
+    <string name="news">ข่าว</string>
+
+    <!-- News feed -->
+    <string name="news_feed">ฟีดข่าว</string>
+
+    <!-- Set of options that let user customize news widget -->
+    <string name="news_widget_settings">การตั้งค่า Widget ข่าว</string>
+
+    <!-- Nickname -->
+    <string name="nickname">ชื่อเล่น</string>
+
+    <!-- No data for the current section -->
+    <string name="no_data">ไม่มีข้อมูล</string>
+
+    <!-- Title indicate that something below have no group -->
+    <string name="no_group">ไม่มีกลุ่ม</string>
+
+    <!-- Some data is not available -->
+    <string name="not_available">ไม่มีข้อมูล</string>
+
+    <!-- Match status: The match not yet started -->
+    <string name="not_started">ยังไม่เริ่มแข่ง</string>
+
+    <!-- Information or a warning given in advance of something that is going to happen -->
+    <string name="notice">ประกาศ</string>
+
+    <!-- Setting what notification will receive -->
+    <string name="notification_settings">ตั้งค่าการแจ้งเตือน</string>
+
+    <!-- Number of Goals -->
+    <string name="number_of_goals">จำนวนประตู</string>
+
+    <!-- Number of Assists (A contribution by a player which helps to score a goal) -->
+    <string name="number_of_assists">จำนวนการจ่ายบอลเพื่อทำประตู</string>
+
+    <!-- Number of Yellow Cards -->
+    <string name="number_of_yellow_cards">จำนวนใบเหลือง</string>
+
+    <!-- Number of Red Cards -->
+    <string name="number_of_red_cards">จำนวนใบแดง</string>
+
+    <!-- Notification category that group everything about notification together such as Notification Sound, Mute, Vibrate -->
+    <string name="notifications">การแจ้งเตือน</string>
+
+    <!-- Sound of the notifications -->
+    <string name="notification_sounds">เสียงการแจ้งเตือน</string>
+
+    <!-- O -->
+    <!-- Indocator for something is turn off -->
+    <string name="off">ปิด</string>
+
+    <!-- Show several offer for user to remove ad. For example, remove ad for user if he download some app. -->
+    <string name="offer">ข้อเสนอ</string>
+
+    <!-- Match statistics: The number of times each team offside (A player is in an offside position if he or she is closer to the opponent's goal line than both the ball and the second-to-last defender.) -->
+    <string name="offsides">ล้ำหน้า</string>
+
+    <!-- OK -->
+    <string name="ok">ตกลง</string>
+
+    <!-- Indicator for something is turn on -->
+    <string name="on">เปิด</string>
+
+    <!-- to start business for the first time -->
+    <string name="opened">เปิด</string>
+    <!-- Conjunction; used to introduce another possibility -->
+    <string name="or">หรือ</string>
+
+    <!-- Other category that group many small things together -->
+    <string name="other">อื่นๆ</string>
+
+    <!-- Total goal scores that over 1.5 e.g. 2-0, 1-1, so on -->
+    <string name="over_1_5">สูงกว่า 1.5</string>
+
+    <!-- Total goal scores that over 2.5 e.g. 3-0, 2-1, so on -->
+    <string name="over_2_5">สูงกว่า 2.5</string>
+
+    <!-- Total goal scores that over 3.5 e.g. 4-0, 3-1, so on -->
+    <string name="over_3_5">สูงกว่า 3.5</string>
+
+    <!-- Overall result which combine home result (played at home ground) and away result (played at the opponents' grounds) -->
+    <string name="overall">รวมทั้งหมด</string>
+
+    <!-- A general description or an outline of something -->
+    <string name="overview">ภาพรวม</string>
+
+    <!-- P -->
+    <!-- A series of letters or numbers that you must type into a computer or computer system in order to be able to use it -->
+    <string name="password">รหัสผ่าน</string>
+
+    <!-- Indicate that this goal is come from penalty goal -->
+    <string name="penalty_goals">ประตูจากลูกโทษ</string>
+
+    <!-- Indicate that this goal in come from penalty shootout (Use penalty for breaking ties) -->
+    <string name="penalty_shootout">ช่วงยิงจุดโทษ</string>
+
+    <!-- Contact information: phone -->
+    <string name="phone">โทร</string>
+
+    <!-- Button description: Press to pin match to the top of Live Scores Page -->
+    <string name="pin_match">ปักหมุดแมตช์</string>
+
+    <!-- Group matches that already pinned to the top of Live Scores Page together -->
+    <string name="pinned_matches">แมตช์ที่ปักหมุด</string>
+
+    <!-- Place of Birth of the player -->
+    <string name="place_of_birth">สถานที่เกิด</string>
+
+    <!-- Player -->
+    <string name="player">ผู้เล่น</string>
+
+    <!-- Name of the player -->
+    <string name="player_name">ชื่อผู้เล่น</string>
+
+    <!-- Please wait while the application perform long operation -->
+    <string name="please_wait">กรุณารอสักครู่<xliff:g id="horizontal_ellipsis">&#8230;</xliff:g></string>
+
+    <!-- Scores -->
+    <string name="points">คะแนน</string>
+
+    <!-- Popular of something e.g. popular competition, popular team -->
+    <string name="popular">ยอดนิยม</string>
+
+    <!-- Position of player on filed such as Goal keeper, Defender, Midfielder, Attacker -->
+    <string name="position">ตำแหน่ง</string>
+
+    <!-- Match statistics: The percentage of ball "Possessions" for each team -->
+    <string name="possessions">ครองบอล</string>
+
+    <!-- Match status: show that match is postponed -->
+    <string name="postponed">เลื่อนการแข่งขัน</string>
+
+    <!-- Happening now e.g. From 01/01/2014 - Present -->
+    <string name="present">ปัจจุบัน</string>
+
+    <!-- Preview the data before process -->
+    <string name="preview">พรีวิว</string>
+
+    <!-- The names before the current name -->
+    <string name="previous_names">ชื่อก่อนหน้านี้</string>
+
+    <!-- Previous result of aggreate match (score of last game) -->
+    <string name="previous_result">ผลการแข่งขันก่อนหน้า</string>
+
+    <!-- Main, Most important -->
+    <string name="primary">พื้นฐาน</string>
+
+    <!-- Inform user that something is processing -->
+    <string name="processing">กำลังดำเนินการ<xliff:g id="horizontal_ellipsis">&#8230;</xliff:g></string>
+
+    <!-- Publish message in share operation -->
+    <string name="publish">โพส</string>
+
+    <!-- Q -->
+
+    <!-- R -->
+    <!-- Rank/Position of each team in Table (Position in League/Tournament) -->
+    <string name="rank">อันดับ</string>
+
+    <!-- Indicator that let user know that there is more text to read -->
+    <string name="read_more">อ่านต่อ<xliff:g id="horizontal_ellipsis">&#8230;</xliff:g></string>
+
+    <!-- Recently -->
+    <string name="recently">ล่าสุด</string>
+
+    <!-- Red Cards -->
+    <string name="red_cards">ใบแดง</string>
+
+    <!-- The official who controls game in some sports -->
+    <string name="referee">ผู้ตัดสิน</string>
+
+    <!-- Refresh -->
+    <string name="refresh">รีเฟรช</string>
+
+    <!-- To record user name, password, etc. on the system -->
+    <string name="register">ลงทะเบียน</string>
+
+    <!-- Remove advertising -->
+    <string name="remove_ads">เอาโฆษณาออก</string>
+
+    <!-- Button description: Press to remove all ocmpetitions from the Live Scores Page -->
+    <string name="remove_all_competitions">ลบรายการแข่งขันทั้งหมด</string>
+
+    <!-- Remove Team Label 1 -->
+    <string name="remove_team_1">ลบทีม <xliff:g id="label_one">1</xliff:g></string>
+
+    <!-- Remove Team Label 2 -->
+    <string name="remove_team_2">ลบทีม <xliff:g id="label_two">2</xliff:g></string>
+
+    <!-- To repair an old building so that it is in good condition again -->
+    <string name="renovated">บูรณะ</string>
+
+    <!-- Game result such as 2-1, 1-0, 2-2 -->
+    <string name="result">ผล</string>
+
+    <!-- Try again -->
+    <string name="retry">ลองอีกครั้ง</string>
+
+    <!-- A report in which sb gives their opinion of a match -->
+    <string name="review">รีวิว</string>
+
+    <!-- A stage in a sports competition such as Quarter-Finals, Semi-Finals, Final -->
+    <string name="round">รอบการแข่งขัน</string>
+
+    <!-- S -->
+    <!-- Screenshot -->
+    <string name="screenshot">ภาพหน้าจอ</string>
+
+    <!-- Search of something -->
+    <string name="search">ค้นหา</string>
+
+    <!-- Search for specific competition -->
+    <string name="search_competitions">ค้นหาการแข่งขัน</string>
+
+    <!-- Search for specific matches -->
+    <string name="search_matches">ค้นหาแมตช์</string>
+
+    <!-- Search for specific team -->
+    <string name="search_team">ค้นหาทีม</string>
+
+    <!-- Season name such as "2012/2013", "2012 Poland/Ukraine" -->
+    <string name="season">ฤดูกาล</string>
+
+    <!-- Season start date and date such as 24/07/2013 - 16/05/2013 -->
+    <string name="season_start_end">ฤดูกาลเริ่ม/จบ</string>
+
+    <!-- Kind of match status (Half Time, Full Time, Second Half) -->
+    <string name="second_half">ครึ่งหลัง</string>
+
+    <!-- Second yellow card which result in red card -->
+    <string name="second_yellow_card">ใบเหลืองที่สอง</string>
+
+    <!-- Ask user to select a competition from the list of competitions -->
+    <string name="select_competition">เลือกรายการแข่งขัน</string>
+
+    <!-- Ask user to select a news feed from the list of feeds -->
+    <string name="select_news_feed">เลือกฟีดข่าว</string>
+
+    <!-- Ask user to select a team from the list of teams -->
+    <string name="select_team">เลือกทีม</string>
+
+    <!-- Send something -->
+    <string name="send">ส่ง</string>
+
+    <!-- Send feedback e.g. bug report, request features, request assistance, etc. -->
+    <string name="send_feedback">ส่งความคิดเห็น</string>
+
+    <!-- Set of options that let user customize app -->
+    <string name="settings">การตั้งค่า</string>
+
+    <!-- Share -->
+    <string name="share">แชร์</string>
+
+    <!-- Share App to social network or an app that users desire -->
+    <string name="share_app">แชร์แอพ</string>
+
+    <!-- Share on Facebook -->
+    <string name="share_on_facebook">แชร์บน <xliff:g id="facebook_name">Facebook</xliff:g></string>
+
+    <!-- Share on Twitter -->
+    <string name="share_on_twitter">แชร์บน <xliff:g id="twitter_name">Twitter</xliff:g></string>
+
+    <!-- Share Table (team ranking, standings) -->
+    <string name="share_table">แชร์ตารางคะแนน</string>
+
+    <!-- Shirt number of the player -->
+    <string name="shirt_number">หมายเลขเสื้อ</string>
+
+    <!-- A place that let user purchase addition features -->
+    <string name="shop">ร้านค้า</string>
+
+    <!-- Match statistics: Shot category (shots, shots on target, shots off target, shots blocked, and shots woodwork) -->
+    <string name="shot">ยิง</string>
+
+    <!-- Match statistics: The number of times each team shots (the action of kicking the ball) -->
+    <string name="shots">ยิง</string>
+
+    <!-- Match statistics: The number of times each team shots, and the players from the opponent team blocked it -->
+    <string name="shots_blocked">บล็อกลูกยิง</string>
+
+    <!-- Match statistics: The number of times each team shots, and it is off target -->
+    <string name="shots_off_target">ยิงไม่ตรงกรอบ</string>
+
+    <!-- Match statistics: The number of times each team shots, and it is on target -->
+    <string name="shots_on_target">ยิงตรงกรอบ</string>
+
+    <!-- Match statistics: The number of times each team shots, and the ball hit the crossbar (A horizontal bar connecting the top of the two goalposts) or goalposts -->
+    <string name="shots_woodwork">ยิงชนเสา</string>
+
+    <!-- Show alphabet index on the right side of the screen to let user fast scroll among list entries -->
+    <string name="show_index">แสดงดัชนี</string>
+
+    <!-- The act of starting to use a computer system -->
+    <string name="sign_in">เข้าสู่ระบบ</string>
+
+    <!-- The act of finishing using a computer system -->
+    <string name="sign_out">ออกจากระบบ</string>
+
+    <!-- No sound -->
+    <string name="silent">เงียบ</string>
+
+    <!-- Sort something by alphabet i.e. A-Z -->
+    <string name="sort_by_alphabet">เรียงตามตัวอักษร</string>
+
+    <!-- Sort something by time i.e. 00:00-23:59 -->
+    <string name="sort_by_time">เรียงตามเวลา</string>
+
+    <!-- All the workers employed in a team considered as a group -->
+    <string name="staff">ทีมงาน</string>
+
+    <!-- To begin doing or using sth -->
+    <string name="start">เริ่ม</string>
+
+    <!-- Indicate that extra time start -->
+    <string name="start_extra_time">เริ่มช่วงต่อเวลาพิเศษ</string>
+
+    <!-- Indicate that second half start -->
+    <string name="start_second_half">เริ่มครึ่งหลัง</string>
+
+    <!-- Start time: 24/07/2013 18:00 -->
+    <string name="start_time">เวลาเริ่ม</string>
+
+    <!-- A collection of information use for analyse something -->
+    <string name="statistics">สถิติ</string>
+
+    <!-- Stop -->
+    <string name="stop">หยุด</string>
+
+    <!-- Team member for selected team. In other word, team's current players -->
+    <string name="squads">ผู้เล่น</string>
+
+    <!-- Player replace another in the field -->
+    <string name="substitute_in">เปลี่ยนเข้า</string>
+
+    <!-- Players that are sitting on bench for substitute player that playing on field -->
+    <string name="substitute_on_bench">ผู้เล่นสำรองข้างสนาม</string>
+
+    <!-- Player that has been replace by another player -->
+    <string name="substitute_out">เปลี่ยนออก</string>
+
+    <!-- Category in Lineup indicate players are substitution -->
+    <string name="substitutes">ผู้เล่นสำรอง</string>
+
+    <!-- Match statistics: The number of times each team substitutes the player (Substitutions are generally made to replace a player who has become tired or injured, or who is not performing well.) -->
+    <string name="substitutions">เปลี่ยนตัว</string>
+
+    <!-- Success -->
+    <string name="success">สำเร็จ</string>
+
+    <!-- The top layer of a venue (stadium) ground (e.g. Glass) -->
+    <string name="surface">พื้นผิว</string>
+
+    <!-- Category in Lineup indicate players are suspended/baned from playing (Get red card) -->
+    <string name="suspended">ระงับ</string>
+
+    <!-- T -->
+    <!-- A list of sports teams that shows their position in a competition -->
+    <string name="table">ตารางคะแนน</string>
+
+    <!-- A group of people who play a particular game or sport against another group of people -->
+    <string name="team">ทีม</string>
+
+    <!-- [Plurals] A group of people who play a particular game or sport against another group of people -->
+    <string name="teams">ทีม</string>
+
+    <!-- Label Team 1 -->
+    <string name="team_1">ทีม <xliff:g id="label_one">1</xliff:g></string>
+
+    <!-- Label Team 2 -->
+    <string name="team_2">ทีม <xliff:g id="label_two">2</xliff:g></string>
+
+    <!-- Team Name -->
+    <string name="team_name">ชื่อทีม</string>
+
+    <!-- Show team information of the selected team -->
+    <string name="team_information">ข้อมูลทีม</string>
+
+    <!-- The time that something happen -->
+    <string name="times">ครั้ง</string>
+
+    <!-- Theme -->
+    <string name="theme">ธีม</string>
+
+    <!-- Match statistics: The number of times each team got throw ins (a method of restarting play in a game of soccer when the ball has exited the side of the field of play.) -->
+    <string name="throw_ins">ทุ่ม</string>
+
+    <!-- Today -->
+    <string name="today">วันนี้</string>
+
+    <!-- Button description: Press to toggle fullscreen -->
+    <string name="toggle_full_screen">เปิดเต็มจอ</string>
+
+    <!-- Button description: Press to toggle between two teams -->
+    <string name="toggle_team">สลับทีม</string>
+
+    <!-- The day after today -->
+    <string name="tomorrow">วันพรุ่งนี้</string>
+
+    <!-- Top Assist (a contribution by a player which helps to score a goal) -->
+    <string name="top_assists">จ่ายบอลสูงสุด</string>
+
+    <!-- List of players that have top statistics for each category e.g. Top Scorer, Top Assist, Top Yellow Card -->
+    <string name="top_players">ผู้เล่นยอดเยี่ยม</string>
+
+    <!-- Top Red Cards -->
+    <string name="top_red_cards">ได้ใบแดงสูงสุด</string>
+
+    <!-- Top Scorers -->
+    <string name="top_scorers">ทำประตูสูงสุด</string>
+
+    <!-- Top Yellow Cards -->
+    <string name="top_yellow_cards">ได้ใบเหลือสูงสุด</string>
+
+    <!-- Total -->
+    <string name="total">ทั้งหมด</string>
+
+    <!-- Act of moving player from one team to another team. -->
+    <string name="transfers">ซื้อ-ขาย</string>
+
+    <!-- Try again -->
+    <string name="try_again">ลองใหม่อีกครั้ง</string>
+
+    <!-- The channels which match are going to broadcast -->
+    <string name="tv_schedule">ช่องถ่ายทอดสด</string>
+
+    <!-- Type of something -->
+    <string name="type">ชนิด</string>
+
+    <!-- U -->
+    <!-- To cancel the effect of something, or go back -->
+    <string name="undo">ย้อนกลับ</string>
+
+    <!-- To cancel the effect of somethings, or go back -->
+    <string name="undo_all">ย้อนกลับทั้งหมด</string>
+
+    <!-- When you follow something you are interested in it. Like follow in Twitter. -->
+    <string name="unfollow_all">เลิกติดตามทั้งหมด</string>
+
+    <!-- When you follow something you are interested in it. Like follow in Twitter. -->
+    <string name="unfollow_competition">เลิกติดตามการแข่งขัน</string>
+
+    <!-- When you follow something you are interested in it. Like follow in Twitter. -->
+    <string name="unfollow_match">เลิกติดตามแมตช์</string>
+
+    <!-- When you follow something you are interested in it. Like follow in Twitter. -->
+    <string name="unfollow_team">เลิกติดตามทีม</string>
+
+    <!-- Dialog header to show that something are unable to unfollow -->
+    <string name="unfollow_warning">ไม่สามารถเลิกติดตามได้!</string>
+
+    <!-- Something is unknown. For example, unknown start time, unknown vanue -->
+    <string name="unknown">ไม่ทราบ</string>
+
+    <!-- The start time for a match is unknown or not fixed for now -->
+    <string name="unknown_start_time">เวลาเริ่มแข่งยังไม่แน่ชัด</string>
+
+    <!-- The popup text to show that all the notifications are Unmute -->
+    <string name="unmute_notifications">เปิดเสียงการแจ้งเตือน</string>
+
+    <!-- Press to unpin match to the top of Live Scores Page -->
+    <string name="unpin_match">ยกเลิกปักหมุดแมตช์</string>
+
+    <!-- Update -->
+    <string name="update">อัพเดท</string>
+
+    <!-- How often that the data will update automatically -->
+    <string name="update_interval">ระยะเวลาอัพเดท</string>
+
+    <!-- Contact information: URL -->
+    <string name="url"><xliff:g id="url">URL</xliff:g></string>
+
+    <!-- V -->
+    <!-- How much something is worth in money -->
+    <string name="value">มูลค่า</string>
+
+    <!-- Ground/Stadium -->
+    <string name="venue">สนาม</string>
+
+    <!-- Information about venue/ground/stadium -->
+    <string name="venue_info">ข้อมูลสนาม</string>
+
+    <!-- Location of venue such as Madrid, Manchester, Liverpool -->
+    <string name="venue_location">สถานที่ตั้งสนาม</string>
+
+    <!-- Name of venue such as National Stadium, Old Trafford -->
+    <string name="venue_name">ชื่อสนาม</string>
+
+    <!-- Version of the application -->
+    <string name="version">เวอร์ชั่น</string>
+
+    <!-- Version number of the application -->
+    <string name="version_number">หมายเลขรุ่น</string>
+
+    <!-- Vibrate -->
+    <string name="vibrate">สั่น</string>
+
+    <!-- Motion picture -->
+    <string name="video">วีดีโอ</string>
+
+    <!-- View all of somethings. For example, View all matches, View all competitions, View all round, etc. -->
+    <string name="view_all">แสดงทั้งหมด</string>
+
+    <!-- Button description: Press to view Fixtures -->
+    <string name="view_fixtures">ดูตารางการแข่งขัน</string>
+
+    <!-- Button description: Press to view Head-to-Head Statistics -->
+    <string name="view_head_to_head_statistics">ดูสถิติการพบกัน</string>
+
+    <!-- Button description: Press to view map -->
+    <string name="view_map">ดูแผนที่</string>
+
+    <!-- Button description: Press to view Match Info -->
+    <string name="view_match_info">ดูข้อมูลแมตช์</string>
+
+    <!-- Button description: Press to view menu -->
+    <string name="view_menu">ดูเมนู</string>
+
+    <!-- Button description: Press to view Round -->
+    <string name="view_round">ดูรอบการแข่งขัน</string>
+
+    <!-- Button description: Press to view Table -->
+    <string name="view_table">ดูตารางคะแนน</string>
+
+    <!-- Button description: Press to view Team Statistics -->
+    <string name="view_team_statistics">ดูสถิติทีม</string>
+
+    <!-- Button description: Press to start voice search -->
+    <string name="voice_search">ค้นหาด้วยเสียง</string>
+
+    <!-- W -->
+    <!-- Warning -->
+    <string name="warning">คำเตือน</string>
+
+    <!-- The Celtic language of Wales -->
+    <string name="welsh_name">ชื่อเวลส์</string>
+
+    <!-- Weight of the player -->
+    <string name="weight">น้ำหนัก</string>
+
+    <!-- Win -->
+    <string name="win">ชนะ</string>
+
+    <!-- Win/Lose -->
+    <string name="win_lose">ชนะ/แพ้</string>
+
+    <!-- Women -->
+    <string name="women">ผู้หญิง</string>
+    <!-- X -->
+
+    <!-- Y -->
+    <!-- The day before today -->
+    <string name="yesterday">เมื่อวานนี้</string>
+
+    <!-- Yellow cards -->
+    <string name="yellow_cards">ใบเหลือง</string>
+
+    <!-- Z -->
+    <!-- End Words/Phrase -->
+
+    <!-- Sentences -->
+    <!-- First-run message: update progress for users -->
+    <string name="sentence_app_init_downloading_data">กำลังดาวน์โหลดข้อมูลที่จำเป็น<xliff:g id="horizontal_ellipsis">&#8230;</xliff:g></string>
+
+    <!-- First-run message: update progress for users -->
+    <string name="sentence_app_init_finalizing_installation">เสร็จสิ้นการติดตั้ง<xliff:g id="horizontal_ellipsis">&#8230;</xliff:g></string>
+
+    <!-- First-run message: update progress for users -->
+    <string name="sentence_app_init_installing_competitions">ติดตั้งข้อมูลรายการแข่งขัน<xliff:g id="horizontal_ellipsis">&#8230;</xliff:g></string>
+
+    <!-- First-run message: update progress for users -->
+    <string name="sentence_app_init_installing_countries">ติดตั้งข้อมูลประเทศ<xliff:g id="horizontal_ellipsis">&#8230;</xliff:g></string>
+
+    <!-- First-run message: update progress for users -->
+    <string name="sentence_app_init_installing_teams">ติดตั้งข้อมูลทีม<xliff:g id="horizontal_ellipsis">&#8230;</xliff:g></string>
+
+    <!-- Show when adding reminder is failed -->
+    <string name="sentence_add_reminder_failed">อุปกรณ์ของคุณไม่รองรับการ <xliff:g id="left_single_quotation">‘</xliff:g>เพิ่มข้อความเตือนความจำ<xliff:g id="right_single_quotation">’</xliff:g></string>
+
+    <!-- Launch the app page in Google Play Store for new version checking -->
+    <string name="sentence_check_for_updates_summary">ตรวจสอบเวอร์ชั่นใหม่บน Google Play Store</string>
+
+    <!-- Show options for users to choose an E-mail app for send feedback -->
+    <string name="sentence_choose_email_app">เลือกแอพอีเมล</string>
+
+    <!-- Inform users that all cached files has successfully deleted -->
+    <string name="sentence_clear_all_cached_files">แคชไฟล์ทั้งหมดถูกลบไปแล้ว</string>
+
+    <!-- Inform users that all cached images has successfully deleted -->
+    <string name="sentence_clear_cached_images">แคชข้อมูลรูปถุูกลบไปแล้ว</string>
+
+    <!-- Inform users that all cached data has successfully deleted -->
+    <string name="sentence_clear_cached_data">ข้อมูลแคชถูกลบไปแล้ว</string>
+
+    <!-- Inform users that app is clearing all cached files -->
+    <string name="sentence_clearing_all_cached_files">กำลังล้างแคชไฟล์ทั้งหมด</string>
+
+    <!-- Inform users that app is clearing all cached data -->
+    <string name="sentence_clearing_cached_data">กำลังล้างข้อมูลแคช</string>
+
+    <!-- Inform users that app is clearing all cached images -->
+    <string name="sentence_clearing_cached_images">กำลังล้างแคชข้อมูลรูป</string>
+
+    <!-- Inform user that connection failed -->
+    <string name="sentence_connection_failed_try_again">การเชื่อมต่อล้มเหลว!<xliff:g id="new_line">\n</xliff:g>กรุณาลองใหม่อีกครั้ง</string>
+
+    <!-- Contact information -->
+    <string name="sentence_contact_support">กรุณาติดต่อ <xliff:g id="email">support@superscores.com</xliff:g> สำหรับรายละเอียดเพิ่มเติม</string>
+
+    <!-- Asking for users confirmation -->
+    <string name="sentence_continue_confirm">คุณต้องการไปต่อหรือไม่?</string>
+
+    <!-- Inform users that this section is for support team -->
+    <string name="sentence_email_body_details">รายละเอียดสำหรับทีมสนับสนุน</string>
+
+    <!-- Inform users that users has no email app in their device -->
+    <string name="sentence_email_error_message">ไม่พบแอพอีเมลใดๆ!</string>
+
+    <!-- Inform users that some error has occur during adding reminder -->
+    <string name="sentence_error_adding_reminder">มีข้อผิดพลาดเกิดขึ้นในขณะที่กำลังเพิ่มข้อความเตือนความจำ</string>
+
+    <!-- Inform user that Google Play Services must be installed -->
+    <string name="sentence_error_play_services_install"><xliff:g id="name">Google Play Services</xliff:g> ต้องได้รับการติดตั้ง</string>
+
+    <!-- Inform user that Google Play Services is not supported -->
+    <string name="sentence_error_play_services_not_supported"><xliff:g id="name">Google Play Services</xliff:g> ไม่รองรับเครื่องของท่าน</string>
+
+    <!-- Inform users that some error has occur during query betting statistics -->
+    <string name="sentence_error_query_betting_statistics">มีข้อผิดพลาดเกิดขึ้นในขณะที่ขอข้อมูลสถิติการเดิมพัน</string>
+
+    <!-- Inform user that there was some error during share content -->
+    <string name="sentence_error_share_failed">แชร์เนื้อหาไม่สำเร็จ กรุณาลองใหม่อีกครั้ง!</string>
+
+    <!-- The minimum criteria before user can send feedback -->
+    <string name="sentence_feedback_hint">อย่างน้อย 20 ตัวอักษร (ภาษาอังกฤษเท่านั้น)</string>
+
+    <!-- Ask users permission to send screenshot along with feedback -->
+    <string name="sentence_feedback_include_screenshot">รวมภาพหน้าจอ</string>
+
+    <!-- Ask users permission to send screenshot along with feedback (description) -->
+    <string name="sentence_feedback_include_screenshot_desc">แชร์ภาพหน้าจอของหน้าสุดท้ายที่คุณอยู่</string>
+
+    <!-- Inform users that the feedback has been sent -->
+    <string name="sentence_feedback_sent">ความคิดเห็นได้ถูกส่งเรียบร้อยแล้ว</string>
+
+    <!-- Inform users that sending feedback was failed -->
+    <string name="sentence_feedback_sent_error">ไม่สามารถส่งความคิดเห็นได้ กรุณาลองใหม่อีกครั้ง</string>
+
+    <!-- Feedback type (bug reports, request features) -->
+    <string name="sentence_feedback_type">ชนิดของความคิดเห็น</string>
+
+    <!-- Ask user if he/she really want to add all competitions to Live Scores page -->
+    <string name="sentence_filter_competition_add_all">คุณแน่ใจหรือไม่ที่จะแสดงการแข่งขันทุกรายการบนหน้าผลบอลสด?</string>
+
+    <!-- Ask user if he/she really want to remove all competitions from Live Scores page -->
+    <string name="sentence_filter_competition_remove_all">คุณแน่ใจหรือไม่ที่จะซ่อนการแข่งขันทุกรายการบนหน้าผลบอลสด?</string>
+
+    <!-- Inform users that they must update app to latest version in order to use it -->
+    <string name="sentence_force_update_suffix">คุณต้องอัพเดทแอพเป็นเวอร์ชั่นล่าสุด</string>
+
+    <!-- Inform users that the app downloading first-run data -->
+    <string name="sentence_first_run">กำลังดาวน์โหลดข้อมูลเปิดใช้งานแอพครั้งแรก อาจใช้เวลาสักครู่</string>
+
+    <!-- Inform users that some error has occur during download first-run data -->
+    <string name="sentence_first_run_no_connection">ไม่สามารถดาวน์โหลดข้อมูลสำหรับการเปิดใช้งานแอพครั้งแรกได้ โปรดตรวจสอบการเชื่อมต่ออินเตอร์เน็ตของคุณ</string>
+
+    <!-- Inform users that app is downloading first-run app data -->
+    <string name="sentence_first_run_notification">กำลังดาวน์โหลดข้อมูลในการเปิดใช้งานแอพครั้งแรก</string>
+
+    <!-- Let user add his/her favorite competition to the list -->
+    <string name="sentence_follow_first_competition">ติดตามการแข่งขันรายการแรก</string>
+
+    <!-- Let user add his/her favorite team to the list -->
+    <string name="sentence_follow_first_team">ติดตามทีมแรก</string>
+
+    <!-- Inform users that push notification has been disabled -->
+    <string name="sentence_gcm_not_support_title">ปิดการแจ้งเตือน</string>
+
+    <!-- Inform users that push notification is not support for their devices -->
+    <string name="sentence_gcm_not_support_message">อุปกรณ์ของคุณไม่รองรับการทำงานกับ Google Cloud Messaging Service การแจ้งเตือนในอุปกรณ์ของคุณจะสามารถทำได้ในได้ในเวอร์ชั่นในอนาคต โปรดติดตามข้อมูลต่อไป</string>
+
+    <!-- Filter Competition description -->
+    <string name="sentence_general_filter_competition_summary">ตัวกรองการแข่งขันแสดงในหน้า ผลบอลสด</string>
+
+    <!-- Clear Cached description -->
+    <string name="sentence_general_clear_cache_summary">ล้างแคชไฟล์</string>
+
+    <!-- Promo text -->
+    <string name="sentence_get_superscores_now">ดาวน์โหลดแอพ <xliff:g id="superscores_name">Super Scores</xliff:g></string>
+
+    <!-- Show steps in order to view Head-to-Head statistics for users -->
+    <string name="sentence_head_to_head_select_one_more_team_warning">โปรดเลือกอีกหนึ่งทีม แล้วกดปุ่มอีกครั้ง!</string>
+
+    <!-- Show steps in order to view Head-to-Head statistics for users -->
+    <string name="sentence_head_to_head_select_two_more_team_warning">โปรดเลือกสองทีม แล้วกดปุ่มอีกครั้ง!</string>
+
+    <!-- Show steps in order to view Head-to-Head statistics for users -->
+    <string name="sentence_how_to_use_head_to_head">โปรดเลือกสองทีม แล้วกดปุ่มเปรียบเทียบคะแนน</string>
+
+    <!-- Inform users that they have logging out from Facebook -->
+    <string name="sentence_logging_out_from_facebook">กำลังออกจาก Facebook</string>
+
+    <!-- Inform users the new version is available to download -->
+    <string name="sentence_new_version_available">มีเวอร์ชั่นใหม่แล้ว!</string>
+
+    <!-- Inform users that they have not yet select any competition -->
+    <string name="sentence_no_competition_selected">ไม่มีรายการแข่งขันที่เลือก!</string>
+
+    <!-- Inform users that no data available -->
+    <string name="sentence_no_data_available">ไม่มีข้อมูล!</string>
+
+    <!-- Inform users that the app cannot establish internet connection -->
+    <string name="sentence_no_internet_connection">ไม่มีการเชื่อมต่ออินเตอร์เน็ต</string>
+
+    <!-- Inform users that the app cannot find any map application in their device -->
+    <string name="sentence_no_map_application">ไม่มีโปรแกรมแผนที่</string>
+
+    <!-- Inform users that there are no matches available -->
+    <string name="sentence_no_matches_available">ไม่มีแมตช์!</string>
+
+    <!-- Inform users that there are no round available -->
+    <string name="sentence_no_round_available">ไม่มีรอบการแข่งขัน!</string>
+
+    <!-- Inform users that there are no venue information available -->
+    <string name="sentence_no_venue_available">ไม่มีข้อมูลสนาม!</string>
+
+    <!-- Push notification description -->
+    <string name="sentence_notification_enable_summary">แจ้งเตือนในแถบสถานะเมื่อมีเหตุการณ์เกิดขึ้น</string>
+
+    <!-- Mute description -->
+    <string name="sentence_notification_mute_summary">ปิดเสียงและการสั่น</string>
+
+    <!-- Notification Sound description -->
+    <string name="sentence_notification_sounds_summary">ปรับแต่งเสียงแจ้งเตือน</string>
+
+    <!-- Inform users that push notification is disabled -->
+    <string name="sentence_notification_status_disabled">ระบบแจ้งเตือนถูกปิดอยู่</string>
+
+    <!-- Inform users that push notification is mute -->
+    <string name="sentence_notification_status_mute">ระบบแจ้งเตือนถูกปิดเสียงอยู่</string>
+
+    <!-- Contact us description -->
+    <string name="sentence_other_contact_us_summary">รายงานข้อบกพร่องหรือขอการใช้งานรูปแบบใหม่ๆ</string>
+
+    <!-- Change log description -->
+    <string name="sentence_other_change_log_summary">ดูข้อมูลบันทึกการเปลี่ยนแปลง</string>
+
+    <!-- About description -->
+    <string name="sentence_other_about_summary">เวอร์ชั่นแอพและหมายเลขที่สร้าง</string>
+
+    <!-- View credits description -->
+    <string name="sentence_other_credits_summary">ดูเครดิต</string>
+
+    <!-- Inform users that they have to select another team in order to proceed -->
+    <string name="sentence_please_select_another_team">กรุณาเลือกทีมอื่น</string>
+
+    <!-- Inform users that they have to press back button again in order to exit app -->
+    <string name="sentence_press_back_to_exit">กดปุ่ม <xliff:g id="left_single_quotation">‘</xliff:g>กลับ<xliff:g id="right_single_quotation">’</xliff:g> อีกครั้งเพื่อออกจากแอพ</string>
+
+    <!-- Inform users that widget is being refreshed -->
+    <string name="sentence_refreshing_widget">กำลังรีเฟรช Widget<xliff:g id="horizontal_ellipsis">&#8230;</xliff:g></string>
+
+    <!--Inform user that safety system is currently turn on-->
+    <string name="sentence_safety_system_is_turned_on">ระบบความปลอดภัยถูกเปิดอยู่</string>
+
+    <!-- Inform users that feedback is being sent -->
+    <string name="sentence_sending_feedback">กำลังส่งความคิดเห็น<xliff:g id="horizontal_ellipsis">&#8230;</xliff:g></string>
+
+    <!-- Promote text -->
+    <string name="sentence_share_default_text">ดาวน์โหลดแอพได้ฟรีที่ <xliff:g id="google_play_app_url_short">http://goo.gl/B986SW</xliff:g></string>
+
+    <!-- Inform users that the app already share information to their Facebook -->
+    <string name="sentence_share_facebook_completed">โพสลง Facebook สำเร็จ</string>
+
+    <!-- Inform users that sharing is in progress -->
+    <string name="sentence_share_in_progress">กำลังแชร์<xliff:g id="horizontal_ellipsis">…</xliff:g></string>
+
+    <!-- Ask users permission whether to include app URL in the share message -->
+    <string name="sentence_share_include_app_url">เพิ่มแอพ URL ลงในข้อความ</string>
+
+    <!-- Share live scores description -->
+    <string name="sentence_share_description">เข้าเวป SuperScores.com เพื่อดูผลบอลสด, ข่าว, วีดีโอ, และสถิติเชิงลึก</string>
+
+    <!-- Share live scores headline -->
+    <string name="sentence_share_livescores_headline">ผลบอลสดที่เร็วที่สุด!</string>
+    <!-- Hint for input box to tell users what to do -->
+    <string name="sentence_share_user_input_hint">เขียนข้อความสำหรับแชร์<xliff:g id="horizontal_ellipsis">…</xliff:g></string>
+
+    <!-- Inform users for conflict subscription -->
+    <string name="sentence_shop_ad_subscription_exist">คำเตือน! คุณได้สมัครคุณสมบัตินี้ไว้อยู่แล้ว</string>
+
+    <!-- Inform users that they have 7 day FREE trial period -->
+    <string name="sentence_shop_ad_subscription_free_trial">เพลิดเพลินไปกันการทดลองฟรี 7 วัน</string>
+
+    <!-- Link for more details about subscription -->
+    <string name="sentence_shop_ad_subscription_more_details">กรุณาไปที่ <xliff:g id="web_site">https://support.google.com/googleplay/answer/2476088</xliff:g> สำหรับข้อมูลเพิ่มเติม</string>
+
+    <!-- Give user more options to purchase product -->
+    <string name="sentence_shop_more_options">ไม่สนใจ? ทางเลือกอื่นๆ<xliff:g id="horizontal_ellipsis">&#8230;</xliff:g></string>
+
+    <!-- Error message: user already own the product and cannot purchase the same product -->
+    <string name="sentence_shop_offer_already_owned">คุณเป็นเจ้าของสินค้านี้อยู่แล้ว</string>
+
+    <!-- Description about the product -->
+    <string name="sentence_shop_offer_description_1">สินค้าทุกอย่างในหน้านี้สามารถใช้ได้แค่เครื่องเดียวเท่านั้น</string>
+
+    <!-- Description about the product -->
+    <string name="sentence_shop_offer_description_2">ในกรณีที่คุณตั้งค่าใหม่จากโรงงาน (factory reset) หรือเปลี่ยนเครื่อง รายการสินค้าจะหายไป</string>
+
+    <!-- Description about the product -->
+    <string name="sentence_shop_offer_description_3">ถ้าคุณลบและลงแอพใหม่ กรุณามาที่หน้านี้อีกครั้งเพื่อนำสินค้าที่คุณเคยซื้อกลับมา</string>
+
+    <!-- Error message: user do not have enough coin to purchase feature -->
+    <string name="sentence_shop_offer_insufficient_coin">Coin ไม่พอสำหรับการซื้อ</string>
+
+    <!-- Inform user that his purchase was successful -->
+    <string name="sentence_shop_offer_purchase_successful">การซื้อเสร็จสมบูรณ์ ขอบคุณครับ</string>
+
+    <!-- Ad-removal package -->
+    <string name="sentence_shop_package_one_month">เอาโฆษณาออกหนึ่งเดือน</string>
+
+    <!-- Ad-removal package description -->
+    <string name="sentence_shop_package_one_month_desc">เพลิดเพลินไปกับการใช้แอพที่ไม่มีโฆษณาหนึ่งเดือน</string>
+
+    <!-- Inform users that their device do not support subscription -->
+    <string name="sentence_shop_subscription_not_support">เครื่องของคุณไม่สนับสนุน Subscription ขออภัยในความไม่สดวก</string>
+
+    <!-- Inform users that the transaction was cancelled -->
+    <string name="sentence_shop_transaction_cancelled">ธุรกรรมถูกยกเลิก<xliff:g id="new_line">\n</xliff:g>คุณจะไม่เสียค่าใช้จ่ายใดๆ</string>
+
+    <!-- Warn users that they must not leave screen while transaction is in progress -->
+    <string name="sentence_shop_transaction_warning">กรุณาอย่าเปลี่ยนหน้าในขณะที่ธุรกรรมกำลังดำเนินอยู่</string>
+
+    <!-- Theme description -->
+    <string name="sentence_theme">เปลี่ยนสีของแอพ</string>
+    <!-- Inform users that their devices do not support Speech-to-Text -->
+    <string name="sentence_speech_to_text_not_support">อุปกรณ์ของคุณไม่รองรับการ <xliff:g id="left_single_quotation">‘</xliff:g>เปลี่ยนคำพูดเป็นข้อความ<xliff:g id="right_single_quotation">’</xliff:g></string>
+
+    <!-- Warning users that they cannot unfollow the matches with reason -->
+    <string name="sentence_unable_to_unfollow_comp_team">การที่จะเลิกติดตามแมตช์นี้ คุณต้อง <xliff:g id="left_single_quotation">&#8216;</xliff:g>เลิกติดตาม<xliff:g id="right_single_quotation">&#8217;</xliff:g> การแข่งขันหรือทีมที่คุณติดตามอยู่ก่อนหน้านี้!</string>
+
+    <!-- Warning users that they cannot unfollow the matches with reason -->
+    <string name="sentence_unable_to_unfollow_comp">การที่จะเลิกติดตามแมตช์นี้ คุณต้อง <xliff:g id="left_single_quotation">&#8216;</xliff:g>เลิกติดตาม<xliff:g id="right_single_quotation">&#8217;</xliff:g> การแข่งขันที่คุณติดตามอยู่ก่อนหน้านี้!</string>
+
+    <!-- Warning users that they cannot unfollow the matches with reason -->
+    <string name="sentence_unable_to_unfollow_team">การที่จะเลิกติดตามแมตช์นี้ คุณต้อง <xliff:g id="left_single_quotation">&#8216;</xliff:g>เลิกติดตาม<xliff:g id="right_single_quotation">&#8217;</xliff:g> ทีมที่คุณติดตามอยู่ก่อนหน้านี้!</string>
+
+    <!-- Warning users about the effect of unfollow team -->
+    <string name="sentence_unfollow_warning">ถ้าคุณเลิกติดตามทีมนี้ การแจ้งเตือนของทีมนี้ทั้งหมดจะถูกยกเลิกโดยอัตโนมัติ</string>
+
+    <!-- End Sentences -->
+
+    <!-- Help -->
+    <!-- ![CDATA[]] -->
+    <!-- Help FAQ -->
+    <string-array name="help_faq_topic">
+        <item>ทำไมฉันจึงไม่ได้รับการแจ้งเตือน?</item>
+        <item>ทำไมคะแนนในการแจ้งเตือนจึงต่างจากคะแนนในหน้าผลบอลสด และข้อมูลแมตช์?</item>
+        <item>ทำไมการแข่งขันบางรายการถึงอัพเดทช้า?</item>
+        <item>ความแตกต่างระหว่างการตั้งค่าปิดและยกเลิกการใช้งานคืออะไร?</item>
+        <item>ความหมายของไอคอนการแจ้งเตือนที่มี <xliff:g id="left_single_quotation">‘</xliff:g>ดาว<xliff:g id="right_single_quotation">’</xliff:g> อยู่ตรงกลางคืออะไร?</item>
+        <item>แมตช์ที่แสดงในหน้าผลบอลสด ถูกแบ่งประเภทไว้ยังไง?</item>
+        <item>จะทำตัวกรองการแข่งขันในหน้า ผลบอลสด ได้อย่างไร?</item>
+        <item>ประโยชน์ของทีมโปรดคืออะไร?</item>
+        <item>ประโยชน์ของรายการแข่งขันโปรดคืออะไร?</item>
+        <item>ฉันจะสมัครรับข้อมูลแมตช์ ทีม หรือ รายการแข่งขันได้อย่างไร?</item>
+        <item>ทำไมทีมบางทีมถึงไม่มีสัญลักษณ์?</item>
+        <item>ฉันจะรายงานข้อบกพร่องหรือส่งคำขอการใช้งานรูปแบบใหม่ๆ ได้อย่างไร?</item>
+    </string-array>
+
+    <array name="help_faq_messages">
+        <item>
+            <xliff:g id="help_faq_messages_00">@array/help_faq_messages_00</xliff:g>
+        </item>
+        <item>
+            <xliff:g id="help_faq_messages_01">@array/help_faq_messages_01</xliff:g>
+        </item>
+        <item>
+            <xliff:g id="help_faq_messages_02">@array/help_faq_messages_02</xliff:g>
+        </item>
+        <item>
+            <xliff:g id="help_faq_messages_03">@array/help_faq_messages_03</xliff:g>
+        </item>
+        <item>
+            <xliff:g id="help_faq_messages_04">@array/help_faq_messages_04</xliff:g>
+        </item>
+        <item>
+            <xliff:g id="help_faq_messages_05">@array/help_faq_messages_05</xliff:g>
+        </item>
+        <item>
+            <xliff:g id="help_faq_messages_06">@array/help_faq_messages_06</xliff:g>
+        </item>
+        <item>
+            <xliff:g id="help_faq_messages_07">@array/help_faq_messages_07</xliff:g>
+        </item>
+        <item>
+            <xliff:g id="help_faq_messages_08">@array/help_faq_messages_08</xliff:g>
+        </item>
+        <item>
+            <xliff:g id="help_faq_messages_09">@array/help_faq_messages_09</xliff:g>
+        </item>
+        <item>
+            <xliff:g id="help_faq_messages_10">@array/help_faq_messages_10</xliff:g>
+        </item>
+        <item>
+            <xliff:g id="help_faq_messages_11">@array/help_faq_messages_11</xliff:g>
+        </item>
+    </array>
+
+    <!-- 00 -->
+    <string-array name="help_faq_messages_00">
+        <item><xliff:g id="asterisk">*</xliff:g>โปรดตรวจสอบว่าได้เปิดใช้งานการแจ้งเตือนใน การตั้งค่าแล้ว</item>
+        <item><xliff:g id="asterisk">*</xliff:g>สำหรับเครื่องรุ่นเก่ากว่า 3.0 การแจ้งเตือนจำเป็นต้องใช้ <xliff:g id="left_double_quotation">&#8220;</xliff:g>Google Play Store<xliff:g id="right_double_quotation">&#8221;</xliff:g> และจะต้องมีข้อมูลที่บันทึกไว้ในบัญชี Google อย่างน้อยหนึ่งรายการ บัญชี Google ไม่จำเป็นต้องใช้กับเครื่องที่ใช้ระบบปฏิบัติการ Android รุ่น 4.0.4 หรือรุ่นที่ใหม่กว่า</item>
+    </string-array>
+
+    <!-- 01 -->
+    <string-array name="help_faq_messages_01">
+        <item><xliff:g id="asterisk">*</xliff:g>เราได้แยกเซิร์ฟเวอร์สำหรับการแจ้งเตือนเพื่อส่งผลการแข่งขันให้ได้เร็วที่สุด ดังนั้นบางครั้งผลการแข่งขันในการแจ้งเตือนจึงอัพเดทเร็วกว่าในหน้า ผลบอลสดและ ข้อมูลแมตช์</item>
+    </string-array>
+
+    <!-- 02 -->
+    <string-array name="help_faq_messages_02">
+        <item><xliff:g id="asterisk">*</xliff:g>การรายงานผลบางแมตช์จะขึ้นอยู่กับรูปแบบการแข่งขัน  โดยบางครั้งผลการแข่งขันจะอัพเดทช่วงพักครึ่งเวลาหรือหลังจากจบการแข่งขันไปแล้ว เราพยายามอย่างสุดความสามารถในการอัพเดทผลการแข่งขันให้รวดเร็วนาทีต่อนาที</item>
+    </string-array>
+
+    <!-- 03 -->
+    <string-array name="help_faq_messages_03">
+        <item><xliff:g id="asterisk">*</xliff:g>เมื่อตั้งค่าเป็น <xliff:g id="left_single_quotation">‘</xliff:g>ปิดเสียงเตือน<xliff:g id="right_single_quotation">’</xliff:g> คุณจะยังคงได้รับการแจ้งเตือนแต่จะไม่มีการสั่นหรือส่งเสียงเตือน</item>
+        <item><xliff:g id="asterisk">*</xliff:g>หากตั้งค่าเป็น <xliff:g id="left_single_quotation">‘</xliff:g>ปิดการทำงาน<xliff:g id="right_single_quotation">’</xliff:g> คุณจะไม่ได้รับการแจ้งเตือนใดๆ เลย</item>
+    </string-array>
+
+    <!-- 04 -->
+    <string-array name="help_faq_messages_04">
+        <item><xliff:g id="asterisk">*</xliff:g>การแจ้งเตือนที่มีสัญลักษณ์ <xliff:g id="left_single_quotation">‘</xliff:g>รูปดาว<xliff:g id="right_single_quotation">’</xliff:g> หมายถึงรายการที่คุณสมัครรับข้อมูลนั้นมีการแข่งขันอยู่ หรือทีมที่คุณสมัครรับข้อมูลกำลังแข่งอยู่ในแมตช์นั้น</item>
+    </string-array>
+
+    <!-- 05 -->
+    <string-array name="help_faq_messages_05">
+        <item><xliff:g id="asterisk">*</xliff:g>ทีมและรายการแข่งขันโปรดจะแสดงอยู่ด้านบนสุด จากนั้นจะเรียงตามตัวอักษร</item>
+        <item><xliff:g id="asterisk">*</xliff:g>สำหรับตารางการแข่งขัน &#8220;วันนี้&#8221; &#8220;เมื่อวาน&#8221; และ &#8220;วันพรุ่งนี้&#8221; จะแบ่งตามโซนเวลา UTC (ช้ากว่าเวลาในไทย 7 ชั่วโมง)</item>
+    </string-array>
+
+    <!-- 06 -->
+    <string-array name="help_faq_messages_06">
+        <item>ในหน้าผลการบอลสด:</item>
+        <item><xliff:g id="asterisk">*</xliff:g>กดเมนู <xliff:g id="greater_than">&gt;</xliff:g> ตัวกรองการแข่งขัน</item>
+        <item><xliff:g id="underscore">_</xliff:g></item>
+        <item>ในหน้าการตั้งค่า:</item>
+        <item><xliff:g id="asterisk">*</xliff:g>กดตัวกรองการแข่งขัน</item>
+    </string-array>
+
+    <!-- 07 -->
+    <string-array name="help_faq_messages_07">
+        <item><xliff:g id="asterisk">*</xliff:g>ทีมโปรดจะอยู่ด้านบนสุดของหน้า ผลบอลสด</item>
+        <item><xliff:g id="asterisk">*</xliff:g>นอกจากนี้ คุณยังสามารถค้นหาทีมโปรดของคุณได้ง่ายขึ้นในหน้าทีมของฉัน</item>
+    </string-array>
+
+    <!-- 08 -->
+    <string-array name="help_faq_messages_08">
+        <item><xliff:g id="asterisk">*</xliff:g>รายการโปรดจะอยู่ด้านบนสุดของหน้า ผลบอลสด</item>
+        <item><xliff:g id="asterisk">*</xliff:g>นอกจากนั้น คุณจะหาแมตช์โปรดได้ง่ายขึ้นโดยดูจากหน้าย่อยโปรดปราน ในหน้า กรองรายการแข่งขัน และในหน้า เลือกรายการแข่งขัน</item>
+    </string-array>
+
+    <!-- 09 -->
+    <string-array name="help_faq_messages_09">
+        <item>เพื่อสมัครรับข้อมูลแมตช์:</item>
+        <item><xliff:g id="asterisk">*</xliff:g>ในหน้า ผลบอลสด กด <xliff:g id="at_sign">@</xliff:g> บนแมตช์ที่ต้องการสมัครรับข้อมูล</item>
+        <item><xliff:g id="asterisk">*</xliff:g>ในหน้า ข้อมูลแมตช์ กด <xliff:g id="at_sign">@</xliff:g> เพื่อสมัครรับข้อมูลแมตช์นี้</item>
+        <item><xliff:g id="underscore">_</xliff:g></item>
+        <item>เพื่อสมัครรับข้อมูลทีม:</item>
+        <item><xliff:g id="asterisk">*</xliff:g>ในหน้า ผลบอลสด กดแมตช์ที่ต้องการค้างเอาไว้ &gt; กด <xliff:g id="icon">@</xliff:g> &gt; สมัครรับข้อมูลทีมที่คุณต้องการ</item>
+        <item><xliff:g id="asterisk">*</xliff:g>ในหน้า ข้อมูลทีม กด <xliff:g id="icon">@</xliff:g> เพื่อสมัครรับข้อมูลทีมนี้</item>
+        <item><xliff:g id="asterisk">*</xliff:g>ในหน้า ทีมของฉัน กด <xliff:g id="icon">@</xliff:g> เพื่อสมัครรับข้อมูลทีม</item>
+        <item><xliff:g id="asterisk">*</xliff:g>หมายเหตุ: เมื่อคุณสมัครรับข้อมูลทีมหนึ่งๆ จะเป็นการสมัครรับข้อมูลแมตช์ทั้งหมดที่ทีมนั้นเล่นโดยอัตโนมัติ</item>
+        <item><xliff:g id="underscore">_</xliff:g></item>
+        <item>เพื่อสมัครรับข้อมูลรายการแข่งขัน:</item>
+        <item><xliff:g id="asterisk">*</xliff:g>ในหน้า ผลบอลสด กดรายการแข่งขันที่ต้องการค้างเอาไว้ &gt; กด <xliff:g id="icon">@</xliff:g></item>
+        <item><xliff:g id="asterisk">*</xliff:g>ในหน้าตัวกรองรายการแข่งขัน กด <xliff:g id="icon">@</xliff:g> ที่รายการแข่งขันที่คุณต้องการสมัครรับข้อมูล</item>
+        <item><xliff:g id="asterisk">*</xliff:g>หมายเหตุ: เมื่อคุณสมัครรับข้อมูลการแข่งขันรายการหนึ่งๆ จะเป็นการสมัครรับข้อมูลแมตช์ทั้งหมดในรายการนั้นโดยอัตโนมัติ</item>
+    </string-array>
+
+    <!-- 10 -->
+    <string-array name="help_faq_messages_10">
+        <item><xliff:g id="asterisk">*</xliff:g>สัญลักษณ์ของบางทีมอาจไม่มีแสดง เราจะทำสุดความสามารถเพื่อค้นหาสัญลักษณ์เพื่อนำมาแสดงให้ถูกต้อง</item>
+    </string-array>
+
+    <!-- 11 -->
+    <string-array name="help_faq_messages_11">
+        <item><xliff:g id="asterisk">*</xliff:g>ติดต่อเราที่ <xliff:g id="email">support@superscores.com</xliff:g></item>
+    </string-array>
+    <!-- End Help FAQ -->
+    <!-- Line number +56 -->
+
+</resources>

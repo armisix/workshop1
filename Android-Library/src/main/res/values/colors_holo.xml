@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Holo color -->
+    <color name="holo_light">#99333333</color>
+    <color name="holo_dark">#CCFFFFFF</color>
+    <color name="holo_blue_light">#FF33B5E5</color>
+    <color name="holo_blue_dark">#FF0099CC</color>
+    <color name="holo_blue_bright">#FF00DDFF</color>
+    <color name="holo_purple_light">#FFAA66CC</color>
+    <color name="holo_purple_dark">#FF9933CC</color>
+    <color name="holo_green_light">#FF99CC00</color>
+    <color name="holo_green_dark">#FF669900</color>
+    <color name="holo_orange_light">#FFFFBB33</color>
+    <color name="holo_orange_dark">#FFFF8800</color>
+    <color name="holo_red_light">#FFFF4444</color>
+    <color name="holo_red_dark">#FFCC0000</color>
+    <color name="icon_holo_light">#9333</color>
+    <color name="icon_holo_dark">#CFFF</color>
+</resources>

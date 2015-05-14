@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.superscores.android.widget.placeholder.PlaceholderNoDataWrapperLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <com.superscores.android.widget.TextViewRobotoLight
+        android:id="@+id/placeholderNoDataText"
+        style="@style/TextAppearance.SuperScores.Widget.Placeholder"
+        android:text="@string/sentence_no_data_available" />
+</com.superscores.android.widget.placeholder.PlaceholderNoDataWrapperLayout>

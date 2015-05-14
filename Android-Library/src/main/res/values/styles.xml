@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Widget.SuperScores.Dark.ExpandableListView" parent="@style/Base.Widget.SuperScores.Dark.ExpandableListView" />
+
+    <style name="Widget.SuperScores.Light.ExpandableListView" parent="@style/Base.Widget.SuperScores.Light.ExpandableListView" />
+
+    <style name="Widget.SuperScores.Dark.ListView" parent="@style/Base.Widget.SuperScores.Dark.ListView" />
+
+    <style name="Widget.SuperScores.Light.ListView" parent="@style/Base.Widget.SuperScores.Light.ListView" />
+
+    <style name="Widget.SuperScores.Dark.ListView.White" parent="@style/Base.Widget.SuperScores.Dark.ListView.White" />
+
+    <style name="Widget.SuperScores.Light.ListView.White" parent="@style/Base.Widget.SuperScores.Light.ListView.White" />
+
+    <style name="Widget.SuperScores.Dark.ScrollView" parent="@style/Base.Widget.SuperScores.Dark.ScrollView" />
+
+    <style name="Widget.SuperScores.Light.ScrollView" parent="@style/Base.Widget.SuperScores.Light.ScrollView" />
+
+</resources>

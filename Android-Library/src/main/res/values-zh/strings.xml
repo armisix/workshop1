@@ -1,0 +1,1925 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- IMPORTANT: BEFORE translation please read this page: http://developer.android.com/distribute/googleplay/publish/localizing.html -->
+    <!-- GO TO SECTION: 3 Manage strings for localization -->
+    <!-- SUBSECTION: Mark message parts that should not be translated -->
+    <!-- TO SUM UP: Message in tag <xliff:g></xliff:g> SHOULD NOT BE TRANSLATED! -->
+    <!-- EXAMPLE: <xliff:g id="time" example="5 days>%1$s</xliff:g>until holiday *%1$s should NOT be translated -->
+    <!-- EXAMPLE: Learn more at <xliff:g id="prod_gamegroup">Game Group</xliff:g> *Game Group should NOT be translated -->
+
+
+    <!-- Content Description for Accessibility -->
+
+
+    <!-- Open navigation drawer (left navigation bar) for more details: http://developer.android.com/design/patterns/navigation-drawer.html -->
+    <string name="drawer_left_open">打开左侧导航栏</string>
+
+    <!-- Close navigation drawer (left navigation bar) for more details: http://developer.android.com/design/patterns/navigation-drawer.html -->
+    <string name="drawer_left_close">关闭左侧导航栏</string>
+
+    <!-- End Content Description for Accessibility -->
+
+
+    <!-- **************************************************************************************************** -->
+
+
+    <!-- Livepush Notification Titles -->
+    <!-- Goal event has occur -->
+    <string name="livepush_title_goal">进球了！</string>
+
+    <!-- Match Started event has occur -->
+    <string name="livepush_title_started">比赛开始！</string>
+
+    <!-- Match Finished event has occur -->
+    <string name="livepush_title_finished">比赛结束！</string>
+
+    <!-- Half time event has occur -->
+    <string name="livepush_title_half_time">中场！</string>
+
+    <!-- Start second half event has occur -->
+    <string name="livepush_title_start_2nd_half">开始下半场！</string>
+
+    <!-- Full time event has occur -->
+    <string name="livepush_title_full_time">终场！</string>
+
+    <!-- Start extra time event has occur -->
+    <string name="livepush_title_start_extra_time">开始加时赛！</string>
+
+    <!-- Half extra time event has occur -->
+    <string name="livepush_title_half_extra_time">中场！（加时赛）</string>
+
+    <!-- Start 2nd Half (Extra Time) event has occur -->
+    <string name="livepush_title_start_2nd_extra_half">开始下半场！（加时赛）</string>
+
+    <!-- Penalty Shootout event has occur -->
+    <string name="livepush_title_penalty_shootout">点球决胜！</string>
+
+    <!-- End Livepush Notification titles -->
+
+
+    <!-- **************************************************************************************************** -->
+
+
+    <!-- Acronym Need Full -->
+
+
+    <!-- MAXIMUM 2 CHARACTER: Acronym for Played use for describe number of times each team played in the current season -->
+    <string name="acronym_played">场数</string>
+
+    <!-- MAXIMUM 2 CHARACTER: Acronym for Win use for describe number of times each team win in the current season -->
+    <string name="acronym_win">胜</string>
+
+    <!-- MAXIMUM 2 CHARACTER: Acronym for Draw use for describe number of times each team draw in the current season -->
+    <string name="acronym_draw">平</string>
+
+    <!-- MAXIMUM 2 CHARACTER: Acronym for Lose use for describe number of times each team lose in the current season -->
+    <string name="acronym_lose">负</string>
+
+    <!-- MAXIMUM 2 CHARACTER: Acronym for Goal For use for describe number of goals each team scores in the current season -->
+    <string name="acronym_goal_for">进球</string>
+
+    <!-- MAXIMUM 2 CHARACTER: Acronym for Goal Against use for describe number of goals each team loses in the current season -->
+    <string name="acronym_goal_against">失球</string>
+
+    <!-- MAXIMUM 2 CHARACTER: Acronym for Goal Difference use for describe number of goals difference calculated by Goal For minus Goal Against -->
+    <string name="acronym_goal_difference">净胜</string>
+
+    <!-- MAXIMUM 3 CHARACTER: Acronym for Points use for describe number of points each teams make in the current season -->
+    <string name="acronym_points">分</string>
+    <!-- End Acronym Need Full -->
+
+
+    <!-- **************************************************************************************************** -->
+
+
+    <!-- Acronym Full -->
+
+
+    <!-- Use for describe number of times each team played in the current season -->
+    <string name="acronym_full_played">已打完</string>
+
+    <!-- Use for describe number of times each team win in the current season -->
+    <string name="acronym_full_win">胜</string>
+
+    <!-- Use for describe number of times each team draw in the current season -->
+    <string name="acronym_full_draw">平</string>
+
+    <!-- Use for Lose use for describe number of times each team lose in the current season -->
+    <string name="acronym_full_lose">负</string>
+
+    <!-- Use for describe number of goals each team scores in the current season -->
+    <string name="acronym_full_goal_for">目标</string>
+
+    <!-- Use for describe number of goals each team loses in the current season -->
+    <string name="acronym_full_goal_against">失球数</string>
+
+    <!-- Use for describe number of goals difference calculated by Goal For minus Goal Against -->
+    <string name="acronym_full_goal_difference">净胜球</string>
+
+    <!-- Use for describe number of points each teams make in the current season -->
+    <string name="acronym_full_points">积分</string>
+
+    <!-- End Acronym Full -->
+
+
+    <!-- **************************************************************************************************** -->
+
+
+    <!-- Acronym -->
+    <!-- DO NOT translate -->
+    <string name="acronym_after_extra_time"><xliff:g id="after_extra_time">AET</xliff:g></string>
+    <string name="acronym_aggregate"><xliff:g id="aggregate">Aggr.</xliff:g></string>
+    <string name="acronym_cancel"><xliff:g id="cancel">Canc.</xliff:g></string>
+    <string name="acronym_extra_time"><xliff:g id="extra_time">ET</xliff:g></string>
+    <string name="acronym_full_time"><xliff:g id="full_time">FT</xliff:g></string>
+    <string name="acronym_half_time"><xliff:g id="half_time">HT</xliff:g></string>
+    <string name="acronym_penalty"><xliff:g id="penalty">Pen.</xliff:g></string>
+    <string name="acronym_postpone"><xliff:g id="postpone">Posp.</xliff:g></string>
+    <string name="acronym_suspend"><xliff:g id="suspend">Susp.</xliff:g></string>
+    <!-- End DO NOT translate -->
+
+
+    <!-- This will followed by number of goal scores with average, for example Goals (Avg.) -> 25 (2.33) -->
+    <string name="acronym_goals_average">进球数 （场均）</string>
+
+    <!-- This will followed by number of times something happen with average -->
+    <string name="acronym_times_average">次 （平均）</string>
+    <!-- End Acronym -->
+
+
+    <!-- Unit/Symbol: DO NOT TRANSLATE -->
+    <string name="unit_kg"><xliff:g id="kilogram">kg</xliff:g></string>
+    <string name="unit_cm"><xliff:g id="centimeter">cm</xliff:g></string>
+    <string name="symbol_percentage"><xliff:g id="percentage">&#37;</xliff:g></string>
+    <!-- End Unit/Symbol -->
+
+
+    <!-- **************************************************************************************************** -->
+
+
+    <!-- Month -->
+    <string name="month_january">一月</string>
+    <string name="month_february">二月</string>
+    <string name="month_march">三月</string>
+    <string name="month_april">四月</string>
+    <string name="month_may">五月</string>
+    <string name="month_june">六月</string>
+    <string name="month_july">七月</string>
+    <string name="month_august">八月</string>
+    <string name="month_september">九月</string>
+    <string name="month_october">十月</string>
+    <string name="month_november">十一月</string>
+    <string name="month_december">十二月</string>
+    <!-- End Month -->
+
+
+    <!-- Color -->
+    <string name="color_colored">已上色</string>
+    <string name="color_light">亮</string>
+    <string name="color_dark">暗</string>
+    <string name="color_orange">橙色</string>
+    <string name="color_blue">蓝色</string>
+    <string name="color_green">绿色</string>
+    <!-- End Color -->
+
+
+    <!-- **************************************************************************************************** -->
+    <!-- WARNING: Before translation this section please read this page: http://developer.android.com/guide/topics/resources/string-resource.html#FormattingAndStyling -->
+    <!-- GO TO SECTION: Quantity Strings (Plurals) -->
+    <!-- TO SUM UP: Message in tag <xliff:g></xliff:g> SHOULD NOT BE TRANSLATED! -->
+    <!-- <item quantity="zero"> description: When the language requires special treatment of the number 0 (as in Arabic) -->
+    <!-- <item quantity="one"> description: When the language requires special treatment of numbers like one (as with the number 1 in English and most other languages; in Russian, any number ending in 1 but not ending in 11 is in this class) -->
+    <!-- <item quantity="two"> description: When the language requires special treatment of numbers like two (as with 2 in Welsh, or 102 in Slovenian) -->
+    <!-- <item quantity="few"> description: When the language requires special treatment of "small" numbers (as with 2, 3, and 4 in Czech; or numbers ending 2, 3, or 4 but not 12, 13, or 14 in Polish) -->
+    <!-- <item quantity="zero"> description: When the language requires special treatment of the number 0 (as in Arabic) -->
+    <!-- <item quantity="many"> description: When the language requires special treatment of "large" numbers (as with numbers ending 11-99 in Maltese) -->
+    <!-- <item quantity="other"> description: When the language does not require special treatment of the given quantity (as with all numbers in Chinese, or 42 in English) -->
+    <!-- EXAMPLE: -->
+    <!-- <plurals name="numberOfSongsAvailable"> -->
+    <!-- <item quantity="one">One song found.</item> -->
+    <!-- <item quantity="other">%d songs found.</item> -->
+    <!-- </plurals> -->
+
+
+    <!-- Plurals -->
+
+
+    <!-- Total number of clean sheet (a game in which one team prevents the opposing team from scoring) -->
+    <!-- Display fomat "Clean Sheet: 2/6 Times (33.33%)" -->
+    <plurals name="clean_sheet">
+        <item quantity="other">不失球：<xliff:g id="rational_number" example="120/200">%1$,d/%2$,d</xliff:g>场 <xliff:g id="percentage" example="(60.00%)">(%3$.2f%%)</xliff:g></item>
+    </plurals>
+
+    <!-- Number of matches played. Display fomat "50 matches played" -->
+    <plurals name="match_number">
+        <item quantity="other"><xliff:g id="number_of_match" example="120">%1$,d</xliff:g>比赛</item>
+    </plurals>
+
+    <!-- Number of recently matches -->
+    <!-- Display fomat "Last 4 Matches" -->
+    <plurals name="match_recently">
+        <item quantity="other">最近<xliff:g id="number_of_match" example="120">%1$,d</xliff:g>场比赛</item>
+    </plurals>
+
+    <!-- Number of recently seasons. Display fomat "Last 2 Seasons" -->
+    <plurals name="season_recently">
+        <item quantity="other">最近 <xliff:g id="number_of_season" example="120">%1$,d</xliff:g> 个赛季</item>
+    </plurals>
+
+    <!-- Number of recently matches played at Home Field (home ground) -->
+    <!-- Display fomat "Home Filed: Last 4 Matches" -->
+    <plurals name="recently_home">
+        <item quantity="other">主场：最近<xliff:g id="number_of_match" example="120">%1$,d</xliff:g>场比赛</item>
+    </plurals>
+
+    <!-- Number of recently matches played at Away Field (opponents' ground) -->
+    <!-- Display fomat "Away Filed: Last 4 Matches" -->
+    <plurals name="recently_away">
+        <item quantity="other">客场：最近<xliff:g id="number_of_match" example="120">%1$,d</xliff:g>场比赛</item>
+    </plurals>
+
+    <!-- Number of recently matches played at "Team Name" Field -->
+    <!-- Display fomat "Manchester United Field: Last 4 Matches" -->
+    <plurals name="match_recently_team">
+        <item quantity="other"><xliff:g id="team_name" example="Manchester United">%1$s</xliff:g> 主场：最近<xliff:g id="number_of_match" example="120">%2$,d</xliff:g>场比赛</item>
+    </plurals>
+
+    <!-- Total number of goal scores with average -->
+    <!-- Display fomat "Total 256 Goal Scores (2.75)" -->
+    <plurals name="total_goal_scores">
+        <item quantity="other">总进球<xliff:g id="number_of_goal_score" example="120">%1$,d</xliff:g>个 <xliff:g id="goal_average_per_match" example="(2.75)">(%2$.2f)</xliff:g></item>
+    </plurals>
+
+    <!-- Total number of matches played -->
+    <!-- Display fomat "Total 50 Matches Played" -->
+    <plurals name="total_matches_played">
+        <item quantity="other">全部已打完的<xliff:g id="number_of_match" example="120">%1$,d</xliff:g>场比赛</item>
+    </plurals>
+
+    <!-- Total number of matches played at Away Field -->
+    <!-- Display fomat "Away Field: Total 50 Matches" -->
+    <plurals name="total_matches_played_away">
+        <item quantity="other">客场：全部<xliff:g id="number_of_match" example="120">%1$,d</xliff:g>场比赛</item>
+    </plurals>
+
+    <!-- Total number of matches played at Home Field -->
+    <!-- Display fomat "Home Field: Total 50 Matches" -->
+    <plurals name="total_matches_played_home">
+        <item quantity="other">主场：全部<xliff:g id="number_of_match" example="120">%1$,d</xliff:g>场比赛</item>
+    </plurals>
+
+    <!-- Total number of matches played at "Team Name" Field -->
+    <!-- Display fomat "Manchester United Field: Total 50 Matches" -->
+    <plurals name="total_matches_play_at_team_fields">
+        <item quantity="other"><xliff:g id="team_name" example="Manchester United">%1$s</xliff:g> 主场：全部<xliff:g id="number_of_match" example="120">%2$,d</xliff:g>场比赛</item>
+    </plurals>
+
+    <!-- Number of matches played at Neutral Field -->
+    <!-- Display fomat "Neutral Field: 50 Matches Played" -->
+    <plurals name="total_neutral_field_matches">
+        <item quantity="other">中立场：已打完<xliff:g id="number_of_match" example="120">%1$,d</xliff:g>场比赛</item>
+    </plurals>
+
+    <!-- Number of goal scores at Neutral Field with average -->
+    <!-- Display fomat "Neutral Field: 256 Goal Scores (2.75)" -->
+    <plurals name="total_neutral_goal_scores">
+        <item quantity="other">中立场：进球<xliff:g id="number_of_goal_score" example="120">%1$,d</xliff:g>个 <xliff:g id="goal_average_per_match" example="(2.75)">(%2$.2f)</xliff:g></item>
+    </plurals>
+
+    <!-- Number of matches played at Home/Away Field -->
+    <!-- Display fomat "Home/Away Field: 50 Matches Played" -->
+    <plurals name="total_home_away_field_matches">
+        <item quantity="other">主场/客场：已打完<xliff:g id="number_of_match" example="120">%1$,d</xliff:g>场比赛</item>
+    </plurals>
+
+    <!-- Number of goal scores at Home/Away Field with average -->
+    <!-- Display fomat "Home/Away Field: 256 Goal Scores (2.75)" -->
+    <plurals name="total_home_away_goal_scores">
+        <item quantity="other">主场/客场：进球<xliff:g id="number_of_goal_score" example="120">%1$,d</xliff:g>个 <xliff:g id="goal_average_per_match" example="(2.75)">(%2$.2f)</xliff:g></item>
+    </plurals>
+
+    <!-- Number of goal scores at Home/Away Field with average. Display fomat "Home/Away field: 256 goal scores (2.75)" -->
+    <plurals name="unfollow_entry">
+        <item quantity="other">对<xliff:g id="number_of_entry" example="100">%1$d</xliff:g>个项目取消了关注</item>
+    </plurals>
+
+    <!-- Number of days past from publish time of a news entry. Display fomat "3 days ago" -->
+    <plurals name="days_ago">
+        <item quantity="other"><xliff:g id="number_of_day" example="1">%1$,d</xliff:g> 天前</item>
+    </plurals>
+
+    <!-- Number of hours past from publish time of a news entry. Display fomat "7 hours ago" -->
+    <plurals name="hours_ago">
+        <item quantity="other"><xliff:g id="number_of_hour" example="1">%1$,d</xliff:g>小时前</item>
+    </plurals>
+
+    <!-- Number of minutes past from publish time of a news entry. Display fomat "50 minutes ago" -->
+    <plurals name="minutes_ago">
+        <item quantity="other"><xliff:g id="number_of_minute" example="1">%1$,d</xliff:g>分钟前</item>
+    </plurals>
+
+    <!-- Display fomat "50 days" -->
+    <plurals name="days">
+        <item quantity="other"><xliff:g id="number_of_minute" example="100">%1$,d</xliff:g>天</item>
+    </plurals>
+
+    <!-- Display fomat "7 hours" -->
+    <plurals name="hours">
+        <item quantity="other"><xliff:g id="number_of_hour" example="100">%1$,d</xliff:g>小时</item>
+    </plurals>
+
+    <!-- Display fomat "50 minutes" -->
+    <plurals name="minutes">
+        <item quantity="other"><xliff:g id="number_of_minute" example="100">%1$,d</xliff:g>分钟</item>
+    </plurals>
+
+    <!-- How often does something happen/occure. Display fomat "50 times" -->
+    <plurals name="times">
+        <item quantity="other"><xliff:g id="number_of_time" example="100">%1$,d</xliff:g>次</item>
+    </plurals>
+    <!-- End Plurals -->
+
+
+    <!-- **************************************************************************************************** -->
+
+
+    <!-- Replace -->
+    <!-- The length of time that sth lasts or continues. For example, duration of the video -->
+    <string name="replace_duration">时长<xliff:g id="duration" example="02:35">%1$s</xliff:g></string>
+
+    <!-- Inform user why he/she cannot send feedback -->
+    <string name="replace_feedback_warning">请输入至少20个字符；<xliff:g id="new_line_character">\n</xliff:g>您输入了<xliff:g id="number" example="4">%1$d</xliff:g>个</string>
+
+    <!-- When you follow something you are interested in it. Like follow in Twitter. -->
+    <string name="replace_follow">关注<xliff:g id="name" example="Manchester United">%1$s</xliff:g></string>
+
+    <!-- Inform user that some items have been deleted -->
+    <string name="replace_items_deleted">已删除<xliff:g id="amount" example="5">%1$d</xliff:g>个项目</string>
+
+    <!-- Show users when data is updated. No connection! Last updated: 30/09/2013, 22:00 -->
+    <string name="replace_last_update">没有连接！上次更新于：<xliff:g id="date_time" example="30/09/2013, 22:00">%1$s</xliff:g></string>
+
+    <!-- Show users when data is updated, Last update at 25 October 2013, 22:30 GMT+1:00 -->
+    <string name="replace_last_updated_at">最后更新：<xliff:g id="date_time" example="25 October 2013, 22:30 GMT+1:00">%1$s</xliff:g></string>
+
+    <!-- Lose by [number]. For example Lose by 2 mean result is 0-2, 1-3, 2-4, etc. -->
+    <string name="replace_lose_by">输 <xliff:g id="number" example="2">%1$d</xliff:g> 球</string>
+
+    <!-- Match started at 15:00 -->
+    <string name="replace_match_started_at">比赛在<xliff:g id="time" example="15:00">%1$s</xliff:g>开始</string>
+
+    <!-- Press 'Icon' or 'Icon' to add a team -->
+    <string name="replace_press_to_add_favorite_team">按<xliff:g id="icon_1">@</xliff:g>或<xliff:g id="icon_1">@</xliff:g>添加一支球队</string>
+
+    <!-- Inform users that they cannot turn off push with solution -->
+    <string name="replace_push_turn_off_warning_comp">要关闭此推送，您必须首先在<xliff:g id="page_name" example="Following">[!~%1$s~!]</xliff:g>页中的竞赛中关闭推送。</string>
+
+    <!-- Inform users that they cannot turn off push with solution -->
+    <string name="replace_push_turn_off_warning_comp_team">要关闭此推送，您必须首先在<xliff:g id="page_name" example="Following">[!~%1$s~!]</xliff:g>页中的团队和竞赛中关闭推送。</string>
+
+    <!-- Inform users that they cannot turn off push with solution -->
+    <string name="replace_push_turn_off_warning_team">要关闭此推送，您必须首先在<xliff:g id="page_name" example="Following">[!~%1$s~!]</xliff:g>页中的竞赛中关闭推送。</string>
+
+    <!-- Link to read more -->
+    <string name="replace_read_more">在<xliff:g id="number" example="http://superscores.com">%1$s</xliff:g>了解更多</string>
+
+    <!-- Read "something" on "website name" -->
+    <string name="replace_read_on">在<xliff:g id="name" example="SuperScores.com">%2$s</xliff:g>阅读<xliff:g id="name" example="">“%1$s”</xliff:g></string>
+
+    <!-- Ad-removal package description -->
+    <string name="replace_shop_offer_enjoy">享受无广告体验，截至<xliff:g id="date_time" example="20 Dec 2012, 02:00 GMT+00:00">%1$s</xliff:g></string>
+
+    <!-- Display transaction failed message along with error code -->
+    <string name="replace_shop_offer_error_message">交易失败，错误代码<xliff:g id="error_code" example="0x0000">%1$s</xliff:g></string>
+
+    <!-- Statistics from 01/01/2012 until 31/01/2012 -->
+    <string name="replace_statistics_from_until"><xliff:g id="double_asterisk">**</xliff:g>统计数据：从 <xliff:g id="start_date" example="01/01/2012">%1$s</xliff:g> 直到 <xliff:g id="end_date" example="31/01/2012">%2$s</xliff:g></string>
+
+    <!-- Use to inform user the location of matches. For example, Manchester United field -->
+    <string name="replace_team_field"><xliff:g id="team_name" example="Manchester United">%1$s</xliff:g>场地</string>
+
+    <!-- When you follow something you are interested in it. Like follow in Twitter. -->
+    <string name="replace_unfollow">取消关注<xliff:g id="name" example="Manchester United">%1$s</xliff:g></string>
+
+    <!-- Round name such as Round 1, Round 2, Round 3, etc. -->
+    <string name="replace_week">第<xliff:g id="number" example="12">%1$d</xliff:g>周</string>
+
+    <!-- Win by [number]. For example Win by 2 mean result is 2-0, 3-1, 4-2, etc. -->
+    <string name="replace_win_by">赢 <xliff:g id="number" example="2">%1$d</xliff:g> 球</string>
+    <!-- End Replace -->
+
+
+    <!-- **************************************************************************************************** -->
+
+
+    <!-- Words/Phrase -->
+    <!-- Array -->
+
+
+    <!-- Clear cached options -->
+    <string-array name="clear_cache">
+        <item>所有文件</item>
+        <item>仅图像</item>
+        <item>仅数据</item>
+    </string-array>
+
+    <!-- Contact us options -->
+    <string-array name="feedback_type">
+        <item>报告错误</item>
+        <item>请求功能</item>
+        <item>其他问题</item>
+    </string-array>
+
+    <!-- Filter matches on Live Scores Page by these match status -->
+    <string-array name="filter_matches">
+        <item>全部</item>
+        <item>正在进行</item>
+        <item>还未开始</item>
+        <item>已完成</item>
+        <item>中断</item>
+        <item>遵循</item>
+    </string-array>
+
+    <!-- **************************************************************************************************** -->
+    <!-- Settings -->
+    <!-- **************************************************************************************************** -->
+
+    <!-- Font Size -->
+    <!-- What happens or appears if you do not make any other choice or change -->
+    <string name="settings_font_size_default">默认</string>
+
+    <!-- Font size Small -->
+    <string name="settings_font_size_small">小</string>
+
+    <!-- Font size Medium -->
+    <string name="settings_font_size_medium">中</string>
+
+    <!-- Font size Large -->
+    <string name="settings_font_size_large">大</string>
+
+    <!-- Font size Extra Large -->
+    <string name="settings_font_size_xlarge">超大</string>
+
+    <!-- **************************************************************************************************** -->
+
+
+    <!-- READ THIS BEFORE PROCEED TO NEXT SECTION -->
+    <!-- 1. Button description mean when user long pressed to button the text will popup to show the user what is it meant to do -->
+    <!-- 2. Subscribe/Subscription meaning -->
+    <!-- *When you subscribe something in this application you will receive push notifications for something that you subscribe -->
+    <!-- *Example 1: A user subscribe the match, user will receive notification when goal score event occur (either team scores a goal) -->
+    <!-- *Example 2: A user subscribe the team, all matches that play by the team are going to subscribe automantically -->
+    <!-- *Example 3: A user subscribe the competition, all matches in the competition are going to subscribe automantically -->
+
+
+    <!-- A -->
+    <!-- About us -->
+    <string name="about">关于</string>
+
+    <!-- Set theme of the action bar -->
+    <string name="action_bar_style"><xliff:g id="actionbar">Action Bar</xliff:g>风格</string>
+
+    <!-- Date that player active for a paticular team. For example: 01/01/2014-16/06/2014 -->
+    <string name="active_date">活跃时期</string>
+
+    <!-- The special offer that will remove advertising -->
+    <string name="ad_remove_offer">去广告优惠</string>
+
+    <!-- Ad-Removal package available for user to purchase to remove ad -->
+    <string name="ad_removal_package">去广告套餐</string>
+
+    <!-- Button description: Press to add all competitions to the Live Scores Page -->
+    <string name="add_all_competitions">添加所有赛事</string>
+
+    <!-- Button description: Press to add reminder to user calendar (agenda) -->
+    <string name="add_reminder">添加提醒</string>
+
+    <!-- Confirm that something is already add -->
+    <string name="added">已添加</string>
+
+    <!-- Contact information: address -->
+    <string name="address">地址</string>
+
+    <!-- Goal that lose to the opponent. This will appear in table. You can translate to something that close to concede, lose -->
+    <string name="against">失球</string>
+
+    <!-- The number of years that a person has lived -->
+    <string name="age">年龄</string>
+
+    <!-- All, the entire -->
+    <string name="all">全部</string>
+
+    <!-- All news -->
+    <string name="all_news">所有新闻</string>
+
+    <!-- To tell people something officially -->
+    <string name="announced">已宣布</string>
+
+    <!-- When user send feedback to us and do not want us to know their name -->
+    <string name="anonymous">匿名</string>
+
+    <!-- An act of player appearing on the field -->
+    <string name="appearances">出场</string>
+
+    <!-- A person whose job is designing buildings, etc. -->
+    <string name="architect">建筑师</string>
+
+    <!-- A contribution by a player which helps to score a goal -->
+    <string name="assist">助攻</string>
+
+    <!-- Attack category which include the following: goals, possession, attacks, dangerous attack, corners -->
+    <string name="attack">攻球</string>
+
+    <!-- [Plural] The actions that players take to try to score a goal or win the game -->
+    <string name="attacks">进攻次数</string>
+
+    <!-- Number of people present at stadium/ground/venue -->
+    <string name="attendance">出场</string>
+
+    <!-- The action of team that play at opponent field. You can translate to something that close to outwards -->
+    <string name="away">客场</string>
+
+    <!-- Competition/League/Tournament statistics that represent the number of time that away team won that match -->
+    <string name="away_team_win">客场胜</string>
+
+    <!-- B -->
+    <!-- Amount of money that is left for spending. For example, Balance: 50 Coin -->
+    <string name="balance">余额</string>
+
+    <!-- The act of risking money, etc. on the unknown result of an event -->
+    <string name="betting">投注</string>
+
+    <!-- Betting type e.g. Over/Under, Correct Scores, Double Chance, Margin, HT/FT -->
+    <string name="betting_market">博彩市场</string>
+
+    <!-- Date that player was born -->
+    <string name="born">出生日期</string>
+
+    <!-- Buy the product -->
+    <string name="buy">购买</string>
+
+    <!-- C -->
+    <!-- Button description: Cancel some operation -->
+    <string name="cancel">取消</string>
+
+    <!-- Something has been cancelled -->
+    <string name="cancelled">已取消</string>
+
+    <!-- The number of people that a venue (stadium, ground) can hold -->
+    <string name="capacity">可容纳人数</string>
+
+    <!-- A group of people or things with particular features in common -->
+    <string name="category">类别</string>
+
+    <!-- Check for new version on Google Play Store -->
+    <string name="check_for_updates">检查更新</string>
+
+    <!-- Change something. For example, change current competition, change current team -->
+    <string name="change">改变</string>
+
+    <!-- Record of changes made to the application -->
+    <string name="change_log">更新日志</string>
+
+    <!-- Contact information: city -->
+    <string name="city">城市</string>
+
+    <!-- A game in which one team prevents the opposing team from scoring -->
+    <string name="clean_sheet">不失球</string>
+
+    <!-- Clear cache files (the files that store locally on the user devices for the purpose of view the content offline) -->
+    <string name="clear_cache">清除缓存</string>
+
+    <!-- Button description: Clear text that user type in some text box -->
+    <string name="clear_text">清除文​​本</string>
+
+    <!-- Close -->
+    <string name="close">关闭</string>
+
+    <!-- The coach/manager is who trains a player or team -->
+    <string name="coach">教练</string>
+
+    <!-- Button description: when users press this button the expandable view will collapse (no longer expand) it like when you press 'minus symbol' on the windows explorer (file heirachy) -->
+    <string name="collapse">折叠</string>
+
+    <!-- Color -->
+    <string name="color">颜色</string>
+
+    <!-- A description of an event in the particular match e.g. minutes 43' GOALLL! For Manchester United! An incredible strike from Wayne Rooney -->
+    <string name="commentary">解说</string>
+
+    <!-- Competition (League, Tournament in some countries) -->
+    <string name="competition">赛事</string>
+
+    <!-- Tell users that the application cannot/failed to establish the internet connection -->
+    <string name="connection_failed">连接失败！</string>
+
+    <!-- The title of dialog box -->
+    <string name="contact_us">联系我们</string>
+
+    <!-- Continue the process -->
+    <string name="continue_">继续</string>
+
+    <!-- A thing that is made to be the same as sth else -->
+    <string name="copy">复制品</string>
+
+    <!-- Match statistics: The number of times each team got corner kick -->
+    <string name="corners">角球</string>
+
+    <!-- Contact information: country -->
+    <string name="country">国家</string>
+
+    <!-- The act of mentioning somebody who worked on a project -->
+    <string name="credits">积分</string>
+
+    <!-- Current Competition is the competition that users have to select in order to view its Table, Round, Fixtures, Statistics, etc. -->
+    <string name="current_competition">当前赛事</string>
+
+    <!-- Suppose the current fixture of current competition is "Wed, 10 Apr 2013" and users scroll to see another fixture. By pressing this button the users will return to "Wed, 10 Apr 2013" fixture -->
+    <string name="current_fixture">当前赛程</string>
+
+    <!-- Show current competition/league/tournament ranking of selected team -->
+    <string name="current_league_ranking">当前联赛排名</string>
+
+    <!-- Suppose the current round of current competition is Semi-Finals and users scroll to see another round. By pressing this button the users will return to the Semi-Finals round -->
+    <string name="current_round">本轮</string>
+
+    <!-- The current team of the player -->
+    <string name="current_team">当前团队</string>
+
+    <!-- Press this button to view current application version -->
+    <string name="current_version">当前版本</string>
+
+    <!-- D -->
+    <!-- Match statistics: The number of times each team performs dangerous attacks to the opponent -->
+    <string name="dangerous_attacks">有威胁的进攻</string>
+
+    <!-- Defenders play behind the midfielders and their primary responsibility is to provide support to the team and to prevent the opposition from scoring a goal -->
+    <string name="defender">后卫</string>
+    <!-- Description of something -->
+    <string name="description">描述</string>
+
+    <!-- Details of something -->
+    <string name="details">详细信息</string>
+
+    <!-- Match statistics: Discipline category (fouls, yellow cards, red cards) -->
+    <string name="discipline">处罚</string>
+
+    <!-- Dismiss/Close the dialog box -->
+    <string name="dismiss">取消</string>
+
+    <!-- Let users select how to display data -->
+    <string name="display_options">显示选项</string>
+
+    <!-- Follow by player dominant foot (left, right) -->
+    <string name="dominant_foot">惯用脚</string>
+
+    <!-- Follow by number of time that 'Draw' result occur -->
+    <string name="draw">平</string>
+
+    <!-- E -->
+    <!-- To Make changes on data on screen -->
+    <string name="edit">编辑</string>
+
+    <!-- Long text that describe important events, news, informations related to selected match -->
+    <string name="editorials">评论</string>
+
+    <!-- Contact information: email -->
+    <string name="email">电子邮件</string>
+
+    <!-- Enalble notification to receive push notification -->
+    <string name="enable_notifications">启用通知</string>
+
+    <!-- Finish -->
+    <string name="end">结束</string>
+
+    <!-- Some problem has occur -->
+    <string name="error">错误</string>
+
+    <!-- Real-time event such as goal score, yellow card, red card, substitute, and penalty for selected match -->
+    <string name="events">事件</string>
+
+    <!-- Exit the application -->
+    <string name="exit">退出</string>
+
+    <!-- Button description: when users press this button the expandable view will expand all it like when you press 'plus symbol' on the windows explorer (file heirachy) -->
+    <string name="expand">放大</string>
+
+    <!-- Additional statistics -->
+    <string name="extra_statistics">附加统计</string>
+
+    <!-- Matche Status that show the break period during Extra time -->
+    <string name="extra_time_break">伤停补时</string>
+
+    <!-- F -->
+    <!-- Facts -->
+    <string name="facts">数据</string>
+
+    <!-- Frequency asked questions -->
+    <string name="faq">常见问题</string>
+
+    <!-- Favorite of somethings such as favorite competitions, or favorite teams -->
+    <string name="favorite">收藏</string>
+
+    <!-- The teams list below this label are favorite or subscribed team -->
+    <string name="favorite_subscribed_team">收藏/订阅的球队</string>
+
+    <!-- Contact information: fax -->
+    <string name="fax">传真</string>
+
+    <!-- The account that user will use to send feedback to us e.g. anonymous or user email account -->
+    <string name="feedback_account">反馈账户</string>
+
+    <!-- FIFA ranking (world's ranking) of the team -->
+    <string name="fifa_ranking">FIFA排名</string>
+
+    <!-- Filter data to let users design what they really want to see -->
+    <string name="filter">筛选</string>
+
+    <!-- Filter Competitions that show on Live Scores Page -->
+    <string name="filter_competitions">筛选赛事</string>
+
+    <!-- Filter Matches that show on Live Scores Page -->
+    <string name="filter_matches">筛选比赛</string>
+
+    <!-- A sport event that have been arranged to take place on a particular date e.g. Wed, 10 Apr 2013 or Thu, 25 Ar 2013. In other word, the agenda of matches -->
+    <string name="fixtures">赛程</string>
+
+    <!-- When you follow something you are interested in it. Like follow in Twitter. -->
+    <string name="follow_competition">关注竞赛</string>
+
+    <!-- When you follow something you are interested in it. Like follow in Twitter. -->
+    <string name="follow_match">关注比赛</string>
+
+    <!-- When you follow something you are interested in it. Like follow in Twitter. -->
+    <string name="follow_team">关注团队</string>
+
+    <!-- When you follow something you are interested in it. Like follow in Twitter. -->
+    <string name="following">关注</string>
+
+    <!-- When you follow something you are interested in it. Like follow in Twitter. -->
+    <string name="following_team">关注的团队</string>
+
+    <!-- Font size to be display in the app -->
+    <string name="font_size">字体大小</string>
+
+    <!-- Goal/Scores that got from the opponent. This will appear in table. You can translate to something that close to gain -->
+    <string name="for_">进球</string>
+
+    <!-- The position of player on the field e.g. 4-4-2 mean four defender, four midfielder, two attacker -->
+    <string name="formation">阵形</string>
+
+    <!-- Match statistics: The number of times each team foul (an unfair act by a player which is deemed by the referee) -->
+    <string name="fouls">犯规</string>
+
+    <!-- Match statistics: The number of times each team got free kick (a method of restarting play in a game of soccer following a foul) -->
+    <string name="free_kicks">任意球</string>
+
+    <!-- The scores result that frequently happep, for example, Premier League last season has game result end up with 2-1 69 times -->
+    <string name="frequency_scores">高频比分</string>
+
+    <!-- The former/previous team of the player. For example, Wayne Rooney transfered "From team: Manchester United" -->
+    <string name="from_team">从原团队</string>
+
+    <!-- Kind of match status (Half Time, Full Time, Second Half) -->
+    <string name="full_time">终场</string>
+
+    <!-- Button description: press to view full venue information -->
+    <string name="full_venue_info">完整赛场信息</string>
+
+    <!-- G -->
+    <!-- Button description: Press to view game results or goal scores -->
+    <!-- This button use to toggle between (Win, Draw, Lose) and (Goal For, Goal Against, Goal Difference) that show on Table Page -->
+    <string name="game_results_goal_scores">胜负场次/得失球数</string>
+
+    <!-- This is category that group some of the general topic together -->
+    <string name="general">常规</string>
+
+    <!-- This is a header use for explain general information of something -->
+    <string name="general_information">基本信息</string>
+
+    <!-- Page name: show global news -->
+    <string name="global_news">全球新闻</string>
+
+    <!-- Go -->
+    <string name="go">开始</string>
+
+    <!-- Go to (some page, some link, etc..) -->
+    <string name="go_to">转到<xliff:g id="horizontal_ellipsis">…</xliff:g></string>
+
+    <!-- Go to specific round name (8 Th Finals, Quarter-Finals, Semi-Finals, Final) -->
+    <string name="go_to_round">转到轮次<xliff:g id="horizontal_ellipsis">&#8230;</xliff:g></string>
+
+    <!-- A player whose job is to stop the ball from going into his or her own team's goal -->
+    <string name="goalkeeper">守门员</string>
+
+    <!-- Match statistics: The number of times each team got goal kicks (A goal kick, called a goalie kick in some regions, is a method of restarting play in a game of soccer -->
+    <string name="goal_kicks">射门次数</string>
+
+    <!-- Match statistics: The number of "Goals" scores for each team -->
+    <string name="goals">进球数</string>
+
+    <!-- Setting the sound of notification when goal score event occur -->
+    <string name="goal_sound">进球声</string>
+
+    <!-- Number of goal that person or team score -->
+    <string name="goals_scored">进球数</string>
+
+    <!-- Group name such as North Region, South Region, Group 1, and Group A -->
+    <string name="group">组</string>
+
+    <!-- H -->
+    <!-- Kind of match status (Half Time, Full Time, Second Half) -->
+    <string name="half_time">中场</string>
+
+    <!-- Head-to-head statistics of two selected teams -->
+    <string name="head_to_head">头对头</string>
+
+    <!-- Height of the player -->
+    <string name="height">身高</string>
+
+    <!-- Help -->
+    <string name="help">帮助</string>
+
+    <!-- Help and FAQ -->
+    <string name="help_and_faq">帮助和常见问题</string>
+
+    <!-- The action of team that play on their own field/ground/stadium. -->
+    <string name="home">后场</string>
+
+    <!-- Competition/League/Tournament statistics that represent the number of time that home team won the match. -->
+    <string name="home_team_win">主场胜</string>
+
+    <!-- I -->
+    <!-- Information -->
+    <string name="info">信息</string>
+
+    <!-- Player Injured and cannot be play -->
+    <string name="injured">受伤</string>
+
+    <!-- Inform user that a item has been deleted -->
+    <string name="item_deleted">项目已删除</string>
+
+    <!-- J -->
+    <!-- Just now -->
+    <string name="just_now">现在</string>
+
+    <!-- K -->
+    <!-- Count down to the kick-off time (time that match will start) -->
+    <string name="kick_off_in">开球倒计时</string>
+
+    <!-- L -->
+    <!-- Language to be display in app -->
+    <string name="language">语言</string>
+
+    <!-- Last # Matches (Use plural form) -->
+    <string name="last_n_matches">最近<xliff:g id="hash_tag">#</xliff:g>场比赛</string>
+
+    <!-- Last # Seasons (Use plural form) -->
+    <string name="last_n_seasons">最近<xliff:g id="hash_tag">#</xliff:g>个赛季</string>
+
+    <!-- Display latest result for users -->
+    <string name="latest_result">最新结果</string>
+
+    <!-- Appear in the following context: Do you want to do this now or 'later'? -->
+    <string name="later">将来</string>
+
+    <!-- Use for point a place/location on Map -->
+    <string name="latitude">纬度</string>
+
+    <!-- List of player who are going to take part in a particular match -->
+    <string name="lineup">阵容</string>
+
+    <!-- Button description: Press button to toggle between list lineup (list of the name of player) or Graphic Lineup (Graphic layout that show player position on field) -->
+    <string name="list_lineup_graphic_lineup">阵容表/阵容图</string>
+
+    <!-- List all matches that are updated REAL time -->
+    <string name="livescores">即时比分</string>
+
+    <!-- Show Table (team ranking in league) in real-time -->
+    <string name="live_table">即时表格</string>
+
+    <!-- Show user that contents are loading -->
+    <string name="loading">正在载入<xliff:g id="horizontal_ellipsis">…</xliff:g></string>
+
+    <!-- Local name of some place or something -->
+    <string name="local_name">当地名称</string>
+
+    <!-- The position of something or a place where something happens or exists -->
+    <string name="location">位置</string>
+
+    <!-- Use for point a place/location on Map -->
+    <string name="longitude">经度</string>
+
+    <!-- To be defeated -->
+    <string name="lose">负</string>
+
+    <!-- M -->
+    <!-- A sports event where people or teams compete against each other -->
+    <string name="match">比赛</string>
+
+    <!-- Match status: The match is cancelled and will not be play -->
+    <string name="match_cancelled">比赛已取消</string>
+
+    <!-- Match status: The match already finished -->
+    <string name="match_finished">比赛已完成</string>
+
+    <!-- Show information of the selected match -->
+    <string name="match_information">比赛信息</string>
+
+    <!-- Match status: The match is postponed and will be play another day -->
+    <string name="match_postponed">比赛推迟</string>
+
+    <!-- The topic when add Match Reminder to the users calendar. For example, "Match Reminder: Manchester United vs Liverpool" -->
+    <string name="match_reminder">比赛提醒</string>
+
+    <!-- Setting the sound of notification when match start or match end -->
+    <string name="match_start_end_sound">比赛开始/结束声</string>
+
+    <!-- Match status: The match already started -->
+    <string name="match_started">比赛开始</string>
+
+    <!-- Match status: The match is suspended while playing -->
+    <string name="match_suspended">比赛中断</string>
+
+    <!-- The main ways that large numbers of people receive information and entertainment, i.e. television, radio, newspapers -->
+    <string name="media">媒体</string>
+
+    <!-- The state of being a member of a club/team -->
+    <string name="membership">会员</string>
+
+    <!-- Menu: list of possible chioces that are shown on a screen -->
+    <string name="menu">目录</string>
+
+    <!-- Midfielders (originally called half-backs) are players whose position of play is midway between the attacking forwards and the defenders -->
+    <string name="midfielder">中场</string>
+
+    <!-- Number of minutes that the player play for his/her team -->
+    <string name="minutes_played">上场时间</string>
+
+    <!-- Mute the sound and vibration of the notifications/alert -->
+    <string name="mute">静音</string>
+
+    <!-- The popup text to show that all the notifications/alert are Mute -->
+    <string name="mute_notifications">静音通知</string>
+
+    <!-- Button description: Press button to Mute or Unmute the notification/alert -->
+    <string name="mute_unmute">静音/取消静音</string>
+
+    <!-- N -->
+    <!-- Name of someone (some languages use difference word for someone and something) -->
+    <string name="name_someone">姓名</string>
+
+    <!-- Name of something (some languages use difference word for someone and something) -->
+    <string name="name_something">名称</string>
+
+    <!-- The player nationality -->
+    <string name="nationality">国籍</string>
+
+    <!-- The world that describe team that play on nutural field/ground/stadium. -->
+    <string name="neutral">中立</string>
+
+    <!-- New information about something that has happened recently -->
+    <string name="news">新闻</string>
+
+    <!-- News feed -->
+    <string name="news_feed">新闻摘要</string>
+
+    <!-- Set of options that let user customize news widget -->
+    <string name="news_widget_settings">新闻小组件设置</string>
+
+    <!-- Nickname -->
+    <string name="nickname">昵称</string>
+
+    <!-- No data for the current section -->
+    <string name="no_data">无数据</string>
+
+    <!-- Title indicate that something below have no group -->
+    <string name="no_group">未分组</string>
+
+    <!-- Some data is not available -->
+    <string name="not_available">不可用</string>
+
+    <!-- Match status: The match not yet started -->
+    <string name="not_started">未开始</string>
+
+    <!-- Information or a warning given in advance of something that is going to happen -->
+    <string name="notice">通知</string>
+
+    <!-- Setting what notification will receive -->
+    <string name="notification_settings">通知设置</string>
+
+    <!-- Number of Goals -->
+    <string name="number_of_goals">进球数</string>
+
+    <!-- Number of Assists (A contribution by a player which helps to score a goal) -->
+    <string name="number_of_assists">助攻次数</string>
+
+    <!-- Number of Yellow Cards -->
+    <string name="number_of_yellow_cards">黄牌数</string>
+
+    <!-- Number of Red Cards -->
+    <string name="number_of_red_cards">红牌数</string>
+
+    <!-- Notification category that group everything about notification together such as Notification Sound, Mute, Vibrate -->
+    <string name="notifications">通知</string>
+
+    <!-- Sound of the notifications -->
+    <string name="notification_sounds">通知声</string>
+
+    <!-- O -->
+    <!-- Show several offer for user to remove ad. For example, remove ad for user if he download some app. -->
+    <string name="offer">优惠</string>
+
+    <!-- Match statistics: The number of times each team offside (A player is in an offside position if he or she is closer to the opponent's goal line than both the ball and the second-to-last defender.) -->
+    <string name="offsides">越位</string>
+
+    <!-- OK -->
+    <string name="ok">确定</string>
+
+    <!-- To start business for the first time. For example: "Opened: 2010" -->
+    <string name="opened">已打开</string>
+
+    <!-- Other category that group many small things together -->
+    <string name="other">其他</string>
+
+    <!-- Total goal scores that over 1.5 e.g. 2-0, 1-1, so on (use mainly in betting industry) -->
+    <string name="over_1_5">1.5大球</string>
+
+    <!-- Total goal scores that over 2.5 e.g. 3-0, 2-1, so on (use mainly in betting industry) -->
+    <string name="over_2_5">2.5大球</string>
+
+    <!-- Total goal scores that over 3.5 e.g. 4-0, 3-1, so on (use mainly in betting industry) -->
+    <string name="over_3_5">3.5大球</string>
+
+    <!-- Overall result which combine home result (played at home ground) and away result (played at the opponents' grounds) -->
+    <string name="overall">全部场次</string>
+
+    <!-- A general description or an outline of something -->
+    <string name="overview">概览</string>
+
+    <!-- P -->
+    <!-- Indicate that this goal is come from penalty goal -->
+    <string name="penalty_goals">点球进球</string>
+
+    <!-- Indicate that this goal in come from penalty shootout (Use penalty for breaking ties) -->
+    <string name="penalty_shootout">点球决胜</string>
+
+    <!-- Contact information: phone -->
+    <string name="phone">电话</string>
+
+    <!-- Button description: Press to pin match to the top of Live Scores Page -->
+    <string name="pin_match">锁定赛事</string>
+
+    <!-- Group matches that already pinned to the top of Live Scores Page together -->
+    <string name="pinned_matches">锁定的赛事</string>
+
+    <!-- Place of Birth of the player -->
+    <string name="place_of_birth">出生地</string>
+
+    <!-- Player -->
+    <string name="player">运动员</string>
+
+    <!-- Name of the player -->
+    <string name="player_name">球员姓名</string>
+
+    <!-- Please wait while the application perform long operation -->
+    <string name="please_wait">请稍候<xliff:g id="horizontal_ellipsis">&#8230;</xliff:g></string>
+
+    <!-- Scores -->
+    <string name="points">得分</string>
+
+    <!-- Popular of something e.g. popular competition, popular team -->
+    <string name="popular">热门</string>
+
+    <!-- Position of player on filed such as Goal keeper, Defender, Midfielder, Attacker -->
+    <string name="position">位置</string>
+
+    <!-- Match statistics: The percentage of ball "Possessions" for each team -->
+    <string name="possessions">控球时间</string>
+
+    <!-- Match status: show that match is postponed -->
+    <string name="postponed">推迟</string>
+
+    <!-- Happening now e.g. From 01/01/2014 - Present -->
+    <string name="present">现在</string>
+
+    <!-- Preview the data before process -->
+    <string name="preview">预览</string>
+
+    <!-- The names before the current name -->
+    <string name="previous_names">以前的名称</string>
+
+    <!-- Previous result of aggreate match (score of last game) -->
+    <string name="previous_result">以往结果</string>
+
+    <!-- Main, Most important -->
+    <string name="primary">主要的</string>
+
+    <!-- Inform user that something is processing -->
+    <string name="processing">正在处理<xliff:g id="horizontal_ellipsis">…</xliff:g></string>
+
+    <!-- Publish message in share operation -->
+    <string name="publish">发布</string>
+
+    <!-- Q -->
+
+
+    <!-- R -->
+    <!-- Rank/Position of each team in Table (Position in League/Tournament) -->
+    <string name="rank">排名</string>
+
+    <!-- Indicator that let user know that there is more text to read -->
+    <string name="read_more">了解更多<xliff:g id="horizontal_ellipsis">…</xliff:g></string>
+
+    <!-- Recently -->
+    <string name="recently">最近</string>
+
+    <!-- Red Cards cards (A red card is shown by a referee to signify that a player has been sent off.) -->
+    <string name="red_cards">红牌</string>
+
+    <!-- The official who controls game in some sports -->
+    <string name="referee">裁判</string>
+
+    <!-- Refresh -->
+    <string name="refresh">刷新</string>
+
+    <!-- Remove advertising -->
+    <string name="remove_ads">去除广告</string>
+
+    <!-- Button description: Press to remove all ocmpetitions from the Live Scores Page -->
+    <string name="remove_all_competitions">删除所有赛事</string>
+
+    <!-- Remove Team which label as 'Team 1' -->
+    <string name="remove_team_1">删除球队<xliff:g id="label_one">1</xliff:g></string>
+
+    <!-- Remove Team which label as 'Team 2' -->
+    <string name="remove_team_2">删除球队<xliff:g id="label_two">2</xliff:g></string>
+
+    <!-- To repair an old building so that it is in good condition again -->
+    <string name="renovated">已翻修</string>
+
+    <!-- Game result such as 2-1, 1-0, 2-2 -->
+    <string name="result">结果</string>
+
+    <!-- Try again -->
+    <string name="retry">重试</string>
+
+    <!-- A report in which sb gives their opinion of a match -->
+    <string name="review">评论</string>
+
+    <!-- A stage in a sports competition such as Quarter-Finals, Semi-Finals, Final -->
+    <string name="round">轮次</string>
+
+    <!-- S -->
+    <!-- Screenshot -->
+    <string name="screenshot">截屏</string>
+
+    <!-- Search for something -->
+    <string name="search">搜索</string>
+
+    <!-- Search for specific competition -->
+    <string name="search_competitions">搜索赛事</string>
+
+    <!-- Search for specific matches -->
+    <string name="search_matches">搜索比赛</string>
+
+    <!-- Search for specific team -->
+    <string name="search_team">搜索球队</string>
+
+    <!-- Season name such as "2012/2013", "2012 Poland/Ukraine" -->
+    <string name="season">赛季</string>
+
+    <!-- Season start date and date such as 24/07/2013 - 16/05/2013 -->
+    <string name="season_start_end">赛季开始/结束</string>
+
+    <!-- Kind of match status (Half Time, Full Time, Second Half) -->
+    <string name="second_half">下半场</string>
+
+    <!-- Second yellow card which result in red card -->
+    <string name="second_yellow_card">第二次黄牌</string>
+
+    <!-- Ask user to select a competition from the list of competitions -->
+    <string name="select_competition">选择赛事</string>
+
+    <!-- Ask user to select a news feed from the list of feeds -->
+    <string name="select_news_feed">选择新闻摘要</string>
+
+    <!-- Ask user to select a team from the list of teams -->
+    <string name="select_team">选择球队</string>
+
+    <!-- Send something -->
+    <string name="send">发送</string>
+
+    <!-- Send feedback e.g. bug report, request features, request assistance, etc. -->
+    <string name="send_feedback">发送反馈</string>
+
+    <!-- Set of options that let user customize app -->
+    <string name="settings">设置</string>
+
+    <!-- Share -->
+    <string name="share">分享</string>
+
+    <!-- Share App to social network or an app that users desire -->
+    <string name="share_app">分享应用程序</string>
+
+    <!-- Share on Facebook -->
+    <string name="share_on_facebook">在 Facebook 上分享</string>
+
+    <!-- Share on Twitter -->
+    <string name="share_on_twitter">在 Twitter 上分享</string>
+
+    <!-- Share Table (team ranking, standings) -->
+    <string name="share_table">分享表格</string>
+
+    <!-- Shirt number of the player -->
+    <string name="shirt_number">球衣号码</string>
+
+    <!-- A place that let user purchase addition features -->
+    <string name="shop">商店</string>
+
+    <!-- Match statistics: Shot category (shots, shots on target, shots off target, shots blocked, and shots woodwork) -->
+    <string name="shot">射门</string>
+
+    <!-- Match statistics: The number of times each team shots (the action of kicking the ball) -->
+    <string name="shots">射门</string>
+
+    <!-- Match statistics: The number of times each team shots (the action of kicking the ball), and the players from the opponent team blocked it -->
+    <string name="shots_blocked">射门被挡出</string>
+
+    <!-- Match statistics: The number of times each team shots (the action of kicking the ball), and it is off target -->
+    <string name="shots_off_target">射偏</string>
+
+    <!-- Match statistics: The number of times each team shots (the action of kicking the ball), and it is on target -->
+    <string name="shots_on_target">射正</string>
+
+    <!-- Match statistics: The number of times each team shots (the action of kicking the ball), and the ball hit the crossbar (A horizontal bar connecting the top of the two goalposts) or goalposts -->
+    <string name="shots_woodwork">击中门框</string>
+
+    <!-- Show alphabet index on the right side of the screen to let user fast scroll among list entries -->
+    <string name="show_index">显示索引</string>
+
+    <!-- The act of starting to use a computer system -->
+    <string name="sign_in">登录</string>
+
+    <!-- The act of finishing using a computer system -->
+    <string name="sign_out">注销</string>
+    <!-- No sound -->
+    <string name="silent">静音</string>
+
+    <!-- Sort something by alphabet i.e. A-Z -->
+    <string name="sort_by_alphabet">按字母顺序排列</string>
+
+    <!-- Sort something by time i.e. 00:00-23:59 -->
+    <string name="sort_by_time">按时间顺序排列</string>
+
+    <!-- All the workers employed in a team considered as a group -->
+    <string name="staff">职员</string>
+
+    <!-- To begin doing or using sth -->
+    <string name="start">开始</string>
+
+    <!-- Indicate that extra time start -->
+    <string name="start_extra_time">开始补时</string>
+
+    <!-- Indicate that second half start -->
+    <string name="start_second_half">开始下半场</string>
+
+    <!-- Start time: 24/07/2013 18:00 -->
+    <string name="start_time">开始时间</string>
+
+    <!-- A collection of information use for analyse something -->
+    <string name="statistics">统计</string>
+
+    <!-- Stop -->
+    <string name="stop">停止</string>
+
+    <!-- Team member for selected team. In other word, team's current players -->
+    <string name="squads">阵容</string>
+
+    <!-- Player that will replace another player in the field -->
+    <string name="substitute_in">替补上场</string>
+
+    <!-- Players that are sitting on bench for substitute player that playing on field -->
+    <string name="substitute_on_bench">板凳球员</string>
+
+    <!-- Player that has been replace by another player -->
+    <string name="substitute_out">替补下场</string>
+
+    <!-- Category in Lineup indicate players are substitution -->
+    <string name="substitutes">替补</string>
+
+    <!-- Match statistics: The number of times each team substitutes the player (Substitutions are generally made to replace a player who has become tired or injured, or who is not performing well.) -->
+    <string name="substitutions">换人</string>
+
+    <!-- Success -->
+    <string name="success">胜利</string>
+
+    <!-- The top layer of a venue (stadium) ground (e.g. Glass) -->
+    <string name="surface">地面</string>
+
+    <!-- Category in Lineup indicate players are suspended/baned from playing (Get red card) -->
+    <string name="suspended">禁赛</string>
+
+    <!-- T -->
+    <!-- A list of sports teams that shows their position in a competition -->
+    <string name="table">表格</string>
+
+    <!-- A group of people who play a particular game or sport against another group of people -->
+    <string name="team">球队</string>
+
+    <!-- [Plurals] A group of people who play a particular game or sport against another group of people -->
+    <string name="teams">球队</string>
+
+    <!-- Label Team 1 -->
+    <string name="team_1">球队<xliff:g id="label_one">1</xliff:g></string>
+
+    <!-- Label Team 2 -->
+    <string name="team_2">球队<xliff:g id="label_two">2</xliff:g></string>
+
+    <!-- Team Name -->
+    <string name="team_name">球队名称</string>
+
+    <!-- Show team information of the selected team -->
+    <string name="team_information">球队信息</string>
+
+    <!-- For example, Knocked three 'times' -->
+    <string name="times">次</string>
+
+    <!-- Theme -->
+    <string name="theme">主题</string>
+
+    <!-- Match statistics: The number of times each team got throw ins (a method of restarting play in a game of soccer when the ball has exited the side of the field of play.) -->
+    <string name="throw_ins">界外球</string>
+
+    <!-- Today -->
+    <string name="today">今天</string>
+
+    <!-- Button description: Press to toggle fullscreen -->
+    <string name="toggle_full_screen">切换到全屏</string>
+
+    <!-- Button description: Press to toggle between two teams -->
+    <string name="toggle_team">切换球队</string>
+
+    <!-- The day after today -->
+    <string name="tomorrow">明天</string>
+
+    <!-- Top Assist (a contribution by a player which helps to score a goal) -->
+    <string name="top_assists">最佳助攻</string>
+
+    <!-- List of players that have top statistics for each category e.g. Top Scorer, Top Assist, Top Yellow Card -->
+    <string name="top_players">最佳球员</string>
+
+    <!-- Top Red Cards -->
+    <string name="top_red_cards">最多红牌</string>
+
+    <!-- Top Scorers -->
+    <string name="top_scorers">最佳射手</string>
+
+    <!-- Top Yellow Cards -->
+    <string name="top_yellow_cards">最多黄牌</string>
+
+    <!-- Total -->
+    <string name="total">总计</string>
+
+    <!-- Act of moving player from one team to another team. -->
+    <string name="transfers">调动</string>
+
+    <!-- Try again -->
+    <string name="try_again">请重试</string>
+
+    <!-- Type of something -->
+    <string name="type">类型</string>
+
+    <!-- U -->
+    <!-- To cancel the effect of something, or go back -->
+    <string name="undo">撤销</string>
+
+    <!-- To cancel the effect of somethings, or go back -->
+    <string name="undo_all">全部撤销</string>
+
+    <!-- When you follow something you are interested in it. Like follow in Twitter. -->
+    <string name="unfollow_all">全部取消关注</string>
+
+    <!-- When you follow something you are interested in it. Like follow in Twitter. -->
+    <string name="unfollow_competition">取消关注竞赛</string>
+
+    <!-- When you follow something you are interested in it. Like follow in Twitter. -->
+    <string name="unfollow_match">取消关注比赛</string>
+
+    <!-- When you follow something you are interested in it. Like follow in Twitter. -->
+    <string name="unfollow_team">取消关注团队</string>
+
+    <!-- Dialog header to show that something are unable to unfollow -->
+    <string name="unfollow_warning">无法取消关注</string>
+
+    <!-- Something is unknown. For example, unknown start time, unknown vanue -->
+    <string name="unknown">未知</string>
+
+    <!-- The start time for a match is unknown -->
+    <string name="unknown_start_time">开始时间未知</string>
+
+    <!-- The popup text to show that all the notifications are Unmute -->
+    <string name="unmute_notifications">取消通知静音</string>
+
+    <!-- Press to unpin match to the top of Live Scores Page -->
+    <string name="unpin_match">取消赛事置顶</string>
+
+    <!-- Update -->
+    <string name="update">更新</string>
+
+    <!-- How often that the data will update automatically -->
+    <string name="update_interval">更新间隔</string>
+
+    <!-- Contact information: URL -->
+    <string name="url"><xliff:g id="url">URL</xliff:g></string>
+
+    <!-- V -->
+    <!-- How much something is worth in money -->
+    <string name="value">价格</string>
+
+    <!-- Ground/Stadium -->
+    <string name="venue">场馆</string>
+
+    <!-- Information about venue/ground/stadium -->
+    <string name="venue_info">场馆信息</string>
+
+    <!-- Location of venue such as Madrid, Manchester, Liverpool -->
+    <string name="venue_location">赛场地点</string>
+
+    <!-- Name of venue such as National Stadium, Old Trafford -->
+    <string name="venue_name">赛场名称</string>
+
+    <!-- Version of the application -->
+    <string name="version">版本</string>
+
+    <!-- Version number of the application -->
+    <string name="version_number">版本号</string>
+
+    <!-- Vibrate -->
+    <string name="vibrate">振动</string>
+
+    <!-- View all of somethings. For example, View all matches, View all competitions, View all round, etc. -->
+    <string name="view_all">查看全部</string>
+
+    <!-- Button description: Press to view Fixtures -->
+    <string name="view_fixtures">查看赛程</string>
+
+    <!-- Button description: Press to view Head-to-Head Statistics -->
+    <string name="view_head_to_head_statistics">头对头统计</string>
+
+    <!-- Button description: Press to view map -->
+    <string name="view_map">查看地图</string>
+
+    <!-- Button description: Press to view Match Info -->
+    <string name="view_match_info">查看比赛信息</string>
+
+    <!-- Button description: Press to view menu -->
+    <string name="view_menu">查看菜单</string>
+
+    <!-- Button description: Press to view Round -->
+    <string name="view_round">查看轮次</string>
+
+    <!-- Button description: Press to view Table -->
+    <string name="view_table">查看表格</string>
+
+    <!-- Button description: Press to view Team Statistics -->
+    <string name="view_team_statistics">查看球队统计数据</string>
+
+    <!-- Button description: Press to start voice search -->
+    <string name="voice_search">语音搜索</string>
+
+    <!-- W -->
+    <!-- Warning -->
+    <string name="warning">警告</string>
+
+    <!-- The Celtic language of Wales -->
+    <string name="welsh_name">威尔士语</string>
+
+    <!-- Weight of the player -->
+    <string name="weight">体重</string>
+
+    <!-- Win -->
+    <string name="win">胜</string>
+
+    <!-- Win/Lose -->
+    <string name="win_lose">胜/负</string>
+
+    <!-- Gender -->
+    <string name="women">女</string>
+    <!-- X -->
+
+
+    <!-- Y -->
+    <!-- The day before today -->
+    <string name="yesterday">昨天</string>
+
+    <!-- Yellow cards (A yellow card is shown by the referee to indicate that a player has been officially cautioned.) -->
+    <string name="yellow_cards">黄牌</string>
+
+    <!-- Z -->
+    <!-- End Words/Phrase -->
+
+
+    <!-- Sentences -->
+    <!-- First-run message: update progress for users -->
+    <string name="sentence_app_init_downloading_data">正在下载所需数据<xliff:g id="horizontal_ellipsis">…</xliff:g></string>
+
+    <!-- First-run message: update progress for users -->
+    <string name="sentence_app_init_finalizing_installation">正在完成安装<xliff:g id="horizontal_ellipsis">…</xliff:g></string>
+
+    <!-- First-run message: update progress for users -->
+    <string name="sentence_app_init_installing_competitions">正在安装赛事数据<xliff:g id="horizontal_ellipsis">…</xliff:g></string>
+
+    <!-- First-run message: update progress for users -->
+    <string name="sentence_app_init_installing_countries">正在安装国家数据<xliff:g id="horizontal_ellipsis">…</xliff:g></string>
+
+    <!-- First-run message: update progress for users -->
+    <string name="sentence_app_init_installing_teams">正在安装球队数据<xliff:g id="horizontal_ellipsis">…</xliff:g></string>
+
+    <!-- Show when adding reminder is failed -->
+    <string name="sentence_add_reminder_failed">您的设备不支持<xliff:g id="left_single_quotation">‘</xliff:g>添加提醒<xliff:g id="right_single_quotation">’</xliff:g></string>
+
+    <!-- Launch the app page in Google Play Store for new version checking -->
+    <string name="sentence_check_for_updates_summary">检查Google Play商店上的新版本</string>
+
+    <!-- Show options for users to choose an E-mail app for send feedback -->
+    <string name="sentence_choose_email_app">选择电子邮件应用</string>
+
+    <!-- Inform users that all cached files has successfully deleted -->
+    <string name="sentence_clear_all_cached_files">所有缓存文件已被删除</string>
+
+    <!-- Inform users that all cached images has successfully deleted -->
+    <string name="sentence_clear_cached_images">缓存图像已被删除</string>
+
+    <!-- Inform users that all cached data has successfully deleted -->
+    <string name="sentence_clear_cached_data">缓存数据已被删除</string>
+
+    <!-- Inform users that app is clearing all cached files -->
+    <string name="sentence_clearing_all_cached_files">清除所有缓存文件</string>
+
+    <!-- Inform users that app is clearing all cached data -->
+    <string name="sentence_clearing_cached_data">清除缓存数据</string>
+
+    <!-- Inform users that app is clearing all cached images -->
+    <string name="sentence_clearing_cached_images">清除缓存图像</string>
+
+    <!-- Inform user that connection failed -->
+    <string name="sentence_connection_failed_try_again">连接失败！<xliff:g id="new_line">\n</xliff:g>请稍后重试</string>
+
+    <!-- Contact information -->
+    <string name="sentence_contact_support">更多详细信息请联系<xliff:g id="email">support@superscores.com</xliff:g>。</string>
+
+    <!-- Asking for users confirmation -->
+    <string name="sentence_continue_confirm">是否希望继续？</string>
+
+    <!-- Inform users that this section is for support team -->
+    <string name="sentence_email_body_details">支持团队详细信息</string>
+
+    <!-- Inform users that users has no email app in their device -->
+    <string name="sentence_email_error_message">无法找到任何电子邮件应用程序！</string>
+
+    <!-- Inform users that some error has occur during adding reminder -->
+    <string name="sentence_error_adding_reminder">添加提醒时出现一个错误</string>
+
+    <!-- Inform user that Google Play Services must be installed -->
+    <string name="sentence_error_play_services_install">必须安装<xliff:g id="name">Google Play Services</xliff:g>。</string>
+
+    <!-- Inform user that Google Play Services is not supported -->
+    <string name="sentence_error_play_services_not_supported">不支持<xliff:g id="name">Google Play Services</xliff:g>。</string>
+
+    <!-- Inform users that some error has occur during query betting statistics -->
+    <string name="sentence_error_query_betting_statistics">查询博彩统计信息时出现错误</string>
+
+    <!-- Inform user that there was some error during share content -->
+    <string name="sentence_error_share_failed">分享内容失败，请稍后再试！</string>
+
+    <!-- The minimum criteria before user can send feedback -->
+    <string name="sentence_feedback_hint">至少20个字符(仅英语)</string>
+
+    <!-- Ask users permission to send screenshot along with feedback -->
+    <string name="sentence_feedback_include_screenshot">包括截屏</string>
+
+    <!-- Ask users permission to send screenshot along with feedback (description) -->
+    <string name="sentence_feedback_include_screenshot_desc">共享最后一个页面的截屏</string>
+
+    <!-- Inform users that the feedback has been sent -->
+    <string name="sentence_feedback_sent">反馈成功发送</string>
+
+    <!-- Inform users that sending feedback was failed -->
+    <string name="sentence_feedback_sent_error">无法发送反馈，请稍后重试</string>
+
+    <!-- Feedback type (bug reports, request features) -->
+    <string name="sentence_feedback_type">反馈类型</string>
+
+    <!-- Ask user if he/she really want to add all competitions to Live Scores page -->
+    <string name="sentence_filter_competition_add_all">您确定添加所有竞赛到即时比分页面？</string>
+
+    <!-- Ask user if he/she really want to remove all competitions from Live Scores page -->
+    <string name="sentence_filter_competition_remove_all">您确定从即时比分页面移除所有竞赛？</string>
+
+    <!-- Inform users that the app downloading first-run data -->
+    <string name="sentence_first_run">正在下载首次运行应用数据，这可能需要一段时间</string>
+
+    <!-- Inform users that some error has occur during download first-run data -->
+    <string name="sentence_first_run_no_connection">无法下载首次运行应用数据，请检查您的网络连接。</string>
+
+    <!-- Inform users that app is downloading first-run app data -->
+    <string name="sentence_first_run_notification">正在下载首次运行应用数据</string>
+
+    <!-- Let user add his/her favorite competition to the list -->
+    <string name="sentence_follow_first_competition">第一关注的竞赛</string>
+
+    <!-- Let user add his/her favorite team to the list -->
+    <string name="sentence_follow_first_team">第一关注的团队</string>
+
+    <!-- Inform users that they must update app to latest version in order to use it -->
+    <string name="sentence_force_update_suffix">您必须将应用程序更新到最新版本。</string>
+
+    <!-- Inform users that push notification has been disabled -->
+    <string name="sentence_gcm_not_support_title">推送通知已禁用！</string>
+
+    <!-- Inform users that push notification is not support for their devices -->
+    <string name="sentence_gcm_not_support_message">您的设备不支持谷歌云消息服务。我们将在未来版本为您的设备提供推送通知，敬请期待。</string>
+
+    <!-- Filter Competition description -->
+    <string name="sentence_general_filter_competition_summary">筛选即时比分上显示的赛事</string>
+
+    <!-- Clear Cached description -->
+    <string name="sentence_general_clear_cache_summary">清除缓存文件</string>
+
+    <!-- Promo text -->
+    <string name="sentence_get_superscores_now">获得<xliff:g id="superscores_name">Super Scores</xliff:g>应有</string>
+
+    <!-- Show steps in order to view Head-to-Head statistics for users -->
+    <string name="sentence_head_to_head_select_one_more_team_warning">请再选择一支球队，然后再次按下按钮！</string>
+
+    <!-- Show steps in order to view Head-to-Head statistics for users -->
+    <string name="sentence_head_to_head_select_two_more_team_warning">请选择两支球队，然后再次按下按钮！</string>
+
+    <!-- Show steps in order to view Head-to-Head statistics for users -->
+    <string name="sentence_how_to_use_head_to_head">请选择两支球队，然后按头对头按钮。</string>
+
+    <!-- Inform users that they have logging out from Facebook -->
+    <string name="sentence_logging_out_from_facebook">从Facebook注销</string>
+
+    <!-- Inform users the new version is available to download -->
+    <string name="sentence_new_version_available">发现新版本！</string>
+
+    <!-- Inform users that they have not yet select any competition -->
+    <string name="sentence_no_competition_selected">未选择赛事！</string>
+
+    <!-- Inform users that no data available -->
+    <string name="sentence_no_data_available">没有可用数据！</string>
+
+    <!-- Inform users that the app cannot establish internet connection -->
+    <string name="sentence_no_internet_connection">无网络连接！</string>
+
+    <!-- Inform users that the app cannot find any map application in their device -->
+    <string name="sentence_no_map_application">没有可用地图应用！</string>
+
+    <!-- Inform users that there are no matches available -->
+    <string name="sentence_no_matches_available">没有可用比赛！</string>
+
+    <!-- Inform users that there are no round available -->
+    <string name="sentence_no_round_available">没有可用轮次！</string>
+
+    <!-- Inform users that there are no venue information available -->
+    <string name="sentence_no_venue_available">没有可用球场信息！</string>
+
+    <!-- Push notification description -->
+    <string name="sentence_notification_enable_summary">事件出现时在状态栏通知</string>
+
+    <!-- Mute description -->
+    <string name="sentence_notification_mute_summary">禁用声音和振动</string>
+
+    <!-- Notification Sound description -->
+    <string name="sentence_notification_sounds_summary">自定义通知声音</string>
+
+    <!-- Inform users that push notification is disabled -->
+    <string name="sentence_notification_status_disabled">推送通知被禁用</string>
+
+    <!-- Inform users that push notification is mute -->
+    <string name="sentence_notification_status_mute">推送通知已静音</string>
+
+    <!-- Contact us description -->
+    <string name="sentence_other_contact_us_summary">报告错误或请求新功能</string>
+
+    <!-- Change log description -->
+    <string name="sentence_other_change_log_summary">查看更改日志</string>
+
+    <!-- About description -->
+    <string name="sentence_other_about_summary">应用程序版本和内部版本号</string>
+
+    <!-- View credits description -->
+    <string name="sentence_other_credits_summary">查看积分</string>
+
+    <!-- Inform users that they have to select another team in order to proceed -->
+    <string name="sentence_please_select_another_team">请选择另一支球队</string>
+
+    <!-- Inform users that they have to press back button again in order to exit app -->
+    <string name="sentence_press_back_to_exit">再次按 <xliff:g id="left_single_quotation">‘</xliff:g>返回<xliff:g id="right_single_quotation">’</xliff:g> 退出！</string>
+
+    <!-- Inform users that widget is being refreshed -->
+    <string name="sentence_refreshing_widget">正在刷新小组件<xliff:g id="horizontal_ellipsis">…</xliff:g></string>
+
+    <!-- Inform users that feedback is being sent -->
+    <string name="sentence_sending_feedback">正在发送反馈<xliff:g id="horizontal_ellipsis">…</xliff:g></string>
+
+    <!-- Promote text -->
+    <string name="sentence_share_default_text">在 <xliff:g id="google_play_app_url_short">http://goo.gl/B986SW</xliff:g> 免费获取应用程序</string>
+
+    <!-- Inform users that the app already share information to their Facebook -->
+    <string name="sentence_share_facebook_completed">已经贴到 Facebook 上！</string>
+
+    <!-- Inform users that sharing is in progress -->
+    <string name="sentence_share_in_progress">分享进行中<xliff:g id="horizontal_ellipsis">…</xliff:g></string>
+
+    <!-- Ask users permission whether to include app URL in the share message -->
+    <string name="sentence_share_include_app_url">在消息中包含应用程序地址</string>
+
+    <!-- Hint for input box to tell users what to do -->
+    <string name="sentence_share_user_input_hint">我来说两句<xliff:g id="horizontal_ellipsis">…</xliff:g></string>
+
+    <!-- Inform users for conflict subscription -->
+    <string name="sentence_shop_ad_subscription_exist">警告！您已经订购了本功能。</string>
+
+    <!-- Inform users that they have 7 day FREE trial period -->
+    <string name="sentence_shop_ad_subscription_free_trial">享受7天免费试用。</string>
+
+    <!-- Link for more details about subscription -->
+    <string name="sentence_shop_ad_subscription_more_details">如需了解更多信息，请访问<xliff:g id="web_site">https://support.google.com/googleplay/answer/2476088</xliff:g>。</string>
+
+    <!-- Give user more options to purchase product -->
+    <string name="sentence_shop_more_options">不感兴趣？更多选项<xliff:g id="horizontal_ellipsis">…</xliff:g></string>
+
+    <!-- Error message: user already own the product and cannot purchase the same product -->
+    <string name="sentence_shop_offer_already_owned">您已经拥有本产品。</string>
+
+    <!-- Description about the product -->
+    <string name="sentence_shop_offer_description_1">本页面中的所有产品仅可用于一台设备。</string>
+
+    <!-- Description about the product -->
+    <string name="sentence_shop_offer_description_2">如果恢复出厂设置或更换手机，购买将丢失。</string>
+
+    <!-- Description about the product -->
+    <string name="sentence_shop_offer_description_3">如果您重新安装应用，请再次访问本页面以恢复购买。</string>
+
+    <!-- Error message: user do not have enough coin to purchase feature -->
+    <string name="sentence_shop_offer_insufficient_coin">金币不够，无法购买此功能。</string>
+
+    <!-- Inform user that his purchase was successful -->
+    <string name="sentence_shop_offer_purchase_successful">购买成功。谢谢。</string>
+
+    <!-- Ad-removal package -->
+    <string name="sentence_shop_package_one_month">一个月免广告</string>
+
+    <!-- Ad-removal package description -->
+    <string name="sentence_shop_package_one_month_desc">享受一个月的无广告体验</string>
+
+    <!-- Inform users that their device do not support subscription -->
+    <string name="sentence_shop_subscription_not_support">您的设备不支持订阅。为所有的不便表示歉意。</string>
+
+    <!-- Inform users that the transaction was cancelled -->
+    <string name="sentence_shop_transaction_cancelled">交易被取消。<xliff:g id="new_line">\n</xliff:g>未收取任何费用。</string>
+
+    <!-- Warn users that they must not leave screen while transaction is in progress -->
+    <string name="sentence_shop_transaction_warning">交易进行期间，请不要离开此屏幕。</string>
+
+    <!-- Theme description -->
+    <string name="sentence_theme">改变应用程序的外观和感觉</string>
+
+    <!-- Inform users that their devices do not support Speech-to-Text -->
+    <string name="sentence_speech_to_text_not_support">您的设备不支持<xliff:g id="left_single_quotation">‘</xliff:g>语音文本<xliff:g id="right_single_quotation">’</xliff:g></string>
+
+    <!-- Warning users that they cannot unfollow the matches with reason -->
+    <string name="sentence_unable_to_unfollow_comp_team">要停止关注这场比赛，您必须<xliff:g id="left_single_quotation">‘</xliff:g>在先取消<xliff:g id="right_single_quotation">’</xliff:g>您关注的竞赛与团队！</string>
+
+    <!-- Warning users that they cannot unfollow the matches with reason -->
+    <string name="sentence_unable_to_unfollow_comp">要停止关注这场比赛，您必须<xliff:g id="left_single_quotation">‘</xliff:g>在先取消<xliff:g id="right_single_quotation">’</xliff:g>您关注的竞赛！</string>
+
+    <!-- Warning users that they cannot unfollow the matches with reason -->
+    <string name="sentence_unable_to_unfollow_team">要停止关注这场比赛，您必须<xliff:g id="left_single_quotation">‘</xliff:g>在先取消<xliff:g id="right_single_quotation">’</xliff:g>您关注的团队！</string>
+
+    <!-- Warning users about the effect of unfollow team -->
+    <string name="sentence_unfollow_warning">如果取消关注，该团队的所有通知都将被删除。</string>
+    <!-- End Sentences -->
+
+
+    <!-- Help -->
+    <!-- ![CDATA[]] -->
+    <!-- Help FAQ -->
+    <string-array name="help_faq_topic">
+        <item>为什么我没有收到任何推送通知？</item>
+        <item>为什么推送通知中的分数与即时比分和比赛信息页面的得分不同？</item>
+        <item>为什么一些赛事更新较慢？</item>
+        <item>静音和禁用之间在设置上的区别是什么？</item>
+        <item>中间有<xliff:g id="left_single_quotation">‘</xliff:g>星号<xliff:g id="right_single_quotation">’</xliff:g>的通知图标是什么意思？</item>
+        <item>在即时比分页面中如何排序比赛？</item>
+        <item>如何筛选即时比分页面中的赛事？</item>
+        <item>收藏球队有什么好处？</item>
+        <item>收藏赛事有什么好处。</item>
+        <item>我如何订阅比赛、球队或赛事？</item>
+        <item>为什么有些球队没有图标？</item>
+        <item>我如何报告错误或请求功能？</item>
+    </string-array>
+
+    <array name="help_faq_messages">
+        <item><xliff:g id="help_faq_messages_00">@array/help_faq_messages_00</xliff:g></item>
+        <item><xliff:g id="help_faq_messages_01">@array/help_faq_messages_01</xliff:g></item>
+        <item><xliff:g id="help_faq_messages_02">@array/help_faq_messages_02</xliff:g></item>
+        <item><xliff:g id="help_faq_messages_03">@array/help_faq_messages_03</xliff:g></item>
+        <item><xliff:g id="help_faq_messages_04">@array/help_faq_messages_04</xliff:g></item>
+        <item><xliff:g id="help_faq_messages_05">@array/help_faq_messages_05</xliff:g></item>
+        <item><xliff:g id="help_faq_messages_06">@array/help_faq_messages_06</xliff:g></item>
+        <item><xliff:g id="help_faq_messages_07">@array/help_faq_messages_07</xliff:g></item>
+        <item><xliff:g id="help_faq_messages_08">@array/help_faq_messages_08</xliff:g></item>
+        <item><xliff:g id="help_faq_messages_09">@array/help_faq_messages_09</xliff:g></item>
+        <item><xliff:g id="help_faq_messages_10">@array/help_faq_messages_10</xliff:g></item>
+        <item><xliff:g id="help_faq_messages_11">@array/help_faq_messages_11</xliff:g></item>
+    </array>
+
+    <!-- 00 -->
+    <string-array name="help_faq_messages_00">
+        <item><xliff:g id="asterisk">*</xliff:g>请确保在设置中启用了通知。</item>
+        <item><xliff:g id="asterisk">*</xliff:g>对于使用3.0之前版本的设备，通知需要<xliff:g id="left_double_quotation">&#8220;</xliff:g>Google Play商店<xliff:g id="right_double_quotation">&#8221;</xliff:g>，同时必须登录至少一个Google帐户。运行Android 4.0.4或更高版本的设备无需Google帐户。</item>
+    </string-array>
+
+    <!-- 01 -->
+    <string-array name="help_faq_messages_01">
+        <item><xliff:g id="asterisk">*</xliff:g>我们配备了用于推送通知的单独服务器，以尽快提供结果。因此，推送通知比分的更新速度有时会比即时比分和比赛信息页面的更新速度更快。</item>
+    </string-array>
+
+    <!-- 02 -->
+    <string-array name="help_faq_messages_02">
+        <item><xliff:g id="asterisk">*</xliff:g>这取决于赛事，因为有些比赛在中场时间或比赛结束后更新。我们会尽量保持每分钟更新结果。</item>
+    </string-array>
+
+    <!-- 03 -->
+    <string-array name="help_faq_messages_03">
+        <item><xliff:g id="asterisk">*</xliff:g> 当<xliff:g id="left_single_quotation">‘</xliff:g>静音<xliff:g id="right_single_quotation">’</xliff:g>开启时，您仍会收到推送通知，但不会有振动和提示音。</item>
+        <item><xliff:g id="asterisk">*</xliff:g>如果设置<xliff:g id="left_single_quotation">‘</xliff:g>禁用<xliff:g id="right_single_quotation">’</xliff:g>，您将完全不会收到推送通知。</item>
+    </string-array>
+
+    <!-- 04 -->
+    <string-array name="help_faq_messages_04">
+        <item><xliff:g id="asterisk">*</xliff:g>带<xliff:g id="left_single_quotation">‘</xliff:g>星号<xliff:g id="right_single_quotation">’</xliff:g>的通知意味着您订阅的赛事有该场比赛，或有订阅的球队参赛。</item>
+    </string-array>
+
+    <!-- 05 -->
+    <string-array name="help_faq_messages_05">
+        <item><xliff:g id="asterisk">*</xliff:g>首先显示收藏的球队和收藏的赛事，然后按字母顺序排序。</item>
+        <item><xliff:g id="asterisk">*</xliff:g>今天、昨天和明天的比赛以UTC时间排序。</item>
+    </string-array>
+
+    <!-- 06 -->
+    <string-array name="help_faq_messages_06">
+        <item>在即时比分页面上：</item>
+        <item><xliff:g id="asterisk">*</xliff:g>按菜单<xliff:g id="greater_than">&gt;</xliff:g>筛选赛事</item>
+        <item><xliff:g id="underscore">_</xliff:g></item>
+        <item>在设置页面上：</item>
+        <item><xliff:g id="asterisk">*</xliff:g>按筛选赛事</item>
+    </string-array>
+
+    <!-- 07 -->
+    <string-array name="help_faq_messages_07">
+        <item><xliff:g id="asterisk">*</xliff:g>收藏的球队将显示在即时比分页面上的列表顶部。</item>
+        <item><xliff:g id="asterisk">*</xliff:g>此外，你可在我的球队页面更加轻松地找到喜爱的球队。</item>
+    </string-array>
+
+    <!-- 08 -->
+    <string-array name="help_faq_messages_08">
+        <item><xliff:g id="asterisk">*</xliff:g>收藏的赛事将显示在即时比分页面上的列表顶部。</item>
+        <item><xliff:g id="asterisk">*</xliff:g>此外，您可在赛事筛选页面的收藏子页面以及选择赛事页面更加轻松地找到喜爱的赛事。</item>
+    </string-array>
+
+    <!-- 09 -->
+    <string-array name="help_faq_messages_09">
+        <item>订阅比赛：</item>
+        <item><xliff:g id="asterisk">*</xliff:g>在即时比分页面，按希望订阅比赛上的<xliff:g id="icon">@</xliff:g></item>
+        <item><xliff:g id="asterisk">*</xliff:g>在比赛信息页面，按<xliff:g id="icon">@</xliff:g>订阅当前比赛</item>
+        <item><xliff:g id="underscore">_</xliff:g></item>
+        <item>订阅球队：</item>
+        <item><xliff:g id="asterisk">*</xliff:g>在即时比分页面，长按比赛&gt;按<xliff:g id="icon">@</xliff:g>&gt;订阅您想要的球队</item>
+        <item><xliff:g id="asterisk">*</xliff:g>在球队信息页面，按<xliff:g id="icon">@</xliff:g>订阅当前球队</item>
+        <item><xliff:g id="asterisk">*</xliff:g>在我的球队页面，按<xliff:g id="icon">@</xliff:g>订阅球队</item>
+        <item><xliff:g id="asterisk">*</xliff:g>注：当您订阅球队时，此球队参加的所有比赛将自动订阅</item>
+        <item><xliff:g id="underscore">_</xliff:g></item>
+        <item>订阅赛事：</item>
+        <item><xliff:g id="asterisk">*</xliff:g>在即时比分页面，长按赛事&gt;按<xliff:g id="icon">@</xliff:g></item>
+        <item><xliff:g id="asterisk">*</xliff:g>在赛事筛选页面，按希望订阅赛事上的<xliff:g id="icon">@</xliff:g></item>
+        <item><xliff:g id="asterisk">*</xliff:g>注：当您订阅赛事时，此赛事中的所有比赛将自动订阅</item>
+    </string-array>
+
+    <!-- 10 -->
+    <string-array name="help_faq_messages_10">
+        <item><xliff:g id="asterisk">*</xliff:g>无法显示一些球队的图标。我们将尽力找到它。</item>
+    </string-array>
+
+    <!-- 11 -->
+    <string-array name="help_faq_messages_11">
+        <item><xliff:g id="asterisk">*</xliff:g>联系我们：<xliff:g id="email">support@superscores.com</xliff:g></item>
+    </string-array>
+    <!-- End Help FAQ -->
+
+</resources>

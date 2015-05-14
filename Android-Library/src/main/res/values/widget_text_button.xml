@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ThemeTextButton">
+        <attr name="ttb_buttonColor" format="integer" />
+        <attr name="ttb_selectable" format="boolean" />
+    </declare-styleable>
+</resources>

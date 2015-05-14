@@ -1,0 +1,1927 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- IMPORTANT: BEFORE translation please read this page: http://developer.android.com/distribute/googleplay/publish/localizing.html -->
+    <!-- GO TO SECTION: 3 Manage strings for localization -->
+    <!-- SUBSECTION: Mark message parts that should not be translated -->
+    <!-- TO SUM UP: Message in tag <xliff:g></xliff:g> SHOULD NOT BE TRANSLATED! -->
+    <!-- EXAMPLE: <xliff:g id="time" example="5 days>%1$s</xliff:g>until holiday *%1$s should NOT be translated -->
+    <!-- EXAMPLE: Learn more at <xliff:g id="prod_gamegroup">Game Group</xliff:g> *Game Group should NOT be translated -->
+
+
+    <!-- Content Description for Accessibility -->
+
+
+    <!-- Open navigation drawer (left navigation bar) for more details: http://developer.android.com/design/patterns/navigation-drawer.html -->
+    <string name="drawer_left_open">Apri barra sinistra di navigazione</string>
+
+    <!-- Close navigation drawer (left navigation bar) for more details: http://developer.android.com/design/patterns/navigation-drawer.html -->
+    <string name="drawer_left_close">Chiudi barra sinistra di navigazione</string>
+
+    <!-- End Content Description for Accessibility -->
+
+
+    <!-- **************************************************************************************************** -->
+
+
+    <!-- Livepush Notification Titles -->
+    <!-- Goal event has occur -->
+    <string name="livepush_title_goal">Goal!</string>
+
+    <!-- Match Started event has occur -->
+    <string name="livepush_title_started">Iniziata!</string>
+
+    <!-- Match Finished event has occur -->
+    <string name="livepush_title_finished">Finita!</string>
+
+    <!-- Half time event has occur -->
+    <string name="livepush_title_half_time">Intervallo!</string>
+
+    <!-- Start second half event has occur -->
+    <string name="livepush_title_start_2nd_half">Inizio 2° Tempo!</string>
+
+    <!-- Full time event has occur -->
+    <string name="livepush_title_full_time">Fine Partita!</string>
+
+    <!-- Start extra time event has occur -->
+    <string name="livepush_title_start_extra_time">Inizio Tempi Supplementari!</string>
+
+    <!-- Half extra time event has occur -->
+    <string name="livepush_title_half_extra_time">Intervallo! (Tempi Supplementari)</string>
+
+    <!-- Start 2nd Half (Extra Time) event has occur -->
+    <string name="livepush_title_start_2nd_extra_half">Inizio 2° Tempo! (Tempi Supplementari)</string>
+
+    <!-- Penalty Shootout event has occur -->
+    <string name="livepush_title_penalty_shootout">Rigori Finali!</string>
+    <!-- End Livepush Notification titles -->
+
+
+    <!-- **************************************************************************************************** -->
+
+
+    <!-- Acronym Need Full -->
+
+
+    <!-- MAXIMUM 2 CHARACTER: Acronym for Played use for describe number of times each team played in the current season -->
+    <string name="acronym_played">G</string>
+
+    <!-- MAXIMUM 2 CHARACTER: Acronym for Win use for describe number of times each team win in the current season -->
+    <string name="acronym_win">V</string>
+
+    <!-- MAXIMUM 2 CHARACTER: Acronym for Draw use for describe number of times each team draw in the current season -->
+    <string name="acronym_draw">X</string>
+
+    <!-- MAXIMUM 2 CHARACTER: Acronym for Lose use for describe number of times each team lose in the current season -->
+    <string name="acronym_lose">P</string>
+
+    <!-- MAXIMUM 2 CHARACTER: Acronym for Goal For use for describe number of goals each team scores in the current season -->
+    <string name="acronym_goal_for">GF</string>
+
+    <!-- MAXIMUM 2 CHARACTER: Acronym for Goal Against use for describe number of goals each team loses in the current season -->
+    <string name="acronym_goal_against">GC</string>
+
+    <!-- MAXIMUM 2 CHARACTER: Acronym for Goal Difference use for describe number of goals difference calculated by Goal For minus Goal Against -->
+    <string name="acronym_goal_difference">DR</string>
+
+    <!-- MAXIMUM 3 CHARACTER: Acronym for Points use for describe number of points each teams make in the current season -->
+    <string name="acronym_points">PTI</string>
+    <!-- End Acronym Need Full -->
+
+
+    <!-- **************************************************************************************************** -->
+
+
+    <!-- Acronym Full -->
+
+
+    <!-- Use for describe number of times each team played in the current season -->
+    <string name="acronym_full_played">Giocato</string>
+
+    <!-- Use for describe number of times each team win in the current season -->
+    <string name="acronym_full_win">Vittoria</string>
+
+    <!-- Use for describe number of times each team draw in the current season -->
+    <string name="acronym_full_draw">Pareggio</string>
+
+    <!-- Use for Lose use for describe number of times each team lose in the current season -->
+    <string name="acronym_full_lose">Perso</string>
+
+    <!-- Use for describe number of goals each team scores in the current season -->
+    <string name="acronym_full_goal_for">Gol a favore</string>
+
+    <!-- Use for describe number of goals each team loses in the current season -->
+    <string name="acronym_full_goal_against">Gol contro</string>
+
+    <!-- Use for describe number of goals difference calculated by Goal For minus Goal Against -->
+    <string name="acronym_full_goal_difference">Differenza reti</string>
+
+    <!-- Use for describe number of points each teams make in the current season -->
+    <string name="acronym_full_points">Punti</string>
+
+    <!-- End Acronym Full -->
+
+
+    <!-- **************************************************************************************************** -->
+
+
+    <!-- Acronym -->
+    <!-- DO NOT translate -->
+    <string name="acronym_after_extra_time"><xliff:g id="after_extra_time">AET</xliff:g></string>
+    <string name="acronym_aggregate"><xliff:g id="aggregate">Aggr.</xliff:g></string>
+    <string name="acronym_cancel"><xliff:g id="cancel">Canc.</xliff:g></string>
+    <string name="acronym_extra_time"><xliff:g id="extra_time">ET</xliff:g></string>
+    <string name="acronym_full_time"><xliff:g id="full_time">FT</xliff:g></string>
+    <string name="acronym_half_time"><xliff:g id="half_time">HT</xliff:g></string>
+    <string name="acronym_penalty"><xliff:g id="penalty">Pen.</xliff:g></string>
+    <string name="acronym_postpone"><xliff:g id="postpone">Posp.</xliff:g></string>
+    <string name="acronym_suspend"><xliff:g id="suspend">Susp.</xliff:g></string>
+    <!-- End DO NOT translate -->
+
+
+    <!-- This will followed by number of goal scores with average, for example Goals (Avg.) -> 25 (2.33) -->
+    <string name="acronym_goals_average">Gol (Media)</string>
+
+    <!-- This will followed by number of times something happen with average -->
+    <string name="acronym_times_average">Volte (Media)</string>
+    <!-- End Acronym -->
+
+
+    <!-- Unit/Symbol: DO NOT TRANSLATE -->
+    <string name="unit_kg"><xliff:g id="kilogram">kg</xliff:g></string>
+    <string name="unit_cm"><xliff:g id="centimeter">cm</xliff:g></string>
+    <string name="symbol_percentage"><xliff:g id="percentage">&#37;</xliff:g></string>
+    <!-- End Unit/Symbol -->
+
+
+    <!-- **************************************************************************************************** -->
+
+
+    <!-- Month -->
+    <string name="month_january">Gennaio</string>
+    <string name="month_february">Febbraio</string>
+    <string name="month_march">Marzo</string>
+    <string name="month_april">Aprile</string>
+    <string name="month_may">Maggio</string>
+    <string name="month_june">Giugno</string>
+    <string name="month_july">Luglio</string>
+    <string name="month_august">Agosto</string>
+    <string name="month_september">Settembre</string>
+    <string name="month_october">Ottobre</string>
+    <string name="month_november">Novembre</string>
+    <string name="month_december">Dicembre</string>
+    <!-- End Month -->
+
+
+    <!-- Color -->
+    <string name="color_colored">Colorato</string>
+    <string name="color_light">Chiaro</string>
+    <string name="color_dark">Scuro</string>
+    <string name="color_orange">Arancione</string>
+    <string name="color_blue">Blu</string>
+    <string name="color_green">Verde</string>
+    <!-- End Color -->
+
+
+    <!-- **************************************************************************************************** -->
+    <!-- WARNING: Before translation this section please read this page: http://developer.android.com/guide/topics/resources/string-resource.html#FormattingAndStyling -->
+    <!-- GO TO SECTION: Quantity Strings (Plurals) -->
+    <!-- TO SUM UP: Message in tag <xliff:g></xliff:g> SHOULD NOT BE TRANSLATED! -->
+    <!-- <item quantity="zero"> description: When the language requires special treatment of the number 0 (as in Arabic) -->
+    <!-- <item quantity="one"> description: When the language requires special treatment of numbers like one (as with the number 1 in English and most other languages; in Russian, any number ending in 1 but not ending in 11 is in this class) -->
+    <!-- <item quantity="two"> description: When the language requires special treatment of numbers like two (as with 2 in Welsh, or 102 in Slovenian) -->
+    <!-- <item quantity="few"> description: When the language requires special treatment of "small" numbers (as with 2, 3, and 4 in Czech; or numbers ending 2, 3, or 4 but not 12, 13, or 14 in Polish) -->
+    <!-- <item quantity="zero"> description: When the language requires special treatment of the number 0 (as in Arabic) -->
+    <!-- <item quantity="many"> description: When the language requires special treatment of "large" numbers (as with numbers ending 11-99 in Maltese) -->
+    <!-- <item quantity="other"> description: When the language does not require special treatment of the given quantity (as with all numbers in Chinese, or 42 in English) -->
+    <!-- EXAMPLE: -->
+    <!-- <plurals name="numberOfSongsAvailable"> -->
+    <!-- <item quantity="one">One song found.</item> -->
+    <!-- <item quantity="other">%d songs found.</item> -->
+    <!-- </plurals> -->
+
+
+    <!-- Plurals -->
+    <!-- Total number of clean sheet (a game in which one team prevents the opposing team from scoring.) Display fomat "Clean Sheet: 2/6 Times (33.33%)" -->
+    <plurals name="clean_sheet">
+        <item quantity="one">Rete inviolata: <xliff:g id="rational_number" example="1/6">%1$,d/%2$,d</xliff:g> volta <xliff:g id="percentage" example="(16.67%)">(%3$.2f%%)</xliff:g></item>
+        <item quantity="other">Rete inviolata: <xliff:g id="rational_number" example="120/200">%1$,d/%2$,d</xliff:g> volte <xliff:g id="percentage" example="(60.00%)">(%3$.2f%%)</xliff:g></item>
+    </plurals>
+
+    <!-- Number of matches played. Display fomat "50 matches played" -->
+    <plurals name="match_number">
+        <item quantity="one"><xliff:g id="number_of_match" example="1">%1$,d</xliff:g> partita</item>
+        <item quantity="other"><xliff:g id="number_of_match" example="120">%1$,d</xliff:g> partite</item>
+    </plurals>
+
+    <!-- Number of recently matches. Display fomat "Last 4 Matches" -->
+    <plurals name="match_recently">
+        <item quantity="one">Ultima <xliff:g id="number_of_match" example="1">%1$,d</xliff:g> partita</item>
+        <item quantity="other">Ultime <xliff:g id="number_of_match" example="120">%1$,d</xliff:g> partite</item>
+    </plurals>
+
+    <!-- Number of recently seasons. Display fomat "Last 2 Seasons" -->
+    <plurals name="season_recently">
+        <item quantity="one">Ultima <xliff:g id="number_of_season" example="1">%1$,d</xliff:g> stagione</item>
+        <item quantity="other">Ultime <xliff:g id="number_of_season" example="120">%1$,d</xliff:g> stagioni</item>
+    </plurals>
+
+    <!-- Number of recently matches played at Home Field (home ground.) Display fomat "Home Filed: Last 4 Matches" -->
+    <plurals name="recently_home">
+        <item quantity="one">Campo in casa: ultima <xliff:g id="number_of_match" example="1">%1$,d</xliff:g> partita</item>
+        <item quantity="other">Campo in casa: ultime <xliff:g id="number_of_match" example="120">%1$,d</xliff:g> partite</item>
+    </plurals>
+
+    <!-- Number of recently matches played at Away Field (opponents' ground.) Display fomat "Away Filed: Last 4 Matches" -->
+    <plurals name="recently_away">
+        <item quantity="one">Campo fuori casa: ultima <xliff:g id="number_of_match" example="1">%1$,d</xliff:g> partita</item>
+        <item quantity="other">Campo fuori casa: ultime <xliff:g id="number_of_match" example="120">%1$,d</xliff:g> partite</item>
+    </plurals>
+
+    <!-- Number of recently matches played at "Team Name" Field. Display fomat "Manchester United Field: Last 4 Matches" -->
+    <plurals name="match_recently_team">
+        <item quantity="one">Campo <xliff:g id="team_name" example="Manchester United">%1$s</xliff:g>: ultima <xliff:g id="number_of_match" example="1">%2$,d</xliff:g> partita</item>
+        <item quantity="other">Campo<xliff:g id="team_name" example="Manchester United">%1$s</xliff:g>: ultime <xliff:g id="number_of_match" example="120">%2$,d</xliff:g> partite</item>
+    </plurals>
+
+    <!-- Total number of goal scores with average. Display fomat "Total 256 Goal Scores (2.75)" -->
+    <plurals name="total_goal_scores">
+        <item quantity="one">Totale <xliff:g id="number_of_goal_score" example="1">%1$,d</xliff:g> gol <xliff:g id="goal_average_per_match" example="(2.75)">(%2$.2f)</xliff:g></item>
+        <item quantity="other">Totale <xliff:g id="number_of_goal_score" example="120">%1$,d</xliff:g> gol <xliff:g id="goal_average_per_match" example="(2.75)">(%2$.2f)</xliff:g></item>
+    </plurals>
+
+    <!-- Total number of matches played. Display fomat "Total 50 Matches Played" -->
+    <plurals name="total_matches_played">
+        <item quantity="one">Totale <xliff:g id="number_of_match" example="1">%1$,d</xliff:g> partita giocata</item>
+        <item quantity="other">Totale <xliff:g id="number_of_match" example="120">%1$,d</xliff:g> partite giocate</item>
+    </plurals>
+
+    <!-- Total number of matches played at Away Field. Display fomat "Away Field: Total 50 Matches" -->
+    <plurals name="total_matches_played_away">
+        <item quantity="one">Campo fuori casa: totale <xliff:g id="number_of_match" example="1">%1$,d</xliff:g> partita</item>
+        <item quantity="other">Campo fuori casa: totale <xliff:g id="number_of_match" example="120">%1$,d</xliff:g> partite</item>
+    </plurals>
+
+    <!-- Total number of matches played at Home Field. Display fomat "Home Field: Total 50 Matches" -->
+    <plurals name="total_matches_played_home">
+        <item quantity="one">Campo in casa: totale <xliff:g id="number_of_match" example="1">%1$,d</xliff:g> partita</item>
+        <item quantity="other">Campo in casa: totale <xliff:g id="number_of_match" example="120">%1$,d</xliff:g> partite</item>
+    </plurals>
+
+    <!-- Total number of matches played at "Team Name" Field. Display fomat "Manchester United Field: Total 50 Matches" -->
+    <plurals name="total_matches_play_at_team_fields">
+        <item quantity="one">Campo<xliff:g id="team_name" example="Manchester United">%1$s</xliff:g>: totale <xliff:g id="number_of_match" example="1">%2$,d</xliff:g> partita</item>
+        <item quantity="other">Campo<xliff:g id="team_name" example="Manchester United">%1$s</xliff:g>: totale <xliff:g id="number_of_match" example="120">%2$,d</xliff:g> partite</item>
+    </plurals>
+
+    <!-- Number of matches played at Neutral Field. Display fomat "Neutral Field: 50 Matches Played" -->
+    <plurals name="total_neutral_field_matches">
+        <item quantity="one">Campo neutro: <xliff:g id="number_of_match" example="1">%1$,d</xliff:g> partita giocata</item>
+        <item quantity="other">Campo neutro: <xliff:g id="number_of_match" example="120">%1$,d</xliff:g> partite giocate</item>
+    </plurals>
+
+    <!-- Number of goal scores at Neutral Field with average. Display fomat "Neutral Field: 256 Goal Scores (2.75)" -->
+    <plurals name="total_neutral_goal_scores">
+        <item quantity="one">Campo neutro: <xliff:g id="number_of_goal_score" example="1">%1$,d</xliff:g> gol <xliff:g id="goal_average_per_match" example="(2.75)">(%2$.2f)</xliff:g></item>
+        <item quantity="other">Campo neutro: <xliff:g id="number_of_goal_score" example="120">%1$,d</xliff:g> gol <xliff:g id="goal_average_per_match" example="(2.75)">(%2$.2f)</xliff:g></item>
+    </plurals>
+
+    <!-- Number of matches played at Home/Away Field. Display fomat "Home/Away Field: 50 Matches Played" -->
+    <plurals name="total_home_away_field_matches">
+        <item quantity="one">Campo in casa/trasferta: <xliff:g id="number_of_match" example="1">%1$,d</xliff:g> partita giocata</item>
+        <item quantity="other">Campo in casa/trasferta: <xliff:g id="number_of_match" example="120">%1$,d</xliff:g> partite giocate</item>
+    </plurals>
+
+    <!-- Number of goal scores at Home/Away Field with average. Display fomat "Home/Away Field: 256 Goal Scores (2.75)" -->
+    <plurals name="total_home_away_goal_scores">
+        <item quantity="one">Campo in casa/trasferta: <xliff:g id="number_of_goal_score" example="1">%1$,d</xliff:g> gol <xliff:g id="goal_average_per_match" example="(2.75)">(%2$.2f)</xliff:g></item>
+        <item quantity="other">Campo in casa/trasferta: <xliff:g id="number_of_goal_score" example="120">%1$,d</xliff:g> gol <xliff:g id="goal_average_per_match" example="(2.75)">(%2$.2f)</xliff:g></item>
+    </plurals>
+
+    <!-- Number of goal scores at Home/Away Field with average. Display fomat "Home/Away field: 256 goal scores (2.75)" -->
+    <plurals name="unfollow_entry">
+        <item quantity="one"><xliff:g id="number_of_entry" example="1">%1$d</xliff:g> gol non seguito</item>
+        <item quantity="other"><xliff:g id="number_of_entry" example="100">%1$d</xliff:g> gol non seguiti</item>
+    </plurals>
+
+    <!-- Number of days past from publish time of a news entry. Display fomat "3 days ago" -->
+    <plurals name="days_ago">
+        <item quantity="one"><xliff:g id="number_of_day" example="1">%1$,d</xliff:g> giorno fa</item>
+        <item quantity="other"><xliff:g id="number_of_day" example="1">%1$,d</xliff:g> giorni fa</item>
+    </plurals>
+
+    <!-- Number of hours past from publish time of a news entry. Display fomat "7 hours ago" -->
+    <plurals name="hours_ago">
+        <item quantity="one"><xliff:g id="number_of_hour" example="1">%1$,d</xliff:g> ora fa</item>
+        <item quantity="other"><xliff:g id="number_of_hour" example="1">%1$,d</xliff:g> ore fa</item>
+    </plurals>
+
+    <!-- Number of minutes past from publish time of a news entry. Display fomat "50 minutes ago" -->
+    <plurals name="minutes_ago">
+        <item quantity="one"><xliff:g id="number_of_minute" example="1">%1$,d</xliff:g> minuto fa</item>
+        <item quantity="other"><xliff:g id="number_of_minute" example="1">%1$,d</xliff:g> minuti fa</item>
+    </plurals>
+
+    <!-- Display fomat "50 days" -->
+    <plurals name="days">
+        <item quantity="one"><xliff:g id="number_of_minute" example="1">%1$,d</xliff:g> giorno</item>
+        <item quantity="other"><xliff:g id="number_of_minute" example="100">%1$,d</xliff:g> giorni</item>
+    </plurals>
+
+    <!-- Display fomat "7 hours" -->
+    <plurals name="hours">
+        <item quantity="one"><xliff:g id="number_of_hour" example="1">%1$,d</xliff:g> ora</item>
+        <item quantity="other"><xliff:g id="number_of_hour" example="100">%1$,d</xliff:g> ore</item>
+    </plurals>
+
+    <!-- Display fomat "50 minutes" -->
+    <plurals name="minutes">
+        <item quantity="one"><xliff:g id="number_of_minute" example="1">%1$,d</xliff:g> minuto</item>
+        <item quantity="other"><xliff:g id="number_of_minute" example="100">%1$,d</xliff:g> minuti</item>
+    </plurals>
+
+    <!-- How often does something happen/occure. Display fomat "50 times" -->
+    <plurals name="times">
+        <item quantity="one"><xliff:g id="number_of_time" example="1">%1$,d</xliff:g> volta</item>
+        <item quantity="other"><xliff:g id="number_of_time" example="100">%1$,d</xliff:g> volte</item>
+    </plurals>
+    <!-- End Plurals -->
+
+
+    <!-- **************************************************************************************************** -->
+
+
+    <!-- Replace -->
+    <!-- The length of time that sth lasts or continues. For example, duration of the video -->
+    <string name="replace_duration">Durata <xliff:g id="duration" example="02:35">%1$s</xliff:g></string>
+
+    <!-- Inform user why he/she cannot send feedback -->
+    <string name="replace_feedback_warning">Inserisci almeno 20 caratteri;<xliff:g id="new_line_character">\n</xliff:g> hai inserito <xliff:g id="number" example="4">%1$d</xliff:g></string>
+
+    <!-- When you follow something you are interested in it. Like follow in Twitter. -->
+    <string name="replace_follow">Segui <xliff:g id="name" example="Manchester United">%1$s</xliff:g></string>
+
+    <!-- Inform user that some items have been deleted -->
+    <string name="replace_items_deleted"><xliff:g id="amount" example="5">%1$d</xliff:g> elementi cancellati</string>
+
+    <!-- Show users when data is updated. No connection! Last updated: 30/09/2013, 22:00 -->
+    <string name="replace_last_update">Nessuna connessione! Ultimo aggiornamento: <xliff:g id="date_time" example="30/09/2013, 22:00">%1$s</xliff:g></string>
+
+    <!-- Show users when data is updated, Last update at 25 October 2013, 22:30 GMT+1:00 -->
+    <string name="replace_last_updated_at">Ultimo aggiornamento: <xliff:g id="date_time" example="25 October 2013, 22:30 GMT+1:00">%1$s</xliff:g></string>
+
+    <!-- Lose by [number]. For example Lose by 2 mean result is 0-2, 1-3, 2-4, etc. -->
+    <string name="replace_lose_by">Perdi di <xliff:g id="number" example="2">%1$d</xliff:g></string>
+
+    <!-- Match started at 15:00 -->
+    <string name="replace_match_started_at">Partita iniziata alle <xliff:g id="time" example="15:00">%1$s</xliff:g></string>
+
+    <!-- Press 'Icon' or 'Icon' to add a team -->
+    <string name="replace_press_to_add_favorite_team">Clicca <xliff:g id="icon_1">@</xliff:g> o <xliff:g id="icon_1">@</xliff:g> per aggiungere una squadra</string>
+
+    <!-- Inform users that they cannot turn off push with solution -->
+    <string name="replace_push_turn_off_warning_comp">Per disattivare questo push, devi prima disattivarlo in Competizione nella pagina <xliff:g id="page_name" example="Following">[!~%1$s~!]</xliff:g>.</string>
+
+    <!-- Inform users that they cannot turn off push with solution -->
+    <string name="replace_push_turn_off_warning_comp_team">Per disattivare questo push, devi prima disattivarlo in Squadra(e) e Competizione nella pagina <xliff:g id="page_name" example="Following">[!~%1$s~!]</xliff:g>.</string>
+
+    <!-- Inform users that they cannot turn off push with solution -->
+    <string name="replace_push_turn_off_warning_team">Per disattivare questo push, devi prima disattivarlo in Squadra(e) nella pagina <xliff:g id="page_name" example="Following">[!~%1$s~!]</xliff:g>.</string>
+
+    <!-- Link to read more -->
+    <string name="replace_read_more">Continua a leggere in <xliff:g id="number" example="http://superscores.com">%1$s</xliff:g></string>
+
+    <!-- Read "something" on "website name" -->
+    <string name="replace_read_on">Leggi <xliff:g id="name" example="">“%1$s”</xliff:g> su <xliff:g id="name" example="SuperScores.com">%2$s</xliff:g></string>
+
+    <!-- Ad-removal package description -->
+    <string name="replace_shop_offer_enjoy">Divertiti con l\'esperienza di Ad gratuiti fino al <xliff:g id="date_time" example="20 Dec 2012, 02:00 GMT+00:00">%1$s</xliff:g></string>
+
+    <!-- Display transaction failed message along with error code -->
+    <string name="replace_shop_offer_error_message">Transazione fallita con codice errore <xliff:g id="error_code" example="0x0000">%1$s</xliff:g></string>
+
+    <!-- Statistics from 01/01/2012 until 31/01/2012 -->
+    <string name="replace_statistics_from_until"><xliff:g id="double_asterisk">**</xliff:g>Statistiche dal <xliff:g id="start_date" example="01/01/2012">%1$s</xliff:g> al <xliff:g id="end_date" example="31/01/2012">%2$s</xliff:g></string>
+
+    <!-- Use to inform user the location of matches. For example, Manchester United field -->
+    <string name="replace_team_field">Campo di <xliff:g id="team_name" example="Manchester United">%1$s</xliff:g></string>
+
+    <!-- When you follow something you are interested in it. Like follow in Twitter. -->
+    <string name="replace_unfollow">Non seguire <xliff:g id="name" example="Manchester United">%1$s</xliff:g></string>
+
+    <!-- Round name such as Round 1, Round 2, Round 3, etc. -->
+    <string name="replace_week">Settimana <xliff:g id="number" example="12">%1$d</xliff:g></string>
+
+    <!-- Win by [number]. For example Win by 2 mean result is 2-0, 3-1, 4-2, etc. -->
+    <string name="replace_win_by">Vinci di <xliff:g id="number" example="2">%1$d</xliff:g></string>
+    <!-- End Replace -->
+
+
+    <!-- **************************************************************************************************** -->
+
+
+    <!-- Words/Phrase -->
+    <!-- Array -->
+
+
+    <!-- Clear cached options -->
+    <string-array name="clear_cache">
+        <item>Tutti i file</item>
+        <item>Solo le immagini</item>
+        <item>Solo i dati</item>
+    </string-array>
+
+    <!-- Contact us options -->
+    <string-array name="feedback_type">
+        <item>Segnala bug</item>
+        <item>Richiedi funzioni</item>
+        <item>Altri problemi</item>
+    </string-array>
+
+    <!-- Filter matches on Live Scores Page by these match status -->
+    <string-array name="filter_matches">
+        <item>Tutte</item>
+        <item>Live</item>
+        <item>Non avviato</item>
+        <item>Finito</item>
+        <item>Interrotto</item>
+        <item>Che stai seguendo</item>
+    </string-array>
+
+    <!-- **************************************************************************************************** -->
+    <!-- Settings -->
+    <!-- **************************************************************************************************** -->
+
+    <!-- Font Size -->
+    <!-- What happens or appears if you do not make any other choice or change -->
+    <string name="settings_font_size_default">Predefinito</string>
+
+    <!-- Font size Small -->
+    <string name="settings_font_size_small">Piccolo</string>
+
+    <!-- Font size Medium -->
+    <string name="settings_font_size_medium">Medio</string>
+
+    <!-- Font size Large -->
+    <string name="settings_font_size_large">Grande</string>
+
+    <!-- Font size Extra Large -->
+    <string name="settings_font_size_xlarge">Extra grande</string>
+
+    <!-- **************************************************************************************************** -->
+
+
+    <!-- READ THIS BEFORE PROCEED TO NEXT SECTION -->
+    <!-- 1. Button description mean when user long pressed to button the text will popup to show the user what is it meant to do -->
+    <!-- 2. Subscribe/Subscription meaning -->
+    <!-- *When you subscribe something in this application you will receive push notifications for something that you subscribe -->
+    <!-- *Example 1: A user subscribe the match, user will receive notification when goal score event occur (either team scores a goal) -->
+    <!-- *Example 2: A user subscribe the team, all matches that play by the team are going to subscribe automantically -->
+    <!-- *Example 3: A user subscribe the competition, all matches in the competition are going to subscribe automantically -->
+
+
+    <!-- A -->
+    <!-- About us -->
+    <string name="about">Chi siamo</string>
+
+    <!-- Set theme of the action bar -->
+    <string name="action_bar_style"><xliff:g id="actionbar">Action Bar</xliff:g> stile</string>
+
+    <!-- Date that player active for a paticular team. For example: 01/01/2014-16/06/2014 -->
+    <string name="active_date">Periodo di attività</string>
+
+    <!-- The special offer that will remove advertising -->
+    <string name="ad_remove_offer">Offerta rimozione Ad</string>
+
+    <!-- Ad-Removal package available for user to purchase to remove ad -->
+    <string name="ad_removal_package">Pacchetto rimozione Ad</string>
+
+    <!-- Button description: Press to add all competitions to the Live Scores Page -->
+    <string name="add_all_competitions">Aggiungi tutti i Tornei</string>
+
+    <!-- Button description: Press to add reminder to user calendar (agenda) -->
+    <string name="add_reminder">Aggiungi promemoria</string>
+
+    <!-- Confirm that something is already add -->
+    <string name="added">Aggiunto</string>
+
+    <!-- Contact information: address -->
+    <string name="address">Indirizzo</string>
+
+    <!-- Goal that lose to the opponent. This will appear in table. You can translate to something that close to concede, lose -->
+    <string name="against">Contro</string>
+
+    <!-- The number of years that a person has lived -->
+    <string name="age">Età</string>
+    <!-- All, the entire -->
+    <string name="all">Tutto</string>
+
+    <!-- All news -->
+    <string name="all_news">Tutte le notizie</string>
+
+    <!-- To tell people something officially -->
+    <string name="announced">Annunciato</string>
+    <!-- When user send feedback to us and do not want us to know their name -->
+    <string name="anonymous">Anonimo</string>
+
+    <!-- An act of player appearing on the field -->
+    <string name="appearances">Presenze</string>
+
+    <!-- A person whose job is designing buildings, etc. -->
+    <string name="architect">Architetto</string>
+
+    <!-- A contribution by a player which helps to score a goal -->
+    <string name="assist">Assist</string>
+
+    <!-- Attack category which include the following: goals, possession, attacks, dangerous attack, corners -->
+    <string name="attack">Attacco</string>
+    <!-- [Plural] The actions that players take to try to score a goal or win the game -->
+    <string name="attacks">Attacchi</string>
+
+    <!-- Forwards (or strikers) are the players who are positioned nearest to the opposing team's goal. The primary responsibility of forwards is to score goals and to create scoring chances for other players. -->
+    <string name="attacker">Attaccante</string>
+    <!-- Number of people present at stadium/ground/venue -->
+    <string name="attendance">Presenti</string>
+
+    <!-- The action of team that play at opponent field. You can translate to something that close to outwards -->
+    <string name="away">Fuori casa</string>
+
+    <!-- Competition/League/Tournament statistics that represent the number of time that away team won that match -->
+    <string name="away_team_win">Vittoria squadra in trasferta</string>
+
+    <!-- B -->
+    <!-- Amount of money that is left for spending. For example, Balance: 50 Coin -->
+    <string name="balance">Saldo</string>
+
+    <!-- The act of risking money, etc. on the unknown result of an event -->
+    <string name="betting">Puntate</string>
+
+    <!-- Betting type e.g. Over/Under, Correct Scores, Double Chance, Margin, HT/FT -->
+    <string name="betting_market">Mercato scommesse</string>
+
+    <!-- Date that player was born -->
+    <string name="born">Nato</string>
+
+    <!-- Buy the product -->
+    <string name="buy">Acquista</string>
+
+    <!-- C -->
+    <!-- Button description: Cancel some operation -->
+    <string name="cancel">Annulla</string>
+
+    <!-- Something has been cancelled -->
+    <string name="cancelled">Annullato</string>
+
+    <!-- The number of people that a venue (stadium, ground) can hold -->
+    <string name="capacity">Capacità</string>
+
+    <!-- A group of people or things with particular features in common -->
+    <string name="category">Categoria</string>
+
+    <!-- Check for new version on Google Play Store -->
+    <string name="check_for_updates">Controlla aggiornamenti</string>
+
+    <!-- Change something. For example, change current competition, change current team -->
+    <string name="change">Modifica</string>
+
+    <!-- Record of changes made to the application -->
+    <string name="change_log">Storico aggiornamenti</string>
+
+    <!-- Contact information: city -->
+    <string name="city">Città</string>
+
+    <!-- A game in which one team prevents the opposing team from scoring -->
+    <string name="clean_sheet">Rete inviolata</string>
+    <!-- Clear cache files (the files that store locally on the user devices for the purpose of view the content offline) -->
+    <string name="clear_cache">Cancella cache</string>
+
+    <!-- Button description: Clear text that user type in some text box -->
+    <string name="clear_text">Cancella testo</string>
+
+    <!-- Close -->
+    <string name="close">Chiudi</string>
+
+    <!-- The coach/manager is who trains a player or team -->
+    <string name="coach">Allenatore</string>
+
+    <!-- Button description: when users press this button the expandable view will collapse (no longer expand) it like when you press 'minus symbol' on the windows explorer (file heirachy) -->
+    <string name="collapse">Riduci</string>
+
+    <!-- Color -->
+    <string name="color">Colore</string>
+    <!-- A description of an event in the particular match e.g. minutes 43' GOALLL! For Manchester United! An incredible strike from Wayne Rooney -->
+    <string name="commentary">Commento</string>
+
+    <!-- Competition (League, Tournament in some countries) -->
+    <string name="competition">Torneo</string>
+
+    <!-- Tell users that the application cannot/failed to establish the internet connection -->
+    <string name="connection_failed">Connessione non riuscita!</string>
+
+    <!-- The title of dialog box -->
+    <string name="contact_us">Contattaci</string>
+
+    <!-- Continue the process -->
+    <string name="continue_">Continua</string>
+
+    <!-- A thing that is made to be the same as sth else -->
+    <string name="copy">Copia</string>
+
+    <!-- Match statistics: The number of times each team got corner kick -->
+    <string name="corners">Calcio d\'angolo</string>
+
+    <!-- Contact information: country -->
+    <string name="country">Paese</string>
+
+    <!-- The act of mentioning somebody who worked on a project -->
+    <string name="credits">Crediti</string>
+
+    <!-- Current Competition is the competition that users have to select in order to view its Table, Round, Fixtures, Statistics, etc. -->
+    <string name="current_competition">Torneo attuale</string>
+
+    <!-- Suppose the current fixture of current competition is "Wed, 10 Apr 2013" and users scroll to see another fixture. By pressing this button the users will return to "Wed, 10 Apr 2013" fixture -->
+    <string name="current_fixture">Incontro attuale</string>
+
+    <!-- Show current competition/league/tournament ranking of selected team -->
+    <string name="current_league_ranking">Classifica attuale torneo</string>
+
+    <!-- Suppose the current round of current competition is Semi-Finals and users scroll to see another round. By pressing this button the users will return to the Semi-Finals round -->
+    <string name="current_round">Turno attuale</string>
+
+    <!-- The current team of the player -->
+    <string name="current_team">Squadra attuale</string>
+
+    <!-- Press this button to view current application version -->
+    <string name="current_version">Versione corrente</string>
+
+    <!-- D -->
+    <!-- Match statistics: The number of times each team performs dangerous attacks to the opponent -->
+    <string name="dangerous_attacks">Attacchi pericolosi</string>
+
+    <!-- Defenders play behind the midfielders and their primary responsibility is to provide support to the team and to prevent the opposition from scoring a goal -->
+    <string name="defender">Difensore</string>
+    <!-- Description of something -->
+    <string name="description">Descrizione</string>
+
+    <!-- Details of something -->
+    <string name="details">Dettagli</string>
+
+    <!-- Match statistics: Discipline category (fouls, yellow cards, red cards) -->
+    <string name="discipline">Disciplina</string>
+    <!-- Dismiss/Close the dialog box -->
+    <string name="dismiss">Ignora</string>
+
+    <!-- Let users select how to display data -->
+    <string name="display_options">Visualizza opzioni</string>
+
+    <!-- Follow by player dominant foot (left, right) -->
+    <string name="dominant_foot">Piede dominante</string>
+
+    <!-- Follow by number of time that 'Draw' result occur -->
+    <string name="draw">Pareggio</string>
+
+    <!-- E -->
+    <!-- To Make changes on data on screen -->
+    <string name="edit">Modifica</string>
+
+    <!-- Long text that describe important events, news, informations related to selected match -->
+    <string name="editorials">Editoriali</string>
+
+    <!-- Contact information: email -->
+    <string name="email">E-mail</string>
+
+    <!-- Enalble notification to receive push notification -->
+    <string name="enable_notifications">Abilita notifiche</string>
+
+    <!-- Finish -->
+    <string name="end">Fine</string>
+
+    <!-- Some problem has occur -->
+    <string name="error">Errore</string>
+
+    <!-- Real-time event such as goal score, yellow card, red card, substitute, and penalty for selected match -->
+    <string name="events">Eventi</string>
+
+    <!-- Exit the application -->
+    <string name="exit">Esci</string>
+
+    <!-- Button description: when users press this button the expandable view will expand all it like when you press 'plus symbol' on the windows explorer (file heirachy) -->
+    <string name="expand">Ingrandisci</string>
+
+    <!-- Additional statistics -->
+    <string name="extra_statistics">Ulteriori statistiche</string>
+
+    <!-- Matche Status that show the break period during Extra time -->
+    <string name="extra_time_break">Intervallo dei tempi supplementari</string>
+
+    <!-- F -->
+    <!-- Facts -->
+    <string name="facts">Fatti</string>
+
+    <!-- Frequency asked questions -->
+    <string name="faq">FAQ</string>
+
+    <!-- Favorite of somethings such as favorite competitions, or favorite teams -->
+    <string name="favorite">Preferiti</string>
+
+    <!-- The teams list below this label are favorite or subscribed team -->
+    <string name="favorite_subscribed_team">Squadra preferita/Sottoscritta</string>
+
+    <!-- Contact information: fax -->
+    <string name="fax">Fax</string>
+
+    <!-- The account that user will use to send feedback to us e.g. anonymous or user email account -->
+    <string name="feedback_account">Account commenti</string>
+
+    <!-- FIFA ranking (world's ranking) of the team -->
+    <string name="fifa_ranking">Classifica FIFA</string>
+
+    <!-- Filter data to let users design what they really want to see -->
+    <string name="filter">Filtro</string>
+
+    <!-- Filter Competitions that show on Live Scores Page -->
+    <string name="filter_competitions">Filtra tornei</string>
+
+    <!-- Filter Matches that show on Live Scores Page -->
+    <string name="filter_matches">Filtra partite</string>
+
+    <!-- A sport event that have been arranged to take place on a particular date e.g. Wed, 10 Apr 2013 or Thu, 25 Ar 2013. In other word, the agenda of matches -->
+    <string name="fixtures">Incontri</string>
+
+    <!-- When you follow something you are interested in it. Like follow in Twitter. -->
+    <string name="follow_competition">Segui competizione</string>
+
+    <!-- When you follow something you are interested in it. Like follow in Twitter. -->
+    <string name="follow_match">Segui partita</string>
+
+    <!-- When you follow something you are interested in it. Like follow in Twitter. -->
+    <string name="follow_team">Segui squadra</string>
+
+    <!-- When you follow something you are interested in it. Like follow in Twitter. -->
+    <string name="following">Stai seguendo</string>
+
+    <!-- When you follow something you are interested in it. Like follow in Twitter. -->
+    <string name="following_team">Squadra che stai seguendo</string>
+
+    <!-- Font size to be display in the app -->
+    <string name="font_size">Dimensioni del carattere</string>
+
+    <!-- Goal/Scores that got from the opponent. This will appear in table. You can translate to something that close to gain -->
+    <string name="for_">A favore</string>
+
+    <!-- The position of player on the field e.g. 4-4-2 mean four defender, four midfielder, two attacker -->
+    <string name="formation">Formazione</string>
+
+    <!-- Match statistics: The number of times each team foul (an unfair act by a player which is deemed by the referee) -->
+    <string name="fouls">Falli</string>
+
+    <!-- Match statistics: The number of times each team got free kick (a method of restarting play in a game of soccer following a foul) -->
+    <string name="free_kicks">Calci di punizione</string>
+
+    <!-- The scores result that frequently happep, for example, Premier League last season has game result end up with 2-1 69 times -->
+    <string name="frequency_scores">Frequenza risultati</string>
+
+    <!-- The former/previous team of the player. For example, Wayne Rooney transfered "From team: Manchester United" -->
+    <string name="from_team">Dalla squadra</string>
+
+    <!-- Kind of match status (Half Time, Full Time, Second Half) -->
+    <string name="full_time">Fine partita</string>
+
+    <!-- Button description: press to view full venue information -->
+    <string name="full_venue_info">Informazioni sede</string>
+
+    <!-- G -->
+    <!-- Button description: Press to view game results or goal scores -->
+    <!-- This button use to toggle between (Win, Draw, Lose) and (Goal For, Goal Against, Goal Difference) that show on Table Page -->
+    <string name="game_results_goal_scores">Risultati partita/Risultati gol</string>
+
+    <!-- This is category that group some of the general topic together -->
+    <string name="general">Generale</string>
+
+    <!-- This is a header use for explain general information of something -->
+    <string name="general_information">Informazioni generali</string>
+
+    <!-- Page name: show global news -->
+    <string name="global_news">Notizie globali</string>
+
+    <!-- Go -->
+    <string name="go">Vai</string>
+
+    <!-- Go to (some page, some link, etc..) -->
+    <string name="go_to">Vai a<xliff:g id="horizontal_ellipsis">…</xliff:g></string>
+
+    <!-- Go to specific round name (8 Th Finals, Quarter-Finals, Semi-Finals, Final) -->
+    <string name="go_to_round">Vai al turno<xliff:g id="horizontal_ellipsis">&#8230;</xliff:g></string>
+
+    <!-- A player whose job is to stop the ball from going into his or her own team's goal -->
+    <string name="goalkeeper">Portiere</string>
+
+    <!-- Match statistics: The number of times each team got goal kicks (A goal kick, called a goalie kick in some regions, is a method of restarting play in a game of soccer by let Goal keeper kick the ball -->
+    <string name="goal_kicks">Palla gol</string>
+
+    <!-- Match statistics: The number of "Goals" scores for each team -->
+    <string name="goals">Gol</string>
+
+    <!-- Setting the sound of notification when goal score event occur -->
+    <string name="goal_sound">Suono gol</string>
+
+    <!-- Number of goal that person or team score -->
+    <string name="goals_scored">Gol segnati</string>
+
+    <!-- Group name such as North Region, South Region, Group 1, and Group A -->
+    <string name="group">Gruppo</string>
+
+    <!-- H -->
+    <!-- Kind of match status (Half Time, Full Time, Second Half) -->
+    <string name="half_time">Intervallo</string>
+
+    <!-- Head-to-head statistics of two selected teams -->
+    <string name="head_to_head">Testa a testa</string>
+
+    <!-- Height of the player -->
+    <string name="height">Altezza</string>
+
+    <!-- Help -->
+    <string name="help">Aiuto</string>
+
+    <!-- Help and FAQ -->
+    <string name="help_and_faq">Aiuto <xliff:g id="ampersand">&amp;</xliff:g> FAQ</string>
+
+    <!-- The action of team that play on their own field/ground/stadium. -->
+    <string name="home">In casa</string>
+
+    <!-- Competition/League/Tournament statistics that represent the number of time that home team won the match. -->
+    <string name="home_team_win">Vittoria squadra in casa</string>
+
+    <!-- I -->
+    <!-- Information -->
+    <string name="info">Info</string>
+
+    <!-- Player Injured and cannot be play -->
+    <string name="injured">Infortunato</string>
+
+    <!-- Inform user that a item has been deleted -->
+    <string name="item_deleted">Elemento cancellato</string>
+
+    <!-- J -->
+    <!-- Just now -->
+    <string name="just_now">Proprio adesso</string>
+
+    <!-- K -->
+    <!-- Count down to the kick-off time (time that match will start) -->
+    <string name="kick_off_in">Calcio d\'inizio tra</string>
+
+    <!-- L -->
+    <!-- Language to be display in app -->
+    <string name="language">Lingua</string>
+
+    <!-- Last # Matches (Use plural form) -->
+    <string name="last_n_matches">Ultime <xliff:g id="hash_tag">#</xliff:g> Partite</string>
+
+    <!-- Last # Seasons (Use plural form) -->
+    <string name="last_n_seasons">Ultime <xliff:g id="hash_tag">#</xliff:g> Stagioni</string>
+
+    <!-- Display latest result for users -->
+    <string name="latest_result">Ultimo Risultato</string>
+
+    <!-- Appear in the following context: Do you want to do this now or 'later'? -->
+    <string name="later">Più tardi</string>
+
+    <!-- Use for point a place/location on Map -->
+    <string name="latitude">Latitudine</string>
+
+    <!-- List of player who are going to take part in a particular match -->
+    <string name="lineup">Formazione</string>
+
+    <!-- Button description: Press button to toggle between list lineup (list of the name of player) or Graphic Lineup (Graphic layout that show player position on field) -->
+    <string name="list_lineup_graphic_lineup">Elenco formazione/Formazione grafica</string>
+
+    <!-- List all matches that are updated REAL time -->
+    <string name="livescores">Risultati in diretta</string>
+
+    <!-- Show Table (team ranking in league) in real-time -->
+    <string name="live_table">Tabella in diretta</string>
+
+    <!-- Show user that contents are loading -->
+    <string name="loading">Caricamento in corso<xliff:g id="horizontal_ellipsis">…</xliff:g></string>
+
+    <!-- Local name of some place or something -->
+    <string name="local_name">Nome Locale</string>
+
+    <!-- The position of something or a place where something happens or exists -->
+    <string name="location">Posizione</string>
+
+    <!-- Use for point a place/location on Map -->
+    <string name="longitude">Longitudine</string>
+
+    <!-- To be defeated -->
+    <string name="lose">Perso</string>
+
+    <!-- M -->
+    <!-- A sports event where people or teams compete against each other -->
+    <string name="match">Partita</string>
+
+    <!-- Match status: The match is cancelled and will not be play -->
+    <string name="match_cancelled">Partita annullata</string>
+
+    <!-- Match status: The match already finished -->
+    <string name="match_finished">Partita terminata</string>
+
+    <!-- Show information of the selected match -->
+    <string name="match_information">Info partita</string>
+
+    <!-- Match status: The match is postponed and will be play another day -->
+    <string name="match_postponed">Partita rinviata</string>
+
+    <!-- The topic when add Match Reminder to the users calendar. For example, "Match Reminder: Manchester United vs Liverpool" -->
+    <string name="match_reminder">Promemoria partita</string>
+
+    <!-- Setting the sound of notification when match start or match end -->
+    <string name="match_start_end_sound">Suono inizio/fine partita</string>
+
+    <!-- Match status: The match already started -->
+    <string name="match_started">La partita è cominciata</string>
+
+    <!-- Match status: The match is suspended while playing -->
+    <string name="match_suspended">Partita sospesa</string>
+
+    <!-- The main ways that large numbers of people receive information and entertainment, i.e. television, radio, newspapers -->
+    <string name="media">Media</string>
+
+    <!-- The state of being a member of a club/team -->
+    <string name="membership">Appartenenza</string>
+
+    <!-- Menu: list of possible chioces that are shown on a screen -->
+    <string name="menu">Menu</string>
+
+    <!-- Midfielders (originally called half-backs) are players whose position of play is midway between the attacking forwards and the defenders -->
+    <string name="midfielder">Centrocampista</string>
+
+    <!-- Number of minutes that the player play for his/her team -->
+    <string name="minutes_played">Minuti giocati</string>
+
+    <!-- Mute the sound and vibration of the notifications/alert -->
+    <string name="mute">Muto</string>
+
+    <!-- The popup text to show that all the notifications/alert are Mute -->
+    <string name="mute_notifications">Notifiche mute</string>
+
+    <!-- Button description: Press button to Mute or Unmute the notification/alert -->
+    <string name="mute_unmute">Attiva/disattiva suono</string>
+
+    <!-- N -->
+    <!-- Name of someone (some languages use difference word for someone and something) -->
+    <string name="name_someone">Nome</string>
+
+    <!-- Name of something (some languages use difference word for someone and something) -->
+    <string name="name_something">Nome</string>
+
+    <!-- The player nationality -->
+    <string name="nationality">Nazionalità</string>
+
+    <!-- The world that describe team that play on nutural field/ground/stadium. -->
+    <string name="neutral">Neutrale</string>
+
+    <!-- New information about something that has happened recently -->
+    <string name="news">Notizie</string>
+
+    <!-- News feed -->
+    <string name="news_feed">Attivazione notizie</string>
+
+    <!-- Set of options that let user customize news widget -->
+    <string name="news_widget_settings">Impostazioni widget notizie</string>
+
+    <!-- Nickname -->
+    <string name="nickname">Nickname</string>
+
+    <!-- No data for the current section -->
+    <string name="no_data">Nessun dato</string>
+
+    <!-- Title indicate that something below have no group -->
+    <string name="no_group">Nessun gruppo</string>
+
+    <!-- Some data is not available -->
+    <string name="not_available">Non disponibile</string>
+
+    <!-- Match status: The match not yet started -->
+    <string name="not_started">Non iniziata</string>
+
+    <!-- Information or a warning given in advance of something that is going to happen -->
+    <string name="notice">Avviso</string>
+
+    <!-- Setting what notification will receive -->
+    <string name="notification_settings">Imposta notifiche</string>
+
+    <!-- Number of Goals -->
+    <string name="number_of_goals">Numero di gol</string>
+
+    <!-- Number of Assists (A contribution by a player which helps to score a goal) -->
+    <string name="number_of_assists">Numero di assist</string>
+
+    <!-- Number of Yellow Cards -->
+    <string name="number_of_yellow_cards">Numero di ammonizioni</string>
+
+    <!-- Number of Red Cards -->
+    <string name="number_of_red_cards">Numero di espulsioni</string>
+
+    <!-- Notification category that group everything about notification together such as Notification Sound, Mute, Vibrate -->
+    <string name="notifications">Notifiche</string>
+
+    <!-- Sound of the notifications -->
+    <string name="notification_sounds">Suoni di notifica</string>
+
+    <!-- O -->
+    <!-- Show several offer for user to remove ad. For example, remove ad for user if he download some app. -->
+    <string name="offer">Offerta</string>
+
+    <!-- Match statistics: The number of times each team offside (A player is in an offside position if he or she is closer to the opponent's goal line than both the ball and the second-to-last defender.) -->
+    <string name="offsides">Fuorigioco</string>
+
+    <!-- OK -->
+    <string name="ok">OK</string>
+
+    <!-- To start business for the first time. For example: "Opened: 2010" -->
+    <string name="opened">Apertura</string>
+
+    <!-- Other category that group many small things together -->
+    <string name="other">Altro</string>
+
+    <!-- Total goal scores that over 1.5 e.g. 2-0, 1-1, so on (use mainly in betting industry) -->
+    <string name="over_1_5">Over 1.5</string>
+
+    <!-- Total goal scores that over 2.5 e.g. 3-0, 2-1, so on (use mainly in betting industry) -->
+    <string name="over_2_5">Over 2.5</string>
+
+    <!-- Total goal scores that over 3.5 e.g. 4-0, 3-1, so on (use mainly in betting industry) -->
+    <string name="over_3_5">Over 3.5</string>
+
+    <!-- Overall result which combine home result (played at home ground) and away result (played at the opponents' grounds) -->
+    <string name="overall">Generale</string>
+
+    <!-- A general description or an outline of something -->
+    <string name="overview">Panoramica</string>
+
+    <!-- P -->
+    <!-- Indicate that this goal is come from penalty goal -->
+    <string name="penalty_goals">Calci di rigore</string>
+
+    <!-- Indicate that this goal in come from penalty shootout (Use penalty for breaking ties) -->
+    <string name="penalty_shootout">Rigori finali</string>
+
+    <!-- Contact information: phone -->
+    <string name="phone">Telefono</string>
+
+    <!-- Button description: Press to pin match to the top of Live Scores Page -->
+    <string name="pin_match">Contrassegna partita</string>
+
+    <!-- Group matches that already pinned to the top of Live Scores Page together -->
+    <string name="pinned_matches">Partite contrassegnate</string>
+
+    <!-- Place of Birth of the player -->
+    <string name="place_of_birth">Luogo di nascita</string>
+
+    <!-- Player -->
+    <string name="player">Giocatore</string>
+
+    <!-- Name of the player -->
+    <string name="player_name">Nome del giocatore</string>
+
+    <!-- Please wait while the application perform long operation -->
+    <string name="please_wait">Attendi<xliff:g id="horizontal_ellipsis">&#8230;</xliff:g></string>
+
+    <!-- Scores -->
+    <string name="points">Punti</string>
+
+    <!-- Popular of something e.g. popular competition, popular team -->
+    <string name="popular">Famosi</string>
+
+    <!-- Position of player on filed such as Goal keeper, Defender, Midfielder, Attacker -->
+    <string name="position">Posizione</string>
+
+    <!-- Match statistics: The percentage of ball "Possessions" for each team -->
+    <string name="possessions">Possesso di palla</string>
+
+    <!-- Match status: show that match is postponed -->
+    <string name="postponed">Rinviata</string>
+
+    <!-- Happening now e.g. From 01/01/2014 - Present -->
+    <string name="present">Attuale</string>
+
+    <!-- Preview the data before process -->
+    <string name="preview">Anteprima</string>
+
+    <!-- The names before the current name -->
+    <string name="previous_names">Nomi precedenti</string>
+
+    <!-- Previous result of aggreate match (score of last game) -->
+    <string name="previous_result">Risultato precedente</string>
+
+    <!-- Main, Most important -->
+    <string name="primary">Principale</string>
+
+    <!-- Inform user that something is processing -->
+    <string name="processing">Elaborazione in corso<xliff:g id="horizontal_ellipsis">…</xliff:g></string>
+
+    <!-- Publish message in share operation -->
+    <string name="publish">Pubblica</string>
+    <!-- Q -->
+
+
+    <!-- R -->
+    <!-- Rank/Position of each team in Table (Position in League/Tournament) -->
+    <string name="rank">Classifica</string>
+
+    <!-- Indicator that let user know that there is more text to read -->
+    <string name="read_more">Continua a leggere<xliff:g id="horizontal_ellipsis">…</xliff:g></string>
+
+    <!-- Recently -->
+    <string name="recently">Recenti</string>
+
+    <!-- Red Cards cards (A red card is shown by a referee to signify that a player has been sent off.) -->
+    <string name="red_cards">Cartellini rossi</string>
+
+    <!-- The official who controls game in some sports -->
+    <string name="referee">Arbitro</string>
+
+    <!-- Refresh -->
+    <string name="refresh">Aggiorna</string>
+
+    <!-- Remove advertising -->
+    <string name="remove_ads">Rimuovi Ad</string>
+
+    <!-- Button description: Press to remove all ocmpetitions from the Live Scores Page -->
+    <string name="remove_all_competitions">Rimuovi tutti i Tornei</string>
+
+    <!-- Remove Team which label as 'Team 1' -->
+    <string name="remove_team_1">Rimuovi Squadra <xliff:g id="label_one">1</xliff:g></string>
+
+    <!-- Remove Team which label as 'Team 2' -->
+    <string name="remove_team_2">Rimuovi Squadra <xliff:g id="label_two">2</xliff:g></string>
+
+    <!-- To repair an old building so that it is in good condition again -->
+    <string name="renovated">Ristrutturato</string>
+
+    <!-- Game result such as 2-1, 1-0, 2-2 -->
+    <string name="result">Risultato</string>
+
+    <!-- Try again -->
+    <string name="retry">Riprova</string>
+
+    <!-- A report in which sb gives their opinion of a match -->
+    <string name="review">Recensione</string>
+
+    <!-- A stage in a sports competition such as Quarter-Finals, Semi-Finals, Final -->
+    <string name="round">Turno</string>
+
+    <!-- S -->
+    <!-- Screenshot -->
+    <string name="screenshot">Schermata</string>
+
+    <!-- Search for something -->
+    <string name="search">Cerca</string>
+
+    <!-- Search for specific competition -->
+    <string name="search_competitions">Cerca Tornei</string>
+
+    <!-- Search for specific matches -->
+    <string name="search_matches">Cerca Partite</string>
+
+    <!-- Search for specific team -->
+    <string name="search_team">Cerca Squadra</string>
+
+    <!-- Season name such as "2012/2013", "2012 Poland/Ukraine" -->
+    <string name="season">Stagione</string>
+
+    <!-- Season start date and date such as 24/07/2013 - 16/05/2013 -->
+    <string name="season_start_end">Inizio/fine stagione</string>
+
+    <!-- Kind of match status (Half Time, Full Time, Second Half) -->
+    <string name="second_half">Secondo Tempo</string>
+
+    <!-- Second yellow card which result in red card -->
+    <string name="second_yellow_card">Secondo cartellino giallo</string>
+
+    <!-- Ask user to select a competition from the list of competitions -->
+    <string name="select_competition">Seleziona Torneo</string>
+
+    <!-- Ask user to select a news feed from the list of feeds -->
+    <string name="select_news_feed">Seleziona attivazione notizie</string>
+
+    <!-- Ask user to select a team from the list of teams -->
+    <string name="select_team">Seleziona Squadra</string>
+
+    <!-- Send something -->
+    <string name="send">Invia</string>
+
+    <!-- Send feedback e.g. bug report, request features, request assistance, etc. -->
+    <string name="send_feedback">Invia commento</string>
+
+    <!-- Set of options that let user customize app -->
+    <string name="settings">Impostazioni</string>
+
+    <!-- Share -->
+    <string name="share">Condividi</string>
+
+    <!-- Share App to social network or an app that users desire -->
+    <string name="share_app">Condividi Applicazione</string>
+
+    <!-- Share on Facebook -->
+    <string name="share_on_facebook">Condividi su Facebook</string>
+
+    <!-- Share on Twitter -->
+    <string name="share_on_twitter">Condividi su Twitter</string>
+
+    <!-- Share Table (team ranking, standings) -->
+    <string name="share_table">Condividi tabella</string>
+
+    <!-- Shirt number of the player -->
+    <string name="shirt_number">Numero di maglia</string>
+
+    <!-- A place that let user purchase addition features -->
+    <string name="shop">Negozio</string>
+
+    <!-- Match statistics: Shot category (shots, shots on target, shots off target, shots blocked, and shots woodwork) -->
+    <string name="shot">Tiro</string>
+
+    <!-- Match statistics: The number of times each team shots (the action of kicking the ball) -->
+    <string name="shots">Tiri</string>
+
+    <!-- Match statistics: The number of times each team shots (the action of kicking the ball), and the players from the opponent team blocked it -->
+    <string name="shots_blocked">Tiri stoppati</string>
+
+    <!-- Match statistics: The number of times each team shots (the action of kicking the ball), and it is off target -->
+    <string name="shots_off_target">Tiri fuori porta</string>
+
+    <!-- Match statistics: The number of times each team shots (the action of kicking the ball), and it is on target -->
+    <string name="shots_on_target">Tiri in porta</string>
+
+    <!-- Match statistics: The number of times each team shots (the action of kicking the ball), and the ball hit the crossbar (A horizontal bar connecting the top of the two goalposts) or goalposts -->
+    <string name="shots_woodwork">Tiri sulla traversa</string>
+
+    <!-- Show alphabet index on the right side of the screen to let user fast scroll among list entries -->
+    <string name="show_index">Mostra indice</string>
+
+    <!-- The act of starting to use a computer system -->
+    <string name="sign_in">Accedi</string>
+
+    <!-- The act of finishing using a computer system -->
+    <string name="sign_out">Esci</string>
+    <!-- No sound -->
+    <string name="silent">Muto</string>
+
+    <!-- Sort something by alphabet i.e. A-Z -->
+    <string name="sort_by_alphabet">Ordina alfabeticamente</string>
+
+    <!-- Sort something by time i.e. 00:00-23:59 -->
+    <string name="sort_by_time">Ordina in base a orario</string>
+
+    <!-- All the workers employed in a team considered as a group -->
+    <string name="staff">Staff</string>
+
+    <!-- To begin doing or using sth -->
+    <string name="start">Inizia</string>
+
+    <!-- Indicate that extra time start -->
+    <string name="start_extra_time">Inizio tempi supplementari</string>
+
+    <!-- Indicate that second half start -->
+    <string name="start_second_half">Inizio secondo tempo</string>
+
+    <!-- Start time: 24/07/2013 18:00 -->
+    <string name="start_time">Tempo di inizio</string>
+
+    <!-- A collection of information use for analyse something -->
+    <string name="statistics">Statistiche</string>
+
+    <!-- Stop -->
+    <string name="stop">Arresto</string>
+
+    <!-- Team member for selected team. In other word, team's current players -->
+    <string name="squads">Giocatori</string>
+
+    <!-- Player that will replace another player in the field -->
+    <string name="substitute_in">Entra riserva</string>
+
+    <!-- Players that are sitting on bench for substitute player that playing on field -->
+    <string name="substitute_on_bench">Riserva in panchina</string>
+
+    <!-- Player that has been replace by another player -->
+    <string name="substitute_out">Esce riserva</string>
+
+    <!-- Category in Lineup indicate players are substitution -->
+    <string name="substitutes">Riserve</string>
+
+    <!-- Match statistics: The number of times each team substitutes the player (Substitutions are generally made to replace a player who has become tired or injured, or who is not performing well.) -->
+    <string name="substitutions">Sostituzioni</string>
+
+    <!-- Success -->
+    <string name="success">Successo</string>
+
+    <!-- The top layer of a venue (stadium) ground (e.g. Glass) -->
+    <string name="surface">Superficie</string>
+
+    <!-- Category in Lineup indicate players are suspended/baned from playing (Get red card) -->
+    <string name="suspended">Sospeso</string>
+
+    <!-- T -->
+    <!-- A list of sports teams that shows their position in a competition -->
+    <string name="table">Tabella</string>
+
+    <!-- A group of people who play a particular game or sport against another group of people -->
+    <string name="team">Squadra</string>
+
+    <!-- [Plurals] A group of people who play a particular game or sport against another group of people -->
+    <string name="teams">Squadre</string>
+
+    <!-- Label Team 1 -->
+    <string name="team_1">Squadra <xliff:g id="label_one">1</xliff:g></string>
+
+    <!-- Label Team 2 -->
+    <string name="team_2">Squadra <xliff:g id="label_two">2</xliff:g></string>
+
+    <!-- Team Name -->
+    <string name="team_name">Nome squadra</string>
+
+    <!-- Show team information of the selected team -->
+    <string name="team_information">Info squadra</string>
+
+    <!-- For example, Knocked three 'times' -->
+    <string name="times">Volte</string>
+
+    <!-- Theme -->
+    <string name="theme">Tema</string>
+
+    <!-- Match statistics: The number of times each team got throw ins (a method of restarting play in a game of soccer when the ball has exited the side of the field of play.) -->
+    <string name="throw_ins">Rimesse in campo</string>
+
+    <!-- Today -->
+    <string name="today">Oggi</string>
+
+    <!-- Button description: Press to toggle fullscreen -->
+    <string name="toggle_full_screen">Alterna a schermo intero</string>
+
+    <!-- Button description: Press to toggle between two teams -->
+    <string name="toggle_team">Alterna squadra</string>
+
+    <!-- The day after today -->
+    <string name="tomorrow">Domani</string>
+
+    <!-- Top Assist (a contribution by a player which helps to score a goal) -->
+    <string name="top_assists">Migliori assist</string>
+
+    <!-- List of players that have top statistics for each category e.g. Top Scorer, Top Assist, Top Yellow Card -->
+    <string name="top_players">Migliori giocatori</string>
+
+    <!-- Top Red Cards -->
+    <string name="top_red_cards">Top espulsioni</string>
+
+    <!-- Top Scorers -->
+    <string name="top_scorers">Migliori marcatori</string>
+
+    <!-- Top Yellow Cards -->
+    <string name="top_yellow_cards">Top ammonizioni</string>
+
+    <!-- Total -->
+    <string name="total">Totale</string>
+
+    <!-- Act of moving player from one team to another team. -->
+    <string name="transfers">Cessioni</string>
+
+    <!-- Try again -->
+    <string name="try_again">Riprova</string>
+
+    <!-- Type of something -->
+    <string name="type">Tipo</string>
+
+    <!-- U -->
+    <!-- To cancel the effect of something, or go back -->
+    <string name="undo">Annulla</string>
+
+    <!-- To cancel the effect of somethings, or go back -->
+    <string name="undo_all">Annulla tutto</string>
+
+    <!-- When you follow something you are interested in it. Like follow in Twitter. -->
+    <string name="unfollow_all">Non seguire tutto</string>
+
+    <!-- When you follow something you are interested in it. Like follow in Twitter. -->
+    <string name="unfollow_competition">Non seguire competizione</string>
+
+    <!-- When you follow something you are interested in it. Like follow in Twitter. -->
+    <string name="unfollow_match">Non seguire partita</string>
+
+    <!-- When you follow something you are interested in it. Like follow in Twitter. -->
+    <string name="unfollow_team">Non seguire squadra</string>
+
+    <!-- Dialog header to show that something are unable to unfollow -->
+    <string name="unfollow_warning">Impossibile non seguire!</string>
+
+    <!-- Something is unknown. For example, unknown start time, unknown vanue -->
+    <string name="unknown">Sconosciuto</string>
+
+    <!-- The start time for a match is unknown -->
+    <string name="unknown_start_time">L\'ora di inizio è sconosciuta</string>
+
+    <!-- The popup text to show that all the notifications are Unmute -->
+    <string name="unmute_notifications">Attiva audio notifiche</string>
+
+    <!-- Press to unpin match to the top of Live Scores Page -->
+    <string name="unpin_match">Sblocca partita</string>
+
+    <!-- Update -->
+    <string name="update">Aggiorna</string>
+
+    <!-- How often that the data will update automatically -->
+    <string name="update_interval">Aggiorna intervallo</string>
+
+    <!-- Contact information: URL -->
+    <string name="url"><xliff:g id="url">URL</xliff:g></string>
+
+    <!-- V -->
+    <!-- How much something is worth in money -->
+    <string name="value">Valore</string>
+
+    <!-- Ground/Stadium -->
+    <string name="venue">Sede</string>
+
+    <!-- Information about venue/ground/stadium -->
+    <string name="venue_info">Informazioni sede</string>
+
+    <!-- Location of venue such as Madrid, Manchester, Liverpool -->
+    <string name="venue_location">Posizione sede</string>
+
+    <!-- Name of venue such as National Stadium, Old Trafford -->
+    <string name="venue_name">Nome sede</string>
+
+    <!-- Version of the application -->
+    <string name="version">Versione</string>
+
+    <!-- Version number of the application -->
+    <string name="version_number">Numero versione</string>
+
+    <!-- Vibrate -->
+    <string name="vibrate">Vibrazione</string>
+
+    <!-- View all of somethings. For example, View all matches, View all competitions, View all round, etc. -->
+    <string name="view_all">Visualizza tutto</string>
+
+    <!-- Button description: Press to view Fixtures -->
+    <string name="view_fixtures">Visualizza dettagli</string>
+
+    <!-- Button description: Press to view Head-to-Head Statistics -->
+    <string name="view_head_to_head_statistics">Visualizza statistiche Testa a testa</string>
+
+    <!-- Button description: Press to view map -->
+    <string name="view_map">Visualizza mappa</string>
+
+    <!-- Button description: Press to view Match Info -->
+    <string name="view_match_info">Visualizza info partita</string>
+
+    <!-- Button description: Press to view menu -->
+    <string name="view_menu">Visualizza menu</string>
+
+    <!-- Button description: Press to view Round -->
+    <string name="view_round">Visualizza turno</string>
+
+    <!-- Button description: Press to view Table -->
+    <string name="view_table">Visualizza tabella</string>
+
+    <!-- Button description: Press to view Team Statistics -->
+    <string name="view_team_statistics">Visualizza statistiche squadra</string>
+
+    <!-- Button description: Press to start voice search -->
+    <string name="voice_search">Ricerca vocale</string>
+
+    <!-- W -->
+    <!-- Warning -->
+    <string name="warning">Attenzione</string>
+
+    <!-- The Celtic language of Wales -->
+    <string name="welsh_name">Gallese</string>
+
+    <!-- Weight of the player -->
+    <string name="weight">Peso</string>
+
+    <!-- Win -->
+    <string name="win">Vittoria</string>
+
+    <!-- Win/Lose -->
+    <string name="win_lose">Vince/Perde</string>
+
+    <!-- Gender -->
+    <string name="women">Donne</string>
+    <!-- X -->
+
+
+    <!-- Y -->
+    <!-- The day before today -->
+    <string name="yesterday">Ieri</string>
+
+    <!-- Yellow cards (A yellow card is shown by the referee to indicate that a player has been officially cautioned.) -->
+    <string name="yellow_cards">Cartellini gialli</string>
+
+    <!-- Z -->
+    <!-- End Words/Phrase -->
+
+
+    <!-- Sentences -->
+    <!-- First-run message: update progress for users -->
+    <string name="sentence_app_init_downloading_data">Download dei dati richiesti in corso <xliff:g id="horizontal_ellipsis">…</xliff:g></string>
+
+    <!-- First-run message: update progress for users -->
+    <string name="sentence_app_init_finalizing_installation">Finalizzazione dell\'installazione in corso <xliff:g id="horizontal_ellipsis">…</xliff:g></string>
+
+    <!-- First-run message: update progress for users -->
+    <string name="sentence_app_init_installing_competitions">Installazione dati dei tornei in corso<xliff:g id="horizontal_ellipsis">…</xliff:g></string>
+
+    <!-- First-run message: update progress for users -->
+    <string name="sentence_app_init_installing_countries">Installazione dati dei paesi in corso<xliff:g id="horizontal_ellipsis">…</xliff:g></string>
+
+    <!-- First-run message: update progress for users -->
+    <string name="sentence_app_init_installing_teams">Installazione dati delle squadre in corso<xliff:g id="horizontal_ellipsis">…</xliff:g></string>
+
+    <!-- First-run message: update progress for users -->
+    <string name="sentence_add_reminder_failed">Il tuo dispositivo non supporta <xliff:g id="left_single_quotation">‘</xliff:g> Aggiungi promemoria <xliff:g id="right_single_quotation">’</xliff:g></string>
+
+    <!-- Launch the app page in Google Play Store for new version checking -->
+    <string name="sentence_check_for_updates_summary">Verifica nuova versione su Google Play Store</string>
+
+    <!-- Show options for users to choose an E-mail app for send feedback -->
+    <string name="sentence_choose_email_app">Scegli applicazione e-mail</string>
+
+    <!-- Inform users that all cached files has successfully deleted -->
+    <string name="sentence_clear_all_cached_files">Tutti i file memorizzati nella cache sono stati eliminati</string>
+
+    <!-- Inform users that all cached images has successfully deleted -->
+    <string name="sentence_clear_cached_images">Le immagini memorizzate nella cache sono state eliminate</string>
+
+    <!-- Inform users that all cached data has successfully deleted -->
+    <string name="sentence_clear_cached_data">I dati memorizzati nella cache sono stati eliminati</string>
+
+    <!-- Inform users that app is clearing all cached files -->
+    <string name="sentence_clearing_all_cached_files">Cancellazione di tutti i file memorizzati nella cache in corso</string>
+
+    <!-- Inform users that app is clearing all cached data -->
+    <string name="sentence_clearing_cached_data">Cancellazione dei dati memorizzati nella cache in corso</string>
+
+    <!-- Inform users that app is clearing all cached images -->
+    <string name="sentence_clearing_cached_images">Cancellazione delle immagini memorizzate nella cache in corso</string>
+
+    <!-- Inform user that connection failed -->
+    <string name="sentence_connection_failed_try_again">Connessione non riuscita!<xliff:g id="new_line">\n</xliff:g>Ti preghiamo di riprovare più tardi</string>
+
+    <!-- Contact information -->
+    <string name="sentence_contact_support">Scrivere a <xliff:g id="email">support@superscores.com</xliff:g> per maggiori dettagli.</string>
+
+    <!-- Asking for users confirmation -->
+    <string name="sentence_continue_confirm">Vuoi continuare?</string>
+
+    <!-- Inform users that this section is for support team -->
+    <string name="sentence_email_body_details">Dettagli per il team di supporto</string>
+
+    <!-- Inform users that users has no email app in their device -->
+    <string name="sentence_email_error_message">Impossibile trovare alcuna applicazione e-mail!</string>
+
+    <!-- Inform users that some error has occur during adding reminder -->
+    <string name="sentence_error_adding_reminder">Si è verificato un errore durante l\'aggiunta di promemoria</string>
+
+    <!-- Inform user that Google Play Services must be installed -->
+    <string name="sentence_error_play_services_install"><xliff:g id="name">Google Play Services</xliff:g> deve essere installato.</string>
+
+    <!-- Inform user that Google Play Services is not supported -->
+    <string name="sentence_error_play_services_not_supported"><xliff:g id="name">Google Play Services</xliff:g> non è supportato.</string>
+
+    <!-- Inform users that some error has occur during query betting statistics -->
+    <string name="sentence_error_query_betting_statistics">Errore durante la ricerca di statistiche delle scommesse</string>
+
+    <!-- Inform user that there was some error during share content -->
+    <string name="sentence_error_share_failed">Condivisione contenuto non riuscita, ti preghiamo di riprovare più tardi!</string>
+
+    <!-- The minimum criteria before user can send feedback -->
+    <string name="sentence_feedback_hint">Almeno 20 caratteri (solo inglese)</string>
+
+    <!-- Ask users permission to send screenshot along with feedback -->
+    <string name="sentence_feedback_include_screenshot">Includi schermata</string>
+
+    <!-- Ask users permission to send screenshot along with feedback (description) -->
+    <string name="sentence_feedback_include_screenshot_desc">Condividi schermata dell\'ultima pagina visitata</string>
+
+    <!-- Inform users that the feedback has been sent -->
+    <string name="sentence_feedback_sent">Il commento è stato inviato con successo</string>
+
+    <!-- Inform users that sending feedback was failed -->
+    <string name="sentence_feedback_sent_error">Invio commento fallito, riprova più tardi</string>
+
+    <!-- Feedback type (bug reports, request features) -->
+    <string name="sentence_feedback_type">Tipo di commento</string>
+
+    <!-- Ask user if he/she really want to add all competitions to Live Scores page -->
+    <string name="sentence_filter_competition_add_all">Sei sicuro di voler aggiungere tutte le competizioni alla pagina Punteggi in tempo reale?</string>
+
+    <!-- Ask user if he/she really want to remove all competitions from Live Scores page -->
+    <string name="sentence_filter_competition_remove_all">Sei sicuro di voler rimuovere tutte le competizioni dalla pagina Punteggi in tempo reale?</string>
+
+    <!-- Inform users that the app downloading first-run data -->
+    <string name="sentence_first_run">Download dei dati dell\'App in prima esecuzione in corso. L\'operazione potrebbe richiedere qualche minuto</string>
+
+    <!-- Inform users that some error has occur during download first-run data -->
+    <string name="sentence_first_run_no_connection">Impossibile scaricare i dati dell\'App in prima esecuzione, verifica la connessione internet.</string>
+
+    <!-- Inform users that app is downloading first-run app data -->
+    <string name="sentence_first_run_notification">Scarica i dati dell\'App in prima esecuzione</string>
+
+    <!-- Let user add his/her favorite competition to the list -->
+    <string name="sentence_follow_first_competition">Segui la prima competizione</string>
+
+    <!-- Let user add his/her favorite team to the list -->
+    <string name="sentence_follow_first_team">Segui la prima squadra</string>
+
+    <!-- Inform users that they must update app to latest version in order to use it -->
+    <string name="sentence_force_update_suffix">È necessario aggiornare l\'App alla versione più recente.</string>
+
+    <!-- Inform users that push notification has been disabled -->
+    <string name="sentence_gcm_not_support_title">Notifica push disabilitata!</string>
+
+    <!-- Inform users that push notification is not support for their devices -->
+    <string name="sentence_gcm_not_support_message">Il tuo dispositivo non supporta il servizio di messaggistica Google Cloud. Le notifiche push del dispositivo saranno abilitate nelle versioni future, resta sintonizzato.</string>
+
+    <!-- Filter Competition description -->
+    <string name="sentence_general_filter_competition_summary">Filtra la visualizzazione dei tornei nei Risultati in diretta</string>
+
+    <!-- Clear Cached description -->
+    <string name="sentence_general_clear_cache_summary">Cancella i file memorizzati nella cache</string>
+
+    <!-- Promo text -->
+    <string name="sentence_get_superscores_now">Prendi <xliff:g id="superscores_name">Super Scores</xliff:g> l\'app</string>
+
+    <!-- Show steps in order to view Head-to-Head statistics for users -->
+    <string name="sentence_head_to_head_select_one_more_team_warning">Seleziona un\'altra squadra, quindi clicca nuovamente sul pulsante!</string>
+
+    <!-- Show steps in order to view Head-to-Head statistics for users -->
+    <string name="sentence_head_to_head_select_two_more_team_warning">Seleziona due squadre, quindi clicca nuovamente sul pulsante!</string>
+
+    <!-- Show steps in order to view Head-to-Head statistics for users -->
+    <string name="sentence_how_to_use_head_to_head">Seleziona due squadre, quindi clicca sul pulsante Testa a testa.</string>
+
+    <!-- Inform users that they have logging out from Facebook -->
+    <string name="sentence_logging_out_from_facebook">Uscita da Facebook in corso</string>
+
+    <!-- Inform users the new version is available to download -->
+    <string name="sentence_new_version_available">Nuova versione disponibile!</string>
+
+    <!-- Inform users that they have not yet select any competition -->
+    <string name="sentence_no_competition_selected">Nessun torneo selezionato!</string>
+
+    <!-- Inform users that no data available -->
+    <string name="sentence_no_data_available">Nessun dato disponibile!</string>
+
+    <!-- Inform users that the app cannot establish internet connection -->
+    <string name="sentence_no_internet_connection">Nessuna connessione a Internet!</string>
+
+    <!-- Inform users that the app cannot find any map application in their device -->
+    <string name="sentence_no_map_application">Nessuna applicazione mappa disponibile!</string>
+
+    <!-- Inform users that there are no matches available -->
+    <string name="sentence_no_matches_available">Nessuna partita disponibile!</string>
+
+    <!-- Inform users that there are no round available -->
+    <string name="sentence_no_round_available">Nessun turno disponibile!</string>
+
+    <!-- Inform users that there are no venue information available -->
+    <string name="sentence_no_venue_available">Nessuna informazione locale disponibile!</string>
+
+    <!-- Push notification description -->
+    <string name="sentence_notification_enable_summary">Notifica nella barra di stato quando si verifica l\'evento</string>
+
+    <!-- Mute description -->
+    <string name="sentence_notification_mute_summary">Disabilita suono e vibrazioni</string>
+
+    <!-- Notification Sound description -->
+    <string name="sentence_notification_sounds_summary">Personalizza i suoni di notifica</string>
+
+    <!-- Inform users that push notification is disabled -->
+    <string name="sentence_notification_status_disabled">Notifica push disabilitata</string>
+
+    <!-- Inform users that push notification is mute -->
+    <string name="sentence_notification_status_mute">Notifica push in mute</string>
+
+    <!-- Contact us description -->
+    <string name="sentence_other_contact_us_summary">Segnala un bug o richiedi nuove funzioni</string>
+
+    <!-- Change log description -->
+    <string name="sentence_other_change_log_summary">Visualizza registro modifiche</string>
+
+    <!-- About description -->
+    <string name="sentence_other_about_summary">Versione App e numero di build</string>
+
+    <!-- View credits description -->
+    <string name="sentence_other_credits_summary">Visualizza crediti</string>
+
+    <!-- Inform users that they have to select another team in order to proceed -->
+    <string name="sentence_please_select_another_team">Seleziona un\'altra squadra</string>
+
+    <!-- Inform users that they have to press back button again in order to exit app -->
+    <string name="sentence_press_back_to_exit">Clicca nuovamente su <xliff:g id="left_single_quotation">‘</xliff:g>INDIETRO<xliff:g id="right_single_quotation">’</xliff:g> per uscire!</string>
+
+    <!-- Inform users that widget is being refreshed -->
+    <string name="sentence_refreshing_widget">Aggiornamento widget in corso<xliff:g id="horizontal_ellipsis">…</xliff:g></string>
+
+    <!-- Inform users that feedback is being sent -->
+    <string name="sentence_sending_feedback">Invio in corso del commento<xliff:g id="horizontal_ellipsis">…</xliff:g></string>
+
+    <!-- Promote text -->
+    <string name="sentence_share_default_text">Scarica l\'applicazione GRATUITAMENTE su <xliff:g id="google_play_app_url_short">http://goo.gl/B986SW</xliff:g></string>
+
+    <!-- Inform users that the app already share information to their Facebook -->
+    <string name="sentence_share_facebook_completed">Post su Facebook completato!</string>
+
+    <!-- Inform users that sharing is in progress -->
+    <string name="sentence_share_in_progress">Condivisione in corso<xliff:g id="horizontal_ellipsis">…</xliff:g></string>
+
+    <!-- Ask users permission whether to include app URL in the share message -->
+    <string name="sentence_share_include_app_url">Includi l\'URL dell\'applicazione nel messaggio</string>
+
+    <!-- Hint for input box to tell users what to do -->
+    <string name="sentence_share_user_input_hint">Commenta<xliff:g id="horizontal_ellipsis">…</xliff:g></string>
+
+    <!-- Inform users for conflict subscription -->
+    <string name="sentence_shop_ad_subscription_exist">ATTENZIONE! Ti sei abbonato a questa funzione.</string>
+
+    <!-- Inform users that they have 7 day FREE trial period -->
+    <string name="sentence_shop_ad_subscription_free_trial">Prova GRATUITA di 7 giorni.</string>
+
+    <!-- Link for more details about subscription -->
+    <string name="sentence_shop_ad_subscription_more_details">Visita <xliff:g id="web_site">https://support.google.com/googleplay/answer/2476088</xliff:g> per maggiori dettagli.</string>
+
+    <!-- Give user more options to purchase product -->
+    <string name="sentence_shop_more_options">Non ti interessa? Altre opzioni<xliff:g id="horizontal_ellipsis">…</xliff:g></string>
+
+    <!-- Error message: user already own the product and cannot purchase the same product -->
+    <string name="sentence_shop_offer_already_owned">Sei già proprietario di questo prodotto.</string>
+
+    <!-- Description about the product -->
+    <string name="sentence_shop_offer_description_1">Tutti i prodotti di questa pagina possono essere usati solo con un unico dispositivo.</string>
+
+    <!-- Description about the product -->
+    <string name="sentence_shop_offer_description_2">In caso di ripristino di fabbrica o di cambio di telefono, l\'acquisto andrà perso.</string>
+
+    <!-- Description about the product -->
+    <string name="sentence_shop_offer_description_3">Se reinstalli l\'applicazione, visita questa pagina per recuperare l\'acquisto.</string>
+
+    <!-- Error message: user do not have enough coin to purchase feature -->
+    <string name="sentence_shop_offer_insufficient_coin">Monete insufficienti per l\'acquisto di questa funzione.</string>
+
+    <!-- Inform user that his purchase was successful -->
+    <string name="sentence_shop_offer_purchase_successful">Acquisto riuscito! Grazie.</string>
+
+    <!-- Ad-removal package -->
+    <string name="sentence_shop_package_one_month">Un mese di Ad gratuiti</string>
+
+    <!-- Ad-removal package description -->
+    <string name="sentence_shop_package_one_month_desc">Divertiti con l\'esperienza di Ad gratuiti per un mese</string>
+
+    <!-- Inform users that their device do not support subscription -->
+    <string name="sentence_shop_subscription_not_support">Il tuo dispositivo non supporta l\'abbonamento. Siamo spiacenti per l\'inconveniente.</string>
+
+    <!-- Inform users that the transaction was cancelled -->
+    <string name="sentence_shop_transaction_cancelled">La transazione è stata cancellata.<xliff:g id="new_line">\n</xliff:g> Non è stato effettuato alcun addebito.</string>
+
+    <!-- Warn users that they must not leave screen while transaction is in progress -->
+    <string name="sentence_shop_transaction_warning">NON lasciare la schermata mentre è in corso la transazione.</string>
+
+    <!-- Theme description -->
+    <string name="sentence_theme">Modifica aspetto grafico della app</string>
+
+    <!-- Inform users that their devices do not support Speech-to-Text -->
+    <string name="sentence_speech_to_text_not_support">Il tuo dispositivo non supporta la funzione di <xliff:g id="left_single_quotation">‘</xliff:g> Sintesi vocale <xliff:g id="right_single_quotation">’</xliff:g></string>
+
+    <!-- Warning users that they cannot unfollow the matches with reason -->
+    <string name="sentence_unable_to_unfollow_comp_team">Per non seguire questa gara, prima devi <xliff:g id="left_single_quotation">‘</xliff:g>non seguire<xliff:g id="right_single_quotation">’</xliff:g> la Competizione e la(e) Squadra(e) che stavi seguendo!</string>
+
+    <!-- Warning users that they cannot unfollow the matches with reason -->
+    <string name="sentence_unable_to_unfollow_comp">Per non seguire questa gara, prima devi <xliff:g id="left_single_quotation">‘</xliff:g>non seguire<xliff:g id="right_single_quotation">’</xliff:g> la Competizione che stavi seguendo!</string>
+
+    <!-- Warning users that they cannot unfollow the matches with reason -->
+    <string name="sentence_unable_to_unfollow_team">Per non seguire questa gara, prima devi <xliff:g id="left_single_quotation">‘</xliff:g>non seguire<xliff:g id="right_single_quotation">’</xliff:g> la(e) Squadra(e) che stavi seguendo!</string>
+
+    <!-- Warning users about the effect of unfollow team -->
+    <string name="sentence_unfollow_warning">Non seguendo più, tutte le notifiche relative a questa squadra saranno rimosse.</string>
+    <!-- End Sentences -->
+
+
+    <!-- Help -->
+    <!-- ![CDATA[]] -->
+    <!-- Help FAQ -->
+    <string-array name="help_faq_topic">
+        <item>Perché non ricevo alcuna notifica push?</item>
+        <item>Perché i risultati nelle notifiche push sono diversi dalle pagine Risultati in diretta e Info partita?</item>
+        <item>Perché alcuni tornei si aggiornano lentamente?</item>
+        <item>Qual è la differenza tra muto e disattivato nelle impostazioni?</item>
+        <item>Qual è il significato dell\'icona di notifica con <xliff:g id="left_single_quotation">‘</xliff:g> stella <xliff:g id="right_single_quotation">’</xliff:g> in mezzo?</item>
+        <item>Come sono ordinate le partite nella pagina Risultati in diretta?</item>
+        <item>Come si filtrano i tornei alla pagina Risultati in diretta?</item>
+        <item>Quali sono i vantaggi della squadra preferita?</item>
+        <item>Quali sono i vantaggi del torneo preferito?</item>
+        <item>Come posso iscrivermi a partite, squadre, o tornei?</item>
+        <item>Perché alcune squadre non hanno icone?</item>
+        <item>Come posso segnalare un bug o richiedere nuove funzioni?</item>
+    </string-array>
+
+    <array name="help_faq_messages">
+        <item><xliff:g id="help_faq_messages_00">@array/help_faq_messages_00</xliff:g></item>
+        <item><xliff:g id="help_faq_messages_01">@array/help_faq_messages_01</xliff:g></item>
+        <item><xliff:g id="help_faq_messages_02">@array/help_faq_messages_02</xliff:g></item>
+        <item><xliff:g id="help_faq_messages_03">@array/help_faq_messages_03</xliff:g></item>
+        <item><xliff:g id="help_faq_messages_04">@array/help_faq_messages_04</xliff:g></item>
+        <item><xliff:g id="help_faq_messages_05">@array/help_faq_messages_05</xliff:g></item>
+        <item><xliff:g id="help_faq_messages_06">@array/help_faq_messages_06</xliff:g></item>
+        <item><xliff:g id="help_faq_messages_07">@array/help_faq_messages_07</xliff:g></item>
+        <item><xliff:g id="help_faq_messages_08">@array/help_faq_messages_08</xliff:g></item>
+        <item><xliff:g id="help_faq_messages_09">@array/help_faq_messages_09</xliff:g></item>
+        <item><xliff:g id="help_faq_messages_10">@array/help_faq_messages_10</xliff:g></item>
+        <item><xliff:g id="help_faq_messages_11">@array/help_faq_messages_11</xliff:g></item>
+    </array>
+
+    <!-- 00 -->
+    <string-array name="help_faq_messages_00">
+        <item><xliff:g id="asterisk">*</xliff:g>Verificare che le notifiche siano abilitate nelle impostazioni.</item>
+        <item><xliff:g id="asterisk">*</xliff:g>Per i dispositivi precedenti alla versione 3.0 le notifiche richiedono <xliff:g id="left_double_quotation">“</xliff:g> Google Play Store <xliff:g id="right_double_quotation">”</xliff:g> e almeno un account Google attivo. Possedere un account Google non è un requisito per i dispositivi con sistema operativo Android 4.0.4 o superiore.</item>
+    </string-array>
+
+    <!-- 01 -->
+    <string-array name="help_faq_messages_01">
+        <item><xliff:g id="asterisk">*</xliff:g> Abbiamo server separati per le notifiche push in modo da fornire i risultati il più velocemente possibile. Pertanto a volte i risultati delle notifiche push vengono aggiornati più velocemente delle pagine Risultati in diretta e Info partita.</item>
+    </string-array>
+
+    <!-- 02 -->
+    <string-array name="help_faq_messages_02">
+        <item><xliff:g id="asterisk">*</xliff:g>Dipende dal torneo, perché alcuni vengono aggiornati al termine del primo tempo o al termine della partita. Faremo del nostro meglio per aggiornare i risultati in tempo reale.</item>
+    </string-array>
+
+    <!-- 03 -->
+    <string-array name="help_faq_messages_03">
+        <item><xliff:g id="asterisk">*</xliff:g>Quando <xliff:g id="left_single_quotation">‘</xliff:g> mute <xliff:g id="right_single_quotation">’</xliff:g> è attivo, si continueranno a ricevere notifiche push, ma non ci sarà alcuna vibrazione e suono di avviso.</item>
+        <item><xliff:g id="asterisk">*</xliff:g>Se è impostato <xliff:g id="left_single_quotation">‘</xliff:g>disabilitato <xliff:g id="right_single_quotation">’</xliff:g>, non sarà possibile ricevere notifiche push.</item>
+    </string-array>
+
+    <!-- 04 -->
+    <string-array name="help_faq_messages_04">
+        <item><xliff:g id="asterisk">*</xliff:g>La notifica di <xliff:g id="left_single_quotation">‘</xliff:g> asterisco<xliff:g id="right_single_quotation">’</xliff:g> indica l\'iscrizione al torneo in cui si gioca la partita, oppure alla squadra che gioca in quella partita.</item>
+    </string-array>
+
+    <!-- 05 -->
+    <string-array name="help_faq_messages_05">
+        <item><xliff:g id="asterisk">*</xliff:g>La squadra preferita e il torneo preferito sono visualizzati per primi, seguono gli altri in ordine alfabetico.</item>
+        <item><xliff:g id="asterisk">*</xliff:g>Per OGGI, IERI e DOMANI, le partite sono ordinate secondo il fuso orario UTC (tempo coordinato universale)</item>
+    </string-array>
+
+    <!-- 06 -->
+    <string-array name="help_faq_messages_06">
+        <item>Alla pagina Risultati in diretta:</item>
+        <item><xliff:g id="greater_than">&gt;</xliff:g>Clicca Menu <xliff:g id="greater_than">&gt;</xliff:g> Filtra torneo</item>
+        <item><xliff:g id="underscore">_</xliff:g></item>
+        <item>Alla pagina Impostazioni:</item>
+        <item><xliff:g id="asterisk">*</xliff:g>Clicca Filtra torneo</item>
+    </string-array>
+
+    <!-- 07 -->
+    <string-array name="help_faq_messages_07">
+        <item><xliff:g id="asterisk">*</xliff:g>La squadra preferita sarà in cima all\'elenco nella pagina Risultati in diretta.</item>
+        <item><xliff:g id="asterisk">*</xliff:g> Inoltre, è più facile trovare la tua squadra del cuore alla pagina La mia squadra.</item>
+    </string-array>
+
+    <!-- 08 -->
+    <string-array name="help_faq_messages_08">
+        <item><xliff:g id="asterisk">*</xliff:g>Il torneo sarà in cima all\'elenco nella pagina Risultati in diretta.</item>
+        <item><xliff:g id="asterisk">*</xliff:g> Inoltre, è più facile trovare il tuo torneo preferito alla sotto-pagina Preferiti nella pagina Filtra tornei, nonché alla pagina Seleziona torneo.</item>
+    </string-array>
+
+    <!-- 09 -->
+    <string-array name="help_faq_messages_09">
+        <item>Per iscriversi a partita:</item>
+        <item><xliff:g id="asterisk">*</xliff:g>Sulla pagina Risultati in diretta, clicca <xliff:g id="icon">@</xliff:g> sulla partita al quale desideri iscriverti</item>
+        <item><xliff:g id="asterisk">*</xliff:g>Sulla pagina Info partita, clicca <xliff:g id="icon">@</xliff:g> per iscriverti alla partita in corso</item>
+        <item><xliff:g id="underscore">_</xliff:g></item>
+        <item>Per iscriversi a squadra:</item>
+        <item><xliff:g id="asterisk">*</xliff:g>Sulla pagina Risultati in diretta, tieni premuto sulla partita  &gt; clicca <xliff:g id="icon">@</xliff:g> &gt; iscriviti alla squadra desiderata</item>
+        <item><xliff:g id="asterisk">*</xliff:g>Sulla pagina Info squadra, clicca<xliff:g id="icon">@</xliff:g> per iscriverti alla squadra attuale</item>
+        <item><xliff:g id="asterisk">*</xliff:g>Sulla pagina Le mie squadre, clicca <xliff:g id="icon">@</xliff:g> per iscriverti alla squadra</item>
+        <item><xliff:g id="asterisk">*</xliff:g>Nota: iscrivendosi a una squadra, ci si iscrive automaticamente a tutte le partite giocate da questa squadra.</item>
+        <item><xliff:g id="underscore">_</xliff:g></item>
+        <item>Per iscriversi a torneo:</item>
+        <item><xliff:g id="asterisk">*</xliff:g>Sulla pagina Risultati in diretta, clicca sul torneo &gt; clicca <xliff:g id="icon">@</xliff:g></item>
+        <item><xliff:g id="asterisk">*</xliff:g>Sulla pagina Filtra torneo, clicca <xliff:g id="icon">@</xliff:g> sul torneo al quale desideri iscriverti.</item>
+        <item><xliff:g id="asterisk">*</xliff:g>Nota: iscrivendosi a un torneo, ci si iscrive automaticamente a tutte le partite del torneo.</item>
+    </string-array>
+
+    <!-- 10 -->
+    <string-array name="help_faq_messages_10">
+        <item><xliff:g id="asterisk">*</xliff:g>Le icone di alcune squadre non possono essere visualizzate. Faremo del nostro meglio per trovarle.</item>
+    </string-array>
+
+    <!-- 11 -->
+    <string-array name="help_faq_messages_11">
+        <item><xliff:g id="asterisk">*</xliff:g>Contattaci all\'indirizzo <xliff:g id="email">support@superscores.com</xliff:g></item>
+    </string-array>
+    <!-- End Help FAQ -->
+
+</resources>

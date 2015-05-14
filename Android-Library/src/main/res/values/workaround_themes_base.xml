@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Base.ThemeOverlay.SuperScores.WorkAround.HTC.Dark" parent="@style/Base.ThemeOverlay.AppCompat.Dark">
+
+        <!-- We override the following attributes with attributes from Base.ThemeOverlay.AppCompat.Light as workaround for some HTC devices -->
+        <item name="android:textColorPrimary">@color/abc_primary_text_material_light</item>
+        <item name="android:textColorPrimaryInverse">@color/abc_primary_text_material_dark</item>
+        <item name="android:textColorSecondary">@color/abc_secondary_text_material_light</item>
+        <item name="android:textColorSecondaryInverse">@color/abc_secondary_text_material_dark</item>
+        <item name="android:textColorTertiary">@color/abc_secondary_text_material_light</item>
+        <item name="android:textColorTertiaryInverse">@color/abc_secondary_text_material_dark</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/abc_primary_text_disable_only_material_light</item>
+        <item name="android:textColorPrimaryInverseDisableOnly">@color/abc_primary_text_disable_only_material_dark</item>
+        <item name="android:textColorHint">@color/hint_foreground_material_light</item>
+        <item name="android:textColorHintInverse">@color/hint_foreground_material_dark</item>
+        <item name="android:textColorHighlight">@color/highlighted_text_material_light</item>
+        <item name="android:textColorLink">@color/link_text_material_light</item>
+    </style>
+
+    <style name="Base.ThemeOverlay.SuperScores.WorkAround.HTC.Dark.ActionBar">
+        <!-- We inverse color for DarkActionBar -->
+        <item name="colorControlNormal">?android:attr/textColorPrimaryInverse</item>
+    </style>
+
+</resources>

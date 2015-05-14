@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.superscores.android.widget.placeholder.PlaceholderRetryWrapperLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:plhRetryButton="@+id/placeholderRetryButton">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/grid_large"
+        tools:ignore="UselessParent">
+
+        <com.superscores.android.widget.TextViewRobotoLight
+            android:id="@+id/placeholderRetryText"
+            style="@style/TextAppearance.SuperScores.Widget.Placeholder"
+            android:text="@string/connection_failed" />
+
+        <LinearLayout
+            android:id="@id/placeholderRetryButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/grid_normal"
+            android:background="?attr/selectableItemBackground"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/grid_normal">
+
+            <com.superscores.android.widget.EnhancedImageButton
+                android:layout_width="@dimen/icon_normal"
+                android:layout_height="@dimen/icon_normal"
+                app:eib_image_drawable="@drawable/ic_refresh_black_24dp"
+                app:eib_tintMode="singleColor" />
+
+            <com.superscores.android.widget.TextViewRobotoLight
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/grid_small"
+                android:layout_marginStart="@dimen/grid_small"
+                android:text="@string/retry"
+                android:textColor="?attr/colorTextPrimary"
+                android:textSize="@dimen/text_medium" />
+        </LinearLayout>
+
+    </LinearLayout>
+</com.superscores.android.widget.placeholder.PlaceholderRetryWrapperLayout>
+

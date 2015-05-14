@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Workshop1</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="account_name">FeedSync Service</string>
+    <string name="title_entry_detail">Entry Detail</string>
+    <string name="loading">Waiting for sync...</string>
+    <string name="description_refresh">Refresh</string>
+    <string name="action_view_as_grid">view as Grid</string>
+    <string name="action_view_as_list_h">view as List Horizontal</string>
+    <string name="action_view_as_list_v">view as List Vertical</string>
+</resources>

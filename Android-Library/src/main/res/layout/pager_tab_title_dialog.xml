@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/listPreferredItemHeightSmall" >
+
+    <View
+        android:id="@+id/vTabTitlesIndicator"
+        android:layout_width="@dimen/grid_normal"
+        android:layout_height="?attr/listPreferredItemHeightSmall"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="?attr/colorAccent"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tvTabTitlesDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:gravity="start"
+        android:paddingLeft="@dimen/padding_dialog"
+        android:paddingRight="@dimen/padding_dialog"
+        android:textColor="?attr/colorTextPrimary"
+        android:textSize="@dimen/text_normal" />
+
+</RelativeLayout>

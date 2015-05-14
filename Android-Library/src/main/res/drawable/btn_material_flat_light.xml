@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:insetBottom="@dimen/btn_external_padding_height"
+    android:insetLeft="@dimen/btn_external_padding_width"
+    android:insetRight="@dimen/btn_external_padding_width"
+    android:insetTop="@dimen/btn_external_padding_height">
+
+    <layer-list>
+        <item android:drawable="@drawable/item_background_material_compat_light" />
+
+        <item>
+            <shape android:shape="rectangle">
+                <size
+                    android:width="@dimen/btn_min_width"
+                    android:height="@dimen/btn_min_height" />
+
+                <padding
+                    android:bottom="@dimen/btn_internal_padding_height"
+                    android:left="@dimen/btn_internal_padding_width"
+                    android:right="@dimen/btn_internal_padding_width"
+                    android:top="@dimen/btn_internal_padding_height" />
+            </shape>
+        </item>
+    </layer-list>
+</inset>

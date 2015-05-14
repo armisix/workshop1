@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.SuperScores.Light.DarkActionBar.WorkAround.HTC">
+        <item name="actionBarTheme">@style/ThemeOverlay.SuperScores.WorkAround.HTC.Dark.ActionBar</item>
+        <item name="android:actionBarStyle" tools:targetApi="11">@style/Widget.SuperScores.ActionBar.Solid</item>
+        <item name="actionBarStyle" tools:targetApi="11">@style/Widget.SuperScores.ActionBar.Solid</item>
+
+        <!-- Action bar widget -->
+        <item name="android:actionBarWidgetTheme" tools:targetApi="14">@style/Widget.SuperScores.Light.DarkActionBar.WordAround.HTC.ActionBar</item>
+        <item name="actionBarWidgetTheme">@style/Widget.SuperScores.Light.DarkActionBar.WordAround.HTC.ActionBar</item>
+    </style>
+
+    <style name="Widget.SuperScores.Light.DarkActionBar.WordAround.HTC" parent=""/>
+
+    <style name="Widget.SuperScores.Light.DarkActionBar.WordAround.HTC.ActionBar">
+        <item name="android:dropDownListViewStyle">@style/Widget.SuperScores.Light.DarkActionBar.WordAround.HTC.ListView.DropDown</item>
+    </style>
+
+    <style name="Widget.SuperScores.Light.DarkActionBar.WordAround.HTC.ListView.DropDown" parent="@Base.Theme.SuperScores.Light.DarkActionBar">
+        <item name="android:background">@color/background_material_light</item>
+        <item name="android:listSelector">@drawable/item_background_material_compat_light</item>
+    </style>
+
+
+    <style name="Widget.SuperScores.ActionBar.Solid" parent="@style/Widget.AppCompat.ActionBar.Solid">
+        <item name="android:titleTextStyle" tools:ignore="NewApi">@style/TextAppearance.AppCompat.Title.Inverse</item>
+        <item name="titleTextStyle">@style/TextAppearance.AppCompat.Title.Inverse</item>
+        <item name="android:subtitleTextStyle" tools:ignore="NewApi">@style/TextAppearance.AppCompat.Subhead.Inverse</item>
+        <item name="subtitleTextStyle">@style/TextAppearance.AppCompat.Subhead.Inverse</item>
+    </style>
+
+</resources>

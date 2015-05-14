@@ -7,7 +7,7 @@ import java.util.List;
  */
 public class JsonUploadResponse {
 
-    List<JsonImages> data;
+    List<JsonImages> data;//
 
     public List<JsonImages> getData() {
         return data;

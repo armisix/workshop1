@@ -27,10 +27,10 @@ public class MainActivity extends ActionBarActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        FragmentRecyclerView fragmentRecyclerView = new FragmentRecyclerView();
-        fragmentRecyclerView.setLayoutManagerType(FragmentRecyclerView.MNG_GRID);
+        FragmentRecyclerView fragmentRecyclerView_2 = new FragmentRecyclerView();
+        fragmentRecyclerView_2.setLayoutManagerType(FragmentRecyclerView.MNG_GRID);
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-        transaction.replace(R.id.fragment_container, fragmentRecyclerView);
+        transaction.replace(R.id.fragment_container, fragmentRecyclerView_2);
         transaction.commit();
     }
 }

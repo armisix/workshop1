@@ -27,6 +27,7 @@ public class MainActivity extends ActionBarActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // Varut add comment this line
         FragmentRecyclerView fragmentRecyclerView = new FragmentRecyclerView();
         fragmentRecyclerView.setLayoutManagerType(FragmentRecyclerView.MNG_GRID);
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
